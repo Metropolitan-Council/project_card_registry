@@ -30,3 +30,10 @@ changes:
     transit_node: 0
     walk_node: 1
     model_node_id: 1006
+  - X: -93.7777
+    Y: 48.5555
+    bike_node: 1
+    drive_node: 0
+    transit_node: 0
+    walk_node: 1
+    model_node_id: 1001
