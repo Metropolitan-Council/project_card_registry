@@ -1,0 +1,32 @@
+project: Project C
+tags:
+- registry_example
+dependencies: ''
+changes:
+- category: Add New Roadway
+  links:
+  - A: 1001
+    B: 1002
+    model_link_id: 501
+    distance: 0.25
+    name: Rachel Bikeway
+    lanes: 0
+    bike_access: 1
+    drive_access: 0
+    transit_access: 0
+    walk_access: 1
+  nodes:
+  - X: -92.1111
+    Y: 45.8888
+    bike_node: 1
+    drive_node: 0
+    transit_node: 0
+    walk_node: 1
+    model_node_id: 1001
+  - X: -93.6666
+    Y: 48.5555
+    bike_node: 1
+    drive_node: 0
+    transit_node: 0
+    walk_node: 1
+    model_node_id: 1002
