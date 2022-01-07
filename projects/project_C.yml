@@ -5,9 +5,9 @@ dependencies: ''
 changes:
 - category: Add New Roadway
   links:
-  - A: 1001
-    B: 1002
-    model_link_id: 501
+  - A: 1005
+    B: 1006
+    model_link_id: 503
     distance: 0.25
     name: Rachel Bikeway
     lanes: 0
@@ -22,11 +22,11 @@ changes:
     drive_node: 0
     transit_node: 0
     walk_node: 1
-    model_node_id: 1001
+    model_node_id: 1005
   - X: -93.6666
     Y: 48.5555
     bike_node: 1
     drive_node: 0
     transit_node: 0
     walk_node: 1
-    model_node_id: 1002
+    model_node_id: 1006
