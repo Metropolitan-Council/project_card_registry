@@ -1,0 +1,29 @@
+project: add link test 1 
+tags:
+- Year 2015
+- test
+dependencies: ''
+changes:
+- category: Add New Roadway
+  links:
+  - A: 2
+    B: 1
+    lanes: 3
+    assignable: 1
+  - A: 1
+    B: 2
+    lanes: 1
+    assignable: 1
+  nodes:
+  - drive_access: 1
+    rail_only: 0
+    walk_access: 1
+    model_node_id: 1
+    X: -93.47
+    Y: 44.80
+  - drive_access: 1
+    rail_only: 0
+    walk_access: 1
+    model_node_id: 2
+    X: -93.12
+    Y: 44.1
