@@ -10,10 +10,12 @@ changes:
     B: 355001
     lanes: 3
     assignable: 1
-  - A: 1
-    B: 2
+    model_link_id: 1200000
+  - A: 355001
+    B: 355000
     lanes: 1
     assignable: 1
+    model_link_id: 1200001
   nodes:
   - drive_access: 1
     rail_only: 0
