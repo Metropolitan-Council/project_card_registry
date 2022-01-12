@@ -1,1 +1,5 @@
 type,id,project_added
+node,355000,add link test 1
+node,355001,add link test 1
+link,1200000,add link test 1
+link,1200001,add link test 1
