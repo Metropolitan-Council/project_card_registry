@@ -39,4 +39,4 @@ jobs:
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ env.GITHUB_REF_NAME }}
+          branch: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
