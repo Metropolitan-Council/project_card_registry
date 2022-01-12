@@ -29,12 +29,6 @@ jobs:
           git add -A
           git commit --allow-empty -m "GitHub Action automated registry update" -a
           
-      - name: Extract branch name
-        shell: bash
-        run: |
-          echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
-          echo ${GITHUB_REF##*/}
-          
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
