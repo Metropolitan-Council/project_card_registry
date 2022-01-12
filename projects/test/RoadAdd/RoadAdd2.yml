@@ -1,4 +1,4 @@
-project: add link test 2 
+project: add link test 2
 tags:
 - Year 2015
 - test
@@ -6,26 +6,26 @@ dependencies: ''
 changes:
 - category: Add New Roadway
   links:
-  - A: 355000
-    B: 355001
+  - A: 355002
+    B: 355003
     lanes: 3
     assignable: 1
-    model_link_id: 1200000
-  - A: 355001
-    B: 355000
+    model_link_id: 1200002
+  - A: 355003
+    B: 355002
     lanes: 1
     assignable: 1
-    model_link_id: 1200001
+    model_link_id: 1200003
   nodes:
   - drive_access: 1
     rail_only: 0
     walk_access: 1
-    model_node_id: 355000
+    model_node_id: 355002
     X: -93.87
     Y: 44.5555
   - drive_access: 1
     rail_only: 0
     walk_access: 1
-    model_node_id: 355001
+    model_node_id: 355003
     X: -93.23
     Y: 44.23

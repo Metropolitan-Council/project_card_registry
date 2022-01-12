@@ -3,3 +3,7 @@ node,355000,add link test 1
 node,355001,add link test 1
 link,1200000,add link test 1
 link,1200001,add link test 1
+node,355002,add link test 2
+node,355003,add link test 2
+link,1200002,add link test 2
+link,1200003,add link test 2
