@@ -1,0 +1,57 @@
+project: 394 WB managed lane
+tags:
+  - 'managed_lane'
+  - 'MnPASS'
+  - 'base year'
+  - 'Year 2015'
+dependencies:
+  prerequisites: []
+  corequisites: []
+  conflicts: []
+category: Parallel Managed lanes
+facility:
+  link:
+    - model_link_id:
+      - 381516
+      - 381527
+      - 382273
+      - 384956
+      - 394122
+      - 402701
+      - 403006
+      - 403290
+      - 416340
+      - 417876
+      - 417967
+      - 417971
+      - 417972
+      - 417974
+      - 417976
+      - 417977
+      - 419000
+      - 419619
+      - 419620
+properties:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      change: -1
+  - property: ML_lanes
+    change: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      set: 1
+  - property: ML_access
+    set: 'all'
+  - property: ML_egress
+    set: 'all'
+  - property: MNPASS_COD
+    set: 0    
+  - property: ML_MNPASS_COD
+    set: 5
+notes:

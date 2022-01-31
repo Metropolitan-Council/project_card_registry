@@ -1,0 +1,26 @@
+project: MN 101 Expansion
+tags:
+- 2040 CRS
+- Year 2025
+- Lane Addition
+- Carver County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 398956
+      - 412703
+      - 412702
+      - 413078
+      - 413079
+      - 413183
+      - 413184
+      - 413264
+      - 413477
+      - 413476
+  properties:
+  - property: lanes
+    set: 2

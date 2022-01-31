@@ -1,0 +1,54 @@
+project: 35 SB managed lane extension
+tags:
+  - 'managed_lane'
+  - 'MnPASS'
+  - 'IRS'
+  - 'Year 2040'
+  - 'TIER 3'
+dependencies:
+  prerequisites: []
+  corequisites: []
+  conflicts: []
+category: Parallel Managed lanes
+facility:
+  link:
+    - model_link_id:
+      - 383426
+      - 383490
+      - 383519
+      - 383529
+      - 383620
+      - 383775
+      - 384031
+      - 384135
+      - 384338
+      - 384368
+      - 384754
+      - 386930
+      - 387627
+      - 388749
+      - 388750
+properties:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      change: -1
+  - property: ML_lanes
+    change: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      set: 1
+  - property: ML_access
+    set: 'all'
+  - property: ML_egress
+    set: 'all'
+  - property: MNPASS_COD
+    set: 0    
+  - property: ML_MNPASS_COD
+    set: 44
+notes:

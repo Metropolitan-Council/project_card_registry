@@ -1,0 +1,17 @@
+project: I-494 Expansion I-94 to Tamarack Rd
+tags:
+- 2040 CRS
+- Year 2030
+- Lane Addition
+- Washington County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 395924
+  properties:
+  - property: lanes
+    set: 5

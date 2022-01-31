@@ -1,0 +1,38 @@
+project: Scott CR 27 Expansion
+tags:
+- 2040 CRS
+- Year 2030
+- Lane Addition
+- Scott County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Expansion
+  facility:
+    link:
+    - model_link_id:
+      - 115976
+      - 115975
+      - 228858
+      - 237366
+      - 270288
+      - 270287
+      - 275337
+      - 275336
+      - 280241
+      - 280239
+      - 289516
+      - 289515
+      - 292619
+      - 292618
+      - 293389
+      - 293388
+      - 296023
+      - 296022
+      - 296026
+      - 296027
+      - 296029
+      - 296028
+  properties:
+  - property: lanes
+    set: 2

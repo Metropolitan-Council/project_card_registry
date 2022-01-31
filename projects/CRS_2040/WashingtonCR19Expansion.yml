@@ -1,0 +1,24 @@
+project: Washington CR 19 Expansion
+tags:
+- 2040 CRS
+- Year 2025
+- Lane Addition
+- Washington County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 1582
+      - 1581
+      - 1586
+      - 109994
+      - 109993
+      - 110007
+      - 110009
+      - 250313
+  properties:
+  - property: lanes
+    set: 2

@@ -1,0 +1,32 @@
+project: CSAH 103 Expansion
+tags:
+- 2040 CRS
+- Year 2022
+- Lane Addition
+- Hennepin County
+- TIP
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 114693
+      - 114695
+      - 164027
+      - 207258
+      - 290872
+      - 321836
+      - 321834
+      - 354996
+      - 355019
+      - 355055
+      - 355056
+      - 355184
+      - 377689
+      - 377688
+      - 377715
+      - 377718
+  properties:
+  - property: lanes
+    set: 2

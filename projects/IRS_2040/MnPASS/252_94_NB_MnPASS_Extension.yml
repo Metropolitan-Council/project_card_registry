@@ -1,0 +1,42 @@
+project: 252/94 NB managed lane extension
+tags:
+  - 'managed_lane'
+  - 'MnPASS'
+  - 'IRS'
+  - 'Year 2040'
+  - 'TIER 2'
+dependencies:
+  prerequisites: []
+  corequisites: []
+  conflicts: []
+category: Parallel Managed lanes
+facility:
+  link:
+    - model_link_id:
+      - 393655
+      - 402775
+      - 402776
+properties:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      change: -1
+  - property: ML_lanes
+    change: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      set: 1
+  - property: ML_access
+    set: 'all'
+  - property: ML_egress
+    set: 'all'
+  - property: MNPASS_COD
+    set: 0    
+  - property: ML_MNPASS_COD
+    set: 33
+notes:

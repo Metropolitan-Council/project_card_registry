@@ -1,0 +1,28 @@
+project: MN 5 Expansion
+tags:
+- 2040 CRS
+- Year 2025
+- Lane Addition
+- Carver County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 385888
+      - 402657
+      - 411479
+      - 411478
+      - 411665
+      - 411667
+      - 411672
+      - 411671
+      - 411673
+      - 411674
+      - 411675
+      - 411676
+  properties:
+  - property: lanes
+    set: 2

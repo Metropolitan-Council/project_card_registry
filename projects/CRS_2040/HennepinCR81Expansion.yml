@@ -1,0 +1,37 @@
+project: Hennepin CR 81 Expansion
+tags:
+- 2040 CRS
+- Year 2020
+- Lane Addition
+- Hennepin County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 385338
+      - 386217
+      - 387312
+      - 387480
+      - 387481
+      - 387515
+      - 387553
+      - 387554
+      - 387566
+      - 394571
+      - 399976
+      - 403922
+      - 403923
+      - 405157
+      - 405168
+      - 405768
+      - 405772
+      - 408106
+      - 411769
+      - 411770
+      - 417257
+  properties:
+  - property: lanes
+    set: 3

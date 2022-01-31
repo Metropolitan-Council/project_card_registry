@@ -1,0 +1,28 @@
+project: Anoka CR 78 Expansion
+tags:
+- 2040 CRS
+- Year 2020
+- Lane Addition
+- Anoka County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 65236
+      - 66910
+      - 66912
+      - 146744
+      - 146748
+      - 146747
+      - 146753
+      - 146752
+      - 146756
+      - 146757
+      - 146759
+      - 146760
+  properties:
+  - property: lanes
+    set: 2

@@ -1,0 +1,66 @@
+project: 35W south SB managed lane
+tags:
+  - 'managed_lane'
+  - 'MnPASS'
+  - 'base year'
+  - 'Year 2015'
+dependencies:
+  prerequisites: []
+  corequisites: []
+  conflicts: []
+category: Parallel Managed lanes
+facility:
+  link:
+    - model_link_id:
+      - 381583
+      - 382034
+      - 384285
+      - 384373
+      - 384710
+      - 384896
+      - 384902
+      - 385502
+      - 385503
+      - 385921
+      - 385923
+      - 395192
+      - 397184
+      - 398392
+      - 398399
+      - 402459
+      - 402467
+      - 402473
+      - 405535
+      - 406969
+      - 406972
+      - 412314
+      - 417738
+      - 417742
+      - 417745
+      - 417756
+      - 417757
+      - 417775
+properties:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      change: -1
+  - property: ML_lanes
+    change: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      set: 1
+  - property: ML_access
+    set: 'all'
+  - property: ML_egress
+    set: 'all'
+  - property: MNPASS_COD
+    set: 0    
+  - property: ML_MNPASS_COD
+    set: 10
+notes:

@@ -1,0 +1,24 @@
+project: Wright County CSAH 19 Expansion
+tags:
+- 2040 CRS
+- Year 2022
+- Lane Addition
+- Wright County
+- TIP
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 77971
+      - 77972
+      - 150958
+      - 202261
+      - 202263
+      - 216171
+      - 216170
+      - 216750
+  properties:
+  - property: lanes
+    set: 2

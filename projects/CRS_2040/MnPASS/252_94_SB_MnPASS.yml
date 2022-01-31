@@ -1,0 +1,64 @@
+project: 252/94 SB managed lane
+tags:
+  - 'managed_lane'
+  - 'MnPASS'
+  - 'CRS'
+  - 'Year 2040'
+dependencies:
+  prerequisites: []
+  corequisites: []
+  conflicts: []
+category: Parallel Managed lanes
+facility:
+  link:
+    - model_link_id:
+      - 382310
+      - 382316
+      - 382471
+      - 383987
+      - 386363
+      - 386419
+      - 395616
+      - 395617
+      - 395620
+      - 395623
+      - 398529
+      - 400877
+      - 400919
+      - 400929
+      - 411074
+      - 411079
+      - 413268
+      - 413271
+      - 413508
+      - 413509
+      - 413510
+      - 413512
+      - 416826
+      - 416837
+      - 418006
+      - 418383
+properties:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      change: -1
+  - property: ML_lanes
+    change: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      set: 1
+  - property: ML_access
+    set: 'all'
+  - property: ML_egress
+    set: 'all'
+  - property: MNPASS_COD
+    set: 0    
+  - property: ML_MNPASS_COD
+    set: 16
+notes:

@@ -1,0 +1,28 @@
+project: Scott CR 42 Expansion
+tags:
+- 2040 CRS
+- Year 2030
+- Lane Addition
+- Scott County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 382688
+      - 382689
+      - 382690
+      - 382691
+      - 385594
+      - 391252
+      - 401557
+      - 401558
+      - 401565
+      - 409832
+      - 409833
+      - 420046
+  properties:
+  - property: lanes
+    set: 2

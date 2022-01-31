@@ -1,0 +1,60 @@
+project: 35E SB managed lane
+tags:
+  - 'managed_lane'
+  - 'MnPASS'
+  - 'base year'
+  - 'Year 2015'
+dependencies:
+  prerequisites: []
+  corequisites: []
+  conflicts: []
+category: Parallel Managed lanes
+facility:
+  link:
+    - model_link_id:
+      - 385812
+      - 385818
+      - 390310
+      - 390338
+      - 390347
+      - 390348
+      - 390477
+      - 390588
+      - 390590
+      - 390695
+      - 390699
+      - 390916
+      - 390918
+      - 390991
+      - 391117
+      - 391148
+      - 391151
+      - 394123
+      - 412034
+      - 413981
+      - 413995
+      - 413998
+properties:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      change: -1
+  - property: ML_lanes
+    change: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      set: 1
+  - property: ML_access
+    set: 'all'
+  - property: ML_egress
+    set: 'all'
+  - property: MNPASS_COD
+    set: 0
+  - property: ML_MNPASS_COD
+    set: 3
+notes:

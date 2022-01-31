@@ -1,0 +1,23 @@
+project: MN 51 Expansion
+tags:
+- 2040 CRS
+- Year 2030
+- Lane Addition
+- Ramsey County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 388122
+      - 390309
+      - 391160
+      - 391463
+      - 394355
+      - 396329
+      - 408693
+  properties:
+  - property: lanes
+    set: 2

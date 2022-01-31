@@ -1,0 +1,48 @@
+project: Anoka CR 8 Road Diet
+tags:
+- 2040 CRS
+- Year 2030
+- Road Diet
+- Anoka County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 6763
+      - 6764
+      - 35250
+      - 35252
+      - 52355
+      - 52354
+      - 101752
+      - 107477
+      - 107478
+      - 114322
+      - 114321
+      - 135955
+      - 135957
+      - 141881
+      - 141882
+      - 141888
+      - 141889
+      - 142710
+      - 142708
+      - 144326
+      - 144324
+      - 150163
+      - 156740
+      - 156741
+      - 156996
+      - 156995
+      - 163446
+      - 163445
+      - 163450
+      - 163451
+      - 344444
+      - 344443
+  properties:
+  - property: lanes
+    set: 1

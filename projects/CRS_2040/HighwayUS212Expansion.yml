@@ -1,0 +1,35 @@
+project: Highway US 212 Expansion
+tags:
+- 2040 CRS
+- Year 2022
+- Lane Addition
+- Carver County
+- TIP
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 399762
+      - 405646
+      - 405645
+      - 405666
+      - 405665
+      - 408552
+      - 408553
+      - 409166
+      - 409167
+      - 409186
+      - 412162
+      - 412161
+      - 412742
+      - 412743
+      - 412746
+      - 412745
+      - 412747
+      - 412748
+      - 412749
+  properties:
+  - property: lanes
+    set: 2

@@ -1,0 +1,42 @@
+project: Washington CR 15 Expansion
+tags:
+- 2040 CRS
+- Year 2025
+- Lane Addition
+- Washington County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id: 
+      - 148
+      - 113019
+      - 113035
+      - 113033
+      - 116745
+      - 116746
+      - 116752
+      - 122899
+      - 183148
+      - 183150
+      - 252948
+      - 252945
+      - 253430
+      - 253431
+      - 255759
+      - 255762
+      - 257274
+      - 257276
+      - 260141
+      - 260140
+      - 260145
+      - 260144
+      - 260148
+      - 260149
+      - 260164
+      - 260165
+  properties:
+  - property: lanes
+    set: 2

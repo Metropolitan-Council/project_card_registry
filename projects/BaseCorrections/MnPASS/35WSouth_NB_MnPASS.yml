@@ -1,0 +1,74 @@
+project: 35W south NB managed lane
+tags:
+  - 'managed_lane'
+  - 'MnPASS'
+  - 'base year'
+  - 'Year 2015'
+dependencies:
+  prerequisites: []
+  corequisites: []
+  conflicts: []
+category: Parallel Managed lanes
+facility:
+  link:
+    - model_link_id:
+      - 383858
+      - 383866
+      - 383946
+      - 384074
+      - 384126
+      - 384403
+      - 384824
+      - 384827
+      - 384859
+      - 384861
+      - 385922
+      - 395157
+      - 395158
+      - 395160
+      - 395202
+      - 395208
+      - 398397
+      - 402089
+      - 402457
+      - 405544
+      - 406975
+      - 408982
+      - 412324
+      - 416386
+      - 417744
+      - 417747
+      - 417748
+      - 417751
+      - 417753
+      - 417755
+      - 418157
+      - 419694
+      - 420333
+      - 421105
+      - 421128
+      - 421177
+properties:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      change: -1
+  - property: ML_lanes
+    change: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      set: 1
+  - property: ML_access
+    set: 'all'
+  - property: ML_egress
+    set: 'all'
+  - property: MNPASS_COD
+    set: 0    
+  - property: ML_MNPASS_COD
+    set: 9
+notes:

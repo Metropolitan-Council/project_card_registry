@@ -1,0 +1,39 @@
+project: MN 97 Expansion at I-35
+tags:
+- 2040 CRS
+- Year 2020
+- Lane Addition
+- Anoka County
+- Washington County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 381771
+      - 381819
+      - 381822
+      - 381825
+      - 381827
+      - 381826
+      - 381828
+      - 381829
+      - 382402
+      - 385082
+      - 387939
+      - 387940
+      - 387941
+      - 387942
+      - 387943
+      - 387944
+      - 387945
+      - 387946
+      - 387947
+      - 387948
+      - 411294
+      - 420625
+  properties:
+  - property: lanes
+    set: 2

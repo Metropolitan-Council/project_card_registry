@@ -1,0 +1,67 @@
+project: 169 394-694 SB managed lane
+tags:
+  - 'managed_lane'
+  - 'MnPASS'
+  - 'IRS'
+  - 'Year 2040'
+  - 'TIER 3'
+dependencies:
+  prerequisites: []
+  corequisites: []
+  conflicts: []
+category: Parallel Managed lanes
+facility:
+  link:
+    - model_link_id:
+      - 382061
+      - 382073
+      - 382085
+      - 384340
+      - 384342
+      - 384353
+      - 384370
+      - 384399
+      - 392982
+      - 392999
+      - 393045
+      - 393371
+      - 393744
+      - 393748
+      - 409660
+      - 409663
+      - 410907
+      - 414997
+      - 417345
+      - 417922
+      - 417944
+      - 418326
+      - 418329
+      - 418331
+      - 418332
+      - 418334
+      - 418977
+      - 420026
+properties:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      change: -1
+  - property: ML_lanes
+    change: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      set: 1
+  - property: ML_access
+    set: 'all'
+  - property: ML_egress
+    set: 'all'
+  - property: MNPASS_COD
+    set: 0    
+  - property: ML_MNPASS_COD
+    set: 38
+notes:

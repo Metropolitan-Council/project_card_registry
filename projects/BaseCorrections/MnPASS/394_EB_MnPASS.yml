@@ -1,0 +1,62 @@
+project: 394 EB managed lane
+tags:
+  - 'managed_lane'
+  - 'MnPASS'
+  - 'base year'
+  - 'Year 2015'
+dependencies:
+  prerequisites: []
+  corequisites: []
+  conflicts: []
+category: Parallel Managed lanes
+facility:
+  link:
+    - model_link_id:
+      - 381223
+      - 381248
+      - 394057
+      - 394060
+      - 394063
+      - 402700
+      - 403008
+      - 403289
+      - 404192
+      - 414813
+      - 415728
+      - 416339
+      - 416366
+      - 417878
+      - 417947
+      - 418512
+      - 418556
+      - 419032
+      - 419040
+      - 419044
+      - 419634
+      - 419637
+      - 420447
+      - 420448
+properties:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      change: -1
+  - property: ML_lanes
+    change: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      set: 1
+  - property: ML_access
+    set: 'all'
+  - property: ML_egress
+    set: 'all'
+  - property: MNPASS_COD
+    set: 0    
+  - property: ML_MNPASS_COD
+    set: 6
+notes:

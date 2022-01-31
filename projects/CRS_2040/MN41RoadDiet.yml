@@ -1,0 +1,31 @@
+project: MN 41 Road Diet
+tags:
+- 2040 CRS
+- Year 2030
+- Road Diet
+- Carver County
+- Scott County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 409805
+      - 409806
+      - 411502
+      - 412862
+      - 413498
+      - 413497
+      - 413499
+      - 413547
+      - 413849
+      - 413850
+      - 413858
+      - 413867
+      - 413868
+      - 414118
+  properties:
+  - property: lanes
+    set: 1
