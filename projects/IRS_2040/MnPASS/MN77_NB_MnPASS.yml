@@ -55,7 +55,7 @@ properties:
     set: 'all'
   - property: ML_egress
     set: 'all'
- -  property: MNPASS_COD
+  - property: MNPASS_COD
     set: 0
   - property: ML_MNPASS_COD
     set: 51
