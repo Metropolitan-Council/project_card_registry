@@ -9,16 +9,17 @@ dependencies:
   prerequisites: []
   corequisites: []
   conflicts: []
-category: Parallel Managed lanes
-facility:
-  link:
-    - model_link_id:
-      - 383387
-      - 383424
-      - 384302
-      - 387590
-      - 387953
-      - 391539
+changes:
+  - category: Parallel Managed lanes
+    facility:
+      link:
+        - model_link_id:
+          - 383387
+          - 383424
+          - 384302
+          - 387590
+          - 387953
+          - 391539
 properties:
   - property: lanes
     change: 0

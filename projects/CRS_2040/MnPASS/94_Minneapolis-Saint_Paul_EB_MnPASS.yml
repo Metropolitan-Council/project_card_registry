@@ -8,28 +8,29 @@ dependencies:
   prerequisites: []
   corequisites: []
   conflicts: []
-category: Parallel Managed lanes
-facility:
-  link:
-    - model_link_id:
-      - 381623
-      - 381630
-      - 385331
-      - 390239
-      - 391169
-      - 391206
-      - 392768
-      - 392775
-      - 392776
-      - 398170
-      - 398171
-      - 401491
-      - 401508
-      - 401510
-      - 406979
-      - 407854
-      - 411022
-      - 411916
+changes:
+  - category: Parallel Managed lanes
+    facility:
+      link:
+        - model_link_id:
+          - 381623
+          - 381630
+          - 385331
+          - 390239
+          - 391169
+          - 391206
+          - 392768
+          - 392775
+          - 392776
+          - 398170
+          - 398171
+          - 401491
+          - 401508
+          - 401510
+          - 406979
+          - 407854
+          - 411022
+          - 411916
 properties:
   - property: lanes
     change: 0
