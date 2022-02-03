@@ -9,10 +9,10 @@ dependencies:
   corequisites: []
   conflicts: []
 changes:
-  - category: Parallel Managed lanes
-    facility:
-      link:
-        - model_link_id:
+- category: Parallel Managed lanes
+  facility:
+    link:
+      - model_link_id:
           - 381583
           - 382034
           - 384285
@@ -41,27 +41,27 @@ changes:
           - 417756
           - 417757
           - 417775
-properties:
-  - property: lanes
-    change: 0
-    timeofday:
-    - time:
-      - '15:00'
-      - '19:00'
-      change: -1
-  - property: ML_lanes
-    change: 0
-    timeofday:
-    - time:
-      - '15:00'
-      - '19:00'
-      set: 1
-  - property: ML_access
-    set: 'all'
-  - property: ML_egress
-    set: 'all'
-  - property: MNPASS_COD
-    set: 0    
-  - property: ML_MNPASS_COD
-    set: 10
+  properties:
+    - property: lanes
+      change: 0
+      timeofday:
+      - time:
+        - '15:00'
+        - '19:00'
+        change: -1
+    - property: ML_lanes
+      change: 0
+      timeofday:
+      - time:
+        - '15:00'
+        - '19:00'
+        set: 1
+    - property: ML_access
+      set: 'all'
+    - property: ML_egress
+      set: 'all'
+    - property: MNPASS_COD
+      set: 0    
+    - property: ML_MNPASS_COD
+      set: 10
 notes:
