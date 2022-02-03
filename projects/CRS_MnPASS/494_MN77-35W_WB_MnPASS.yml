@@ -1,0 +1,58 @@
+project: 494 MN77-35W WB managed lane
+tags:
+  - 'managed_lane'
+  - 'MnPASS'
+  - 'CRS'
+  - 'Year 2040'
+dependencies:
+  prerequisites: []
+  corequisites: []
+  conflicts: []
+changes:
+- category: Parallel Managed lanes
+  facility:
+      link:
+        - model_link_id:
+          - 384892
+          - 386991
+          - 388784
+          - 388814
+          - 404690
+          - 409398
+          - 417734
+          - 417735
+          - 417784
+          - 417786
+          - 421056
+  properties:
+      - property: lanes
+        change: 0
+        timeofday:
+        - time:
+          - '6:00'
+          - '10:00'
+          change: -1
+        - time:
+          - '15:00'
+          - '19:00'      
+          change: -1
+      - property: ML_lanes
+        set: 0
+        timeofday:
+        - time:
+          - '6:00'
+          - '10:00'
+          set: 1
+        - time:
+          - '15:00'
+          - '19:00'
+          set: 1
+      - property: ML_access
+        set: 'all'
+      - property: ML_egress
+        set: 'all'
+      - property: MNPASS_COD
+        set: 0    
+      - property: ML_MNPASS_COD
+        set: 13
+notes:
