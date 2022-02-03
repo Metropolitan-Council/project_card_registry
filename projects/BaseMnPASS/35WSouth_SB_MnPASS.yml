@@ -50,7 +50,7 @@ changes:
         - '19:00'
         change: -1
     - property: ML_lanes
-      change: 0
+      set: 0
       timeofday:
       - time:
         - '15:00'
