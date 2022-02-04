@@ -7,7 +7,7 @@ tags:
 - TPP Hwy Chapter
 dependencies: ''
 changes:
-- category: Expansion
+- category: Roadway Property Change
   facility:
     link:
     - model_link_id:
