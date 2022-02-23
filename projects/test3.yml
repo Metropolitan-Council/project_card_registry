@@ -95,10 +95,10 @@ changes:
     assign_group: 0
     roadway_class: 0
   nodes:
-  - model_node_id: 671179
+  - model_node_id: 675000
     X: 514816.14835
     Y: 4957376.33715
-  - model_node_id: 671180
+  - model_node_id: 675001
     X: 515367.36339
     Y: 4957323.33571
 valid: false
