@@ -21,7 +21,7 @@ changes:
     roadway_class: 0
   - A: 133213
     B: 671179
-    model_link_id: 1450000
+    model_link_id: 1450002
     shstGeometryId: ''
     distance: 0.2827
     roadway: ''
@@ -36,7 +36,7 @@ changes:
     roadway_class: 0
   - A: 671179
     B: 133213
-    model_link_id: 1450001
+    model_link_id: 1450003
     shstGeometryId: ''
     distance: 0.2827
     roadway: ''
@@ -51,7 +51,7 @@ changes:
     roadway_class: 0
   - A: 671179
     B: 671180
-    model_link_id: 1450002
+    model_link_id: 1450004
     shstGeometryId: ''
     distance: 0.3441
     roadway: ''
@@ -81,7 +81,7 @@ changes:
     roadway_class: 0
   - A: 671180
     B: 671179
-    model_link_id: 1450003
+    model_link_id: 1450007
     shstGeometryId: ''
     distance: 0.3441
     roadway: ''
@@ -101,4 +101,3 @@ changes:
   - model_node_id: 675001
     X: 515367.36339
     Y: 4957323.33571
-valid: false
