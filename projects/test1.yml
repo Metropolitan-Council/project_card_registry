@@ -1,0 +1,35 @@
+project: test1
+tags: ''
+dependencies: ''
+changes:
+- category: Add New Roadway
+  links:
+  - A: 133213
+    B: 79847
+    model_link_id: 286509
+    distance: 0.99043
+    roadway: residential
+    name: rachel's test
+    drive_access: true
+    walk_access: true
+    bike_access: true
+    truck_access: true
+    centroidconnect: 0
+    ROUTE_SYS: '10'
+    assign_group: 50
+    roadway_class: 50
+  - A: 79847
+    B: 133213
+    model_link_id: 299087
+    distance: 0.99043
+    roadway: residential
+    name: rachel's test reverse
+    drive_access: true
+    walk_access: true
+    bike_access: true
+    truck_access: true
+    centroidconnect: 0
+    ROUTE_SYS: '10'
+    assign_group: 50
+    roadway_class: 50
+valid: false

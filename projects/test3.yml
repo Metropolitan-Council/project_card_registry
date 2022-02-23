@@ -1,0 +1,104 @@
+project: test3
+tags: ''
+dependencies: ''
+changes:
+- category: Add New Roadway
+  links:
+  - A: 97899
+    B: 671180
+    model_link_id: 10005
+    shstGeometryId: ''
+    distance: 0.2963
+    roadway: ''
+    name: ''
+    drive_access: true
+    walk_access: true
+    bike_access: true
+    truck_access: true
+    centroidconnect: 0
+    ROUTE_SYS: ''
+    assign_group: 0
+    roadway_class: 0
+  - A: 133213
+    B: 671179
+    model_link_id: 10000
+    shstGeometryId: ''
+    distance: 0.2827
+    roadway: ''
+    name: ''
+    drive_access: true
+    walk_access: true
+    bike_access: true
+    truck_access: true
+    centroidconnect: 0
+    ROUTE_SYS: ''
+    assign_group: 0
+    roadway_class: 0
+  - A: 671179
+    B: 133213
+    model_link_id: 10001
+    shstGeometryId: ''
+    distance: 0.2827
+    roadway: ''
+    name: ''
+    drive_access: true
+    walk_access: true
+    bike_access: true
+    truck_access: true
+    centroidconnect: 0
+    ROUTE_SYS: ''
+    assign_group: 0
+    roadway_class: 0
+  - A: 671179
+    B: 671180
+    model_link_id: 10002
+    shstGeometryId: ''
+    distance: 0.3441
+    roadway: ''
+    name: ''
+    drive_access: true
+    walk_access: true
+    bike_access: true
+    truck_access: true
+    centroidconnect: 0
+    ROUTE_SYS: ''
+    assign_group: 0
+    roadway_class: 0
+  - A: 671180
+    B: 97899
+    model_link_id: 10006
+    shstGeometryId: ''
+    distance: 0.2963
+    roadway: ''
+    name: ''
+    drive_access: true
+    walk_access: true
+    bike_access: true
+    truck_access: true
+    centroidconnect: 0
+    ROUTE_SYS: ''
+    assign_group: 0
+    roadway_class: 0
+  - A: 671180
+    B: 671179
+    model_link_id: 10003
+    shstGeometryId: ''
+    distance: 0.3441
+    roadway: ''
+    name: ''
+    drive_access: true
+    walk_access: true
+    bike_access: true
+    truck_access: true
+    centroidconnect: 0
+    ROUTE_SYS: ''
+    assign_group: 0
+    roadway_class: 0
+  nodes:
+  - model_node_id: 671179
+    X: 514816.14835
+    Y: 4957376.33715
+  - model_node_id: 671180
+    X: 515367.36339
+    Y: 4957323.33571
+valid: false
