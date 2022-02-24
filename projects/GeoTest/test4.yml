@@ -1,30 +1,15 @@
-project: test3
+project: test4
 tags: ''
 dependencies: ''
 changes:
 - category: Add New Roadway
   links:
-  - A: 97899
-    B: 671180
-    model_link_id: 1450005
-    shstGeometryId: ''
-    distance: 0.2963
-    roadway: ''
-    name: ''
-    drive_access: true
-    walk_access: true
-    bike_access: true
-    truck_access: true
-    centroidconnect: 0
-    ROUTE_SYS: ''
-    assign_group: 0
-    roadway_class: 0
   - A: 133213
-    B: 671179
-    model_link_id: 1450002
+    B: 675000
+    model_link_id: 1500000
     shstGeometryId: ''
-    distance: 0.2827
-    roadway: ''
+    distance: 0.384
+    roadway: rachel test
     name: ''
     drive_access: true
     walk_access: true
@@ -32,14 +17,14 @@ changes:
     truck_access: true
     centroidconnect: 0
     ROUTE_SYS: ''
-    assign_group: 0
+    assign_group: 15
     roadway_class: 0
-  - A: 671179
+  - A: 675000
     B: 133213
-    model_link_id: 1450003
+    model_link_id: 1500000
     shstGeometryId: ''
-    distance: 0.2827
-    roadway: ''
+    distance: 0.384
+    roadway: rachel test
     name: ''
     drive_access: true
     walk_access: true
@@ -47,14 +32,14 @@ changes:
     truck_access: true
     centroidconnect: 0
     ROUTE_SYS: ''
-    assign_group: 0
+    assign_group: 15
     roadway_class: 0
-  - A: 671179
-    B: 671180
-    model_link_id: 1450004
+  - A: 675000
+    B: 675001
+    model_link_id: 1500000
     shstGeometryId: ''
-    distance: 0.3441
-    roadway: ''
+    distance: 0.38436
+    roadway: rachel test
     name: ''
     drive_access: true
     walk_access: true
@@ -62,14 +47,14 @@ changes:
     truck_access: true
     centroidconnect: 0
     ROUTE_SYS: ''
-    assign_group: 0
+    assign_group: 15
     roadway_class: 0
-  - A: 671180
-    B: 97899
-    model_link_id: 1450006
+  - A: 675001
+    B: 675000
+    model_link_id: 1500000
     shstGeometryId: ''
-    distance: 0.2963
-    roadway: ''
+    distance: 0.38436
+    roadway: rachel test
     name: ''
     drive_access: true
     walk_access: true
@@ -77,14 +62,14 @@ changes:
     truck_access: true
     centroidconnect: 0
     ROUTE_SYS: ''
-    assign_group: 0
+    assign_group: 15
     roadway_class: 0
-  - A: 671180
-    B: 671179
-    model_link_id: 1450007
+  - A: 675001
+    B: 79847
+    model_link_id: 1500000
     shstGeometryId: ''
-    distance: 0.3441
-    roadway: ''
+    distance: 0.29516
+    roadway: rachel test
     name: ''
     drive_access: true
     walk_access: true
@@ -92,12 +77,28 @@ changes:
     truck_access: true
     centroidconnect: 0
     ROUTE_SYS: ''
-    assign_group: 0
+    assign_group: 15
+    roadway_class: 0
+  - A: 79847
+    B: 675001
+    model_link_id: 1500000
+    shstGeometryId: ''
+    distance: 0.29516
+    roadway: rachel test
+    name: ''
+    drive_access: true
+    walk_access: true
+    bike_access: true
+    truck_access: true
+    centroidconnect: 0
+    ROUTE_SYS: ''
+    assign_group: 15
     roadway_class: 0
   nodes:
   - model_node_id: 675000
-    X: 514816.14835
-    Y: 4957376.33715
+    X: 514987.0961
+    Y: 4957341.36546
   - model_node_id: 675001
-    X: 515367.36339
-    Y: 4957323.33571
+    X: 515604.89688
+    Y: 4957310.73071
+valid: false
