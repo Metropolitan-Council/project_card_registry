@@ -1,1 +1,11 @@
 type,id,project_added
+node,675000,test4
+node,675001,test4
+link,1500000,test4
+link,1500001,test4
+link,1500002,test4
+link,1500003,test4
+link,1500004,test4
+link,1500005,test4
+link,1450000,test1
+link,1450001,test1
