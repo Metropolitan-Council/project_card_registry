@@ -1,4 +1,4 @@
-project: test4
+project: test5
 tags: ''
 dependencies: ''
 changes:
@@ -96,8 +96,8 @@ changes:
     roadway_class: 0
   nodes:
   - model_node_id: 675000
-    X: 514987.0961
-    Y: 4957341.36546
+    X: -92.810604
+    Y: 44.769308
   - model_node_id: 675001
-    X: 515604.89688
-    Y: 4957310.73071
+    X: -92.802797
+    Y: 44.769019
