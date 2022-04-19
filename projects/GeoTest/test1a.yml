@@ -1,0 +1,35 @@
+project: test1a
+tags: ''
+dependencies: ''
+changes:
+- category: Add New Roadway
+  links:
+  - A: 133213
+    B: 79847
+    model_link_id: 1450000
+    distance: 0.99043
+    roadway: residential
+    name: Rachel South
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    truck_access: 1
+    centroidconnect: 0
+    ROUTE_SYS: '10'
+    assign_group: 50
+    roadway_class: 50
+  - A: 79847
+    B: 133213
+    model_link_id: 1450001
+    distance: 0.99043
+    roadway: residential
+    name: Rachel North
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    truck_access: 1
+    centroidconnect: 0
+    ROUTE_SYS: '10'
+    assign_group: 50
+    roadway_class: 50
+valid: false

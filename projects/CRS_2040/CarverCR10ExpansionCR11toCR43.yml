@@ -1,4 +1,4 @@
-project: Carver CR 10 Expansion CR 11 to CR 43
+project: carver cr 10 expansion cr 11 to cr 43
 tags:
 - 2040 CRS
 - Year 2030
@@ -10,9 +10,7 @@ changes:
 - category: Roadway Property Change
   facility:
     link:
-    - model_link_id:
-      - 291425
-      - 291454
+    - model_link_id: []
   properties:
   - property: lanes
     set: 2

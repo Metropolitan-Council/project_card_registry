@@ -1,61 +1,67 @@
-project: 252/94 NB managed lane
+project: 252/94 nb managed lane
 tags:
-  - 'managed_lane'
-  - 'MnPASS'
-  - 'CRS'
-  - 'Year 2040'
+- managed_lane
+- MnPASS
+- CRS
+- Year 2040
 dependencies:
   prerequisites: []
   corequisites: []
   conflicts: []
-changes:  
+changes:
 - category: Parallel Managed lanes
   facility:
-      link:
-        - model_link_id:
-          - 382331
-          - 382464
-          - 382481
-          - 384091
-          - 384130
-          - 395625
-          - 395626
-          - 397914
-          - 398527
-          - 400876
-          - 400918
-          - 400922
-          - 400924
-          - 401092
-          - 401095
-          - 413275
-          - 413504
-          - 413505
-          - 413506
-          - 416841
-          - 418196
-          - 418197
+    link:
+    - model_link_id:
+      - 520654
+      - 62077
+      - 211052
+      - 376499
+      - 486533
+      - 506618
+      - 452859
+      - 335628
+      - 403662
+      - 140147
+      - 456803
+      - 39070
+      - 516974
+      - 542664
+      - 94734
+      - 221913
+      - 416769
+      - 260819
+      - 403184
+      - 194439
+      - 29632
+      - 393836
+      - 466057
+      - 50514
+      - 309944
+      - 452140
+      - 416213
+      - 123713
   properties:
-      - property: lanes
-        change: 0
-        timeofday:
-        - time:
-          - '15:00'
-          - '19:00'
-          change: -1
-      - property: ML_lanes
-        set: 0
-        timeofday:
-        - time:
-          - '15:00'
-          - '19:00'
-          set: 1
-      - property: ML_access
-        set: 'all'
-      - property: ML_egress
-        set: 'all'
-      - property: MNPASS_COD
-        set: 0
-      - property: ML_MNPASS_COD
-        set: 17
-notes:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      change: -1
+  - property: ML_lanes
+    set: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      set: 1
+  - property: ML_access
+    set: all
+  - property: ML_egress
+    set: all
+  - property: MNPASS_COD
+    set: 0
+  - property: ML_MNPASS_COD
+    set: 17
+notes: null

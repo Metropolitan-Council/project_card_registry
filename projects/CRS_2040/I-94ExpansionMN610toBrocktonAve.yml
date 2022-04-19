@@ -1,4 +1,4 @@
-project: I-94 Expansion MN 610 to Brockton Ave
+project: i-94 expansion mn 610 to brockton ave
 tags:
 - 2040 CRS
 - Year 2030
@@ -11,8 +11,7 @@ changes:
   facility:
     link:
     - model_link_id:
-      - 385209
-      - 400776
+      - 538681
   properties:
   - property: lanes
     set: 4

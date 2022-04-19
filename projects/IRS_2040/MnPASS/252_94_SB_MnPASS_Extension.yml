@@ -1,23 +1,23 @@
-project: 252/94 SB managed lane extension
+project: 252/94 sb managed lane extension
 tags:
-  - 'managed_lane'
-  - 'MnPASS'
-  - 'IRS'
-  - 'Year 2040'
-  - 'TIER 2'
+- managed_lane
+- MnPASS
+- IRS
+- Year 2040
+- TIER 2
 dependencies:
   prerequisites: []
   corequisites: []
   conflicts: []
-changes:  
-  - category: Parallel Managed lanes
-    facility:
-      link:
-        - model_link_id:
-          - 381215
-          - 403132
-          - 417432
-properties:
+changes:
+- category: Parallel Managed lanes
+  facility:
+    link:
+    - model_link_id:
+      - 5295
+      - 457509
+      - 539885
+  properties:
   - property: lanes
     change: 0
     timeofday:
@@ -33,11 +33,11 @@ properties:
       - '10:00'
       set: 1
   - property: ML_access
-    set: 'all'
+    set: all
   - property: ML_egress
-    set: 'all'
+    set: all
   - property: MNPASS_COD
-    set: 0    
+    set: 0
   - property: ML_MNPASS_COD
     set: 34
-notes:
+notes: null

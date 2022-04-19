@@ -1,4 +1,4 @@
-project: I-35W Expansion Cliff Rd to River
+project: i-35w expansion cliff rd to river
 tags:
 - 2040 CRS
 - Year 2030
@@ -11,8 +11,15 @@ changes:
   facility:
     link:
     - model_link_id:
-      - 384824
-      - 384827
+      - 387986
+      - 156725
+      - 335058
+      - 544332
+      - 50633
+      - 156725
+      - 335058
+      - 544332
+      - 50633
   properties:
   - property: lanes
     set: 4

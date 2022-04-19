@@ -1,62 +1,60 @@
-project: 35E NB managed lane
+project: 35e nb managed lane
 tags:
-  - 'managed_lane'
-  - 'MnPASS'
-  - 'base year'
-  - 'Year 2015'
+- managed_lane
+- MnPASS
+- base year
+- Year 2015
 dependencies:
-  prerequisites: []
-  corequisites: []
-  conflicts: []
+  prerequisites:
+  - add mnpass_cod
 changes:
 - category: Parallel Managed lanes
   facility:
     link:
-      - model_link_id:
-          - 385810
-          - 390130
-          - 390132
-          - 390286
-          - 390292
-          - 390533
-          - 390724
-          - 390726
-          - 390799
-          - 390995
-          - 391125
-          - 391130
-          - 391233
-          - 391269
-          - 394133
-          - 394135
-          - 394136
-          - 402909
-          - 411599
-          - 412227
-          - 413984
-          - 413997
-          - 414003
+    - model_link_id:
+      - 507322
+      - 134290
+      - 545243
+      - 296982
+      - 406734
+      - 300996
+      - 139233
+      - 277171
+      - 348975
+      - 372500
+      - 524521
+      - 24237
+      - 402884
+      - 325431
+      - 10377
+      - 535968
+      - 270904
+      - 388915
+      - 248243
+      - 474224
+      - 106338
+      - 480056
   properties:
-      - property: lanes
-        change: 0
-        timeofday:
-        - time:
-          - '15:00'
-          - '19:00'
-          change: -1
-      - property: ML_lanes
-        set: 0
-        timeofday:
-        - time:
-          - '15:00'
-          - '19:00'
-          set: 1
-      - property: ML_access
-        set: 'all'
-      - property: ML_egress
-        set: 'all'
-      - property: MNPASS_COD
-        set: 0
-      - property: ML_MNPASS_COD
-        set: 4
-notes:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      change: -1
+  - property: ML_lanes
+    set: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      set: 1
+  - property: ML_access
+    set: all
+  - property: ML_egress
+    set: all
+  - property: MNPASS_COD
+    set: 0
+  - property: ML_MNPASS_COD
+    set: 4
+notes: null

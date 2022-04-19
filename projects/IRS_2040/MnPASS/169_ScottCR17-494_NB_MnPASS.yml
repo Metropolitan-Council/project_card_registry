@@ -1,36 +1,33 @@
-project: 169 ScottCR17-494 NB managed lane
+project: 169 scottcr17-494 nb managed lane
 tags:
-  - 'managed_lane'
-  - 'MnPASS'
-  - 'IRS'
-  - 'Year 2040'
-  - 'TIER 3'
+- managed_lane
+- MnPASS
+- IRS
+- Year 2040
+- TIER 3
 dependencies:
   prerequisites: []
   corequisites: []
   conflicts: []
-changes:  
-  - category: Parallel Managed lanes
-    facility:
-      link:
-        - model_link_id:
-          - 381091
-          - 381261
-          - 381332
-          - 381482
-          - 381487
-          - 381651
-          - 383363
-          - 383365
-          - 387584
-          - 387587
-          - 396763
-          - 418340
-          - 418341
-          - 418922
-          - 418927
-          - 419557
-properties:
+changes:
+- category: Parallel Managed lanes
+  facility:
+    link:
+    - model_link_id:
+      - 234386
+      - 432422
+      - 231697
+      - 531463
+      - 411204
+      - 30560
+      - 150232
+      - 292686
+      - 26309
+      - 500204
+      - 470791
+      - 12469
+      - 12469
+  properties:
   - property: lanes
     change: 0
     timeofday:
@@ -46,11 +43,11 @@ properties:
       - '10:00'
       set: 1
   - property: ML_access
-    set: 'all'
+    set: all
   - property: ML_egress
-    set: 'all'
+    set: all
   - property: MNPASS_COD
     set: 0
   - property: ML_MNPASS_COD
     set: 42
-notes:
+notes: null

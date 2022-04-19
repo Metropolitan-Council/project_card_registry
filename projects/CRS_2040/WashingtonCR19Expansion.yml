@@ -1,4 +1,4 @@
-project: Washington CR 19 Expansion
+project: washington cr 19 expansion
 tags:
 - 2040 CRS
 - Year 2025
@@ -11,14 +11,18 @@ changes:
   facility:
     link:
     - model_link_id:
-      - 1582
-      - 1581
-      - 1586
-      - 109994
-      - 109993
-      - 110007
-      - 110009
-      - 250313
+      - 518923
+      - 65997
+      - 167574
+      - 56605
+      - 863611
+      - 746861
+      - 537855
+      - 878976
+      - 161366
+      - 241828
+      - 846248
+      - 695352
   properties:
   - property: lanes
     set: 2

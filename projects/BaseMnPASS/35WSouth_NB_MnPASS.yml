@@ -1,79 +1,86 @@
-project: 35W south NB managed lane
+project: 35w south nb managed lane
 tags:
-  - 'managed_lane'
-  - 'MnPASS'
-  - 'base year'
-  - 'Year 2015'
+- managed_lane
+- MnPASS
+- base year
+- Year 2015
 dependencies:
-  prerequisites: []
-  corequisites: []
-  conflicts: []
+  prerequisites:
+  - add mnpass_cod
 changes:
 - category: Parallel Managed lanes
   facility:
     link:
-        - model_link_id:
-          - 383858
-          - 383866
-          - 383946
-          - 384074
-          - 384126
-          - 384403
-          - 384824
-          - 384827
-          - 384859
-          - 384861
-          - 385922
-          - 395157
-          - 395158
-          - 395160
-          - 395202
-          - 395208
-          - 398397
-          - 402089
-          - 402457
-          - 405544
-          - 406975
-          - 408982
-          - 412324
-          - 416386
-          - 417744
-          - 417747
-          - 417748
-          - 417751
-          - 417753
-          - 417755
-          - 418157
-          - 419694
-          - 420333
-          - 421105
-          - 421128
-          - 421177
-          - 381584
-          - 382035
-          - 382037
-          - 383472
+    - model_link_id:
+      - 6622
+      - 551178
+      - 454184
+      - 270860
+      - 456463
+      - 119863
+      - 387986
+      - 156725
+      - 335058
+      - 544332
+      - 50633
+      - 156725
+      - 335058
+      - 544332
+      - 50633
+      - 381396
+      - 10428
+      - 177062
+      - 412727
+      - 399314
+      - 208739
+      - 186318
+      - 409643
+      - 356419
+      - 372832
+      - 380467
+      - 498841
+      - 339574
+      - 533442
+      - 113242
+      - 284348
+      - 95249
+      - 374356
+      - 46826
+      - 112533
+      - 102078
+      - 497092
+      - 534901
+      - 7853
+      - 245957
+      - 186794
+      - 368113
+      - 353694
+      - 495442
+      - 281742
+      - 445387
+      - 25490
+      - 21658
   properties:
-      - property: lanes
-        change: 0
-        timeofday:
-        - time:
-          - '6:00'
-          - '10:00'
-          change: -1
-      - property: ML_lanes
-        set: 0
-        timeofday:
-        - time:
-          - '6:00'
-          - '10:00'
-          set: 1
-      - property: ML_access
-        set: 'all'
-      - property: ML_egress
-        set: 'all'
-      - property: MNPASS_COD
-        set: 0    
-      - property: ML_MNPASS_COD
-        set: 9
-notes:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      change: -1
+  - property: ML_lanes
+    set: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      set: 1
+  - property: ML_access
+    set: all
+  - property: ML_egress
+    set: all
+  - property: MNPASS_COD
+    set: 0
+  - property: ML_MNPASS_COD
+    set: 9
+notes: null

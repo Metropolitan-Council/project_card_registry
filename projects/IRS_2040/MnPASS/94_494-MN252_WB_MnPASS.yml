@@ -1,38 +1,34 @@
-project: 94 494-MN 252 WB managed lane
+project: 94 494-mn 252 wb managed lane
 tags:
-  - 'managed_lane'
-  - 'MnPASS'
-  - 'IRS'
-  - 'Year 2040'
-  - 'TIER 3'
+- managed_lane
+- MnPASS
+- IRS
+- Year 2040
+- TIER 3
 dependencies:
   prerequisites: []
   corequisites: []
   conflicts: []
 changes:
-  - category: Parallel Managed lanes
-    facility:
-      link:
-        - model_link_id:
-          - 381304
-          - 381305
-          - 382285
-          - 386015
-          - 386551
-          - 389901
-          - 390156
-          - 390777
-          - 393488
-          - 393489
-          - 396560
-          - 396971
-          - 413598
-          - 415553
-          - 417106
-          - 418066
-          - 418983
-          - 421022
-properties:
+- category: Parallel Managed lanes
+  facility:
+    link:
+    - model_link_id:
+      - 346860
+      - 205226
+      - 149174
+      - 421630
+      - 464556
+      - 294268
+      - 350923
+      - 225411
+      - 6752
+      - 374500
+      - 80408
+      - 167287
+      - 450891
+      - 174762
+  properties:
   - property: lanes
     change: 0
     timeofday:
@@ -48,11 +44,11 @@ properties:
       - '19:00'
       set: 1
   - property: ML_access
-    set: 'all'
+    set: all
   - property: ML_egress
-    set: 'all'
+    set: all
   - property: MNPASS_COD
-    set: 0    
+    set: 0
   - property: ML_MNPASS_COD
     set: 50
-notes:
+notes: null

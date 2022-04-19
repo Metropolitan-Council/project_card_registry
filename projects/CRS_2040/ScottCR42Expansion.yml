@@ -1,4 +1,4 @@
-project: Scott CR 42 Expansion
+project: scott cr 42 expansion
 tags:
 - 2040 CRS
 - Year 2030
@@ -11,18 +11,19 @@ changes:
   facility:
     link:
     - model_link_id:
-      - 382688
-      - 382689
-      - 382690
-      - 382691
-      - 385594
-      - 391252
-      - 401557
-      - 401558
-      - 401565
-      - 409832
-      - 409833
-      - 420046
+      - 23443
+      - 827526
+      - 812284
+      - 384934
+      - 455689
+      - 428173
+      - 87432
+      - 164851
+      - 497133
+      - 20530
+      - 961905
+      - 463509
+      - 502781
   properties:
   - property: lanes
     set: 2

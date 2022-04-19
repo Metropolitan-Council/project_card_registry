@@ -1,18 +1,15 @@
-project: Network Cleanup Remove Link
+project: network cleanup remove link
 tags:
-  - 'Network Cleanup AsgnGrp'
-  - 'Roadway Property Change'
+- Network Cleanup AsgnGrp
+- Roadway Property Change
 dependencies: ''
 changes:
 - category: Roadway Property Change
   facility:
     link:
     - model_link_id:
-      - 398285
-      - 398283
-      - 393914
-      - 393913
-      - 383111
+      - 35075
+      - 102753
   properties:
   - property: drive_access
     set: 0

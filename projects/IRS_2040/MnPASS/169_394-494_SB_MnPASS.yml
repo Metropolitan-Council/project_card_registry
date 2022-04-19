@@ -1,43 +1,42 @@
-project: 169 394-494 SB managed lane
+project: 169 394-494 sb managed lane
 tags:
-  - 'managed_lane'
-  - 'MnPASS'
-  - 'IRS'
-  - 'Year 2040'
-  - 'TIER 3'
+- managed_lane
+- MnPASS
+- IRS
+- Year 2040
+- TIER 3
 dependencies:
   prerequisites: []
   corequisites: []
   conflicts: []
 changes:
-  - category: Parallel Managed lanes
-    facility:
-      link:
-        - model_link_id:
-          - 381123
-          - 381190
-          - 381251
-          - 381934
-          - 383639
-          - 383659
-          - 384548
-          - 384936
-          - 387307
-          - 391060
-          - 392986
-          - 392988
-          - 399357
-          - 404171
-          - 408044
-          - 409276
-          - 409937
-          - 410584
-          - 411841
-          - 412647
-          - 417921
-          - 418272
-          - 419500
-properties:
+- category: Parallel Managed lanes
+  facility:
+    link:
+    - model_link_id:
+      - 514879
+      - 337654
+      - 10254
+      - 425717
+      - 3296
+      - 8325
+      - 345597
+      - 248733
+      - 67147
+      - 507101
+      - 67321
+      - 174320
+      - 310453
+      - 547704
+      - 239726
+      - 518143
+      - 482161
+      - 390896
+      - 387301
+      - 419964
+      - 327077
+      - 405410
+  properties:
   - property: lanes
     change: 0
     timeofday:
@@ -53,11 +52,11 @@ properties:
       - '19:00'
       set: 1
   - property: ML_access
-    set: 'all'
+    set: all
   - property: ML_egress
-    set: 'all'
+    set: all
   - property: MNPASS_COD
     set: 0
   - property: ML_MNPASS_COD
     set: 40
-notes:
+notes: null

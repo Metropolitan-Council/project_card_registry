@@ -1,4 +1,4 @@
-project: test1
+project: test1edited
 tags: ''
 dependencies: ''
 changes:
@@ -9,7 +9,7 @@ changes:
     model_link_id: 1450000
     distance: 0.99043
     roadway: residential
-    name: Rachel Test1
+    name: Rachel Test 2 
     drive_access: true
     walk_access: true
     bike_access: true
@@ -18,12 +18,13 @@ changes:
     ROUTE_SYS: '10'
     assign_group: 50
     roadway_class: 50
+    lanes: 2
   - A: 79847
     B: 133213
     model_link_id: 1450001
     distance: 0.99043
     roadway: residential
-    name: Rachel Test1
+    name: Rachel Test
     drive_access: true
     walk_access: true
     bike_access: true
@@ -32,4 +33,5 @@ changes:
     ROUTE_SYS: '10'
     assign_group: 50
     roadway_class: 50
+    lanes: 1
 valid: false

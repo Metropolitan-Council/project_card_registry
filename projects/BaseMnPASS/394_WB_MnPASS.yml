@@ -1,58 +1,52 @@
-project: 394 WB managed lane
+project: 394 wb managed lane
 tags:
-  - 'managed_lane'
-  - 'MnPASS'
-  - 'base year'
-  - 'Year 2015'
+- managed_lane
+- MnPASS
+- base year
+- Year 2015
 dependencies:
-  prerequisites: []
-  corequisites: []
-  conflicts: []
+  prerequisites:
+  - add mnpass_cod
 changes:
 - category: Parallel Managed lanes
   facility:
     link:
-      - model_link_id:
-          - 381516
-          - 381527
-          - 382273
-          - 384956
-          - 394122
-          - 402701
-          - 403006
-          - 403290
-          - 416340
-          - 417876
-          - 417967
-          - 417971
-          - 417972
-          - 417974
-          - 417976
-          - 417977
-          - 419000
-          - 419619
-          - 419620
+    - model_link_id:
+      - 41532
+      - 305528
+      - 93103
+      - 128466
+      - 453518
+      - 400890
+      - 524455
+      - 66053
+      - 461845
+      - 425879
+      - 197432
+      - 353170
+      - 406465
+      - 224127
   properties:
-      - property: lanes
-        change: 0
-        timeofday:
-        - time:
-          - '15:00'
-          - '19:00'
-          change: -1
-      - property: ML_lanes
-        set: 0
-        timeofday:
-        - time:
-          - '15:00'
-          - '19:00'
-          set: 1
-      - property: ML_access
-        set: 'all'
-      - property: ML_egress
-        set: 'all'
-      - property: MNPASS_COD
-        set: 0    
-      - property: ML_MNPASS_COD
-        set: 5
-notes:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      change: -1
+  - property: ML_lanes
+    set: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      set: 1
+  - property: ML_access
+    set: all
+  - property: ML_egress
+    set: all
+  - property: MNPASS_COD
+    set: 0
+  - property: ML_MNPASS_COD
+    set: 5
+notes: null

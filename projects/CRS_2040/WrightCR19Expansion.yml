@@ -1,4 +1,4 @@
-project: Wright CR 19 Expansion
+project: wright cr 19 expansion
 tags:
 - 2040 CRS
 - Year 2020
@@ -11,14 +11,16 @@ changes:
   facility:
     link:
     - model_link_id:
-      - 145816
-      - 145815
-      - 145856
-      - 145855
-      - 231419
-      - 353825
-      - 363034
-      - 363033
+      - 907665
+      - 578077
+      - 67007
+      - 203140
+      - 653152
+      - 1048291
+      - 517725
+      - 194808
+      - 1029714
+      - 437265
   properties:
   - property: lanes
     set: 2

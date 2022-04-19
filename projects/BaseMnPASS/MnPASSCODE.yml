@@ -1,0 +1,18 @@
+project: add mnpass_cod
+tags:
+- managed_lane
+- MnPASS
+- base year
+- Year 2015
+dependencies:
+  prerequisites: []
+  corequisites: []
+  conflicts: []
+changes:
+- category: Roadway Property Change
+  facility:
+    link: all
+  properties:
+  - property: MNPASS_COD
+    set: 0
+notes: null

@@ -1,33 +1,33 @@
-project: 35W Ramsey C-Downtown NB managed lane
+project: 35w ramsey c-downtown nb managed lane
 tags:
-  - 'managed_lane'
-  - 'MnPASS'
-  - 'IRS'
-  - 'Year 2040'
-  - 'TIER 2'
+- managed_lane
+- MnPASS
+- IRS
+- Year 2040
+- TIER 2
 dependencies:
   prerequisites: []
   corequisites: []
   conflicts: []
 changes:
-  - category: Parallel Managed lanes
-    facility:
-      link:
-        - model_link_id:
-          - 381250
-          - 386921
-          - 386923
-          - 389862
-          - 390410
-          - 390573
-          - 390938
-          - 391241
-          - 394181
-          - 395605
-          - 409738
-          - 419291
-          - 419710
-properties:
+- category: Parallel Managed lanes
+  facility:
+    link:
+    - model_link_id:
+      - 198227
+      - 544208
+      - 487005
+      - 487005
+      - 27252
+      - 261970
+      - 524245
+      - 129583
+      - 259656
+      - 446277
+      - 165786
+      - 441614
+      - 188749
+  properties:
   - property: lanes
     change: 0
     timeofday:
@@ -43,11 +43,11 @@ properties:
       - '19:00'
       set: 1
   - property: ML_access
-    set: 'all'
+    set: all
   - property: ML_egress
-    set: 'all'
+    set: all
   - property: MNPASS_COD
-    set: 0    
+    set: 0
   - property: ML_MNPASS_COD
     set: 30
-notes:
+notes: null
