@@ -6,10 +6,10 @@ changes:
   links:
   - A: 133213
     B: 79847
-    model_link_id: 1450000
+    model_link_id: 1450002
     distance: 0.99043
     roadway: residential
-    name: Rachel Test 2 
+    name: Rachel Test 2
     drive_access: true
     walk_access: true
     bike_access: true
@@ -21,7 +21,7 @@ changes:
     lanes: 2
   - A: 79847
     B: 133213
-    model_link_id: 1450001
+    model_link_id: 1450003
     distance: 0.99043
     roadway: residential
     name: Rachel Test
@@ -34,4 +34,3 @@ changes:
     assign_group: 50
     roadway_class: 50
     lanes: 1
-valid: false
