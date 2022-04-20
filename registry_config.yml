@@ -16,4 +16,4 @@ nodes_used_by_geography:
 links_used_by_geography:
   - geography_name: All
     start: 0
-    end: 1422000
+    end: 1061656
