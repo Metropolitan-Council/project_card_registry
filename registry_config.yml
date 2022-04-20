@@ -12,7 +12,7 @@ nodes_used_by_geography:
     end: 3100
   - geography_name: Network nodes
     start: 3101
-    end: 672000
+    end: 417322
 links_used_by_geography:
   - geography_name: All
     start: 0
