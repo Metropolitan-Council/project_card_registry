@@ -38,3 +38,21 @@ self.links_df['walk'] = np.where(
         0
     )
 )
+
+# Anywhere assigngroup = 1, 2, 3, 4, 13, 14 or 15
+# Walk, Bike, walk_access, bike_access should all be 0
+
+for c in ['walk', 'bike', 'walk_access', 'bike_access']:
+    # assign group = 1, 2, 3, 4, 13, 14 or 15
+    self.links_df[c] = np.where(
+        self.links_df['assign_group'].isin([1,2,3,4,13,14,15]),
+        0,
+        self.links_df[c]
+    )
+
+    # for trunk, trunk_link, motorway_link
+    self.links_df[c] = np.where(
+        self.links_df['roadway'].isin(['motorway_link', 'trunk', 'trunk_link']),
+        0,
+        self.links_df[c]
+    )
