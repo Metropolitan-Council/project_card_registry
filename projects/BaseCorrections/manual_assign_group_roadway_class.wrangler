@@ -34,7 +34,11 @@ area_type_gdf = area_type_gdf.to_crs(epsg=RoadwayNetwork.CRS)
 downtown_gdf = gpd.read_file(downtown_area_type_shape)
 downtown_gdf = downtown_gdf.to_crs(epsg=RoadwayNetwork.CRS)
 
-joined_gdf = gpd.sjoin(centroids_gdf, area_type_gdf, how="left", predicate="intersects")
+if (int(gpd.__version__.split('.')[0]) == 0) & (int(gpd.__version__.split('.')[1]) < 10):
+    joined_gdf = gpd.sjoin(centroids_gdf, area_type_gdf, how="left", op="intersects")
+else:
+    joined_gdf = gpd.sjoin(centroids_gdf, area_type_gdf, how="left", predicate="intersects")
+
 joined_gdf[area_type_shape_variable] = (
   joined_gdf[area_type_shape_variable]
   .map(area_type_codes_dict)
@@ -42,7 +46,10 @@ joined_gdf[area_type_shape_variable] = (
   .astype(int)
 )
 
-d_joined_gdf = gpd.sjoin(centroids_gdf, downtown_gdf, how="left", predicate="intersects")
+if (int(gpd.__version__.split('.')[0]) == 0) & (int(gpd.__version__.split('.')[1]) < 10):
+    d_joined_gdf = gpd.sjoin(centroids_gdf, downtown_gdf, how="left", op="intersects")
+else:
+    d_joined_gdf = gpd.sjoin(centroids_gdf, downtown_gdf, how="left", predicate="intersects")
 
 d_joined_gdf['downtown_area_type'] = d_joined_gdf['Id'].fillna(-99).astype(int)
 
@@ -60,7 +67,11 @@ centroids_gdf["geometry"] = centroids_gdf["geometry"].centroid
 
 county_gdf = gpd.read_file(county_shape)
 county_gdf = county_gdf.to_crs(CRS("epsg:4269"))
-joined_gdf = gpd.sjoin(centroids_gdf, county_gdf, how="left", predicate="intersects")
+
+if (int(gpd.__version__.split('.')[0]) == 0) & (int(gpd.__version__.split('.')[1]) < 10):
+    joined_gdf = gpd.sjoin(centroids_gdf, county_gdf, how="left", op="intersects")
+else:
+    joined_gdf = gpd.sjoin(centroids_gdf, county_gdf, how="left", predicate="intersects")
 
 joined_gdf[county_shape_variable] = (
   joined_gdf[county_shape_variable]
