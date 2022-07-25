@@ -1,24 +1,4 @@
 type,id,project_added
-node,675000,test4
-node,675001,test4
-link,1500000,test4
-link,1500001,test4
-link,1500002,test4
-link,1500003,test4
-link,1500004,test4
-link,1500005,test4
-link,1450000,test1
-link,1450001,test1
-node,675002,test5
-node,675003,test5
-link,1500006,test5
-link,1500007,test5
-link,1500008,test5
-link,1500009,test5
-link,1500010,test5
-link,1500011,test5
-link,1450002,test1edited
-link,1450003,test1edited
 node,3031,Year 2015 Add centroid connector at External Stations
 node,3032,Year 2015 Add centroid connector at External Stations
 node,3033,Year 2015 Add centroid connector at External Stations
@@ -112,5 +92,3 @@ link,1061715,Year 2015 Add centroid connector at External Stations
 link,1061716,Year 2015 Add centroid connector at External Stations
 link,1061717,Year 2015 Add centroid connector at External Stations
 link,1061718,Year 2015 Add centroid connector at External Stations
-link,1450004,test1a
-link,1450005,test1a

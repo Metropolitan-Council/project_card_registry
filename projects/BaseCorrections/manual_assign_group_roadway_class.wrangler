@@ -14,7 +14,7 @@ from lasso import Parameters
 
 from pyproj import CRS
 
-lasso_dir = os.path.join('Z:/Data/Users/Sijia/Met_Council/github/client_met_council_wrangler_utilities')
+lasso_dir = os.path.join('C:/Lasso')
 
 parameters = Parameters(lasso_base_dir = lasso_dir)
 
