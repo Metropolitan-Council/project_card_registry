@@ -4,12 +4,11 @@ dependencies: ''
 changes:
 - category: Add New Roadway
   links:
-  - id: null
-    roadway: taz
+  - roadway: taz
     drive_access: 1
     A: 198496
-    B: 101
-    model_link_id: 9999991
+    B: 356000
+    model_link_id: 1200000
     assign_group: 9
     roadway_class: 99
     bike: 0
@@ -20,12 +19,11 @@ changes:
     lanes_MD: 1
     lanes_PM: 1
     lanes_NT: 1
-  - id: null
-    roadway: taz
+  - roadway: taz
     drive_access: 1
-    A: 101
+    A: 356000
     B: 198497
-    model_link_id: 9999992
+    model_link_id: 1200001
     assign_group: 9
     roadway_class: 99
     bike: 0
@@ -36,12 +34,11 @@ changes:
     lanes_MD: 1
     lanes_PM: 1
     lanes_NT: 1
-  - id: null
-    roadway: taz
+  - roadway: taz
     drive_access: 0
     A: 80886
     B: 85424
-    model_link_id: 9999993
+    model_link_id: 1200002
     assign_group: 9
     roadway_class: 99
     bike: 0
@@ -52,12 +49,11 @@ changes:
     lanes_MD: 1
     lanes_PM: 1
     lanes_NT: 1
-  - id: null
-    roadway: taz
+  - roadway: taz
     drive_access: 0
     A: 85424
     B: 80886
-    model_link_id: 9999994
+    model_link_id: 1200003
     assign_group: 9
     roadway_class: 99
     bike: 0
@@ -68,12 +64,11 @@ changes:
     lanes_MD: 1
     lanes_PM: 1
     lanes_NT: 1
-  - id: null
-    roadway: residential
+  - roadway: residential
     drive_access: 1
     A: 390182
-    B: 102
-    model_link_id: 9999995
+    B: 356001
+    model_link_id: 1200004
     assign_group: 7
     roadway_class: 101
     bike: 3
@@ -85,20 +80,18 @@ changes:
     lanes_PM: 1
     lanes_NT: 1
   nodes:
-  - osm_node_id: null
-    drive_access: 1
+  - drive_access: 1
     walk_access: 1
     bike_access: 1
-    N: 101
+    N: 356000
     rail_only: 0
     X: -93.13290503118444
     Y: 44.8643268918903
     county: 0
-  - osm_node_id: null
-    drive_access: 1
+  - drive_access: 1
     walk_access: 1
     bike_access: 1
-    N: 102
+    N: 356001
     rail_only: 0
     X: -93.13193894477325
     Y: 44.85031032280074
