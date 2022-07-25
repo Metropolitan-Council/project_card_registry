@@ -83,7 +83,7 @@ changes:
   - drive_access: 1
     walk_access: 1
     bike_access: 1
-    N: 356000
+    model_node_id: 356000
     rail_only: 0
     X: -93.13290503118444
     Y: 44.8643268918903
@@ -91,7 +91,7 @@ changes:
   - drive_access: 1
     walk_access: 1
     bike_access: 1
-    N: 356001
+    model_node_id: 356001
     rail_only: 0
     X: -93.13193894477325
     Y: 44.85031032280074
