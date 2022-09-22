@@ -100,8 +100,6 @@ changes:
   links:
     model_link_id:
     - 431366
-  nodes:
-    N: []
 - category: Roadway Property Change
   facility:
     link:
