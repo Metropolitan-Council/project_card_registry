@@ -14,7 +14,7 @@ changes:
     link: all
   properties:
   - property: MNPASS_CODE
-    set: 0
+    set: 0.0
   - property: MNPASS_PAY
-    set: 0  
+    set: 0.0  
 notes: null
