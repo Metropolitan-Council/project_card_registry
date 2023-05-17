@@ -1,4 +1,4 @@
-project: add mnpass_cod
+project: add mnpass_code
 tags:
 - managed_lane
 - MnPASS
@@ -13,6 +13,8 @@ changes:
   facility:
     link: all
   properties:
-  - property: MNPASS_COD
+  - property: MNPASS_CODE
     set: 0
+  - property: MNPASS_PAY
+    set: 0  
 notes: null

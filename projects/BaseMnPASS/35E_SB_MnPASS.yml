@@ -6,7 +6,7 @@ tags:
 - Year 2015
 dependencies:
   prerequisites:
-  - add mnpass_cod
+  - add mnpass_code
 changes:
 - category: Parallel Managed lanes
   facility:
@@ -52,8 +52,8 @@ changes:
     set: all
   - property: ML_egress
     set: all
-  - property: MNPASS_COD
+  - property: MNPASS_CODE
     set: 0
-  - property: ML_MNPASS_COD
+  - property: ML_MNPASS_CODE
     set: 3
 notes: null
