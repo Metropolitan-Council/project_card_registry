@@ -30,6 +30,7 @@ changes:
       - 312768
       - 496133
       - 461086
+      - 68154
   properties:
   - property: lanes
     change: 0
@@ -57,8 +58,8 @@ changes:
     set: all
   - property: ML_egress
     set: all
-  - property: MNPASS_COD
+  - property: MNPASS_CODE
     set: 0
-  - property: ML_MNPASS_COD
+  - property: ML_MNPASS_CODE
     set: 31
 notes: null

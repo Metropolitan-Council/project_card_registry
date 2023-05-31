@@ -7,9 +7,7 @@ changes:
 - category: Roadway Property Change
   facility:
     link:
-    - model_link_id:
-      - 35075
-      - 102753
+    - model_link_id: []
   properties:
   - property: drive_access
     set: 0

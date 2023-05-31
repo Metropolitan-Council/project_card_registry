@@ -15,12 +15,16 @@ changes:
     link:
     - model_link_id:
       - 346860
+      - 474380
+      - 132909
       - 205226
       - 149174
       - 421630
       - 464556
+      - 383530
       - 294268
       - 350923
+      - 370317
       - 225411
       - 6752
       - 374500
@@ -47,8 +51,8 @@ changes:
     set: all
   - property: ML_egress
     set: all
-  - property: MNPASS_COD
+  - property: MNPASS_CODE
     set: 0
-  - property: ML_MNPASS_COD
+  - property: ML_MNPASS_CODE
     set: 50
 notes: null

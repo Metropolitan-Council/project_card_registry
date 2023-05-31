@@ -20,6 +20,7 @@ changes:
       - 304260
       - 243661
       - 371203
+      - 243661
       - 227183
       - 547791
       - 292705
@@ -42,8 +43,8 @@ changes:
     set: all
   - property: ML_egress
     set: all
-  - property: MNPASS_COD
+  - property: MNPASS_CODE
     set: 0
-  - property: ML_MNPASS_COD
+  - property: ML_MNPASS_CODE
     set: 47
 notes: null

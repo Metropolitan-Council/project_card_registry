@@ -16,6 +16,7 @@ changes:
     - model_link_id:
       - 197743
       - 341323
+      - 472194
       - 443243
       - 297321
       - 507509
@@ -52,8 +53,8 @@ changes:
     set: all
   - property: ML_egress
     set: all
-  - property: MNPASS_COD
+  - property: MNPASS_CODE
     set: 0
-  - property: ML_MNPASS_COD
+  - property: ML_MNPASS_CODE
     set: 35
 notes: null
