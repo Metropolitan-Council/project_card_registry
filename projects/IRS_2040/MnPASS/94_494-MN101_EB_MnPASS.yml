@@ -14,12 +14,14 @@ changes:
   facility:
     link:
     - model_link_id:
+      - 342918
       - 123288
       - 524466
       - 2915
       - 538681
       - 44865
       - 71943
+      - 336698
       - 332106
       - 485128
   properties:
@@ -41,8 +43,8 @@ changes:
     set: all
   - property: ML_egress
     set: all
-  - property: MNPASS_COD
+  - property: MNPASS_CODE
     set: 0
-  - property: ML_MNPASS_COD
+  - property: ML_MNPASS_CODE
     set: 48
 notes: null

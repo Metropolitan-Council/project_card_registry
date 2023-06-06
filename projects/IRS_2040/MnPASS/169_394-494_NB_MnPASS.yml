@@ -57,8 +57,8 @@ changes:
     set: all
   - property: ML_egress
     set: all
-  - property: MNPASS_COD
+  - property: MNPASS_CODE
     set: 0
-  - property: ML_MNPASS_COD
+  - property: ML_MNPASS_CODE
     set: 39
 notes: null
