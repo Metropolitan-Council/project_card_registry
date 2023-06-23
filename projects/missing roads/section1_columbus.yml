@@ -1,0 +1,206 @@
+project: section1_columbus
+tags: ''
+dependencies: ''
+changes:
+- category: Add New Roadway
+  links:
+  - A: 53089
+    B: 417323
+    shstGeometryId: 47f0cf8b08b3f9fb4a2fa44e70632ba4
+    name: Camp 3 Road Northeast
+    roadway: tertiary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 749586
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 7.0
+    roadway_class: 40.0
+    area_type: '1'
+    bike: 3
+    walk: 3
+  - A: 417323
+    B: 53089
+    shstGeometryId: 47f0cf8b08b3f9fb4a2fa44e70632ba4
+    name: Camp 3 Road Northeast
+    roadway: tertiary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 335688
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 7.0
+    roadway_class: 40.0
+    area_type: '1'
+    bike: 3
+    walk: 3
+  - A: 46415
+    B: 417323
+    shstGeometryId: c1afe16021e7269319ff9e59439d304a
+    name: Potomac Street Northeast
+    roadway: secondary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 953643
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 6.0
+    roadway_class: 40.0
+    area_type: '1'
+    bike: 3
+    walk: 3
+  - A: 417323
+    B: 46415
+    shstGeometryId: c1afe16021e7269319ff9e59439d304a
+    name: Potomac Street Northeast
+    roadway: secondary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 85851
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 6.0
+    roadway_class: 40.0
+    area_type: '1'
+    bike: 3
+    walk: 3
+  - A: 417323
+    B: 417324
+    shstGeometryId: c1afe16021e7269319ff9e59439d304a
+    name: Potomac Street Northeast
+    roadway: secondary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 953643
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 6.0
+    roadway_class: 40.0
+    area_type: '1'
+    bike: 3
+    walk: 3
+  - A: 417324
+    B: 417323
+    shstGeometryId: c1afe16021e7269319ff9e59439d304a
+    name: Potomac Street Northeast
+    roadway: secondary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 85851
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 6.0
+    roadway_class: 40.0
+    area_type: '1'
+    bike: 3
+    walk: 3
+  - A: 49179
+    B: 417324
+    shstGeometryId: 05aa55bf13d4260118f7f7ee403667f4
+    name: Lake Drive Northeast
+    roadway: primary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 150337
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 6.0
+    roadway_class: 40.0
+    area_type: '1'
+    bike: 3
+    walk: 3
+  - A: 417324
+    B: 49179
+    shstGeometryId: 05aa55bf13d4260118f7f7ee403667f4
+    name: Lake Drive Northeast
+    roadway: primary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 809290
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 6.0
+    roadway_class: 40.0
+    area_type: '1'
+    bike: 3
+    walk: 3
+  - A: 417324
+    B: 55461
+    shstGeometryId: 05aa55bf13d4260118f7f7ee403667f4
+    name: Lake Drive Northeast
+    roadway: primary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 150337
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 6.0
+    roadway_class: 40.0
+    area_type: '1'
+    bike: 3
+    walk: 3
+  - A: 55461
+    B: 417324
+    shstGeometryId: 05aa55bf13d4260118f7f7ee403667f4
+    name: Lake Drive Northeast
+    roadway: primary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 809290
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 6.0
+    roadway_class: 40.0
+    area_type: '1'
+    bike: 3
+    walk: 3
+  nodes:
+  - drive_access: 1.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 417323
+    osm_node_id: ''
+    X: -93.08072150206111
+    Y: 45.254435060615336
+  - drive_access: 1.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 417324
+    osm_node_id: ''
+    X: -93.0789751250534
+    Y: 45.239897850624104
+valid: false
