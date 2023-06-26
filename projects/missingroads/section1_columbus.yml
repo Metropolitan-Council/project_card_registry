@@ -6,7 +6,6 @@ changes:
   links:
   - A: 53089
     B: 417323
-    shstGeometryId: 47f0cf8b08b3f9fb4a2fa44e70632ba4
     name: Camp 3 Road Northeast
     roadway: tertiary
     drive_access: '1'
@@ -24,14 +23,13 @@ changes:
     walk: 3
   - A: 417323
     B: 53089
-    shstGeometryId: 47f0cf8b08b3f9fb4a2fa44e70632ba4
     name: Camp 3 Road Northeast
     roadway: tertiary
     drive_access: '1'
     walk_access: '1'
     bike_access: '1'
     county: '1'
-    model_link_id: 1950001
+    model_link_id: 1950000
     rail_only: '0'
     bus_only: '0'
     centroidconnect: 0
@@ -42,14 +40,13 @@ changes:
     walk: 3
   - A: 46415
     B: 417323
-    shstGeometryId: c1afe16021e7269319ff9e59439d304a
     name: Potomac Street Northeast
     roadway: secondary
     drive_access: '1'
     walk_access: '1'
     bike_access: '1'
     county: '1'
-    model_link_id: 1950002
+    model_link_id: 1950000
     rail_only: '0'
     bus_only: '0'
     centroidconnect: 0
@@ -60,14 +57,13 @@ changes:
     walk: 3
   - A: 417323
     B: 46415
-    shstGeometryId: c1afe16021e7269319ff9e59439d304a
     name: Potomac Street Northeast
     roadway: secondary
     drive_access: '1'
     walk_access: '1'
     bike_access: '1'
     county: '1'
-    model_link_id: 1950003
+    model_link_id: 1950000
     rail_only: '0'
     bus_only: '0'
     centroidconnect: 0
@@ -78,14 +74,13 @@ changes:
     walk: 3
   - A: 417323
     B: 417324
-    shstGeometryId: c1afe16021e7269319ff9e59439d304a
     name: Potomac Street Northeast
     roadway: secondary
     drive_access: '1'
     walk_access: '1'
     bike_access: '1'
     county: '1'
-    model_link_id: 1950004
+    model_link_id: 1950000
     rail_only: '0'
     bus_only: '0'
     centroidconnect: 0
@@ -96,14 +91,13 @@ changes:
     walk: 3
   - A: 417324
     B: 417323
-    shstGeometryId: c1afe16021e7269319ff9e59439d304a
     name: Potomac Street Northeast
     roadway: secondary
     drive_access: '1'
     walk_access: '1'
     bike_access: '1'
     county: '1'
-    model_link_id: 1950005
+    model_link_id: 1950000
     rail_only: '0'
     bus_only: '0'
     centroidconnect: 0
@@ -114,14 +108,13 @@ changes:
     walk: 3
   - A: 49179
     B: 417324
-    shstGeometryId: 05aa55bf13d4260118f7f7ee403667f4
     name: Lake Drive Northeast
     roadway: primary
     drive_access: '1'
     walk_access: '1'
     bike_access: '1'
     county: '1'
-    model_link_id: 1950006
+    model_link_id: 1950000
     rail_only: '0'
     bus_only: '0'
     centroidconnect: 0
@@ -132,14 +125,13 @@ changes:
     walk: 3
   - A: 417324
     B: 49179
-    shstGeometryId: 05aa55bf13d4260118f7f7ee403667f4
     name: Lake Drive Northeast
     roadway: primary
     drive_access: '1'
     walk_access: '1'
     bike_access: '1'
     county: '1'
-    model_link_id: 1950007
+    model_link_id: 1950000
     rail_only: '0'
     bus_only: '0'
     centroidconnect: 0
@@ -150,14 +142,13 @@ changes:
     walk: 3
   - A: 417324
     B: 55461
-    shstGeometryId: 05aa55bf13d4260118f7f7ee403667f4
     name: Lake Drive Northeast
     roadway: primary
     drive_access: '1'
     walk_access: '1'
     bike_access: '1'
     county: '1'
-    model_link_id: 1950008
+    model_link_id: 1950000
     rail_only: '0'
     bus_only: '0'
     centroidconnect: 0
@@ -168,14 +159,13 @@ changes:
     walk: 3
   - A: 55461
     B: 417324
-    shstGeometryId: 05aa55bf13d4260118f7f7ee403667f4
     name: Lake Drive Northeast
     roadway: primary
     drive_access: '1'
     walk_access: '1'
     bike_access: '1'
     county: '1'
-    model_link_id: 1950009
+    model_link_id: 1950000
     rail_only: '0'
     bus_only: '0'
     centroidconnect: 0
