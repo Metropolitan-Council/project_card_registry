@@ -1,4 +1,4 @@
-project: network cleanup 1 lanes 1 f
+project: network cleanup 1 lanes 1 f 3
 tags:
 - Network Cleanup Lanes
 - Roadway Property Change
@@ -798,6 +798,7 @@ changes:
       - 45488
       - 614273
       - 483920
-   properties:
+      - 500223
+  properties:
   - property: lanes
     set: 1
