@@ -1,0 +1,81 @@
+project: missing 394 reverse
+tags: 
+- Network Cleanup
+- MnPASS
+- base year
+dependencies: ''
+changes:
+- category: Add New Roadway
+  links:
+  - A: 207231
+    B: 206838
+    name: 394 reverse 
+    roadway: motorway
+    drive_access: '1'
+    walk_access: '0'
+    bike_access: '0'
+    county: '4'
+    model_link_id: 1950000
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 1.0
+    roadway_class: 10.0
+    area_type: '4'
+    bike: 0
+    walk: 0
+    lanes: 1
+  - A: 206838
+    B: 206833
+    name: 394 reverse 
+    roadway: motorway
+    drive_access: '1'
+    walk_access: '0'
+    bike_access: '0'
+    county: '4'
+    model_link_id: 1950001
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 1.0
+    roadway_class: 10.0
+    area_type: '4'
+    bike: 0
+    walk: 0
+    lanes: 1
+  - A: 208640
+    B: 208667
+    name: 394 reverse 
+    roadway: motorway
+    drive_access: '1'
+    walk_access: '0'
+    bike_access: '0'
+    county: '4'
+    model_link_id: 1950002
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 1.0
+    roadway_class: 10.0
+    area_type: '4'
+    bike: 0
+    walk: 0 
+    lanes: 1 
+  - A: 206833
+    B: 208640
+    name: 394 reverse 
+    roadway: motorway
+    drive_access: '1'
+    walk_access: '0'
+    bike_access: '0'
+    county: '4'
+    model_link_id: 1950003
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 1.0
+    roadway_class: 10.0
+    area_type: '4'
+    bike: 0
+    walk: 0 
+    lanes: 1 
