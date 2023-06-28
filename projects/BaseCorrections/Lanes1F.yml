@@ -798,6 +798,6 @@ changes:
       - 45488
       - 614273
       - 483920
-   properties:
+  properties:
   - property: lanes
     set: 1
