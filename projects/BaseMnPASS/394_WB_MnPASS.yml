@@ -12,25 +12,20 @@ changes:
   facility:
     link:
     - model_link_id:
-      - 28289
       - 41532
-      - 305528
-      - 93103
-      - 329094
-      - 128466
-      - 453518
-      - 1898
-      - 400890
-      - 524455
       - 66053
-      - 461845
-      - 425879
+      - 93103
       - 197432
-      - 477065
-      - 477065
-      - 353170
-      - 406465
       - 224127
+      - 353170
+      - 400890
+      - 406465
+      - 425879
+      - 461845
+      - 524455
+      - 28289
+      - 329094
+      - 477065
   properties:
   - property: lanes
     change: 0
@@ -51,7 +46,32 @@ changes:
   - property: ML_egress
     set: all
   - property: MNPASS_CODE
-    set: 0
+    set: 105
   - property: ML_MNPASS_CODE
     set: 5
+  facility:
+    link:
+    - model_link_id:
+      - 128466
+      - 305528
+      - 453518
+      - 1898
+  properties:
+  - property: lanes
+    set: 0
+   - property: ML_lanes
+    set: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      set: 2
+  - property: ML_access
+    set: all
+  - property: ML_egress
+    set: all
+  - property: MNPASS_CODE
+    set: 101
+  - property: ML_MNPASS_CODE
+    set: 1  
 notes: null

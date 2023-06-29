@@ -12,30 +12,25 @@ changes:
   facility:
     link:
     - model_link_id:
-      - 113651
-      - 350286
-      - 327432
-      - 474796
-      - 259137
-      - 1898
-      - 128466
-      - 305528
-      - 276573
-      - 129933
-      - 167103
-      - 453518
-      - 356130
-      - 411205
-      - 422427
-      - 181599
-      - 402743
-      - 503923
-      - 113146
-      - 508664
-      - 517552
-      - 84177
-      - 35474
-      - 261811
+     - 35474
+     - 84177
+     - 113146
+     - 113651
+     - 181599
+     - 259137
+     - 276573
+     - 327432
+     - 356130
+     - 411205
+     - 422427
+     - 474796
+     - 503923
+     - 508664
+     - 517552
+     - 129933
+     - 261811
+     - 350286
+     - 402743
   properties:
   - property: lanes
     change: 0
@@ -56,7 +51,32 @@ changes:
   - property: ML_egress
     set: all
   - property: MNPASS_CODE
-    set: 0
+    set: 106
   - property: ML_MNPASS_CODE
     set: 6
+  facility:
+    link:
+    - model_link_id:
+     - 1950010
+     - 1950011
+     - 1950012
+     - 1950013
+  properties:
+  - property: lanes
+    set: 0
+  - property: ML_lanes
+    set: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      set: 2
+  - property: ML_access
+    set: all
+  - property: ML_egress
+    set: all
+  - property: MNPASS_CODE
+    set: 102
+  - property: ML_MNPASS_CODE
+    set: 2  
 notes: null

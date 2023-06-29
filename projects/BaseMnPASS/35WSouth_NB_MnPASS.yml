@@ -80,7 +80,7 @@ changes:
   - property: ML_egress
     set: all
   - property: MNPASS_CODE
-    set: 0
+    set: 109
   - property: ML_MNPASS_CODE
     set: 9
 notes: null
