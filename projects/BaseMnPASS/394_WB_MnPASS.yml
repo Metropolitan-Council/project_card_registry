@@ -59,7 +59,7 @@ changes:
   properties:
   - property: lanes
     set: 0
-   - property: ML_lanes
+  - property: ML_lanes
     set: 0
     timeofday:
     - time:
