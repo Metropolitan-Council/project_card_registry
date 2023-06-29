@@ -12,46 +12,26 @@ changes:
   facility:
     link:
     - model_link_id:
-      - 35474
-      - 84177
-      - 113146
-      - 113651
-      - 181599
-      - 259137
-      - 276573
-      - 327432
-      - 356130
-      - 411205
-      - 422427
-      - 474796
-      - 503923
-      - 508664
-      - 517552
-      - 129933
-      - 261811
-      - 350286
-      - 402743
+      - 1950010
+      - 1950011
+      - 1950012
+      - 1950013
   properties:
   - property: lanes
-    change: 0
-    timeofday:
-    - time:
-      - '6:00'
-      - '10:00'
-      change: -1
+    set: 0
   - property: ML_lanes
     set: 0
     timeofday:
     - time:
       - '6:00'
       - '10:00'
-      set: 1
+      set: 2
   - property: ML_access
     set: all
   - property: ML_egress
     set: all
   - property: MNPASS_CODE
-    set: 106
+    set: 102
   - property: ML_MNPASS_CODE
-    set: 6
+    set: 2  
 notes: null
