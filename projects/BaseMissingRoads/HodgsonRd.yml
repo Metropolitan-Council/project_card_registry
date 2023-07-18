@@ -1,0 +1,162 @@
+project: HodgsonRd
+tags: ''
+dependencies: ''
+changes:
+- category: Add New Roadway
+  links:
+  - A: 128585
+    B: 53952
+    name: Hodgson Road
+    roadway: tertiary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '5'
+    model_link_id: 1750000
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 7.0
+    roadway_class: 40.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+  - A: 53952
+    B: 128585
+    name: Hodgson Road
+    roadway: tertiary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '5'
+    model_link_id: 1750000
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 6.0
+    roadway_class: 30.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+  - A: 53952
+    B: 417332
+    name: Hodgson Road
+    roadway: tertiary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '5'
+    model_link_id: 1750000
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 7.0
+    roadway_class: 40.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+  - A: 417332
+    B: 53952
+    name: Hodgson Road
+    roadway: tertiary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '5'
+    model_link_id: 1750000
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 6.0
+    roadway_class: 30.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+  - A: 417332
+    B: 417333
+    name: Hodgson Road
+    roadway: tertiary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '5'
+    model_link_id: 1750000
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 7.0
+    roadway_class: 40.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+  - A: 417333
+    B: 417332
+    name: Hodgson Road
+    roadway: tertiary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '5'
+    model_link_id: 1750000
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 6.0
+    roadway_class: 30.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+  - A: 417333
+    B: 387816
+    name: Hodgson Road
+    roadway: tertiary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '5'
+    model_link_id: 1750000
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 7.0
+    roadway_class: 40.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+  - A: 387816
+    B: 417333
+    name: Hodgson Road
+    roadway: tertiary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '5'
+    model_link_id: 1750000
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 6.0
+    roadway_class: 30.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+  nodes:
+  - drive_access: 1.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 417333
+    osm_node_id: ''
+    X: -93.12668823425238
+    Y: 45.14224355354224
+  - drive_access: 1.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 417332
+    osm_node_id: ''
+    X: -93.1273452699965
+    Y: 45.13219355056252
+valid: false
