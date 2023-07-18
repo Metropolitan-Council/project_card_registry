@@ -21,6 +21,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 1
   - A: 417325
     B: 417326
     name: Lake Drive
@@ -38,6 +39,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 1
   - A: 417326
     B: 417327
     name: Lake Drive
@@ -55,6 +57,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 1
   - A: 417327
     B: 56561
     name: Lake Drive
@@ -72,6 +75,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 1
   - A: 310693
     B: 417328
     name: Lake Drive
@@ -89,6 +93,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 1
   - A: 417328
     B: 56562
     name: Lake Drive
@@ -106,6 +111,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 1
   - A: 58007
     B: 417329
     name: Lexington Avenue North
@@ -123,6 +129,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 2
   - A: 417329
     B: 58002
     name: Lexington Avenue North
@@ -140,6 +147,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 2
   - A: 417330
     B: 417326
     name: Lexington Avenue North
@@ -157,6 +165,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 2
   - A: 417325
     B: 417330
     name: Lexington Avenue North
@@ -174,6 +183,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 2
   - A: 417326
     B: 417328
     name: Lexington Avenue North
@@ -191,6 +201,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 2
   - A: 56562
     B: 417325
     name: Lexington Avenue North
@@ -208,6 +219,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 2
   - A: 417328
     B: 58005
     name: Lexington Avenue North
@@ -225,6 +237,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 2
   - A: 58005
     B: 56562
     name: Lexington Avenue North
@@ -242,6 +255,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 2
   - A: 417331
     B: 46015
     name: Lexington Avenue North
@@ -259,6 +273,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 2
   - A: 46014
     B: 417331
     name: Lexington Avenue North
@@ -276,6 +291,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 2
   - A: 58005
     B: 417331
     name: Lexington Avenue North
@@ -293,6 +309,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 2
   - A: 417331
     B: 58005
     name: ''
@@ -310,6 +327,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 2
   - A: 417329
     B: 417330
     name: Lexington Avenue North
@@ -327,9 +345,10 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 2
   - A: 417330
     B: 417329
-    name: ''
+    name: 'Lexington'
     roadway: ''
     drive_access: '1'
     walk_access: '1'
@@ -344,6 +363,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 2
   nodes:
   - drive_access: 1.0
     walk_access: 1.0

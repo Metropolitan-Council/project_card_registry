@@ -21,6 +21,7 @@ changes:
     area_type: '1'
     bike: 3
     walk: 3
+    lanes: 1
   - A: 417323
     B: 53089
     name: Camp 3 Road Northeast
@@ -38,6 +39,7 @@ changes:
     area_type: '1'
     bike: 3
     walk: 3
+    lanes: 1
   - A: 46415
     B: 417323
     name: Potomac Street Northeast
@@ -55,6 +57,7 @@ changes:
     area_type: '1'
     bike: 3
     walk: 3
+    lanes: 1
   - A: 417323
     B: 46415
     name: Potomac Street Northeast
@@ -72,6 +75,7 @@ changes:
     area_type: '1'
     bike: 3
     walk: 3
+    lanes: 1
   - A: 417323
     B: 417324
     name: Potomac Street Northeast
@@ -89,6 +93,7 @@ changes:
     area_type: '1'
     bike: 3
     walk: 3
+    lanes: 1
   - A: 417324
     B: 417323
     name: Potomac Street Northeast
@@ -106,6 +111,7 @@ changes:
     area_type: '1'
     bike: 3
     walk: 3
+    lanes: 1
   - A: 49179
     B: 417324
     name: Lake Drive Northeast
@@ -123,6 +129,7 @@ changes:
     area_type: '1'
     bike: 3
     walk: 3
+    lanes: 1
   - A: 417324
     B: 49179
     name: Lake Drive Northeast
@@ -140,6 +147,7 @@ changes:
     area_type: '1'
     bike: 3
     walk: 3
+    lanes: 1
   - A: 417324
     B: 55461
     name: Lake Drive Northeast
@@ -157,6 +165,7 @@ changes:
     area_type: '1'
     bike: 3
     walk: 3
+    lanes: 1
   - A: 55461
     B: 417324
     name: Lake Drive Northeast
@@ -174,6 +183,7 @@ changes:
     area_type: '1'
     bike: 3
     walk: 3
+    lanes: 1
   nodes:
   - drive_access: 1.0
     walk_access: 1.0
