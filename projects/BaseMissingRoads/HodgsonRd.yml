@@ -21,6 +21,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 1 
   - A: 53952
     B: 128585
     name: Hodgson Road
@@ -38,6 +39,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 1
   - A: 53952
     B: 417332
     name: Hodgson Road
@@ -55,6 +57,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 1
   - A: 417332
     B: 53952
     name: Hodgson Road
@@ -72,6 +75,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 1
   - A: 417332
     B: 417333
     name: Hodgson Road
@@ -89,6 +93,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 1
   - A: 417333
     B: 417332
     name: Hodgson Road
@@ -106,6 +111,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 1
   - A: 417333
     B: 387816
     name: Hodgson Road
@@ -123,6 +129,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 1
   - A: 387816
     B: 417333
     name: Hodgson Road
@@ -140,6 +147,7 @@ changes:
     area_type: '2'
     bike: 3
     walk: 3
+    lanes: 1
   nodes:
   - drive_access: 1.0
     walk_access: 1.0
