@@ -9,5 +9,5 @@ changes:
       - 671056
       - 48033
   properties:
-  - property: drivable
+  - property: drive_access
     set: 1
