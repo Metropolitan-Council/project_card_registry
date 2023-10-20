@@ -1,30 +1,30 @@
 project: correct zero distance
 tags:
-- Clean up 
-- Duplicate Nodes 
+- Clean up
+- Duplicate Nodes
 - Roadway Property Change
 dependencies: ''
 changes:
-- category: Roadway Deletion    
+- category: Roadway Deletion
   links:
   - model_link_id:
-      - 128048
-      - 210988
-      - 214462
-      - 314156
-      - 388813
-      - 609556
-      - 691642
-      - 711843
-      - 834111
-      - 972602
-  nodes: 
-  - node_link_id: 
-      - 404269
-      - 407474
-      - 407475
-      - 407476
-      - 407478      
+    - 128048
+    - 210988
+    - 214462
+    - 314156
+    - 388813
+    - 609556
+    - 691642
+    - 711843
+    - 834111
+    - 972602
+  nodes:
+  - node_link_id:
+    - 404269
+    - 407474
+    - 407475
+    - 407476
+    - 407478
 - category: Add New Roadway
   links:
   - A: 198770
@@ -35,7 +35,7 @@ changes:
     walk_access: '1'
     bike_access: '1'
     county: '4'
-    model_link_id: 1750000
+    model_link_id: 1750028
     rail_only: '0'
     bus_only: '0'
     centroidconnect: 0
@@ -55,7 +55,7 @@ changes:
     walk_access: '1'
     bike_access: '1'
     county: '5'
-    model_link_id: 1750001
+    model_link_id: 1750029
     rail_only: '0'
     bus_only: '0'
     centroidconnect: 0
@@ -64,4 +64,4 @@ changes:
     area_type: '4'
     bike: 3
     walk: 3
-    lanes: 1    
+    lanes: 1
