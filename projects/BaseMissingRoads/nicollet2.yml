@@ -45,9 +45,6 @@ changes:
       - 912049
       - 284246
   properties:
-  - existing: 3
-    set: 1
-    property: walk
   - existing: false
     set: true
     property: drive_access

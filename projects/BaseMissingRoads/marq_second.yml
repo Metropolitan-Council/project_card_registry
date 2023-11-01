@@ -888,13 +888,3 @@ changes:
     bike: 1
     walk: 1
     lanes: 2.0
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 493831
-      - 275738
-  properties:
-  - existing: 0.0
-    set: 0.0
-    property: bus_only
