@@ -83,7 +83,7 @@ changes:
     bike_access: 0.0
     county: '0'
     rail_only: 0
-    model_node_id: 500,000
+    model_node_id: 500000
     osm_node_id: ''
     X: -93.60935315816938
     Y: 45.067580568943974
