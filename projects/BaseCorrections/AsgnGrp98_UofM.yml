@@ -50,3 +50,7 @@ changes:
     set: 98
   - property: bus_only
     set: 1
+  - property: roadway_class 
+    set: 40
+  - property: bike
+    set: 1  
