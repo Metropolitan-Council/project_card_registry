@@ -53,6 +53,12 @@ changes:
   - existing: 0.0
     set: 1.0
     property: bus_only
+  - property: bike
+    set: 1
+  - property: walk
+    set: 1 
+  - property: roadway_class 
+    set: 30
 - category: Roadway Property Change
   facility:
     link:
@@ -74,4 +80,10 @@ changes:
   - existing: 0.0
     set: 1.0
     property: bus_only
+  - property: bike
+    set: 1
+  - property: walk
+    set: 1 
+  - property: roadway_class 
+    set: 30
 valid: false
