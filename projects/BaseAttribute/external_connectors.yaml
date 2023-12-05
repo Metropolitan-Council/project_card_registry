@@ -2,7 +2,8 @@ project: Year 2015 Add centroid connector at External Stations
 tags:
 - Year 2015
 - External Stations Review
-dependencies: ''
+dependencies:
+  prerequisites: ['Add walk and bike attributes']
 changes:
 - category: Add New Roadway
   links:

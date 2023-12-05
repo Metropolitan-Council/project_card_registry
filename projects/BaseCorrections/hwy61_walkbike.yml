@@ -2,8 +2,8 @@ project: hwy 61 walk bike
 tags:
 - Network Cleanup
 - Roadway Property Change
-dependencies: 
-- Add walk and bike attributes
+dependencies:
+  prerequisites: ['Add walk and bike attributes']
 changes:
 - category: Roadway Property Change
   facility:
