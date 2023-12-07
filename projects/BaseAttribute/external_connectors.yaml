@@ -3,12 +3,12 @@ tags:
 - Year 2015
 - External Stations Review
 dependencies:
-  prerequisites: 
-    - 'add walk and bike attributes'
+  prerequisites:
+  - add walk and bike attributes
 changes:
 - category: Add New Roadway
   links:
-  - A: 3031
+  - A: 417334
     B: 108517
     lanes: 1
     assign_group: 9
@@ -18,12 +18,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061657
+    model_link_id: 1061719
     rail_only: 0
     walk: 3
     bike: 3
   - A: 108517
-    B: 3031
+    B: 417334
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -32,11 +32,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061658
+    model_link_id: 1061720
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3032
+  - A: 417335
     B: 211200
     lanes: 1
     assign_group: 9
@@ -46,12 +46,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061659
+    model_link_id: 1061721
     rail_only: 0
     walk: 3
     bike: 3
   - A: 211199
-    B: 3032
+    B: 417335
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -60,11 +60,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061660
+    model_link_id: 1061722
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3033
+  - A: 417336
     B: 180945
     lanes: 1
     assign_group: 9
@@ -74,12 +74,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061661
+    model_link_id: 1061723
     rail_only: 0
     walk: 3
     bike: 3
   - A: 180945
-    B: 3033
+    B: 417336
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -88,11 +88,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061662
+    model_link_id: 1061724
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3034
+  - A: 417337
     B: 180915
     lanes: 1
     assign_group: 9
@@ -102,12 +102,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061663
+    model_link_id: 1061725
     rail_only: 0
     walk: 3
     bike: 3
   - A: 180915
-    B: 3034
+    B: 417337
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -116,11 +116,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061664
+    model_link_id: 1061726
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3035
+  - A: 417338
     B: 180902
     lanes: 1
     assign_group: 9
@@ -130,12 +130,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061665
+    model_link_id: 1061727
     rail_only: 0
     walk: 3
     bike: 3
   - A: 180902
-    B: 3035
+    B: 417338
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -144,11 +144,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061666
+    model_link_id: 1061728
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3036
+  - A: 417339
     B: 180899
     lanes: 1
     assign_group: 9
@@ -158,12 +158,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061667
+    model_link_id: 1061729
     rail_only: 0
     walk: 3
     bike: 3
   - A: 180899
-    B: 3036
+    B: 417339
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -172,11 +172,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061668
+    model_link_id: 1061730
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3037
+  - A: 417340
     B: 194543
     lanes: 1
     assign_group: 9
@@ -186,12 +186,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061669
+    model_link_id: 1061731
     rail_only: 0
     walk: 3
     bike: 3
   - A: 194543
-    B: 3037
+    B: 417340
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -200,11 +200,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061670
+    model_link_id: 1061732
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3038
+  - A: 417341
     B: 180949
     lanes: 1
     assign_group: 9
@@ -214,12 +214,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061671
+    model_link_id: 1061733
     rail_only: 0
     walk: 3
     bike: 3
   - A: 180948
-    B: 3038
+    B: 417341
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -228,11 +228,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061672
+    model_link_id: 1061734
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3039
+  - A: 417342
     B: 180969
     lanes: 1
     assign_group: 9
@@ -242,12 +242,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061673
+    model_link_id: 1061735
     rail_only: 0
     walk: 3
     bike: 3
   - A: 180969
-    B: 3039
+    B: 417342
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -256,11 +256,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061674
+    model_link_id: 1061736
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3040
+  - A: 417343
     B: 180982
     lanes: 1
     assign_group: 9
@@ -270,12 +270,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061675
+    model_link_id: 1061737
     rail_only: 0
     walk: 3
     bike: 3
   - A: 180982
-    B: 3040
+    B: 417343
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -284,11 +284,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061676
+    model_link_id: 1061738
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3041
+  - A: 417344
     B: 187630
     lanes: 1
     assign_group: 9
@@ -298,12 +298,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061677
+    model_link_id: 1061739
     rail_only: 0
     walk: 3
     bike: 3
   - A: 187630
-    B: 3041
+    B: 417344
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -312,11 +312,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061678
+    model_link_id: 1061740
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3042
+  - A: 417345
     B: 93702
     lanes: 1
     assign_group: 9
@@ -326,12 +326,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061679
+    model_link_id: 1061741
     rail_only: 0
     walk: 3
     bike: 3
   - A: 93702
-    B: 3042
+    B: 417345
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -340,11 +340,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061680
+    model_link_id: 1061742
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3043
+  - A: 417346
     B: 240009
     lanes: 1
     assign_group: 9
@@ -354,12 +354,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061681
+    model_link_id: 1061743
     rail_only: 0
     walk: 3
     bike: 3
   - A: 92413
-    B: 3043
+    B: 417346
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -368,11 +368,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061682
+    model_link_id: 1061744
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3044
+  - A: 417347
     B: 96466
     lanes: 1
     assign_group: 9
@@ -382,12 +382,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061683
+    model_link_id: 1061745
     rail_only: 0
     walk: 3
     bike: 3
   - A: 96466
-    B: 3044
+    B: 417347
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -396,11 +396,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061684
+    model_link_id: 1061746
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3045
+  - A: 417348
     B: 96479
     lanes: 1
     assign_group: 9
@@ -410,12 +410,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061685
+    model_link_id: 1061747
     rail_only: 0
     walk: 3
     bike: 3
   - A: 96479
-    B: 3045
+    B: 417348
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -424,11 +424,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061686
+    model_link_id: 1061748
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3046
+  - A: 417349
     B: 291166
     lanes: 1
     assign_group: 9
@@ -438,12 +438,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061687
+    model_link_id: 1061749
     rail_only: 0
     walk: 3
     bike: 3
   - A: 291165
-    B: 3046
+    B: 417349
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -452,11 +452,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061688
+    model_link_id: 1061750
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3047
+  - A: 417350
     B: 149998
     lanes: 1
     assign_group: 9
@@ -466,12 +466,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061689
+    model_link_id: 1061751
     rail_only: 0
     walk: 3
     bike: 3
   - A: 149998
-    B: 3047
+    B: 417350
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -480,11 +480,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061690
+    model_link_id: 1061752
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3048
+  - A: 417351
     B: 110911
     lanes: 1
     assign_group: 9
@@ -494,12 +494,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061691
+    model_link_id: 1061753
     rail_only: 0
     walk: 3
     bike: 3
   - A: 110911
-    B: 3048
+    B: 417351
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -508,11 +508,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061692
+    model_link_id: 1061754
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3049
+  - A: 417352
     B: 111083
     lanes: 1
     assign_group: 9
@@ -522,12 +522,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061693
+    model_link_id: 1061755
     rail_only: 0
     walk: 3
     bike: 3
   - A: 111083
-    B: 3049
+    B: 417352
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -536,11 +536,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061694
+    model_link_id: 1061756
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3050
+  - A: 417353
     B: 148758
     lanes: 1
     assign_group: 9
@@ -550,12 +550,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061695
+    model_link_id: 1061757
     rail_only: 0
     walk: 3
     bike: 3
   - A: 148758
-    B: 3050
+    B: 417353
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -564,11 +564,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061696
+    model_link_id: 1061758
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3051
+  - A: 417354
     B: 146518
     lanes: 1
     assign_group: 9
@@ -578,12 +578,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061697
+    model_link_id: 1061759
     rail_only: 0
     walk: 3
     bike: 3
   - A: 146518
-    B: 3051
+    B: 417354
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -592,11 +592,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061698
+    model_link_id: 1061760
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3052
+  - A: 417355
     B: 121065
     lanes: 1
     assign_group: 9
@@ -606,12 +606,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061699
+    model_link_id: 1061761
     rail_only: 0
     walk: 3
     bike: 3
   - A: 121065
-    B: 3052
+    B: 417355
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -620,11 +620,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061700
+    model_link_id: 1061762
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3053
+  - A: 417356
     B: 121045
     lanes: 1
     assign_group: 9
@@ -634,12 +634,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061701
+    model_link_id: 1061763
     rail_only: 0
     walk: 3
     bike: 3
   - A: 121045
-    B: 3053
+    B: 417356
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -648,11 +648,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061702
+    model_link_id: 1061764
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3054
+  - A: 417357
     B: 111903
     lanes: 1
     assign_group: 9
@@ -662,12 +662,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061703
+    model_link_id: 1061765
     rail_only: 0
     walk: 3
     bike: 3
   - A: 111903
-    B: 3054
+    B: 417357
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -676,11 +676,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061704
+    model_link_id: 1061766
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3055
+  - A: 417358
     B: 121032
     lanes: 1
     assign_group: 9
@@ -690,12 +690,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061705
+    model_link_id: 1061767
     rail_only: 0
     walk: 3
     bike: 3
   - A: 121032
-    B: 3055
+    B: 417358
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -704,11 +704,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061706
+    model_link_id: 1061768
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3056
+  - A: 417359
     B: 162041
     lanes: 1
     assign_group: 9
@@ -718,12 +718,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061707
+    model_link_id: 1061769
     rail_only: 0
     walk: 3
     bike: 3
   - A: 162041
-    B: 3056
+    B: 417359
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -732,11 +732,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061708
+    model_link_id: 1061770
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3057
+  - A: 417360
     B: 202155
     lanes: 1
     assign_group: 9
@@ -746,12 +746,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061709
+    model_link_id: 1061771
     rail_only: 0
     walk: 3
     bike: 3
   - A: 162674
-    B: 3057
+    B: 417360
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -760,11 +760,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061710
+    model_link_id: 1061772
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3058
+  - A: 417361
     B: 145658
     lanes: 1
     assign_group: 9
@@ -774,12 +774,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061711
+    model_link_id: 1061773
     rail_only: 0
     walk: 3
     bike: 3
   - A: 145672
-    B: 3058
+    B: 417361
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -788,11 +788,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061712
+    model_link_id: 1061774
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3059
+  - A: 417362
     B: 58648
     lanes: 1
     assign_group: 9
@@ -802,12 +802,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061713
+    model_link_id: 1061775
     rail_only: 0
     walk: 3
     bike: 3
   - A: 58648
-    B: 3059
+    B: 417362
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -816,11 +816,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061714
+    model_link_id: 1061776
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3060
+  - A: 417363
     B: 272499
     lanes: 1
     assign_group: 9
@@ -830,12 +830,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061715
+    model_link_id: 1061777
     rail_only: 0
     walk: 3
     bike: 3
   - A: 142548
-    B: 3060
+    B: 417363
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -844,11 +844,11 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061716
+    model_link_id: 1061778
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 3061
+  - A: 417364
     B: 108530
     lanes: 1
     assign_group: 9
@@ -858,12 +858,12 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061717
+    model_link_id: 1061779
     rail_only: 0
     walk: 3
     bike: 3
   - A: 108530
-    B: 3061
+    B: 417364
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -872,222 +872,222 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061718
+    model_link_id: 1061780
     rail_only: 0
     walk: 3
     bike: 3
   nodes:
-  - model_node_id: 3031
+  - model_node_id: 417334
     X: -93.230580925
     Y: 45.7406235111
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3032
+  - model_node_id: 417335
     X: -92.9918907053
     Y: 45.7436318996
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3033
+  - model_node_id: 417336
     X: -92.673804076
     Y: 45.6545718154
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3034
+  - model_node_id: 417337
     X: -92.3784613261
     Y: 45.7438146791
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3035
+  - model_node_id: 417338
     X: -92.128951767
     Y: 45.5662734209
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3036
+  - model_node_id: 417339
     X: -92.1101982113
     Y: 45.3941613395
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3037
+  - model_node_id: 417340
     X: -92.1320063922
     Y: 45.13403463
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3038
+  - model_node_id: 417341
     X: -92.113012224
     Y: 44.91918181
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3039
+  - model_node_id: 417342
     X: -92.1181691894
     Y: 44.8793672608
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3040
+  - model_node_id: 417343
     X: -92.1128349705
     Y: 44.6344482444
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3041
+  - model_node_id: 417344
     X: -92.2956749989
     Y: 44.5265651647
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3042
+  - model_node_id: 417345
     X: -92.2620494671
     Y: 44.4466381683
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3043
+  - model_node_id: 417346
     X: -92.5772970738
     Y: 44.1738978061
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3044
+  - model_node_id: 417347
     X: -92.7758503915
     Y: 44.1805645415
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3045
+  - model_node_id: 417348
     X: -92.9110806066
     Y: 44.1793134536
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3046
+  - model_node_id: 417349
     X: -93.2479048889
     Y: 44.1812336521
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3047
+  - model_node_id: 417350
     X: -93.5098863048
     Y: 44.1818011307
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3048
+  - model_node_id: 417351
     X: -93.9755741236
     Y: 44.218991686
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3049
+  - model_node_id: 417352
     X: -93.9421347288
     Y: 44.4386729786
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3050
+  - model_node_id: 417353
     X: -94.2283986521
     Y: 44.4427751866
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3051
+  - model_node_id: 417354
     X: -94.6726628183
     Y: 44.5193598558
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3052
+  - model_node_id: 417355
     X: -94.5254117913
     Y: 44.95229218
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3053
+  - model_node_id: 417356
     X: -94.509374524
     Y: 44.9963087513
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3054
+  - model_node_id: 417357
     X: -94.3681502097
     Y: 44.9944978219
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3055
+  - model_node_id: 417358
     X: -94.2793563667
     Y: 45.0745162362
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3056
+  - model_node_id: 417359
     X: -94.2874437732
     Y: 45.29882032
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3057
+  - model_node_id: 417360
     X: -94.0984970442
     Y: 45.4192711419
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3058
+  - model_node_id: 417361
     X: -94.1409505626
     Y: 45.5778976678
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3059
+  - model_node_id: 417362
     X: -93.9175019092
     Y: 45.5752439504
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3060
+  - model_node_id: 417363
     X: -93.61250521
     Y: 45.6070998611
     drive_access: 1
     bike_access: 1
     walk_access: 1
     rail_only: 0
-  - model_node_id: 3061
+  - model_node_id: 417364
     X: -93.4260388848
     Y: 45.7451342261
     drive_access: 1
