@@ -3,7 +3,8 @@ tags:
 - Network Cleanup
 - Roadway Property Change
 dependencies:
-  prerequisites: ['Add walk and bike attributes']
+  prerequisites: 
+    - 'add walk and bike attributes'
 changes:
 - category: Roadway Property Change
   facility:
