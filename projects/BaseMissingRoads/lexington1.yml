@@ -1,0 +1,482 @@
+project: lexington1
+tags: ''
+dependencies: ''
+changes:
+- category: Add New Roadway
+  links:
+  - A: 43030
+    B: 896886
+    name: Constance Boulevard Northeast
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 40
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 896886
+    B: 43030
+    name: Constance Boulevard Northeast
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 40
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 43197
+    B: 896886
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 896886
+    B: 43197
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 896886
+    B: 59503
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 59503
+    B: 896886
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 59503
+    B: 51018
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 51018
+    B: 59503
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 51018
+    B: 49340
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 49340
+    B: 51018
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 49340
+    B: 38151
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 38151
+    B: 49340
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 38151
+    B: 340486
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 340486
+    B: 38151
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 340486
+    B: 340497
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 340497
+    B: 340486
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 340497
+    B: 340485
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 340485
+    B: 340497
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 340485
+    B: 340493
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 340493
+    B: 340485
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 340493
+    B: 340478
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 340478
+    B: 340493
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 340478
+    B: 367658
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 340478
+    B: 42431
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 367658
+    B: 340478
+    name: Lexington Avenue Northeast
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1750000
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 5
+    roadway_class: 40
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 2
+  nodes:
+  - drive_access: 1.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 896886
+    osm_node_id: ''
+    X: -93.15230904903026
+    Y: 45.26541383012692
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 773438
+      - 390306
+  properties:
+  - set: 6.0
+    property: assign_group
+  - existing: 101.0
+    set: 40.0
+    property: roadway_class
+  - existing: false
+    set: '1'
+    property: drive_access
+valid: false
