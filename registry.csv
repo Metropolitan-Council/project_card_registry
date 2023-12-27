@@ -273,3 +273,9 @@ link,1750133,lexington1
 link,1750134,lexington1
 link,1750135,stillwaterblvd
 link,1750136,stillwaterblvd
+node,600000,route2_wash
+node,600001,route2_wash
+link,1750137,route2_wash
+link,1750138,route2_wash
+link,1750139,route2_wash
+link,1750140,route2_wash
