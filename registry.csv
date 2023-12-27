@@ -283,3 +283,8 @@ link,1750141,marq_second2
 link,1750142,marq_second2
 link,1750143,marq_second2
 link,1750144,marq_second2
+node,896897,nic_split
+link,1750145,nic_split
+link,1750146,nic_split
+link,1750147,nic_split
+link,1750148,nic_split
