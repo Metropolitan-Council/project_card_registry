@@ -276,3 +276,15 @@ link,1750145,nic_split
 link,1750146,nic_split
 link,1750147,nic_split
 link,1750148,nic_split
+node,510000,section1_columbus
+node,510001,section1_columbus
+link,1950000,section1_columbus
+link,1950001,section1_columbus
+link,1950002,section1_columbus
+link,1950003,section1_columbus
+link,1950004,section1_columbus
+link,1950005,section1_columbus
+link,1950006,section1_columbus
+link,1950007,section1_columbus
+link,1950008,section1_columbus
+link,1950009,section1_columbus
