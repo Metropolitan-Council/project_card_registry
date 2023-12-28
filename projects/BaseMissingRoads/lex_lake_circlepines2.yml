@@ -256,7 +256,7 @@ changes:
     bike: 3
     walk: 3
     lanes: 2
-  - A: 510001
+  - A: 510010
     B: 46015
     name: Lexington Avenue North
     roadway: secondary
@@ -275,7 +275,7 @@ changes:
     walk: 3
     lanes: 2
   - A: 46014
-    B: 510001
+    B: 510010
     name: Lexington Avenue North
     roadway: secondary
     drive_access: '1'
@@ -293,7 +293,7 @@ changes:
     walk: 3
     lanes: 2
   - A: 58005
-    B: 510001
+    B: 510010
     name: Lexington Avenue North
     roadway: secondary
     drive_access: '1'
@@ -310,7 +310,7 @@ changes:
     bike: 3
     walk: 3
     lanes: 2
-  - A: 510001
+  - A: 510010
     B: 58005
     name: ''
     roadway: ''
@@ -348,7 +348,7 @@ changes:
     lanes: 2
   - A: 510002
     B: 510003
-    name: 'Lexington'
+    name: Lexington
     roadway: ''
     drive_access: '1'
     walk_access: '1'
@@ -424,7 +424,7 @@ changes:
     bike_access: 1.0
     county: '0'
     rail_only: 0
-    model_node_id: 510001
+    model_node_id: 510010
     osm_node_id: ''
     X: -93.16351943326006
     Y: 45.14600499573171
