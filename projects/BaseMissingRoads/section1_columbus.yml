@@ -5,7 +5,7 @@ changes:
 - category: Add New Roadway
   links:
   - A: 53089
-    B: 417323
+    B: 510000
     name: Camp 3 Road Northeast
     roadway: tertiary
     drive_access: '1'
@@ -22,7 +22,7 @@ changes:
     bike: 3
     walk: 3
     lanes: 1
-  - A: 417323
+  - A: 510000
     B: 53089
     name: Camp 3 Road Northeast
     roadway: tertiary
@@ -41,7 +41,7 @@ changes:
     walk: 3
     lanes: 1
   - A: 46415
-    B: 417323
+    B: 510000
     name: Potomac Street Northeast
     roadway: secondary
     drive_access: '1'
@@ -58,7 +58,7 @@ changes:
     bike: 3
     walk: 3
     lanes: 1
-  - A: 417323
+  - A: 510000
     B: 46415
     name: Potomac Street Northeast
     roadway: secondary
@@ -76,8 +76,8 @@ changes:
     bike: 3
     walk: 3
     lanes: 1
-  - A: 417323
-    B: 417324
+  - A: 510000
+    B: 510001
     name: Potomac Street Northeast
     roadway: secondary
     drive_access: '1'
@@ -94,8 +94,8 @@ changes:
     bike: 3
     walk: 3
     lanes: 1
-  - A: 417324
-    B: 417323
+  - A: 510001
+    B: 510000
     name: Potomac Street Northeast
     roadway: secondary
     drive_access: '1'
@@ -113,7 +113,7 @@ changes:
     walk: 3
     lanes: 1
   - A: 49179
-    B: 417324
+    B: 510001
     name: Lake Drive Northeast
     roadway: primary
     drive_access: '1'
@@ -130,7 +130,7 @@ changes:
     bike: 3
     walk: 3
     lanes: 1
-  - A: 417324
+  - A: 510001
     B: 49179
     name: Lake Drive Northeast
     roadway: primary
@@ -148,7 +148,7 @@ changes:
     bike: 3
     walk: 3
     lanes: 1
-  - A: 417324
+  - A: 510001
     B: 55461
     name: Lake Drive Northeast
     roadway: primary
@@ -167,7 +167,7 @@ changes:
     walk: 3
     lanes: 1
   - A: 55461
-    B: 417324
+    B: 510001
     name: Lake Drive Northeast
     roadway: primary
     drive_access: '1'
@@ -190,7 +190,7 @@ changes:
     bike_access: 1.0
     county: '0'
     rail_only: 0
-    model_node_id: 417323
+    model_node_id: 510000
     osm_node_id: ''
     X: -93.08072150206111
     Y: 45.254435060615336
@@ -199,7 +199,7 @@ changes:
     bike_access: 1.0
     county: '0'
     rail_only: 0
-    model_node_id: 417324
+    model_node_id: 510001
     osm_node_id: ''
     X: -93.0789751250534
     Y: 45.239897850624104
