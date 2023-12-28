@@ -190,7 +190,7 @@ changes:
     walk: 3
     lanes: 1
   - A: 896891
-    B: 417333
+    B: 510008
     name: Birch Street
     roadway: tertiary
     drive_access: 1
@@ -207,7 +207,7 @@ changes:
     bike: 3
     walk: 3
     lanes: 1
-  - A: 417333
+  - A: 510008
     B: 896891
     name: Birch Street
     roadway: tertiary
