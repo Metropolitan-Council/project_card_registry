@@ -308,24 +308,6 @@ changes:
     bike: 1
     walk: 1
     lanes: 1.0
-  - A: 52162
-    B: 52972
-    name: TH-65 Frontage
-    roadway: frontage
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750190
-    rail_only: 1
-    bus_only: 1
-    centroidconnect: 0
-    assign_group: 11
-    roadway_class: 1
-    area_type: 2
-    bike: 1
-    walk: 1
-    lanes: 1.0
   - A: 52972
     B: 52162
     name: TH-65 Frontage
@@ -917,6 +899,7 @@ changes:
     link:
     - model_link_id:
       - 303878
+	  - 20088
   properties:
   - property: walk_access
     set: 1
