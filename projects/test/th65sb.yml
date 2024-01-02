@@ -917,7 +917,7 @@ changes:
     link:
     - model_link_id:
       - 303878
-   properties:
+  properties:
   - property: walk_access
     set: 1
   - property: bike_access
