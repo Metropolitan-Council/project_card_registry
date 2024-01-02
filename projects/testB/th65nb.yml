@@ -39,7 +39,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 1
-    model_link_id: 0
+    model_link_id: 1750000
     rail_only: 1
     bus_only: 1
     centroidconnect: 0
@@ -57,7 +57,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 1
-    model_link_id: 0
+    model_link_id: 1750000
     rail_only: 1
     bus_only: 1
     centroidconnect: 0
@@ -75,7 +75,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 1
-    model_link_id: 0
+    model_link_id: 1750000
     rail_only: 1
     bus_only: 1
     centroidconnect: 0
@@ -93,7 +93,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 1
-    model_link_id: 0
+    model_link_id: 1750000
     rail_only: 1
     bus_only: 1
     centroidconnect: 0
@@ -102,7 +102,7 @@ changes:
     area_type: 2
     bike: 0
     walk: 0
-    lanes: 1.0
+    lanes: 2.0
   - A: 509485
     B: 509486
     name: TH-65
@@ -111,7 +111,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 1
-    model_link_id: 0
+    model_link_id: 1750000
     rail_only: 1
     bus_only: 1
     centroidconnect: 0
@@ -129,7 +129,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 1
-    model_link_id: 0
+    model_link_id: 1750000
     rail_only: 1
     bus_only: 1
     centroidconnect: 0
@@ -147,7 +147,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 1
-    model_link_id: 0
+    model_link_id: 1750000
     rail_only: 1
     bus_only: 1
     centroidconnect: 0
@@ -165,7 +165,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 0
-    model_link_id: 0
+    model_link_id: 1750000
     rail_only: 1
     bus_only: 1
     centroidconnect: 0
@@ -183,7 +183,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 1
-    model_link_id: 0
+    model_link_id: 1750000
     rail_only: 1
     bus_only: 1
     centroidconnect: 0
@@ -201,7 +201,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 1
-    model_link_id: 0
+    model_link_id: 1750000
     rail_only: 1
     bus_only: 1
     centroidconnect: 0
@@ -210,7 +210,7 @@ changes:
     area_type: 2
     bike: 0
     walk: 0
-    lanes: 2.0
+    lanes: 1.0
   - A: 53021
     B: 53020
     name: ''
@@ -219,15 +219,15 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 1
-    model_link_id: 0
+    model_link_id: 1750000
     rail_only: 1
     bus_only: 1
     centroidconnect: 0
     assign_group: 7
     roadway_class: 40
     area_type: 2
-    bike: 0
-    walk: 0
+    bike: 1
+    walk: 1
     lanes: 1.0
   - A: 53020
     B: 896887
@@ -237,7 +237,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 1
-    model_link_id: 0
+    model_link_id: 1750000
     rail_only: 1
     bus_only: 1
     centroidconnect: 0
@@ -255,7 +255,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 1
-    model_link_id: 0
+    model_link_id: 1750000
     rail_only: 1
     bus_only: 1
     centroidconnect: 0
@@ -309,7 +309,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 1
-    model_link_id: 0
+    model_link_id: 1750000
     rail_only: 1
     bus_only: 1
     centroidconnect: 0
@@ -381,7 +381,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 0
-    model_link_id: 0
+    model_link_id: 1750000
     rail_only: 1
     bus_only: 1
     centroidconnect: 0
@@ -399,7 +399,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 1
-    model_link_id: 0
+    model_link_id: 1750000
     rail_only: 1
     bus_only: 1
     centroidconnect: 0
@@ -417,7 +417,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 1
-    model_link_id: 0
+    model_link_id: 1750000
     rail_only: 1
     bus_only: 1
     centroidconnect: 0
