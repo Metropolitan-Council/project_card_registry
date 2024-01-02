@@ -344,42 +344,6 @@ changes:
     bike: 1
     walk: 1
     lanes: 1.0
-  - A: 52972
-    B: 48816
-    name: TH-65 Frontage
-    roadway: frontage
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750193
-    rail_only: 1
-    bus_only: 1
-    centroidconnect: 0
-    assign_group: 11
-    roadway_class: 1
-    area_type: 2
-    bike: 1
-    walk: 1
-    lanes: 1.0
-  - A: 48816
-    B: 52971
-    name: TH-65 Frontage
-    roadway: frontage
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750194
-    rail_only: 1
-    bus_only: 1
-    centroidconnect: 0
-    assign_group: 11
-    roadway_class: 1
-    area_type: 2
-    bike: 1
-    walk: 1
-    lanes: 1.0
   - A: 52971
     B: 48816
     name: TH-65 Frontage
@@ -416,24 +380,6 @@ changes:
     bike: 1
     walk: 1
     lanes: 1.0
-  - A: 266434
-    B: 52970
-    name: TH-65 Frontage
-    roadway: frontage
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750197
-    rail_only: 1
-    bus_only: 1
-    centroidconnect: 0
-    assign_group: 11
-    roadway_class: 1
-    area_type: 2
-    bike: 1
-    walk: 1
-    lanes: 1.0
   - A: 50198
     B: 52970
     name: TH-65 Frontage
@@ -443,24 +389,6 @@ changes:
     bike_access: 1
     county: 1
     model_link_id: 1750198
-    rail_only: 1
-    bus_only: 1
-    centroidconnect: 0
-    assign_group: 11
-    roadway_class: 1
-    area_type: 2
-    bike: 1
-    walk: 1
-    lanes: 1.0
-  - A: 52970
-    B: 50198
-    name: TH-65 Frontage
-    roadway: frontage
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750199
     rail_only: 1
     bus_only: 1
     centroidconnect: 0
@@ -900,6 +828,11 @@ changes:
     - model_link_id:
       - 303878
       - 20088
+      - 546031
+      - 25603
+	  - 203480
+      - 60987
+      - 243866
   properties:
   - property: walk_access
     set: 1
