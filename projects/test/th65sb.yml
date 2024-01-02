@@ -926,8 +926,6 @@ changes:
     set: 1
   - property: bike
     set: 1  
-  - property: name
-	set: TH65 Frontage
   - property: assign_group
 	set: 11
   - property: roadway_class
