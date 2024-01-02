@@ -211,24 +211,6 @@ changes:
     bike: 0
     walk: 0
     lanes: 1.0
-  - A: 53021
-    B: 53020
-    name: ''
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750161
-    rail_only: 1
-    bus_only: 1
-    centroidconnect: 0
-    assign_group: 7
-    roadway_class: 40
-    area_type: 2
-    bike: 1
-    walk: 1
-    lanes: 1.0
   - A: 53020
     B: 896900
     name: TH-65 Ramp
@@ -518,3 +500,23 @@ changes:
     osm_node_id: ''
     X: -93.23447323298055
     Y: 45.1682626108722
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 458614
+  properties:
+  - property: walk_access
+    set: 1
+  - property: bike_access
+    set: 1
+  - property: walk
+    set: 1
+  - property: bike
+    set: 1  
+  - property: assign_group
+    set: 7
+  - property: roadway_class
+    set: 40
+  - property: lanes
+    set: 1
