@@ -218,24 +218,6 @@ changes:
     bike: 1
     walk: 1
     lanes: 1.0
-  - A: 52973
-    B: 40489
-    name: TH-65 Frontage
-    roadway: frontage
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750184
-    rail_only: 1
-    bus_only: 1
-    centroidconnect: 0
-    assign_group: 11
-    roadway_class: 1
-    area_type: 2
-    bike: 1
-    walk: 1
-    lanes: 1.0
   - A: 40489
     B: 509479
     name: TH-65 Frontage
@@ -930,3 +912,25 @@ changes:
     osm_node_id: ''
     X: -93.23430075621049
     Y: 45.176912523514304
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 303878
+   properties:
+  - property: walk_access
+    set: 1
+  - property: bike_access
+    set: 1
+  - property: walk
+    set: 1
+  - property: bike
+    set: 1  
+  - property: name
+	set: TH65 Frontage
+  - property: assign_group
+	set: 11
+  - property: roadway_class
+	set: 1
+  - property: lanes
+	set: 1
