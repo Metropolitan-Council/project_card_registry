@@ -927,8 +927,8 @@ changes:
   - property: bike
     set: 1  
   - property: assign_group
-	set: 11
+    set: 11
   - property: roadway_class
-	set: 1
+    set: 1
   - property: lanes
-	set: 1
+    set: 1
