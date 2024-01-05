@@ -5,7 +5,7 @@ changes:
 - category: Add New Roadway
   links:
   - A: 53952
-    B: 417332
+    B: 510009
     name: Hodgson Road
     roadway: tertiary
     drive_access: '1'
@@ -22,7 +22,7 @@ changes:
     bike: 3
     walk: 3
     lanes: 1
-  - A: 417332
+  - A: 510009
     B: 53952
     name: Hodgson Road
     roadway: tertiary
@@ -40,8 +40,8 @@ changes:
     bike: 3
     walk: 3
     lanes: 1
-  - A: 417332
-    B: 417333
+  - A: 510009
+    B: 510008
     name: Hodgson Road
     roadway: tertiary
     drive_access: '1'
@@ -58,8 +58,8 @@ changes:
     bike: 3
     walk: 3
     lanes: 1
-  - A: 417333
-    B: 417332
+  - A: 510008
+    B: 510009
     name: Hodgson Road
     roadway: tertiary
     drive_access: '1'
@@ -76,7 +76,7 @@ changes:
     bike: 3
     walk: 3
     lanes: 1
-  - A: 417333
+  - A: 510008
     B: 387816
     name: Hodgson Road
     roadway: tertiary
@@ -95,7 +95,7 @@ changes:
     walk: 3
     lanes: 1
   - A: 387816
-    B: 417333
+    B: 510008
     name: Hodgson Road
     roadway: tertiary
     drive_access: '1'
@@ -118,7 +118,7 @@ changes:
     bike_access: 1.0
     county: '0'
     rail_only: 0
-    model_node_id: 417333
+    model_node_id: 510008
     osm_node_id: ''
     X: -93.12668823425238
     Y: 45.14224355354224
@@ -127,7 +127,7 @@ changes:
     bike_access: 1.0
     county: '0'
     rail_only: 0
-    model_node_id: 417332
+    model_node_id: 510009
     osm_node_id: ''
     X: -93.1273452699965
     Y: 45.13219355056252

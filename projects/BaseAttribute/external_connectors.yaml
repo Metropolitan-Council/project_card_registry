@@ -1,8 +1,10 @@
-project: Year 2015 Add centroid connector at External Stations
+project: year 2015 add centroid connector at external stations
 tags:
 - Year 2015
 - External Stations Review
-dependencies: ''
+dependencies:
+  prerequisites: 
+    - 'add walk and bike attributes'
 changes:
 - category: Add New Roadway
   links:
@@ -16,8 +18,10 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061657
+    model_link_id: 1061719
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 108517
     B: 3031
     lanes: 1
@@ -28,8 +32,10 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061658
+    model_link_id: 1061720
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3032
     B: 211200
     lanes: 1
@@ -40,8 +46,10 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061659
+    model_link_id: 1061721
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 211199
     B: 3032
     lanes: 1
@@ -52,8 +60,10 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061660
+    model_link_id: 1061722
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3033
     B: 180945
     lanes: 1
@@ -64,8 +74,10 @@ changes:
     drive_access: 1
     walk_access: 1
     roadway: taz
-    model_link_id: 1061661
+    model_link_id: 1061723
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 180945
     B: 3033
     lanes: 1
@@ -78,6 +90,8 @@ changes:
     roadway: taz
     model_link_id: 1061662
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3034
     B: 180915
     lanes: 1
@@ -90,6 +104,8 @@ changes:
     roadway: taz
     model_link_id: 1061663
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 180915
     B: 3034
     lanes: 1
@@ -102,6 +118,8 @@ changes:
     roadway: taz
     model_link_id: 1061664
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3035
     B: 180902
     lanes: 1
@@ -114,6 +132,8 @@ changes:
     roadway: taz
     model_link_id: 1061665
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 180902
     B: 3035
     lanes: 1
@@ -126,6 +146,8 @@ changes:
     roadway: taz
     model_link_id: 1061666
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3036
     B: 180899
     lanes: 1
@@ -138,6 +160,8 @@ changes:
     roadway: taz
     model_link_id: 1061667
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 180899
     B: 3036
     lanes: 1
@@ -150,6 +174,8 @@ changes:
     roadway: taz
     model_link_id: 1061668
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3037
     B: 194543
     lanes: 1
@@ -162,6 +188,8 @@ changes:
     roadway: taz
     model_link_id: 1061669
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 194543
     B: 3037
     lanes: 1
@@ -174,6 +202,8 @@ changes:
     roadway: taz
     model_link_id: 1061670
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3038
     B: 180949
     lanes: 1
@@ -186,6 +216,8 @@ changes:
     roadway: taz
     model_link_id: 1061671
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 180948
     B: 3038
     lanes: 1
@@ -198,6 +230,8 @@ changes:
     roadway: taz
     model_link_id: 1061672
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3039
     B: 180969
     lanes: 1
@@ -210,6 +244,8 @@ changes:
     roadway: taz
     model_link_id: 1061673
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 180969
     B: 3039
     lanes: 1
@@ -222,6 +258,8 @@ changes:
     roadway: taz
     model_link_id: 1061674
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3040
     B: 180982
     lanes: 1
@@ -234,6 +272,8 @@ changes:
     roadway: taz
     model_link_id: 1061675
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 180982
     B: 3040
     lanes: 1
@@ -246,6 +286,8 @@ changes:
     roadway: taz
     model_link_id: 1061676
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3041
     B: 187630
     lanes: 1
@@ -258,6 +300,8 @@ changes:
     roadway: taz
     model_link_id: 1061677
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 187630
     B: 3041
     lanes: 1
@@ -270,6 +314,8 @@ changes:
     roadway: taz
     model_link_id: 1061678
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3042
     B: 93702
     lanes: 1
@@ -282,6 +328,8 @@ changes:
     roadway: taz
     model_link_id: 1061679
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 93702
     B: 3042
     lanes: 1
@@ -294,6 +342,8 @@ changes:
     roadway: taz
     model_link_id: 1061680
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3043
     B: 240009
     lanes: 1
@@ -306,6 +356,8 @@ changes:
     roadway: taz
     model_link_id: 1061681
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 92413
     B: 3043
     lanes: 1
@@ -318,6 +370,8 @@ changes:
     roadway: taz
     model_link_id: 1061682
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3044
     B: 96466
     lanes: 1
@@ -330,6 +384,8 @@ changes:
     roadway: taz
     model_link_id: 1061683
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 96466
     B: 3044
     lanes: 1
@@ -342,6 +398,8 @@ changes:
     roadway: taz
     model_link_id: 1061684
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3045
     B: 96479
     lanes: 1
@@ -354,6 +412,8 @@ changes:
     roadway: taz
     model_link_id: 1061685
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 96479
     B: 3045
     lanes: 1
@@ -366,6 +426,8 @@ changes:
     roadway: taz
     model_link_id: 1061686
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3046
     B: 291166
     lanes: 1
@@ -378,6 +440,8 @@ changes:
     roadway: taz
     model_link_id: 1061687
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 291165
     B: 3046
     lanes: 1
@@ -390,6 +454,8 @@ changes:
     roadway: taz
     model_link_id: 1061688
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3047
     B: 149998
     lanes: 1
@@ -402,6 +468,8 @@ changes:
     roadway: taz
     model_link_id: 1061689
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 149998
     B: 3047
     lanes: 1
@@ -414,6 +482,8 @@ changes:
     roadway: taz
     model_link_id: 1061690
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3048
     B: 110911
     lanes: 1
@@ -426,6 +496,8 @@ changes:
     roadway: taz
     model_link_id: 1061691
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 110911
     B: 3048
     lanes: 1
@@ -438,6 +510,8 @@ changes:
     roadway: taz
     model_link_id: 1061692
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3049
     B: 111083
     lanes: 1
@@ -450,6 +524,8 @@ changes:
     roadway: taz
     model_link_id: 1061693
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 111083
     B: 3049
     lanes: 1
@@ -462,6 +538,8 @@ changes:
     roadway: taz
     model_link_id: 1061694
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3050
     B: 148758
     lanes: 1
@@ -474,6 +552,8 @@ changes:
     roadway: taz
     model_link_id: 1061695
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 148758
     B: 3050
     lanes: 1
@@ -486,6 +566,8 @@ changes:
     roadway: taz
     model_link_id: 1061696
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3051
     B: 146518
     lanes: 1
@@ -498,6 +580,8 @@ changes:
     roadway: taz
     model_link_id: 1061697
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 146518
     B: 3051
     lanes: 1
@@ -510,6 +594,8 @@ changes:
     roadway: taz
     model_link_id: 1061698
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3052
     B: 121065
     lanes: 1
@@ -522,6 +608,8 @@ changes:
     roadway: taz
     model_link_id: 1061699
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 121065
     B: 3052
     lanes: 1
@@ -534,6 +622,8 @@ changes:
     roadway: taz
     model_link_id: 1061700
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3053
     B: 121045
     lanes: 1
@@ -546,6 +636,8 @@ changes:
     roadway: taz
     model_link_id: 1061701
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 121045
     B: 3053
     lanes: 1
@@ -558,6 +650,8 @@ changes:
     roadway: taz
     model_link_id: 1061702
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3054
     B: 111903
     lanes: 1
@@ -570,6 +664,8 @@ changes:
     roadway: taz
     model_link_id: 1061703
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 111903
     B: 3054
     lanes: 1
@@ -582,6 +678,8 @@ changes:
     roadway: taz
     model_link_id: 1061704
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3055
     B: 121032
     lanes: 1
@@ -594,6 +692,8 @@ changes:
     roadway: taz
     model_link_id: 1061705
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 121032
     B: 3055
     lanes: 1
@@ -606,6 +706,8 @@ changes:
     roadway: taz
     model_link_id: 1061706
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3056
     B: 162041
     lanes: 1
@@ -618,6 +720,8 @@ changes:
     roadway: taz
     model_link_id: 1061707
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 162041
     B: 3056
     lanes: 1
@@ -630,6 +734,8 @@ changes:
     roadway: taz
     model_link_id: 1061708
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3057
     B: 202155
     lanes: 1
@@ -642,6 +748,8 @@ changes:
     roadway: taz
     model_link_id: 1061709
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 162674
     B: 3057
     lanes: 1
@@ -654,6 +762,8 @@ changes:
     roadway: taz
     model_link_id: 1061710
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3058
     B: 145658
     lanes: 1
@@ -666,6 +776,8 @@ changes:
     roadway: taz
     model_link_id: 1061711
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 145672
     B: 3058
     lanes: 1
@@ -678,6 +790,8 @@ changes:
     roadway: taz
     model_link_id: 1061712
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3059
     B: 58648
     lanes: 1
@@ -690,6 +804,8 @@ changes:
     roadway: taz
     model_link_id: 1061713
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 58648
     B: 3059
     lanes: 1
@@ -702,6 +818,8 @@ changes:
     roadway: taz
     model_link_id: 1061714
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3060
     B: 272499
     lanes: 1
@@ -714,6 +832,8 @@ changes:
     roadway: taz
     model_link_id: 1061715
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 142548
     B: 3060
     lanes: 1
@@ -726,6 +846,8 @@ changes:
     roadway: taz
     model_link_id: 1061716
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 3061
     B: 108530
     lanes: 1
@@ -738,6 +860,8 @@ changes:
     roadway: taz
     model_link_id: 1061717
     rail_only: 0
+    walk: 3
+    bike: 3
   - A: 108530
     B: 3061
     lanes: 1
@@ -750,6 +874,8 @@ changes:
     roadway: taz
     model_link_id: 1061718
     rail_only: 0
+    walk: 3
+    bike: 3
   nodes:
   - model_node_id: 3031
     X: -93.230580925

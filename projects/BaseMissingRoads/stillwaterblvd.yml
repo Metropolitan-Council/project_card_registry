@@ -1,0 +1,42 @@
+project: stillwaterblvd
+tags: ''
+dependencies: ''
+changes:
+- category: Add New Roadway
+  links:
+  - A: 152442
+    B: 154558
+    name: 40th Street North
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 7
+    model_link_id: 1750135
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 154558
+    B: 152442
+    name: 40th Street North
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 7
+    model_link_id: 1750136
+    rail_only: 1
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 1
+    bike: 3
+    walk: 3
+    lanes: 1

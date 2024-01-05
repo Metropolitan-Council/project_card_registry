@@ -5,7 +5,7 @@ changes:
 - category: Add New Roadway
   links:
   - A: 45497
-    B: 417325
+    B: 510006
     name: Lake Drive
     roadway: primary
     drive_access: '1'
@@ -22,8 +22,8 @@ changes:
     bike: 3
     walk: 3
     lanes: 1
-  - A: 417325
-    B: 417326
+  - A: 510006
+    B: 510005
     name: Lake Drive
     roadway: primary
     drive_access: '1'
@@ -40,8 +40,8 @@ changes:
     bike: 3
     walk: 3
     lanes: 1
-  - A: 417326
-    B: 417327
+  - A: 510005
+    B: 510007
     name: Lake Drive
     roadway: primary
     drive_access: '1'
@@ -58,7 +58,7 @@ changes:
     bike: 3
     walk: 3
     lanes: 1
-  - A: 417327
+  - A: 510007
     B: 56561
     name: Lake Drive
     roadway: primary
@@ -77,7 +77,7 @@ changes:
     walk: 3
     lanes: 1
   - A: 310693
-    B: 417328
+    B: 510004
     name: Lake Drive
     roadway: primary
     drive_access: '1'
@@ -94,7 +94,7 @@ changes:
     bike: 3
     walk: 3
     lanes: 1
-  - A: 417328
+  - A: 510004
     B: 56562
     name: Lake Drive
     roadway: primary
@@ -113,7 +113,7 @@ changes:
     walk: 3
     lanes: 1
   - A: 58007
-    B: 417329
+    B: 510003
     name: Lexington Avenue North
     roadway: secondary
     drive_access: '1'
@@ -130,7 +130,7 @@ changes:
     bike: 3
     walk: 3
     lanes: 2
-  - A: 417329
+  - A: 510003
     B: 58002
     name: Lexington Avenue North
     roadway: secondary
@@ -148,8 +148,8 @@ changes:
     bike: 3
     walk: 3
     lanes: 2
-  - A: 417330
-    B: 417326
+  - A: 510002
+    B: 510005
     name: Lexington Avenue North
     roadway: secondary
     drive_access: '1'
@@ -166,8 +166,8 @@ changes:
     bike: 3
     walk: 3
     lanes: 2
-  - A: 417325
-    B: 417330
+  - A: 510006
+    B: 510002
     name: Lexington Avenue North
     roadway: secondary
     drive_access: '1'
@@ -184,8 +184,8 @@ changes:
     bike: 3
     walk: 3
     lanes: 2
-  - A: 417326
-    B: 417328
+  - A: 510005
+    B: 510004
     name: Lexington Avenue North
     roadway: secondary
     drive_access: '1'
@@ -203,7 +203,7 @@ changes:
     walk: 3
     lanes: 2
   - A: 56562
-    B: 417325
+    B: 510006
     name: Lexington Avenue North
     roadway: secondary
     drive_access: '1'
@@ -220,7 +220,7 @@ changes:
     bike: 3
     walk: 3
     lanes: 2
-  - A: 417328
+  - A: 510004
     B: 58005
     name: Lexington Avenue North
     roadway: secondary
@@ -256,7 +256,7 @@ changes:
     bike: 3
     walk: 3
     lanes: 2
-  - A: 417331
+  - A: 510010
     B: 46015
     name: Lexington Avenue North
     roadway: secondary
@@ -275,7 +275,7 @@ changes:
     walk: 3
     lanes: 2
   - A: 46014
-    B: 417331
+    B: 510010
     name: Lexington Avenue North
     roadway: secondary
     drive_access: '1'
@@ -293,7 +293,7 @@ changes:
     walk: 3
     lanes: 2
   - A: 58005
-    B: 417331
+    B: 510010
     name: Lexington Avenue North
     roadway: secondary
     drive_access: '1'
@@ -310,7 +310,7 @@ changes:
     bike: 3
     walk: 3
     lanes: 2
-  - A: 417331
+  - A: 510010
     B: 58005
     name: ''
     roadway: ''
@@ -328,8 +328,8 @@ changes:
     bike: 3
     walk: 3
     lanes: 2
-  - A: 417329
-    B: 417330
+  - A: 510003
+    B: 510002
     name: Lexington Avenue North
     roadway: secondary
     drive_access: '1'
@@ -346,9 +346,9 @@ changes:
     bike: 3
     walk: 3
     lanes: 2
-  - A: 417330
-    B: 417329
-    name: 'Lexington'
+  - A: 510002
+    B: 510003
+    name: Lexington
     roadway: ''
     drive_access: '1'
     walk_access: '1'
@@ -370,7 +370,7 @@ changes:
     bike_access: 1.0
     county: '0'
     rail_only: 0
-    model_node_id: 417327
+    model_node_id: 510007
     osm_node_id: ''
     X: -93.15275930031639
     Y: 45.14618749036166
@@ -379,7 +379,7 @@ changes:
     bike_access: 1.0
     county: '0'
     rail_only: 0
-    model_node_id: 417325
+    model_node_id: 510006
     osm_node_id: ''
     X: -93.16372195666543
     Y: 45.14127518430839
@@ -388,7 +388,7 @@ changes:
     bike_access: 1.0
     county: '0'
     rail_only: 0
-    model_node_id: 417326
+    model_node_id: 510005
     osm_node_id: ''
     X: -93.16352130735656
     Y: 45.14137323638852
@@ -397,7 +397,7 @@ changes:
     bike_access: 1.0
     county: '0'
     rail_only: 0
-    model_node_id: 417328
+    model_node_id: 510004
     osm_node_id: ''
     X: -93.16353732891318
     Y: 45.141486531571026
@@ -406,7 +406,7 @@ changes:
     bike_access: 0.0
     county: '0'
     rail_only: 0
-    model_node_id: 417329
+    model_node_id: 510003
     osm_node_id: ''
     X: -93.16360448622201
     Y: 45.13247479592934
@@ -415,7 +415,7 @@ changes:
     bike_access: 1.0
     county: '0'
     rail_only: 0
-    model_node_id: 417330
+    model_node_id: 510002
     osm_node_id: ''
     X: -93.16360638438876
     Y: 45.13811584731288
@@ -424,7 +424,7 @@ changes:
     bike_access: 1.0
     county: '0'
     rail_only: 0
-    model_node_id: 417331
+    model_node_id: 510010
     osm_node_id: ''
     X: -93.16351943326006
     Y: 45.14600499573171
