@@ -1,0 +1,57 @@
+project: avts_split
+tags: ''
+dependencies: ''
+changes:
+- category: Roadway Deletion
+  links:
+    model_link_id:
+    - 145053
+- category: Add New Roadway
+  links:
+  - A: 208741
+    B: 896902
+    name: Cedar Avenue
+    roadway: primary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 3
+    model_link_id: 1750000
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 5
+    roadway_class: 40
+    area_type: 2
+    bike: 3
+    walk: 3
+    lanes: 3
+  - A: 896902
+    B: 208742
+    name: Cedar Avenue
+    roadway: primary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 3
+    model_link_id: 1750000
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 5
+    roadway_class: 40
+    area_type: 2
+    bike: 3
+    walk: 3
+    lanes: 3
+  nodes:
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 896902
+    osm_node_id: ''
+    X: -93.21764657029289
+    Y: 44.72561879692579
+valid: false
