@@ -373,3 +373,23 @@ link,1061715,year 2015 add centroid connector at external stations
 link,1061716,year 2015 add centroid connector at external stations
 link,1061717,year 2015 add centroid connector at external stations
 link,1061718,year 2015 add centroid connector at external stations
+node,896902,avts_split
+link,1750184,avts_split
+link,1750190,avts_split
+node,896903,12th_busramps
+node,896904,12th_busramps
+link,1750193,12th_busramps
+link,1750194,12th_busramps
+link,1750197,12th_busramps
+link,1750199,12th_busramps
+link,1750218,12th_busramps
+link,1750219,12th_busramps
+link,1750220,12th_busramps
+link,1750221,12th_busramps
+link,1750222,12th_busramps
+link,1750223,12th_busramps
+link,1750224,12th_busramps
+link,1750225,12th_busramps
+node,896901,dtmpls_4thave
+link,1750226,dtmpls_4thave
+link,1750227,dtmpls_4thave
