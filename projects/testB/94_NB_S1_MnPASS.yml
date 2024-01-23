@@ -1,0 +1,44 @@
+project: 94 nb s1 managed lane
+tags:
+- managed_lane
+- MnPASS
+- base year
+- Year 2028
+dependencies:
+  prerequisites:
+  - add mnpass_code
+changes:
+- category: Parallel Managed lanes
+  facility:
+    link:
+    - model_link_id:
+      - 62077
+      - 123713
+      - 208905
+      - 228380
+      - 416213
+      - 520654
+  properties:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      change: -1
+  - property: ML_lanes
+    set: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      set: 1
+  - property: ML_access
+    set: all
+  - property: ML_egress
+    set: all
+  - property: MNPASS_CODE
+    set: 116
+  - property: ML_MNPASS_CODE
+    set: 16
+notes: null
