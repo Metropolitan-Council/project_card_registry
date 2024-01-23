@@ -23,7 +23,7 @@ changes:
     walk_access: 0
     bike_access: 0
     county: 4
-    model_link_id: 1750000
+    model_link_id: 1750228
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -41,7 +41,7 @@ changes:
     walk_access: 0
     bike_access: 0
     county: 4
-    model_link_id: 1750000
+    model_link_id: 1750229
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -59,7 +59,7 @@ changes:
     walk_access: 0
     bike_access: 0
     county: 4
-    model_link_id: 1750000
+    model_link_id: 1750230
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -77,7 +77,7 @@ changes:
     walk_access: 0
     bike_access: 0
     county: 4
-    model_link_id: 1750000
+    model_link_id: 1750231
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -95,7 +95,7 @@ changes:
     walk_access: 0
     bike_access: 0
     county: 4
-    model_link_id: 1750000
+    model_link_id: 1750232
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -142,4 +142,3 @@ changes:
     osm_node_id: ''
     X: -93.26523237916287
     Y: 44.86205354223008
-valid: false

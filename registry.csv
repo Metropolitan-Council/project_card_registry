@@ -393,3 +393,11 @@ link,1750225,12th_busramps
 node,896901,dtmpls_4thave
 link,1750226,dtmpls_4thave
 link,1750227,dtmpls_4thave
+node,900001,nicportland_494interchange
+node,900002,nicportland_494interchange
+link,1750228,nicportland_494interchange
+link,1750229,nicportland_494interchange
+link,1750230,nicportland_494interchange
+link,1750231,nicportland_494interchange
+link,1750232,nicportland_494interchange
+link,1900002,nicportland_494interchange
