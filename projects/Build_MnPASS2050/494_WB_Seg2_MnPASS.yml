@@ -31,16 +31,6 @@ changes:
       - '06:00'
       - '10:00'
       change: -1
-  - property: ML_lanes
-    set: 0
-    timeofday:
-    - time:
-      - '06:00'
-      - '10:00'
-      set: 1  
-  - property: lanes
-    change: 0
-    timeofday:
     - time:
       - '15:00'
       - '19:00'
@@ -48,6 +38,10 @@ changes:
   - property: ML_lanes
     set: 0
     timeofday:
+    - time:
+      - '06:00'
+      - '10:00'
+      set: 1  
     - time:
       - '15:00'
       - '19:00'
