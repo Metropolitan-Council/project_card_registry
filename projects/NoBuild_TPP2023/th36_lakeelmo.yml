@@ -38,10 +38,10 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 7
-    model_link_id: 0
+    model_link_id: 1500001
     rail_only: 1
     bus_only: 1
-    centroidconnect: 1500001
+    centroidconnect: 0
     assign_group: 15
     roadway_class: 20
     area_type: 1
