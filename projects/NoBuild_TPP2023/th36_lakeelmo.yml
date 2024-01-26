@@ -1,5 +1,5 @@
 project: th36_lakeelmo
-tags: 'NoBuild 2023'
+tags: NoBuild 2023
 dependencies: ''
 changes:
 - category: Roadway Deletion
@@ -13,14 +13,14 @@ changes:
 - category: Add New Roadway
   links:
   - A: 160601
-    B: 509473
+    B: 509490
     name: TH-36
     roadway: trunk
     drive_access: 1
     walk_access: 1
     bike_access: 1
     county: 7
-    model_link_id: 1500000
+    model_link_id: 1500007
     rail_only: 1
     bus_only: 1
     centroidconnect: 0
@@ -30,7 +30,7 @@ changes:
     bike: 0
     walk: 0
     lanes: 2.0
-  - A: 509473
+  - A: 509490
     B: 169551
     name: TH-36
     roadway: trunk
@@ -38,7 +38,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 7
-    model_link_id: 1500001
+    model_link_id: 1500008
     rail_only: 1
     bus_only: 1
     centroidconnect: 0
@@ -48,7 +48,7 @@ changes:
     bike: 0
     walk: 0
     lanes: 2.0
-  - A: 509473
+  - A: 509490
     B: 169554
     name: TH-36 ramp
     roadway: ramp
@@ -56,7 +56,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 7
-    model_link_id: 1500005
+    model_link_id: 1500009
     rail_only: 1
     bus_only: 1
     centroidconnect: 0
@@ -180,7 +180,7 @@ changes:
     bike_access: 0.0
     county: '0'
     rail_only: 0
-    model_node_id: 509473
+    model_node_id: 509490
     osm_node_id: ''
     X: -92.88650199868403
     Y: 45.035531178791125
@@ -202,4 +202,3 @@ changes:
     osm_node_id: ''
     X: -92.8864989281173
     Y: 45.03579936685144
-valid: false
