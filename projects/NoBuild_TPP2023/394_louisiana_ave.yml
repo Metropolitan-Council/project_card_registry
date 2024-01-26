@@ -9,6 +9,6 @@ changes:
       - 35474
       - 327432
   properties:
-  - change: 1.0
+  - change: 1
     property: lanes
 valid: false
