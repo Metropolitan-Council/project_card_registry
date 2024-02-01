@@ -1,0 +1,431 @@
+project: us212cr51intchg2to4laneexp
+tags: ''
+dependencies: ''
+changes:
+- category: Roadway Deletion
+  links:
+    model_link_id:
+    - 1026719
+    - 41365
+    - 438327
+    - 905025
+    - 254424
+    - 589066
+    - 988448
+    - 36996
+- category: Add New Roadway
+  links:
+  - A: 65920
+    B: 900025
+    name: County Road 51
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 2
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900025
+    B: 65920
+    name: County Road 51
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 2
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 69353
+    B: 900027
+    name: County Road 51
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 2
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900027
+    B: 69353
+    name: County Road 51
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 2
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900025
+    B: 900027
+    name: County Road 51
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 2
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900027
+    B: 900025
+    name: County Road 51
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 2
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900024
+    B: 900025
+    name: ''
+    roadway: motorway_link
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 2
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 4
+    roadway_class: 20
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900025
+    B: 900026
+    name: ''
+    roadway: motorway_link
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 2
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 4
+    roadway_class: 20
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900026
+    B: 900027
+    name: ''
+    roadway: motorway_link
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 2
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 4
+    roadway_class: 20
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900027
+    B: 900024
+    name: ''
+    roadway: motorway_link
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 2
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 4
+    roadway_class: 20
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 64901
+    B: 900026
+    name: ''
+    roadway: primary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 2
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 20
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 900026
+    B: 64901
+    name: ''
+    roadway: primary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 2
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 20
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 900024
+    B: 900026
+    name: ''
+    roadway: primary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 2
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 20
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 900026
+    B: 900024
+    name: ''
+    roadway: primary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 2
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 20
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 62939
+    B: 900024
+    name: ''
+    roadway: primary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 2
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 20
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 900024
+    B: 62939
+    name: ''
+    roadway: primary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 2
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 20
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  nodes:
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900024
+    osm_node_id: ''
+    X: -93.84777335547508
+    Y: 44.767709879541265
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900025
+    osm_node_id: ''
+    X: -93.84893286255561
+    Y: 44.767995681916474
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900026
+    osm_node_id: ''
+    X: -93.85001360030864
+    Y: 44.76771330060436
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900027
+    osm_node_id: ''
+    X: -93.84893343394793
+    Y: 44.76739346304933
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 195555
+      - 33159
+      - 360420
+      - 878683
+      - 942279
+      - 447020
+      - 454038
+      - 1036247
+      - 1026417
+      - 438178
+      - 98075
+      - 633191
+      - 887921
+      - 382086
+      - 467059
+      - 589896
+      - 349197
+      - 835917
+      - 1026003
+      - 20065
+      - 815513
+      - 458779
+      - 701188
+      - 346936
+      - 408469
+      - 636590
+      - 671558
+      - 490478
+      - 114609
+      - 614866
+      - 747422
+      - 202361
+  properties:
+  - existing: 1.0
+    set: 2.0
+    property: lanes
+valid: false

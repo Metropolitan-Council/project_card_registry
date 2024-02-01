@@ -1,0 +1,325 @@
+project: us10ramseysunfishintchg
+tags: ''
+dependencies: ''
+changes:
+- category: Roadway Deletion
+  links:
+    model_link_id:
+    - 404147
+    - 480504
+    - 539152
+    - 113403
+    - 120587
+    - 306966
+    - 222734
+    - 63759
+    - 183624
+    - 415362
+    - 553105
+    - 414119
+    - 179105
+    - 336584
+- category: Add New Roadway
+  links:
+  - A: 900021
+    B: 209683
+    name: Ramsey Boulevard Northwest
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 5
+    roadway_class: 40
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 900021
+    B: 295495
+    name: Ramsey Boulevard Northwest
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 5
+    roadway_class: 40
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 46440
+    B: 900021
+    name: ''
+    roadway: motorway_link
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 3
+    roadway_class: 20
+    area_type: 1
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 295491
+    B: 900021
+    name: Ramsey Boulevard Northwest
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 5
+    roadway_class: 40
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 338775
+    B: 900022
+    name: Voyageur Highway
+    roadway: motorway
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 1
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 900022
+    B: 295486
+    name: ''
+    roadway: motorway_link
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 3
+    roadway_class: 20
+    area_type: 1
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900022
+    B: 295488
+    name: Voyageur Highway
+    roadway: motorway
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 1
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 46440
+    B: 295493
+    name: Voyageur Highway
+    roadway: motorway
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 1
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 41355
+    B: 900023
+    name: Voyageur Highway
+    roadway: motorway
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 1
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 269876
+    B: 269877
+    name: Sunfish Lake Boulevard Northwest
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 5
+    roadway_class: 40
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 900023
+    B: 45097
+    name: ''
+    roadway: trunk_link
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 3
+    roadway_class: 20
+    area_type: 1
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900023
+    B: 208846
+    name: Voyageur Highway
+    roadway: motorway
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 1
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 269872
+    B: 269875
+    name: Voyageur Highway
+    roadway: motorway
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 1
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  nodes:
+  - drive_access: 1.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900021
+    osm_node_id: ''
+    X: -93.44961797842083
+    Y: 45.22736081821609
+  - drive_access: 1.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900022
+    osm_node_id: ''
+    X: -93.45037016123126
+    Y: 45.22682091494413
+  - drive_access: 1.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900023
+    osm_node_id: ''
+    X: -93.43013235338209
+    Y: 45.220258982917535
+valid: false
