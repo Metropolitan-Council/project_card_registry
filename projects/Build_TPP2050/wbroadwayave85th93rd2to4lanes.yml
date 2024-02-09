@@ -1,0 +1,27 @@
+project: wbroadwayave85th93rd2to4lanes
+tags: ''
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 122821
+      - 644190
+      - 340302
+      - 886151
+      - 822233
+      - 333083
+      - 45274
+      - 841715
+      - 34421
+      - 874932
+      - 921538
+      - 41700
+      - 281507
+      - 932829
+  properties:
+  - existing: 1.0
+    set: 2.0
+    property: lanes
+valid: false
