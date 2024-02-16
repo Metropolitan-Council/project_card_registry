@@ -1,8 +1,8 @@
 project: greenlineext
 tags: ''
 dependencies:
-  'transit'
-  'TPP_CRS_2050'
+  -'transit'
+  -'TPP_CRS_2050'
 changes:
 - category: Add New Roadway
   links:
