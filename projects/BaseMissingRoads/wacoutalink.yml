@@ -12,7 +12,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 0
-    model_link_id: 1750000
+    model_link_id: 1750331
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -25,4 +25,3 @@ changes:
     MNPASS_PAY: 0
     managed: 0
     lanes: 1
-valid: false
