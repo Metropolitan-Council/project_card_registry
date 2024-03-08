@@ -1,0 +1,568 @@
+project: AG2Cleanup4
+tags: ''
+dependencies: ''
+changes:
+- category: Roadway Deletion
+  links:
+    model_link_id:
+    - 71064
+    - 425702
+    - 102753
+    - 389076
+    - 10805
+    - 35075
+    - 356416
+    - 439392
+    - 630988
+    - 543838
+- category: Add New Roadway
+  links:
+  - A: 142512
+    B: 145673
+    name: Voyageur Highway
+    roadway: motorway
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 19
+    model_link_id: 1750000
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 1
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 476703
+      - 79867
+      - 518143
+      - 338131
+      - 325241
+  properties:
+  - set: 1.0
+    property: assign_group
+  - existing: 60.0
+    set: 10.0
+    property: roadway_class
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 496096
+      - 99663
+      - 273757
+      - 213773
+      - 63522
+      - 141533
+      - 246774
+      - 500887
+  properties:
+  - set: 1.0
+    property: assign_group
+  - existing: 60.0
+    set: 20.0
+    property: roadway_class
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 319777
+      - 87270
+      - 481369
+      - 279803
+      - 452879
+      - 196986
+      - 456114
+      - 314424
+      - 127404
+      - 429389
+      - 297400
+      - 380892
+      - 515623
+      - 551089
+      - 107885
+      - 258638
+      - 221004
+      - 360964
+      - 16274
+      - 337651
+      - 131085
+      - 286313
+      - 521438
+      - 506242
+      - 29674
+      - 491545
+      - 520000
+      - 257705
+      - 327939
+      - 300017
+      - 500092
+      - 229658
+      - 120896
+      - 365998
+      - 380248
+      - 230847
+      - 302237
+      - 490711
+      - 314845
+      - 205364
+      - 35462
+      - 223973
+      - 69737
+      - 385720
+      - 539190
+      - 458308
+      - 317147
+      - 91100
+      - 116847
+      - 519015
+      - 203795
+      - 303719
+      - 135506
+      - 202244
+      - 111541
+      - 482855
+      - 484156
+      - 461819
+      - 494932
+      - 543486
+      - 363101
+      - 67818
+      - 285711
+      - 482136
+      - 504971
+      - 172001
+      - 49868
+      - 283816
+      - 350945
+      - 504160
+      - 76469
+      - 16443
+      - 278918
+      - 110201
+      - 363253
+      - 327624
+      - 548120
+      - 39115
+      - 241496
+      - 171496
+      - 440096
+      - 327125
+      - 180032
+      - 71194
+      - 417735
+      - 364295
+      - 448635
+      - 241992
+      - 203459
+      - 241387
+      - 383585
+      - 155439
+      - 407996
+      - 206273
+      - 359685
+      - 443477
+      - 371007
+      - 164844
+      - 356354
+      - 144618
+      - 73862
+      - 114996
+      - 499225
+      - 30735
+      - 73411
+      - 432236
+      - 142676
+      - 109349
+      - 476362
+      - 549264
+      - 309616
+      - 526522
+      - 528019
+      - 230412
+  properties:
+  - set: 1.0
+    property: assign_group
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 177752
+      - 386384
+      - 36119
+      - 44381
+      - 242303
+      - 40312
+      - 170049
+  properties:
+  - set: 15.0
+    property: assign_group
+  - existing: 10.0
+    set: 20.0
+    property: roadway_class
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 51908
+      - 244521
+      - 23240
+  properties:
+  - set: 15.0
+    property: assign_group
+  - existing: 30.0
+    set: 20.0
+    property: roadway_class
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 229139
+      - 297795
+      - 164058
+      - 466059
+      - 453927
+      - 95473
+      - 34412
+      - 348981
+      - 27522
+      - 171212
+      - 386082
+      - 194186
+      - 403913
+      - 356497
+      - 491724
+      - 289254
+      - 441585
+      - 222332
+      - 394374
+  properties:
+  - set: 15.0
+    property: assign_group
+  - existing: 60.0
+    set: 20.0
+    property: roadway_class
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 176684
+      - 231163
+      - 195756
+      - 43986
+      - 315754
+      - 517621
+      - 132500
+      - 78096
+      - 26682
+      - 129946
+      - 186532
+      - 65318
+      - 473752
+      - 241921
+      - 342642
+      - 221007
+      - 550802
+      - 72397
+      - 483116
+      - 49348
+      - 493418
+      - 83668
+      - 115340
+      - 325499
+      - 482057
+      - 353414
+      - 174662
+  properties:
+  - set: 15.0
+    property: assign_group
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 243057
+      - 493119
+      - 250840
+      - 149696
+      - 243204
+      - 130640
+      - 240190
+      - 414342
+      - 12115
+      - 238331
+      - 222708
+      - 30273
+      - 170872
+      - 170547
+      - 248656
+      - 120244
+      - 331413
+      - 514469
+      - 4247
+      - 355259
+      - 237641
+      - 125215
+      - 406130
+      - 97145
+      - 353020
+      - 538752
+      - 492448
+      - 56313
+      - 141856
+      - 121907
+      - 178915
+      - 507552
+      - 92198
+      - 155279
+      - 551511
+      - 307360
+      - 220954
+      - 285969
+      - 387491
+      - 29828
+      - 130791
+      - 333848
+      - 433839
+      - 422356
+      - 246023
+      - 206528
+      - 131173
+      - 360211
+      - 14775
+      - 498090
+      - 194557
+      - 262158
+      - 470625
+  properties:
+  - set: 2.0
+    property: assign_group
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 442394
+      - 317783
+      - 497587
+      - 375481
+      - 24217
+      - 397732
+      - 179798
+      - 372968
+      - 182038
+      - 346858
+      - 230528
+      - 468655
+      - 366039
+      - 180247
+      - 532120
+  properties:
+  - set: 3.0
+    property: assign_group
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 16117
+      - 43177
+      - 321616
+      - 384752
+      - 78004
+      - 164296
+  properties:
+  - set: 4.0
+    property: assign_group
+  - existing: 10.0
+    set: 60.0
+    property: roadway_class
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 411701
+      - 371871
+      - 354211
+      - 190894
+      - 511972
+      - 105556
+      - 274177
+      - 178465
+      - 308664
+      - 437453
+      - 151905
+      - 123342
+      - 442676
+      - 163291
+      - 148518
+      - 375657
+      - 165249
+      - 536853
+      - 451646
+      - 480964
+      - 247075
+      - 324721
+      - 425722
+      - 177611
+      - 534966
+      - 80205
+      - 422347
+      - 484794
+      - 156433
+      - 497915
+  properties:
+  - set: 4.0
+    property: assign_group
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 221140
+      - 311816
+      - 634514
+      - 540060
+      - 202306
+      - 170969
+      - 207570
+      - 155323
+      - 41069
+      - 92026
+      - 411872
+      - 353599
+      - 848265
+      - 26937
+      - 337934
+      - 289283
+      - 311106
+      - 426647
+      - 71358
+      - 435696
+      - 22922
+      - 449905
+      - 213645
+      - 335671
+      - 500960
+      - 101906
+      - 545208
+      - 7166
+      - 260976
+      - 178575
+      - 430012
+      - 49379
+      - 187603
+      - 350630
+      - 428377
+      - 230154
+  properties:
+  - set: 5.0
+    property: assign_group
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 928740
+      - 209088
+  properties:
+  - set: 6.0
+    property: assign_group
+  - existing: 40.0
+    set: 20.0
+    property: roadway_class
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 574230
+      - 498439
+      - 693446
+      - 307048
+      - 969119
+      - 334977
+      - 8423
+      - 1038337
+      - 913033
+      - 399013
+      - 242651
+      - 582213
+      - 771920
+      - 485059
+      - 860823
+      - 219434
+      - 375549
+      - 709666
+      - 833287
+      - 73042
+      - 158791
+      - 642891
+      - 801370
+      - 240933
+      - 598552
+      - 232079
+      - 1035134
+      - 624975
+      - 59428
+      - 474937
+      - 763244
+      - 153156
+      - 564988
+      - 435541
+      - 774977
+      - 141722
+      - 630899
+      - 386502
+      - 835283
+      - 167278
+      - 28040
+      - 574040
+      - 19368
+      - 915881
+      - 328648
+      - 898536
+      - 624578
+      - 123493
+      - 864664
+      - 392443
+      - 246246
+      - 615344
+      - 28863
+      - 387017
+      - 572970
+      - 234205
+      - 410673
+      - 503093
+      - 88667
+      - 183265
+  properties:
+  - set: 6.0
+    property: assign_group
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 353217
+      - 463621
+      - 75580
+      - 161493
+  properties:
+  - set: 7.0
+    property: assign_group
+  - existing: 60.0
+    set: 40.0
+    property: roadway_class
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 361174
+      - 184312
+  properties:
+  - set: 7.0
+    property: assign_group
+valid: false
