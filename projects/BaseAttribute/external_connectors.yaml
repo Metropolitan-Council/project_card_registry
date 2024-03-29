@@ -513,7 +513,7 @@ changes:
     walk: 3
     bike: 3
   - A: 3049
-    B: 111083
+    B: 206648
     lanes: 1
     assign_group: 9
     roadway_class: 99
@@ -526,7 +526,7 @@ changes:
     rail_only: 0
     walk: 3
     bike: 3
-  - A: 111083
+  - A: 206659
     B: 3049
     lanes: 1
     assign_group: 9
