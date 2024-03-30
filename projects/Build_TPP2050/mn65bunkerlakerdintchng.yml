@@ -1,0 +1,274 @@
+project: mn65bunkerlakerdintchng
+tags: ''
+dependencies: ''
+changes:
+- category: Roadway Deletion
+  links:
+    model_link_id:
+    - 68245
+    - 320823
+    - 542588
+    - 151605
+    - 31146
+    - 397573
+    - 115266
+    - 129962
+- category: Add New Roadway
+  links:
+  - A: 387856
+    B: 900062
+    name: Bunker Lake Boulevard Northeast
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1900050
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 5
+    roadway_class: 40
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 900061
+    B: 37589
+    name: ''
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900050
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 1
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 387874
+    B: 900063
+    name: Bunker Lake Boulevard Northeast
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1900050
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 5
+    roadway_class: 40
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 900063
+    B: 387871
+    name: Bunker Lake Boulevard Northeast
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1900050
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 5
+    roadway_class: 40
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 900064
+    B: 55371
+    name: ''
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900050
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 1
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 900062
+    B: 387873
+    name: Bunker Lake Boulevard Northeast
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1900050
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 5
+    roadway_class: 40
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 387867
+    B: 900061
+    name: ''
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900050
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 1
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 387869
+    B: 900064
+    name: ''
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900050
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 1
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 900062
+    B: 900061
+    name: ''
+    roadway: trunk_link
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900050
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 4
+    roadway_class: 20
+    area_type: 1
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900063
+    B: 900064
+    name: ''
+    roadway: trunk_link
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900050
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 4
+    roadway_class: 20
+    area_type: 1
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  nodes:
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900061
+    osm_node_id: ''
+    X: -93.23439444523368
+    Y: 45.219437560885105
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900062
+    osm_node_id: ''
+    X: -93.23377162789517
+    Y: 45.2189476505577
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900063
+    osm_node_id: ''
+    X: -93.23535232498637
+    Y: 45.21881103994837
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900064
+    osm_node_id: ''
+    X: -93.2347529488788
+    Y: 45.21814855382746
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 128366
+      - 144881
+  properties:
+  - set: 4.0
+    property: assign_group
+valid: false

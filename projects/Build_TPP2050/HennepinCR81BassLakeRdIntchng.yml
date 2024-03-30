@@ -1,0 +1,282 @@
+project: HennepinCR81BassLakeRdIntchng
+tags: ''
+dependencies: ''
+changes:
+- category: Roadway Deletion
+  links:
+    model_link_id:
+    - 76178
+    - 109273
+    - 521095
+    - 291967
+    - 187233
+    - 521690
+    - 167252
+    - 428168
+    - 5529
+    - 464102
+    - 479531
+    - 248884
+    - 369063
+- category: Add New Roadway
+  links:
+  - A: 329261
+    B: 900051
+    name: ''
+    roadway: trunk_link
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900050
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 60
+    area_type: 3
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 263203
+    B: 263205
+    name: ''
+    roadway: trunk_link
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900050
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 60
+    area_type: 3
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900050
+    B: 900049
+    name: ''
+    roadway: trunk_link
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900050
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 60
+    area_type: 3
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900049
+    B: 213890
+    name: Bottineau Boulevard
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900050
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 30
+    area_type: 3
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 3
+  - A: 900051
+    B: 411119
+    name: ''
+    roadway: primary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900050
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 30
+    area_type: 3
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 3
+  - A: 203221
+    B: 900050
+    name: Bass Lake Road
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900050
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 5
+    roadway_class: 30
+    area_type: 3
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 900050
+    B: 213884
+    name: Bass Lake Road
+    roadway: secondary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900050
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 5
+    roadway_class: 30
+    area_type: 3
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 263207
+    B: 900051
+    name: ''
+    roadway: primary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900050
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 30
+    area_type: 3
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 3
+  - A: 900051
+    B: 263207
+    name: ''
+    roadway: ''
+    drive_access: 0
+    walk_access: 0
+    bike_access: 0
+    county: 0
+    model_link_id: 0
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 0
+    roadway_class: 0
+    area_type: 0
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 0
+  - A: 263203
+    B: 900049
+    name: ''
+    roadway: primary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900050
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 30
+    area_type: 3
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 3
+  - A: 900049
+    B: 263203
+    name: ''
+    roadway: ''
+    drive_access: 0
+    walk_access: 0
+    bike_access: 0
+    county: 0
+    model_link_id: 0
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 0
+    roadway_class: 0
+    area_type: 0
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 0
+  nodes:
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900049
+    osm_node_id: ''
+    X: -93.35869310906799
+    Y: 45.055531923178265
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900050
+    osm_node_id: ''
+    X: -93.35723228776074
+    Y: 45.05471010735292
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900051
+    osm_node_id: ''
+    X: -93.35747562469368
+    Y: 45.05374442264204
+valid: false
