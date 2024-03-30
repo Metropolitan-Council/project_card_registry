@@ -28,7 +28,7 @@ changes:
     walk_access: 0
     bike_access: 0
     county: 4
-    model_link_id: 1900050
+    model_link_id: 1900135
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -49,7 +49,7 @@ changes:
     walk_access: 0
     bike_access: 0
     county: 4
-    model_link_id: 1900050
+    model_link_id: 1900136
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -70,7 +70,7 @@ changes:
     walk_access: 0
     bike_access: 0
     county: 4
-    model_link_id: 1900050
+    model_link_id: 1900137
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -91,7 +91,7 @@ changes:
     walk_access: 0
     bike_access: 0
     county: 4
-    model_link_id: 1900050
+    model_link_id: 1900138
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -112,7 +112,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 4
-    model_link_id: 1900050
+    model_link_id: 1900139
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -133,7 +133,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 4
-    model_link_id: 1900050
+    model_link_id: 1900140
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -154,7 +154,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 4
-    model_link_id: 1900050
+    model_link_id: 1900141
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -175,7 +175,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 4
-    model_link_id: 1900050
+    model_link_id: 1900142
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -196,7 +196,7 @@ changes:
     walk_access: 0
     bike_access: 0
     county: 0
-    model_link_id: 1950000
+    model_link_id: 1950014
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -217,7 +217,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 4
-    model_link_id: 1950000
+    model_link_id: 1950015
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -238,7 +238,7 @@ changes:
     walk_access: 0
     bike_access: 0
     county: 0
-    model_link_id: 1950000
+    model_link_id: 1950016
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -279,4 +279,3 @@ changes:
     osm_node_id: ''
     X: -93.35747562469368
     Y: 45.05374442264204
-valid: false

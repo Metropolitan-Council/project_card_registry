@@ -27,7 +27,7 @@ changes:
     walk_access: 0
     bike_access: 0
     county: 4
-    model_link_id: 1900050
+    model_link_id: 1900174
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -48,7 +48,7 @@ changes:
     walk_access: 0
     bike_access: 0
     county: 4
-    model_link_id: 1900050
+    model_link_id: 1900175
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -61,4 +61,3 @@ changes:
     MNPASS_PAY: 0
     managed: 0
     lanes: 2
-valid: false
