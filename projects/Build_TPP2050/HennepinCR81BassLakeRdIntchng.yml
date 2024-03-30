@@ -196,7 +196,7 @@ changes:
     walk_access: 0
     bike_access: 0
     county: 0
-    model_link_id: 0
+    model_link_id: 1950000
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -217,7 +217,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 4
-    model_link_id: 1900050
+    model_link_id: 1950000
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -238,7 +238,7 @@ changes:
     walk_access: 0
     bike_access: 0
     county: 0
-    model_link_id: 0
+    model_link_id: 1950000
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
