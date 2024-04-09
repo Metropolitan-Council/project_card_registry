@@ -1,5 +1,5 @@
 minimum_allowable_node_id: 1
-maximum_allowable_node_id: 1000000
+maximum_allowable_node_id: 950000
 minimum_allowable_link_id: 1
 maximum_allowable_link_id: 2000000
 nodes_used_by_geography:
