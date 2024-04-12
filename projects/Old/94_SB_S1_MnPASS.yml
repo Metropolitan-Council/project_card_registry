@@ -7,7 +7,6 @@ tags:
 dependencies:
   prerequisites:
   - add mnpass_code
-  - mn252hwyconvaccessoption
 changes:
 - category: Parallel Managed lanes
   facility:
@@ -19,19 +18,6 @@ changes:
       - 187501
       - 319158
       - 539885
-      - 234654
-      - 425240
-      - 179467
-      - 1900130
-      - 92904
-      - 1900128
-      - 512572
-      - 1900125
-      - 136649
-      - 1900122
-      - 250908
-      - 1900119
-      - 236715
   properties:
   - property: lanes
     change: 0

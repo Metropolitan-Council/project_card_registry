@@ -7,6 +7,7 @@ tags:
 dependencies:
   prerequisites:
   - add mnpass_code
+  - mn252hwyconvaccessoption
 changes:
 - category: Parallel Managed lanes
   facility:
