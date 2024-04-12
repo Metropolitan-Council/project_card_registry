@@ -188,27 +188,6 @@ changes:
     MNPASS_PAY: 0
     managed: 0
     lanes: 3
-  - A: 900051
-    B: 263207
-    name: ''
-    roadway: ''
-    drive_access: 0
-    walk_access: 0
-    bike_access: 0
-    county: 0
-    model_link_id: 1950014
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 0
-    roadway_class: 0
-    area_type: 3
-    bike: 0
-    walk: 0
-    MNPASS_CODE: 0
-    MNPASS_PAY: 0
-    managed: 0
-    lanes: 0
   - A: 263203
     B: 900049
     name: ''
@@ -230,27 +209,6 @@ changes:
     MNPASS_PAY: 0
     managed: 0
     lanes: 3
-  - A: 900049
-    B: 263203
-    name: ''
-    roadway: ''
-    drive_access: 0
-    walk_access: 0
-    bike_access: 0
-    county: 0
-    model_link_id: 1950016
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 0
-    roadway_class: 0
-    area_type: 3
-    bike: 0
-    walk: 0
-    MNPASS_CODE: 0
-    MNPASS_PAY: 0
-    managed: 0
-    lanes: 0
   nodes:
   - drive_access: 0.0
     walk_access: 0.0
