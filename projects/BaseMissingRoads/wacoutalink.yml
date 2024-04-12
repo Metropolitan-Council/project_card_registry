@@ -18,7 +18,7 @@ changes:
     centroidconnect: 0
     assign_group: 7
     roadway_class: 40
-    area_type: 0
+    area_type: 2
     bike: 1
     walk: 1
     MNPASS_CODE: 0

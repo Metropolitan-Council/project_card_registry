@@ -13,8 +13,8 @@ changes:
     bike_access: 1
     county: 7
     model_link_id: 1750135
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
     assign_group: 7
     roadway_class: 40
@@ -31,8 +31,8 @@ changes:
     bike_access: 1
     county: 7
     model_link_id: 1750136
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
     assign_group: 7
     roadway_class: 40

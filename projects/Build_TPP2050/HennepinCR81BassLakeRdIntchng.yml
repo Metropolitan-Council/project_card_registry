@@ -202,7 +202,7 @@ changes:
     centroidconnect: 0
     assign_group: 0
     roadway_class: 0
-    area_type: 0
+    area_type: 3
     bike: 0
     walk: 0
     MNPASS_CODE: 0
@@ -244,7 +244,7 @@ changes:
     centroidconnect: 0
     assign_group: 0
     roadway_class: 0
-    area_type: 0
+    area_type: 3
     bike: 0
     walk: 0
     MNPASS_CODE: 0

@@ -40,11 +40,11 @@ changes:
     bike_access: 1
     county: 1
     model_link_id: 1750151
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
-    assign_group: 20
-    roadway_class: 2
+    assign_group: 2
+    roadway_class: 20
     area_type: 2
     bike: 0
     walk: 0
@@ -58,10 +58,10 @@ changes:
     bike_access: 1
     county: 1
     model_link_id: 1750152
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
-    assign_group: 20
+    assign_group: 2
     roadway_class: 2
     area_type: 2
     bike: 0
@@ -76,11 +76,11 @@ changes:
     bike_access: 1
     county: 1
     model_link_id: 1750153
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
-    assign_group: 20
-    roadway_class: 2
+    assign_group: 2
+    roadway_class: 20
     area_type: 2
     bike: 0
     walk: 0
@@ -94,11 +94,11 @@ changes:
     bike_access: 1
     county: 1
     model_link_id: 1750154
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
-    assign_group: 20
-    roadway_class: 2
+    assign_group: 2
+    roadway_class: 20
     area_type: 2
     bike: 0
     walk: 0
@@ -112,11 +112,11 @@ changes:
     bike_access: 1
     county: 1
     model_link_id: 1750155
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
-    assign_group: 20
-    roadway_class: 2
+    assign_group: 2
+    roadway_class: 20
     area_type: 2
     bike: 0
     walk: 0
@@ -130,11 +130,11 @@ changes:
     bike_access: 1
     county: 1
     model_link_id: 1750156
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
-    assign_group: 20
-    roadway_class: 2
+    assign_group: 2
+    roadway_class: 20
     area_type: 2
     bike: 0
     walk: 0
@@ -148,11 +148,11 @@ changes:
     bike_access: 1
     county: 1
     model_link_id: 1750157
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
-    assign_group: 20
-    roadway_class: 2
+    assign_group: 2
+    roadway_class: 20
     area_type: 2
     bike: 0
     walk: 0
@@ -166,11 +166,11 @@ changes:
     bike_access: 1
     county: 0
     model_link_id: 1750158
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
-    assign_group: 20
-    roadway_class: 2
+    assign_group: 2
+    roadway_class: 20
     area_type: 2
     bike: 0
     walk: 0
@@ -184,11 +184,11 @@ changes:
     bike_access: 1
     county: 1
     model_link_id: 1750159
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
-    assign_group: 20
-    roadway_class: 2
+    assign_group: 2
+    roadway_class: 20
     area_type: 2
     bike: 0
     walk: 0
@@ -202,8 +202,8 @@ changes:
     bike_access: 1
     county: 1
     model_link_id: 1750160
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
     assign_group: 3
     roadway_class: 60
@@ -220,8 +220,8 @@ changes:
     bike_access: 1
     county: 1
     model_link_id: 1750162
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
     assign_group: 3
     roadway_class: 60
@@ -238,8 +238,8 @@ changes:
     bike_access: 1
     county: 1
     model_link_id: 1750163
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
     assign_group: 3
     roadway_class: 60
@@ -256,8 +256,8 @@ changes:
     bike_access: 1
     county: 1
     model_link_id: 1750164
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
     assign_group: 5
     roadway_class: 30
@@ -274,8 +274,8 @@ changes:
     bike_access: 1
     county: 1
     model_link_id: 1750165
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
     assign_group: 5
     roadway_class: 30
@@ -292,8 +292,8 @@ changes:
     bike_access: 1
     county: 1
     model_link_id: 1750166
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
     assign_group: 3
     roadway_class: 60
@@ -310,8 +310,8 @@ changes:
     bike_access: 1
     county: 1
     model_link_id: 1750167
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
     assign_group: 5
     roadway_class: 30
@@ -328,8 +328,8 @@ changes:
     bike_access: 1
     county: 1
     model_link_id: 1750168
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
     assign_group: 5
     roadway_class: 30
@@ -346,8 +346,8 @@ changes:
     bike_access: 1
     county: 1
     model_link_id: 1750169
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
     assign_group: 5
     roadway_class: 30
@@ -364,8 +364,8 @@ changes:
     bike_access: 1
     county: 0
     model_link_id: 1750170
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
     assign_group: 3
     roadway_class: 60
@@ -382,8 +382,8 @@ changes:
     bike_access: 1
     county: 1
     model_link_id: 1750171
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
     assign_group: 3
     roadway_class: 60
@@ -400,8 +400,8 @@ changes:
     bike_access: 1
     county: 1
     model_link_id: 1750172
-    rail_only: 1
-    bus_only: 1
+    rail_only: 0
+    bus_only: 0
     centroidconnect: 0
     assign_group: 3
     roadway_class: 60

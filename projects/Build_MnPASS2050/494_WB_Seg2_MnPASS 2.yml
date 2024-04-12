@@ -1,4 +1,4 @@
-project: 94 nb s1 managed lane
+project: 494 wb segment 2 managed lane
 tags:
 - managed_lane
 - MnPASS
@@ -12,13 +12,33 @@ changes:
   facility:
     link:
     - model_link_id:
-      - 62077
-      - 123713
-      - 208905
-      - 228380
-      - 416213
-      - 520654
+      - 49605
+      - 1750231
+      - 216760
+      - 232193
+      - 300668
+      - 347381
+      - 385373
+      - 1750230
+      - 424003
+      - 461882
+      - 531091
+      - 385831
   properties:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '06:00'
+      - '10:00'
+      change: -1
+  - property: ML_lanes
+    set: 0
+    timeofday:
+    - time:
+      - '06:00'
+      - '10:00'
+      set: 1  
   - property: lanes
     change: 0
     timeofday:
@@ -38,7 +58,7 @@ changes:
   - property: ML_egress
     set: all
   - property: MNPASS_CODE
-    set: 116
+    set: 113
   - property: ML_MNPASS_CODE
-    set: 16
+    set: 13
 notes: null
