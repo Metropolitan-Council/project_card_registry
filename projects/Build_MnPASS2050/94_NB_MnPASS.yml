@@ -6,7 +6,6 @@ tags:
 - Year 2028
 dependencies:
   prerequisites:
-  - add mnpass_code
   - mn252hwyconvaccessoption
 changes:
 - category: Parallel Managed lanes
