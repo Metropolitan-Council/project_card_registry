@@ -21,7 +21,8 @@ changes:
   facility:
     link:
     - model_link_id:
-      - 94698 # WB ramp between I94 and Lindn Ave
+      - 94698 # WB ramp between I94 and Linden Ave
+      - 88315 # WB connection from Dunwoody Blvd to reversible lane
   properties:
   - property: MNPASS_PAY
     set: 1
