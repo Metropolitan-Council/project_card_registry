@@ -23,6 +23,8 @@ changes:
       - '6:00'
       - '10:00'
       set: 2
+  - property: MNPASS_CODE
+    set: 102
 - category: Roadway Property Change
   facility:
     link:
@@ -39,3 +41,24 @@ changes:
       - '15:00'
       - '19:00'
       set: 2
+  - property: MNPASS_CODE
+    set: 101
+- category: Parallel Managed lanes
+  facility:
+    link:
+    - model_link_id:
+      - 276573 # EB ramp from EB GP lane to reversible lane
+  properties:
+  - property: lanes
+    set: 0
+  - property: ML_lanes
+    set: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      set: 1
+  - property: MNPASS_CODE
+    set: 102
+  - property: ML_MNPASS_CODE
+    set: 2
