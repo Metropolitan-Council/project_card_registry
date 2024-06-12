@@ -12,7 +12,21 @@ changes:
     link:
     - model_link_id:
       - 1950010 #EB
-      - 1950011
+  properties:
+  - property: lanes
+    set: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      set: 1
+  - property: MNPASS_CODE
+    set: 2
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 1950011 #EB
       - 1950012
       - 1950013
   properties:
@@ -24,7 +38,22 @@ changes:
       - '10:00'
       set: 2
   - property: MNPASS_CODE
-    set: 102
+    set: 2
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 453518 # WB
+  properties:
+  - property: lanes
+    set: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      set: 1
+  - property: MNPASS_CODE
+    set: 1
 - category: Roadway Property Change
   facility:
     link:
@@ -32,7 +61,6 @@ changes:
       - 305528 # WB
       - 1898
       - 128466
-      - 453518
   properties:
   - property: lanes
     set: 0
@@ -42,8 +70,8 @@ changes:
       - '19:00'
       set: 2
   - property: MNPASS_CODE
-    set: 101
-- category: Parallel Managed lanes
+    set: 1
+- category: Roadway Property Change
   facility:
     link:
     - model_link_id:
@@ -51,14 +79,31 @@ changes:
   properties:
   - property: lanes
     set: 0
-  - property: ML_lanes
-    set: 0
     timeofday:
     - time:
       - '6:00'
       - '10:00'
       set: 1
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 124872 # WB mainline for the reversible lane
+      - 255825
+      - 281378
+      - 322212
+  properties:
+  - property: MNPASS_CODE
+    set: 101
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 584 # EB mainline for the reversible lane
+      - 49940
+      - 196795
+      - 272563
+      - 457867
+  properties:
   - property: MNPASS_CODE
     set: 102
-  - property: ML_MNPASS_CODE
-    set: 2
