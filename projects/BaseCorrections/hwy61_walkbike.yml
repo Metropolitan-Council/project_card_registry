@@ -1,4 +1,4 @@
-project: hwy 61 walk bike 
+project: hwy 61 walk bike
 tags:
 - Network Cleanup
 - Roadway Property Change
@@ -28,4 +28,4 @@ changes:
   - property: walk
     set: 1
   - property: bike
-    set: 1  
+    set: 1

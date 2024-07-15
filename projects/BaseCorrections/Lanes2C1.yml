@@ -797,7 +797,7 @@ changes:
       - 768456
       - 268493
       - 294001
-      - 260904 
+      - 260904
   properties:
   - property: lanes
     set: 2

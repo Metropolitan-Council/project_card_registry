@@ -33,5 +33,5 @@ changes:
   - property: MNPASS_CODE
     set: 102
   - property: ML_MNPASS_CODE
-    set: 2  
+    set: 2
 notes: null

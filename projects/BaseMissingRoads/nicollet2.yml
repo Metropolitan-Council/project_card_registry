@@ -56,8 +56,8 @@ changes:
   - property: bike
     set: 1
   - property: walk
-    set: 1 
-  - property: roadway_class 
+    set: 1
+  - property: roadway_class
     set: 30
 - category: Roadway Property Change
   facility:
@@ -83,7 +83,7 @@ changes:
   - property: bike
     set: 1
   - property: walk
-    set: 1 
-  - property: roadway_class 
+    set: 1
+  - property: roadway_class
     set: 30
 valid: false

@@ -1,4 +1,4 @@
-project: clean up model crash 1 
+project: clean up model crash 1
 tags:
 - Network Cleanup
 - Roadway Property Change
@@ -10,7 +10,7 @@ changes:
       - 342247
       - 743290
       - 57246
-      - 779344  
+      - 779344
   properties:
   - property: drive_access
     set: 1
@@ -19,6 +19,6 @@ changes:
   - property: roadway_class
     set: 30
   - property: bike
-    set: 1  
+    set: 1
   - property: walk
-    set: 1  
+    set: 1

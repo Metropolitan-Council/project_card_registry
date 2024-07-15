@@ -3,7 +3,7 @@ tags:
 - Year 2015
 - External Stations Review
 dependencies:
-  prerequisites: 
+  prerequisites:
     - 'add walk and bike attributes'
 changes:
 - category: Add New Roadway

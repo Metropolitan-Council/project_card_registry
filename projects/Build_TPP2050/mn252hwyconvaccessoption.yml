@@ -869,7 +869,7 @@ changes:
     MNPASS_CODE: 0
     MNPASS_PAY: 0
     managed: 0
-    lanes: 1 
+    lanes: 1
   - A: 403033
     B: 403030
     name: ''
@@ -890,7 +890,7 @@ changes:
     MNPASS_CODE: 0
     MNPASS_PAY: 0
     managed: 0
-    lanes: 1 
+    lanes: 1
   - A: 900043
     B: 900044
     name: ''
@@ -911,7 +911,7 @@ changes:
     MNPASS_CODE: 0
     MNPASS_PAY: 0
     managed: 0
-    lanes: 1 
+    lanes: 1
   - A: 900044
     B: 900043
     name: ''
@@ -932,7 +932,7 @@ changes:
     MNPASS_CODE: 0
     MNPASS_PAY: 0
     managed: 0
-    lanes: 1 
+    lanes: 1
   - A: 383058
     B: 383071
     name: ''
@@ -953,7 +953,7 @@ changes:
     MNPASS_CODE: 0
     MNPASS_PAY: 0
     managed: 0
-    lanes: 1 
+    lanes: 1
   - A: 383071
     B: 383058
     name: ''
@@ -974,7 +974,7 @@ changes:
     MNPASS_CODE: 0
     MNPASS_PAY: 0
     managed: 0
-    lanes: 1 
+    lanes: 1
   - A: 383060
     B: 383062
     name: ''
@@ -995,7 +995,7 @@ changes:
     MNPASS_CODE: 0
     MNPASS_PAY: 0
     managed: 0
-    lanes: 1 
+    lanes: 1
   - A: 383062
     B: 383060
     name: ''
@@ -1016,7 +1016,7 @@ changes:
     MNPASS_CODE: 0
     MNPASS_PAY: 0
     managed: 0
-    lanes: 1 
+    lanes: 1
   nodes:
   - drive_access: 1.0
     walk_access: 1.0

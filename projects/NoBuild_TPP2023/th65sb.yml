@@ -824,7 +824,7 @@ changes:
   - property: walk
     set: 1
   - property: bike
-    set: 1  
+    set: 1
   - property: assign_group
     set: 11
   - property: roadway_class
