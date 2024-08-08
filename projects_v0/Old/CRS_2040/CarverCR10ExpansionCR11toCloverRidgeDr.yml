@@ -1,0 +1,31 @@
+project: carver cr 10 expansion cr 11 to clover ridge dr
+tags:
+- 2040 CRS
+- Year 2030
+- Lane Addition
+- Carver County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 25155
+      - 460782
+      - 436269
+      - 593549
+      - 352828
+      - 954699
+      - 678431
+      - 607640
+      - 493923
+      - 322870
+      - 369504
+      - 65060
+      - 553708
+      - 557975
+      - 69551
+  properties:
+  - property: lanes
+    set: 2

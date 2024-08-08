@@ -5,13 +5,13 @@ tags:
 - Lane Addition
 - Washington County
 - TPP Hwy Chapter
-dependencies: ''
+dependencies: {}
 changes:
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 148956
-  properties:
-  - property: lanes
-    set: 5
+- roadway_property_change:
+    property_changes:
+      lanes:
+        set: 5
+    facility:
+      links:
+        model_link_id:
+        - 148956

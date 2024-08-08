@@ -1,0 +1,29 @@
+name: Validate registry projectcards
+
+on: 
+    push:
+        paths:
+            - 'projects/**'
+    pull_request:
+        paths:
+            - 'projects/**'
+    workflow_dispatch:
+
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.10'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install projectcard
+    - name: Run validation
+      run: |
+          validate_card projects --recursive | tee validation-log.txt

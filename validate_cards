@@ -1,0 +1,11 @@
+#!/bin/bash
+
+CARD_DIR="projects"
+
+# PARAMETERS
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+CARD_PATH="$(cd "$SCRIPT_DIR/$CARD_DIR" && pwd)"
+
+validate_card "$CARD_PATH" --recursive 2>&1 | tee -a validation.log
+
+echo "Validation completed."

@@ -5,38 +5,38 @@ tags:
 - Lane Addition
 - Scott County
 - TPP Hwy Chapter
-dependencies: ''
+dependencies: {}
 changes:
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 7021
-      - 120774
-      - 535942
-      - 861914
-      - 635039
-      - 982268
-      - 328179
-      - 227383
-      - 74264
-      - 937842
-      - 912489
-      - 353612
-      - 907573
-      - 484161
-      - 928547
-      - 152861
-      - 353612
-      - 768508
-      - 303578
-      - 826676
-      - 7384
-      - 430231
-      - 978050
-      - 744998
-      - 671496
-      - 493135
-  properties:
-  - property: lanes
-    set: 2
+- roadway_property_change:
+    property_changes:
+      lanes:
+        set: 2
+    facility:
+      links:
+        model_link_id:
+        - 7021
+        - 120774
+        - 535942
+        - 861914
+        - 635039
+        - 982268
+        - 328179
+        - 227383
+        - 74264
+        - 937842
+        - 912489
+        - 353612
+        - 907573
+        - 484161
+        - 928547
+        - 152861
+        - 353612
+        - 768508
+        - 303578
+        - 826676
+        - 7384
+        - 430231
+        - 978050
+        - 744998
+        - 671496
+        - 493135

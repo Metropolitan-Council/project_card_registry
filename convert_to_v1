@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# PARAMETERS
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+INPUT_DIR="$(cd "$SCRIPT_DIR/projects_v0" && pwd)"
+OUTPUT_DIR="$(cd "$SCRIPT_DIR/projects" && pwd)"
+
+# Define the list of requirements
+py_requirements=("projectcard")
+
+# Loop through the requirements
+for py_requirement in "${requirements[@]}"; do
+    # Check if the requirement is installed
+    if ! pip list | grep -q "^$py_requirement "; then
+        echo "$requirement is not installed. Would you like to install it using pip or conda? (pip/conda/mamba)"
+        read install_choice
+        if [ "$install_choice" == "pip" ]; then
+            pip install "$requirement"
+        elif [ "$install_choice" == "conda" ]; then
+            conda install "$requirement"
+        elif [ "$install_choice" == "mamba" ]; then
+            mamba install "$requirement"
+        else
+            echo "$requirement is required for this script. Exiting..."
+            exit 1
+        fi
+    fi
+done
+
+# Recursively go through each folder in /projects
+find "$INPUT_DIR" -type d | while read -r project_folder; do
+    relative_path="${project_folder#$INPUT_DIR/}"
+    new_folder="$OUTPUT_DIR/$relative_path"
+    if [ ! -d "$new_folder" ]; then
+        mkdir -p "$new_folder"
+    fi
+    echo "Converting $project_folder to $new_folder"
+    update_projectcard_schema "$project_folder" "$new_folder"
+done
+
+validate_card "$INPUT_DIR" --recursive 2>&1 | tee -a validation.log
+
+echo "Conversion to v1 completed."

@@ -1,0 +1,18 @@
+project: i-94 expansion dayton pkwy to mn 101
+tags:
+- 2040 CRS
+- Year 2025
+- Lane Addition
+- Hennepin County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 227183
+      - 336698
+  properties:
+  - property: lanes
+    set: 3
