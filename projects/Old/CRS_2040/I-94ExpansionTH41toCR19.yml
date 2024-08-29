@@ -5,21 +5,21 @@ tags:
 - Lane Addition
 - Wright County
 - TPP Hwy Chapter
-dependencies: ''
+dependencies: {}
 changes:
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 276594
-      - 276594
-      - 224663
-      - 54349
-      - 492746
-      - 388897
-      - 504078
-      - 286196
-      - 541599
-  properties:
-  - property: lanes
-    set: 3
+- roadway_property_change:
+    property_changes:
+      lanes:
+        set: 3
+    facility:
+      links:
+        model_link_id:
+        - 276594
+        - 276594
+        - 224663
+        - 54349
+        - 492746
+        - 388897
+        - 504078
+        - 286196
+        - 541599

@@ -6,7 +6,7 @@ nodes_used_by_geography:
   - geography_name: Internal TAZ
     start: 1
     end: 3030
-    # external nodes (3031-3061) are added using project cards 
+    # external nodes (3031-3061) are added using project cards
   - geography_name: Future TAZ and External Reserve
     start: 3062
     end: 3100

@@ -1,0 +1,1167 @@
+project: mn252hwyconvaccessoption
+tags: ''
+dependencies: ''
+changes:
+- category: Roadway Deletion
+  links:
+    model_link_id:
+    - 403662
+    - 443300
+    - 83838
+    - 452859
+    - 346307
+    - 497198
+    - 476791
+    - 353865
+    - 143796
+    - 124227
+    - 506618
+    - 185653
+    - 335628
+    - 460762
+    - 363236
+    - 535481
+    - 790199
+    - 710122
+    - 468038
+    - 529220
+    - 194439
+    - 436402
+    - 323455
+    - 29632
+    - 205680
+    - 798155
+    - 48129
+    - 788135
+    - 684992
+    - 84826
+    - 154482
+    - 148936
+    - 160018
+    - 476342
+    - 522388
+    - 88474
+    - 478612
+    - 472437
+    - 290008
+    - 553171
+    - 548512
+    - 115685
+    - 444792
+    - 144854
+    - 506039
+    - 256499
+    - 379856
+    - 325103
+    - 513649
+    - 466998
+    - 162203
+    - 254248
+    - 230828
+    - 221913
+    - 416769
+    - 309944
+    - 39070
+    - 516974
+    - 355967
+    - 352144
+    - 392186
+    - 285733
+    - 207261
+    - 411495
+    - 542664
+    - 466057
+    - 393836
+    - 456803
+    - 94734
+    - 420421
+    - 241773
+    - 211612
+    - 361343
+    - 329323
+    - 50514
+    - 551505
+    - 399000
+    - 333062
+    - 320450
+    - 550171
+    - 535182
+    - 373307
+    - 419141
+    - 450690
+    - 403184
+    - 140147
+- category: Add New Roadway
+  links:
+  - A: 900043
+    B: 196463
+    name: 66th Avenue North
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900097
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 3
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 196464
+    B: 900044
+    name: 66th Avenue North
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900098
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 3
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900044
+    B: 900045
+    name: ''
+    roadway: ''
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900099
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 3
+    roadway_class: 0
+    area_type: 3
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900042
+    B: 900043
+    name: ''
+    roadway: ''
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900100
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 3
+    roadway_class: 0
+    area_type: 3
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 403033
+    B: 900043
+    name: 66th Avenue North
+    roadway: primary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900101
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 3
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900044
+    B: 403030
+    name: 66th Avenue North
+    roadway: primary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900102
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 3
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 196465
+    B: 354838
+    name: 70th Avenue North
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900103
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 3
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 354838
+    B: 196465
+    name: 70th Avenue North
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900104
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 3
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 257581
+    B: 402609
+    name: 73rd Avenue North
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900105
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 2
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 402609
+    B: 257581
+    name: 73rd Avenue North
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900106
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 2
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 383062
+    B: 383068
+    name: ''
+    roadway: ''
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900107
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 3
+    roadway_class: 0
+    area_type: 3
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 218067
+    B: 383058
+    name: ''
+    roadway: ''
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900108
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 3
+    roadway_class: 0
+    area_type: 3
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 383071
+    B: 383073
+    name: ''
+    roadway: ''
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900109
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 3
+    roadway_class: 0
+    area_type: 3
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 383069
+    B: 383060
+    name: ''
+    roadway: ''
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900110
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 3
+    roadway_class: 0
+    area_type: 3
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 383071
+    B: 383060
+    name: Brookdale Drive
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900111
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 2
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 383062
+    B: 383058
+    name: Brookdale Drive
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900112
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 2
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 218071
+    B: 900047
+    name: ''
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900113
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 1
+    roadway_class: 10
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 900048
+    B: 401931
+    name: 85th Avenue North
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900114
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 2
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900047
+    B: 900048
+    name: ''
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900115
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 3
+    roadway_class: 60
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 339662
+    B: 339661
+    name: 85th Avenue North
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900116
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 2
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 339658
+    B: 900048
+    name: 85th Avenue North
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900117
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 2
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900047
+    B: 339663
+    name: ''
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900118
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 1
+    roadway_class: 10
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 339660
+    B: 339659
+    name: ''
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900119
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 1
+    roadway_class: 10
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 339661
+    B: 339658
+    name: 85th Avenue North
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900120
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 2
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900048
+    B: 339662
+    name: 85th Avenue North
+    roadway: tertiary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900121
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 2
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 218075
+    B: 218076
+    name: ''
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900122
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 1
+    roadway_class: 10
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 900046
+    B: 218071
+    name: ''
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900123
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 1
+    roadway_class: 10
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 383068
+    B: 900046
+    name: ''
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900124
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 1
+    roadway_class: 10
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 218067
+    B: 383073
+    name: ''
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900125
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 1
+    roadway_class: 10
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 3
+  - A: 383069
+    B: 383068
+    name: ''
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900126
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 1
+    roadway_class: 10
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 3
+  - A: 218009
+    B: 3620
+    name: ''
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900127
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 1
+    roadway_class: 10
+    area_type: 3
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 3
+  - A: 218066
+    B: 218008
+    name: ''
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900128
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 1
+    roadway_class: 10
+    area_type: 3
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 3
+  - A: 900045
+    B: 218009
+    name: ''
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900129
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 1
+    roadway_class: 10
+    area_type: 3
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 3
+  - A: 403031
+    B: 403032
+    name: ''
+    roadway: motorway
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900130
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 1
+    roadway_class: 10
+    area_type: 3
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 3
+  - A: 900042
+    B: 900045
+    name: ''
+    roadway: motorway
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900131
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 1
+    roadway_class: 10
+    area_type: 3
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 3
+  - A: 218006
+    B: 900042
+    name: ''
+    roadway: motorway
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900132
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 1
+    roadway_class: 10
+    area_type: 3
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 3
+  - A: 403030
+    B: 403033
+    name: ''
+    roadway: motorway
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900200
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 3
+    bike: 1
+    walk: 1
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 403033
+    B: 403030
+    name: ''
+    roadway: motorway
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900201
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 3
+    bike: 1
+    walk: 1
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900043
+    B: 900044
+    name: ''
+    roadway: motorway
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900202
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 3
+    bike: 1
+    walk: 1
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900044
+    B: 900043
+    name: ''
+    roadway: motorway
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900203
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 3
+    bike: 1
+    walk: 1
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 383058
+    B: 383071
+    name: ''
+    roadway: motorway
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900204
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 3
+    bike: 1
+    walk: 1
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 383071
+    B: 383058
+    name: ''
+    roadway: motorway
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900205
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 3
+    bike: 1
+    walk: 1
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 383060
+    B: 383062
+    name: ''
+    roadway: motorway
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900206
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 3
+    bike: 1
+    walk: 1
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 383062
+    B: 383060
+    name: ''
+    roadway: motorway
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 4
+    model_link_id: 1900207
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 3
+    bike: 1
+    walk: 1
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  nodes:
+  - drive_access: 1.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900042
+    osm_node_id: ''
+    X: -93.28649201852888
+    Y: 45.074229109377775
+  - drive_access: 1.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900043
+    osm_node_id: ''
+    X: -93.28598877944245
+    Y: 45.07461196537189
+  - drive_access: 1.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900044
+    osm_node_id: ''
+    X: -93.28613163637924
+    Y: 45.07479500968685
+  - drive_access: 1.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900045
+    osm_node_id: ''
+    X: -93.28667182344691
+    Y: 45.07512200392755
+  - drive_access: 1.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900046
+    osm_node_id: ''
+    X: -93.29965428972069
+    Y: 45.100780083628514
+  - drive_access: 1.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900047
+    osm_node_id: ''
+    X: -93.30104273364172
+    Y: 45.10751210733921
+  - drive_access: 1.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900048
+    osm_node_id: ''
+    X: -93.30074710336253
+    Y: 45.10867912476962
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 414524
+  properties:
+  - existing: 10.0
+    set: 60.0
+    property: roadway_class
+  - set: 3.0
+    property: assign_group
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 236715
+      - 144095
+      - 250908
+      - 136649
+      - 512572
+      - 92904
+      - 179467
+      - 486533
+      - 425240
+      - 234654
+      - 376499
+      - 211052
+  properties:
+  - existing: 20.0
+    set: 10.0
+    property: roadway_class
+  - set: 1.0
+    property: assign_group
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 452140
+      - 260819
+  properties:
+  - existing: 60.0
+    set: 10.0
+    property: roadway_class
+  - set: 1.0
+    property: assign_group
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 195203
+  properties:
+  - existing: 60.0
+    set: 10.0
+    property: roadway_class
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 221757
+  properties:
+  - set: 3.0
+    property: assign_group
+  - existing: motorway_link
+    set: ''
+    property: roadway
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 21325
+  properties:
+  - set: 3.0
+    property: assign_group
+  - existing: trunk_link
+    set: ''
+    property: roadway
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 26029
+  properties:
+  - set: 3.0
+    property: assign_group

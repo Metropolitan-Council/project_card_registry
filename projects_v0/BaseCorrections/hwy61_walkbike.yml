@@ -1,0 +1,31 @@
+project: hwy 61 walk bike
+tags:
+- Network Cleanup
+- Roadway Property Change
+dependencies:
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 1028270
+      - 122225
+      - 1036944
+      - 487409
+      - 4286
+      - 659959
+      - 306333
+      - 710579
+      - 634595
+      - 271460
+      - 378000
+      - 842998
+  properties:
+  - property: walk_access
+    set: 1
+  - property: bike_access
+    set: 1
+  - property: walk
+    set: 1
+  - property: bike
+    set: 1

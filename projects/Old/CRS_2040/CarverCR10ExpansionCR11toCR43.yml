@@ -5,16 +5,16 @@ tags:
 - Lane Addition
 - Carver County
 - TPP Hwy Chapter
-dependencies: ''
+dependencies: {}
 changes:
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 32594
-      - 833766
-      - 32594
-      - 833766
-  properties:
-  - property: lanes
-    set: 2
+- roadway_property_change:
+    property_changes:
+      lanes:
+        set: 2
+    facility:
+      links:
+        model_link_id:
+        - 32594
+        - 833766
+        - 32594
+        - 833766

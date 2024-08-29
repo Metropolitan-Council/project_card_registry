@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+dependencies = [
+    "projectcard",
+    "pyyaml",
+]
+
+[tool.ruff]
+line-length = 99
+
+[tool.ruff.lint]
+select = ["D"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"

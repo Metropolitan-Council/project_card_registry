@@ -5,29 +5,29 @@ tags:
 - Lane Addition
 - Hennepin County
 - TIP
-dependencies: ''
+dependencies: {}
 changes:
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 45274
-      - 874932
-      - 205913
-      - 340302
-      - 281507
-      - 886151
-      - 122821
-      - 347409
-      - 268985
-      - 644190
-      - 51517
-      - 841715
-      - 632692
-      - 34421
-      - 921538
-      - 932829
-      - 41700
-  properties:
-  - property: lanes
-    set: 2
+- roadway_property_change:
+    property_changes:
+      lanes:
+        set: 2
+    facility:
+      links:
+        model_link_id:
+        - 45274
+        - 874932
+        - 205913
+        - 340302
+        - 281507
+        - 886151
+        - 122821
+        - 347409
+        - 268985
+        - 644190
+        - 51517
+        - 841715
+        - 632692
+        - 34421
+        - 921538
+        - 932829
+        - 41700

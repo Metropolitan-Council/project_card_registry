@@ -1,0 +1,31 @@
+project: csah 83 expansion
+tags:
+- 2040 CRS
+- Year 2030
+- Lane Addition
+- Scott County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 106961
+      - 498576
+      - 186478
+      - 361124
+      - 109944
+      - 196351
+      - 234733
+      - 93831
+      - 845138
+      - 477095
+      - 408405
+      - 270732
+      - 939466
+      - 446889
+      - 947535
+  properties:
+  - property: lanes
+    set: 2
