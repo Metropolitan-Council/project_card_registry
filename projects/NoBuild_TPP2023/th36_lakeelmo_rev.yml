@@ -1,232 +1,236 @@
 project: th36_lakeelmo_rev
-tags: 'NoBuild_2023'
-dependencies: ''
+tags:
+- NoBuild_2023
+dependencies: {}
+notes: ''
 changes:
-- category: Roadway Deletion
-  links:
-    model_link_id:
-    - 384760
-    - 247529
-    - 179842
-    - 644829
-    - 82196
-    - 499942
-- category: Add New Roadway
-  links:
-  - A: 516176
-    B: 509490
-    name: TH-36
-    roadway: trunk
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 7
-    model_link_id: 1500007
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 15
-    roadway_class: 20
-    area_type: 1
-    bike: 0
-    walk: 0
-    lanes: 2.0
-  - A: 160601
-    B: 516176
-    name: TH-36
-    roadway: trunk
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 7
-    model_link_id: 1600000
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 15
-    roadway_class: 20
-    area_type: 1
-    bike: 0
-    walk: 0
-    lanes: 2.0
-  - A: 509490
-    B: 169551
-    name: TH-36
-    roadway: trunk
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 7
-    model_link_id: 1800000
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 15
-    roadway_class: 20
-    area_type: 1
-    bike: 0
-    walk: 0
-    lanes: 2.0
-  - A: 516176
-    B: 169554
-    name: TH-36 ramp
-    roadway: ramp
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 0
-    model_link_id: 1500008
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 13
-    roadway_class: 60
-    area_type: 1
-    bike: 0
-    walk: 0
-    lanes: 2.0
-  - A: 169554
-    B: 509490
-    name: TH-36 ramp
-    roadway: ramp
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 0
-    model_link_id: 1500009
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 13
-    roadway_class: 60
-    area_type: 1
-    bike: 0
-    walk: 0
-    lanes: 2.0
-  - A: 177445
-    B: 551231
-    name: TH-36
-    roadway: trunk
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 0
-    model_link_id: 1600013
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 15
-    roadway_class: 20
-    area_type: 1
-    bike: 0
-    walk: 0
-    lanes: 2.0
-  - A: 551231
-    B: 579084
-    name: TH-36
-    roadway: trunk
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 7
-    model_link_id: 1800025
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 15
-    roadway_class: 20
-    area_type: 1
-    bike: 0
-    walk: 0
-    lanes: 2.0
-  - A: 579084
-    B: 223276
-    name: TH-36
-    roadway: trunk
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 7
-    model_link_id: 1567892
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 15
-    roadway_class: 20
-    area_type: 1
-    bike: 0
-    walk: 0
-    lanes: 2.0
-  - A: 551231
-    B: 174108
-    name: TH-36 ramp
-    roadway: ramp
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 7
-    model_link_id: 1589999
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 13
-    roadway_class: 60
-    area_type: 1
-    bike: 0
-    walk: 0
-    lanes: 2.0
-  - A: 174108
-    B: 579084
-    name: TH-36 ramp
-    roadway: ramp
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 7
-    model_link_id: 1987555
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 13
-    roadway_class: 60
-    area_type: 1
-    bike: 0
-    walk: 0
-    lanes: 2.0
-  nodes:
-  - drive_access: 1.0
-    walk_access: 1.0
-    bike_access: 1.0
-    county: '7'
-    rail_only: 0
-    model_node_id: 509490
-    osm_node_id: ''
-    X: -92.879558866114
-    Y: 45.03558904844206
-  - drive_access: 1.0
-    walk_access: 1.0
-    bike_access: 1.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 516176
-    osm_node_id: ''
-    X: -92.88536485791165
-    Y: 45.035536121203016
-  - drive_access: 1.0
-    walk_access: 1.0
-    bike_access: 1.0
-    county: '7'
-    rail_only: 0
-    model_node_id: 551231
-    osm_node_id: ''
-    X: -92.87949088595471
-    Y: 45.035853680605506
-  - drive_access: 1.0
-    walk_access: 1.0
-    bike_access: 1.0
-    county: '7'
-    rail_only: 0
-    model_node_id: 579084
-    osm_node_id: ''
-    X: -92.88536808479947
-    Y: 45.035834165575814
+- roadway_deletion:
+    links:
+      model_link_id:
+      - 384760
+      - 247529
+      - 179842
+      - 644829
+      - 82196
+      - 499942
+      modes:
+      - any
+- roadway_addition:
+    links:
+    - A: 516176
+      B: 509490
+      name: TH-36
+      roadway: trunk
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 7
+      model_link_id: 1500007
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 15
+      roadway_class: 20
+      area_type: 1
+      bike: 0
+      walk: 0
+      lanes: 2.0
+    - A: 160601
+      B: 516176
+      name: TH-36
+      roadway: trunk
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 7
+      model_link_id: 1600000
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 15
+      roadway_class: 20
+      area_type: 1
+      bike: 0
+      walk: 0
+      lanes: 2.0
+    - A: 509490
+      B: 169551
+      name: TH-36
+      roadway: trunk
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 7
+      model_link_id: 1800000
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 15
+      roadway_class: 20
+      area_type: 1
+      bike: 0
+      walk: 0
+      lanes: 2.0
+    - A: 516176
+      B: 169554
+      name: TH-36 ramp
+      roadway: motorway_link
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 0
+      model_link_id: 1500008
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 13
+      roadway_class: 60
+      area_type: 1
+      bike: 0
+      walk: 0
+      lanes: 2.0
+    - A: 169554
+      B: 509490
+      name: TH-36 ramp
+      roadway: motorway_link
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 0
+      model_link_id: 1500009
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 13
+      roadway_class: 60
+      area_type: 1
+      bike: 0
+      walk: 0
+      lanes: 2.0
+    - A: 177445
+      B: 551231
+      name: TH-36
+      roadway: trunk
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 0
+      model_link_id: 1600013
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 15
+      roadway_class: 20
+      area_type: 1
+      bike: 0
+      walk: 0
+      lanes: 2.0
+    - A: 551231
+      B: 579084
+      name: TH-36
+      roadway: trunk
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 7
+      model_link_id: 1800025
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 15
+      roadway_class: 20
+      area_type: 1
+      bike: 0
+      walk: 0
+      lanes: 2.0
+    - A: 579084
+      B: 223276
+      name: TH-36
+      roadway: trunk
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 7
+      model_link_id: 1567892
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 15
+      roadway_class: 20
+      area_type: 1
+      bike: 0
+      walk: 0
+      lanes: 2.0
+    - A: 551231
+      B: 174108
+      name: TH-36 ramp
+      roadway: motorway_link
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 7
+      model_link_id: 1589999
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 13
+      roadway_class: 60
+      area_type: 1
+      bike: 0
+      walk: 0
+      lanes: 2.0
+    - A: 174108
+      B: 579084
+      name: TH-36 ramp
+      roadway: motorway_link
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 7
+      model_link_id: 1987555
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 13
+      roadway_class: 60
+      area_type: 1
+      bike: 0
+      walk: 0
+      lanes: 2.0
+    nodes:
+    - drive_access: 1.0
+      walk_access: 1.0
+      bike_access: 1.0
+      county: '7'
+      rail_only: 0
+      model_node_id: 509490
+      osm_node_id: ''
+      X: -92.879558866114
+      Y: 45.03558904844206
+    - drive_access: 1.0
+      walk_access: 1.0
+      bike_access: 1.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 516176
+      osm_node_id: ''
+      X: -92.88536485791165
+      Y: 45.035536121203016
+    - drive_access: 1.0
+      walk_access: 1.0
+      bike_access: 1.0
+      county: '7'
+      rail_only: 0
+      model_node_id: 551231
+      osm_node_id: ''
+      X: -92.87949088595471
+      Y: 45.035853680605506
+    - drive_access: 1.0
+      walk_access: 1.0
+      bike_access: 1.0
+      county: '7'
+      rail_only: 0
+      model_node_id: 579084
+      osm_node_id: ''
+      X: -92.88536808479947
+      Y: 45.035834165575814

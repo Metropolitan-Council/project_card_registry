@@ -1,26 +1,29 @@
 project: wright_i94
-tags: 'NoBuild 2023'
-dependencies: ''
+tags:
+- NoBuild 2023
+dependencies: {}
+notes: ''
 changes:
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 541599
-      - 298408
-      - 349021
-      - 399434
-      - 390618
-      - 371344
-      - 336289
-      - 313582
-      - 519689
-      - 525512
-      - 155199
-      - 253513
-      - 133972
-  properties:
-  - existing: 2.0
-    set: 3.0
-    property: lanes
-valid: false
+- roadway_property_change:
+    property_changes:
+      lanes:
+        existing: 2.0
+        set: 3.0
+    facility:
+      links:
+        model_link_id:
+        - 541599
+        - 298408
+        - 349021
+        - 399434
+        - 390618
+        - 371344
+        - 336289
+        - 313582
+        - 519689
+        - 525512
+        - 155199
+        - 253513
+        - 133972
+        modes:
+        - any

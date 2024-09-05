@@ -1,14 +1,12 @@
 ---
 project: add walk and bike attributes
 tags:
-  - 'year_2018_corrections'
-dependencies:
-  prerequisites: []
-  corequisites: []
-  conflicts: []
+- 'year_2018_corrections'
+dependencies: {}
+self_obj_type: RoadwayNetwork
+note: ''
 category: Calculated Roadway
 ---
-
 import numpy as np
 
 # create a new variable called ‘bike’, where
@@ -45,7 +43,7 @@ self.links_df['walk'] = np.where(
 for c in ['walk', 'bike', 'walk_access', 'bike_access']:
     # assign group = 1, 2, 3, 4, 13, 14 or 15
     self.links_df[c] = np.where(
-        self.links_df['assign_group'].isin([1,2,3,4,13,14,15]),
+        self.links_df['assign_group'].isin([1, 2, 3, 4, 13, 14, 15]),
         0,
         self.links_df[c]
     )

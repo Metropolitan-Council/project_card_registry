@@ -1,93 +1,96 @@
 project: nic_split
-tags: ''
-dependencies: ''
+tags: []
+dependencies: {}
+notes: ''
 changes:
-- category: Roadway Deletion
-  links:
-    model_link_id:
-    - 538201
-    - 862469
-- category: Add New Roadway
-  links:
-  - A: 22362
-    B: 896897
-    name: Nicollet Avenue South Nicollet Avenue
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 4
-    model_link_id: 1750145
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 7
-    roadway_class: 40
-    area_type: 5
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896897
-    B: 351229
-    name: Nicollet Avenue South Nicollet Avenue
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 4
-    model_link_id: 1750146
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 7
-    roadway_class: 40
-    area_type: 5
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 351229
-    B: 896897
-    name: Nicollet Avenue South Nicollet Avenue
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 4
-    model_link_id: 1750147
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 6
-    roadway_class: 30
-    area_type: 5
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896897
-    B: 22362
-    name: Nicollet Avenue South Nicollet Avenue
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 4
-    model_link_id: 1750148
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 6
-    roadway_class: 30
-    area_type: 5
-    bike: 3
-    walk: 3
-    lanes: 1
-  nodes:
-  - drive_access: 0.0
-    walk_access: 0.0
-    bike_access: 0.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 896897
-    osm_node_id: ''
-    X: -93.27779695019835
-    Y: 44.9665768237522
+- roadway_deletion:
+    links:
+      model_link_id:
+      - 538201
+      - 862469
+      modes:
+      - any
+- roadway_addition:
+    links:
+    - A: 22362
+      B: 896897
+      name: Nicollet Avenue South Nicollet Avenue
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 4
+      model_link_id: 1750145
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 7
+      roadway_class: 40
+      area_type: 5
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896897
+      B: 351229
+      name: Nicollet Avenue South Nicollet Avenue
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 4
+      model_link_id: 1750146
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 7
+      roadway_class: 40
+      area_type: 5
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 351229
+      B: 896897
+      name: Nicollet Avenue South Nicollet Avenue
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 4
+      model_link_id: 1750147
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6
+      roadway_class: 30
+      area_type: 5
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896897
+      B: 22362
+      name: Nicollet Avenue South Nicollet Avenue
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 4
+      model_link_id: 1750148
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6
+      roadway_class: 30
+      area_type: 5
+      bike: 3
+      walk: 3
+      lanes: 1
+    nodes:
+    - drive_access: 0.0
+      walk_access: 0.0
+      bike_access: 0.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 896897
+      osm_node_id: ''
+      X: -93.27779695019835
+      Y: 44.9665768237522

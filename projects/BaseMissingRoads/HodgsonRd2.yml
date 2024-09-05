@@ -1,13 +1,16 @@
 project: hodgsonrd2
-tags: ''
-dependencies: ''
+tags: []
+dependencies: {}
+notes: ''
 changes:
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 671056
-      - 48033
-  properties:
-  - property: drive_access
-    set: 1
+- roadway_property_change:
+    property_changes:
+      drive_access:
+        set: 1
+    facility:
+      links:
+        model_link_id:
+        - 671056
+        - 48033
+        modes:
+        - any

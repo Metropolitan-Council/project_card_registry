@@ -2,32 +2,35 @@ project: clean up 35W ramps
 tags:
 - Network Cleanup Lanes
 - Roadway Property Change
-dependencies: ''
+dependencies: {}
+notes: ''
 changes:
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 432771
-      - 293109
-      - 43439
-      - 175885
-      - 534085
-      - 146132
-  properties:
-  - property: assign_group
-    set: 3
-  - property: roadway_class 
-    set: 60
-  - property: drive_access 
-    set: 1
-  - property: walk_access 
-    set: 0
-  - property: bike_access 
-    set: 0
-  - property: bike 
-    set: 0
-  - property: walk 
-    set: 0
-  - property: roadway 
-    set: 'motorway_link'
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 3
+      roadway_class:
+        set: 60
+      drive_access:
+        set: 1
+      walk_access:
+        set: 0
+      bike_access:
+        set: 0
+      bike:
+        set: 0
+      walk:
+        set: 0
+      roadway:
+        set: motorway_link
+    facility:
+      links:
+        model_link_id:
+        - 432771
+        - 293109
+        - 43439
+        - 175885
+        - 534085
+        - 146132
+        modes:
+        - any

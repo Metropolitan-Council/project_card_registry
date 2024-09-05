@@ -1,24 +1,28 @@
-project: clean up model crash 1 
+project: clean up model crash 1
 tags:
 - Network Cleanup
 - Roadway Property Change
+dependencies: {}
+notes: ''
 changes:
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 342247
-      - 743290
-      - 57246
-      - 779344  
-  properties:
-  - property: drive_access
-    set: 1
-  - property: assign_group
-    set: 6
-  - property: roadway_class
-    set: 30
-  - property: bike
-    set: 1  
-  - property: walk
-    set: 1  
+- roadway_property_change:
+    property_changes:
+      drive_access:
+        set: 1
+      assign_group:
+        set: 6
+      roadway_class:
+        set: 30
+      bike:
+        set: 1
+      walk:
+        set: 1
+    facility:
+      links:
+        model_link_id:
+        - 342247
+        - 743290
+        - 57246
+        - 779344
+        modes:
+        - any

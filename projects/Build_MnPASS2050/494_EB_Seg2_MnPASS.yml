@@ -7,53 +7,55 @@ tags:
 dependencies:
   prerequisites:
   - add mnpass_code
+notes: ''
 changes:
-- category: Parallel Managed lanes
-  facility:
-    link:
-    - model_link_id:
-      - 130932
-      - 524539
-      - 373924
-      - 432573
-      - 51420
-      - 339580
-      - 437483
-      - 1750228
-      - 1750229
-      - 102609
-      - 318778
-      - 49057
-      - 6659
-  properties:
-  - property: lanes
-    change: 0
-    timeofday:
-    - time:
-      - '06:00'
-      - '10:00'
-      change: -1
-    - time:
-      - '15:00'
-      - '19:00'
-      change: -1
-  - property: ML_lanes
-    set: 0
-    timeofday:
-    - time:
-      - '06:00'
-      - '10:00'
-      set: 1
-    - time:
-      - '15:00'
-      - '19:00'
-      set: 1
-  - property: ML_access
-    set: all
-  - property: ML_egress
-    set: all
-  - property: MNPASS_CODE
-    set: 114
-  - property: ML_MNPASS_CODE
-    set: 14
-notes: null
+- roadway_property_change:
+    property_changes:
+      lanes:
+        change: 0
+        scoped:
+        - change: -1
+          timespan:
+          - 06:00
+          - '10:00'
+        - change: -1
+          timespan:
+          - '15:00'
+          - '19:00'
+      ML_lanes:
+        set: 0
+        scoped:
+        - set: 1
+          timespan:
+          - 06:00
+          - '10:00'
+        - set: 1
+          timespan:
+          - '15:00'
+          - '19:00'
+      ML_access:
+        set: all
+      ML_egress:
+        set: all
+      MNPASS_CODE:
+        set: 114
+      ML_MNPASS_CODE:
+        set: 14
+    facility:
+      links:
+        model_link_id:
+        - 130932
+        - 524539
+        - 373924
+        - 432573
+        - 51420
+        - 339580
+        - 437483
+        - 1750228
+        - 1750229
+        - 102609
+        - 318778
+        - 49057
+        - 6659
+        modes:
+        - any

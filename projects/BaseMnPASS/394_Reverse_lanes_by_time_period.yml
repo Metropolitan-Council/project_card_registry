@@ -6,104 +6,119 @@ tags:
 dependencies:
   prerequisites:
   - add mnpass_code
+notes: ''
 changes:
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 1950010 #EB
-  properties:
-  - property: lanes
-    set: 0
-    timeofday:
-    - time:
-      - '6:00'
-      - '10:00'
-      set: 1
-  - property: MNPASS_CODE
-    set: 2
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 1950011 #EB
-      - 1950012
-      - 1950013
-  properties:
-  - property: lanes
-    set: 0
-    timeofday:
-    - time:
-      - '6:00'
-      - '10:00'
-      set: 2
-  - property: MNPASS_CODE
-    set: 2
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 453518 # WB
-  properties:
-  - property: lanes
-    set: 0
-    timeofday:
-    - time:
-      - '15:00'
-      - '19:00'
-      set: 1
-  - property: MNPASS_CODE
-    set: 1
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 305528 # WB
-      - 1898
-      - 128466
-  properties:
-  - property: lanes
-    set: 0
-    timeofday:
-    - time:
-      - '15:00'
-      - '19:00'
-      set: 2
-  - property: MNPASS_CODE
-    set: 1
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 276573 # EB ramp from EB GP lane to reversible lane
-  properties:
-  - property: lanes
-    set: 0
-    timeofday:
-    - time:
-      - '6:00'
-      - '10:00'
-      set: 1
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 124872 # WB mainline for the reversible lane
-      - 255825
-      - 281378
-      - 322212
-  properties:
-  - property: MNPASS_CODE
-    set: 101
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 584 # EB mainline for the reversible lane
-      - 49940
-      - 196795
-      - 272563
-      - 457867
-  properties:
-  - property: MNPASS_CODE
-    set: 102
+- roadway_property_change:
+    property_changes:
+      lanes:
+        set: 0
+        scoped:
+        - set: 1
+          timespan:
+          - '6:00'
+          - '10:00'
+      MNPASS_CODE:
+        set: 2
+    facility:
+      links:
+        model_link_id:
+        - 1950010
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      lanes:
+        set: 0
+        scoped:
+        - set: 2
+          timespan:
+          - '6:00'
+          - '10:00'
+      MNPASS_CODE:
+        set: 2
+    facility:
+      links:
+        model_link_id:
+        - 1950011
+        - 1950012
+        - 1950013
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      lanes:
+        set: 0
+        scoped:
+        - set: 1
+          timespan:
+          - '15:00'
+          - '19:00'
+      MNPASS_CODE:
+        set: 1
+    facility:
+      links:
+        model_link_id:
+        - 453518
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      lanes:
+        set: 0
+        scoped:
+        - set: 2
+          timespan:
+          - '15:00'
+          - '19:00'
+      MNPASS_CODE:
+        set: 1
+    facility:
+      links:
+        model_link_id:
+        - 305528
+        - 1898
+        - 128466
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      lanes:
+        set: 0
+        scoped:
+        - set: 1
+          timespan:
+          - '6:00'
+          - '10:00'
+    facility:
+      links:
+        model_link_id:
+        - 276573
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      MNPASS_CODE:
+        set: 101
+    facility:
+      links:
+        model_link_id:
+        - 124872
+        - 255825
+        - 281378
+        - 322212
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      MNPASS_CODE:
+        set: 102
+    facility:
+      links:
+        model_link_id:
+        - 584
+        - 49940
+        - 196795
+        - 272563
+        - 457867
+        modes:
+        - any

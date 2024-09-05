@@ -7,52 +7,54 @@ tags:
 dependencies:
   prerequisites:
   - mn252hwyconvaccessoption
+notes: ''
 changes:
-- category: Parallel Managed lanes
-  facility:
-    link:
-    - model_link_id:
-      - 62077
-      - 123713
-      - 208905
-      - 228380
-      - 416213
-      - 520654
-      - 452140
-      - 1900118
-      - 1900113
-      - 1900123
-      - 1900124
-      - 1900126
-      - 260819
-      - 1900127
-      - 1900129
-      - 1900131
-      - 1900132
-      - 486533
-      - 376499
-      - 211052
-  properties:
-  - property: lanes
-    change: 0
-    timeofday:
-    - time:
-      - '15:00'
-      - '19:00'
-      change: -1
-  - property: ML_lanes
-    set: 0
-    timeofday:
-    - time:
-      - '15:00'
-      - '19:00'
-      set: 1
-  - property: ML_access
-    set: all
-  - property: ML_egress
-    set: all
-  - property: MNPASS_CODE
-    set: 116
-  - property: ML_MNPASS_CODE
-    set: 16
-notes: null
+- roadway_property_change:
+    property_changes:
+      lanes:
+        change: 0
+        scoped:
+        - change: -1
+          timespan:
+          - '15:00'
+          - '19:00'
+      ML_lanes:
+        set: 0
+        scoped:
+        - set: 1
+          timespan:
+          - '15:00'
+          - '19:00'
+      ML_access:
+        set: all
+      ML_egress:
+        set: all
+      MNPASS_CODE:
+        set: 116
+      ML_MNPASS_CODE:
+        set: 16
+    facility:
+      links:
+        model_link_id:
+        - 62077
+        - 123713
+        - 208905
+        - 228380
+        - 416213
+        - 520654
+        - 452140
+        - 1900118
+        - 1900113
+        - 1900123
+        - 1900124
+        - 1900126
+        - 260819
+        - 1900127
+        - 1900129
+        - 1900131
+        - 1900132
+        - 486533
+        - 376499
+        - 211052
+        modes:
+        - any

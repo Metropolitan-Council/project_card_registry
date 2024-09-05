@@ -1,88 +1,98 @@
 project: glumack_drive1
-tags: ''
-dependencies: ''
+tags: []
+dependencies: {}
+notes: ''
 changes:
-- category: Roadway Deletion
-  links:
-    model_link_id:
-    - 42328
-    - 738782
-    - 87224
-    - 817208
-    - 100111
-    - 999335
-    - 547409
-    - 743845
-    - 127741
-    - 700900
-    - 40866
-    - 973957
-    - 524887
-    - 991248
-    - 91599
-    - 963998
-    - 482595
-    - 811307
-    - 138142
-    - 659578
-    - 419444
-    - 557064
-    - 404396
-    - 885054
-    - 236295
-    - 723323
-    - 256288
-    - 724014
-    - 786406
-    - 156393
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 360941
-      - 156148
-      - 361250
-  properties:
-  - existing: 1.0
-    set: 2.0
-    property: lanes
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 43128
-      - 379570
-      - 208526
-      - 426972
-      - 199706
-      - 127850
-  properties:
-  - existing: 1.0
-    set: 3.0
-    property: lanes
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 335968
-  properties:
-  - existing: 60.0
-    set: 20.0
-    property: roadway_class
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 169023
-      - 250377
-      - 38295
-      - 358687
-      - 133835
-      - 12612
-  properties:
-  - set: 5.0
-    property: assign_group
-  - existing: 1.0
-    set: 3.0
-    property: lanes
-valid: false
+- roadway_deletion:
+    links:
+      model_link_id:
+      - 42328
+      - 738782
+      - 87224
+      - 817208
+      - 100111
+      - 999335
+      - 547409
+      - 743845
+      - 127741
+      - 700900
+      - 40866
+      - 973957
+      - 524887
+      - 991248
+      - 91599
+      - 963998
+      - 482595
+      - 811307
+      - 138142
+      - 659578
+      - 419444
+      - 557064
+      - 404396
+      - 885054
+      - 236295
+      - 723323
+      - 256288
+      - 724014
+      - 786406
+      - 156393
+      modes:
+      - any
+- roadway_property_change:
+    property_changes:
+      lanes:
+        existing: 1.0
+        set: 2.0
+    facility:
+      links:
+        model_link_id:
+        - 360941
+        - 156148
+        - 361250
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      lanes:
+        existing: 1.0
+        set: 3.0
+    facility:
+      links:
+        model_link_id:
+        - 43128
+        - 379570
+        - 208526
+        - 426972
+        - 199706
+        - 127850
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      roadway_class:
+        existing: 60.0
+        set: 20.0
+    facility:
+      links:
+        model_link_id:
+        - 335968
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 5.0
+      lanes:
+        existing: 1.0
+        set: 3.0
+    facility:
+      links:
+        model_link_id:
+        - 169023
+        - 250377
+        - 38295
+        - 358687
+        - 133835
+        - 12612
+        modes:
+        - any

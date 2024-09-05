@@ -1,102 +1,105 @@
 project: route2_wash
-tags: ''
-dependencies: ''
+tags: []
+dependencies: {}
+notes: ''
 changes:
-- category: Roadway Deletion
-  links:
-    model_link_id:
-    - 542044
-    - 444382
-- category: Add New Roadway
-  links:
-  - A: 286399
-    B: 600000
-    name: Southeast Washington Avenue
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 4
-    model_link_id: 1750137
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 5
-    roadway_class: 30
-    area_type: 4
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 600000
-    B: 310824
-    name: Southeast Washington Avenue
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 4
-    model_link_id: 1750138
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 5
-    roadway_class: 30
-    area_type: 4
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 219911
-    B: 600001
-    name: Southeast Washington Avenue
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 4
-    model_link_id: 1750139
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 5
-    roadway_class: 30
-    area_type: 4
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 600001
-    B: 286403
-    name: Southeast Washington Avenue
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 4
-    model_link_id: 1750140
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 5
-    roadway_class: 30
-    area_type: 4
-    bike: 3
-    walk: 3
-    lanes: 1
-  nodes:
-  - drive_access: 0.0
-    walk_access: 0.0
-    bike_access: 0.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 600000
-    osm_node_id: ''
-    X: -93.24306211465903
-    Y: 44.97243526136577
-  - drive_access: 0.0
-    walk_access: 0.0
-    bike_access: 0.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 600001
-    osm_node_id: ''
-    X: -93.24304334650886
-    Y: 44.972589695723016
+- roadway_deletion:
+    links:
+      model_link_id:
+      - 542044
+      - 444382
+      modes:
+      - any
+- roadway_addition:
+    links:
+    - A: 286399
+      B: 600000
+      name: Southeast Washington Avenue
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 4
+      model_link_id: 1750137
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 5
+      roadway_class: 30
+      area_type: 4
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 600000
+      B: 310824
+      name: Southeast Washington Avenue
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 4
+      model_link_id: 1750138
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 5
+      roadway_class: 30
+      area_type: 4
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 219911
+      B: 600001
+      name: Southeast Washington Avenue
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 4
+      model_link_id: 1750139
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 5
+      roadway_class: 30
+      area_type: 4
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 600001
+      B: 286403
+      name: Southeast Washington Avenue
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 4
+      model_link_id: 1750140
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 5
+      roadway_class: 30
+      area_type: 4
+      bike: 3
+      walk: 3
+      lanes: 1
+    nodes:
+    - drive_access: 0.0
+      walk_access: 0.0
+      bike_access: 0.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 600000
+      osm_node_id: ''
+      X: -93.24306211465903
+      Y: 44.97243526136577
+    - drive_access: 0.0
+      walk_access: 0.0
+      bike_access: 0.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 600001
+      osm_node_id: ''
+      X: -93.24304334650886
+      Y: 44.972589695723016

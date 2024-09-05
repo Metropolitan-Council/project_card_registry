@@ -1,237 +1,257 @@
 project: AG2Cleanup2
-tags: ''
-dependencies: ''
+tags: []
+dependencies: {}
+notes: ''
 changes:
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 282737
-      - 126315
-      - 441191
-      - 262854
-      - 30560
-  properties:
-  - set: 1.0
-    property: assign_group
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 411147
-      - 67033
-      - 68983
-  properties:
-  - set: 15.0
-    property: assign_group
-  - existing: 30.0
-    set: 20.0
-    property: roadway_class
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 498311
-  properties:
-  - set: 15.0
-    property: assign_group
-  - existing: 60.0
-    set: 20.0
-    property: roadway_class
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 449629
-      - 478058
-      - 538433
-      - 803467
-      - 487365
-      - 411233
-      - 907199
-      - 254655
-      - 714431
-      - 196651
-      - 792615
-      - 186329
-      - 661807
-      - 947289
-      - 370681
-      - 821383
-      - 179039
-      - 209359
-      - 530563
-      - 736591
-      - 969009
-      - 649386
-      - 319760
-  properties:
-  - set: 15.0
-    property: assign_group
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 32255
-      - 105102
-      - 506918
-      - 222224
-      - 129631
-      - 292790
-      - 424629
-      - 16660
-      - 98726
-      - 262152
-      - 26746
-      - 60848
-      - 161471
-      - 42519
-      - 520517
-      - 101645
-      - 197051
-      - 142103
-      - 501843
-      - 256277
-      - 499029
-      - 149105
-      - 208477
-      - 368672
-  properties:
-  - set: 2.0
-    property: assign_group
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 162153
-  properties:
-  - set: 3.0
-    property: assign_group
-  - existing: 10.0
-    set: 60.0
-    property: roadway_class
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 530909
-  properties:
-  - set: 3.0
-    property: assign_group
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 135851
-      - 95804
-      - 858137
-      - 501138
-      - 903734
-  properties:
-  - set: 6.0
-    property: assign_group
-  - existing: 10.0
-    set: 20.0
-    property: roadway_class
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 479945
-      - 192175
-      - 145633
-      - 989511
-      - 242075
-      - 463791
-  properties:
-  - set: 6.0
-    property: assign_group
-  - existing: 60.0
-    set: 20.0
-    property: roadway_class
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 539395
-      - 778863
-      - 869881
-      - 477985
-      - 758953
-      - 289823
-      - 410189
-      - 666359
-      - 721508
-      - 536512
-      - 278614
-      - 885778
-      - 958838
-      - 171015
-      - 968682
-      - 482678
-      - 458066
-      - 714279
-      - 677274
-      - 1027380
-      - 582705
-      - 357377
-      - 413476
-      - 922461
-      - 196357
-      - 974540
-      - 91893
-      - 914252
-      - 206910
-      - 801063
-      - 456352
-      - 555745
-      - 263650
-      - 31593
-      - 740221
-      - 18144
-      - 1047664
-      - 455573
-      - 1036302
-      - 412527
-      - 995514
-      - 277685
-      - 811565
-      - 115398
-      - 990862
-      - 235490
-      - 1015037
-      - 747833
-      - 184000
-      - 261338
-      - 506810
-      - 137640
-      - 393878
-      - 573602
-      - 385917
-      - 221282
-      - 915847
-      - 635003
-      - 28941
-      - 1003606
-      - 455921
-      - 282326
-      - 300854
-      - 460660
-      - 431180
-      - 147955
-      - 371086
-      - 713014
-      - 449633
-      - 11358
-      - 186023
-      - 39462
-      - 341427
-      - 376331
-      - 244336
-      - 118063
-      - 168021
-      - 721430
-  properties:
-  - set: 6.0
-    property: assign_group
-valid: false
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 1.0
+    facility:
+      links:
+        model_link_id:
+        - 282737
+        - 126315
+        - 441191
+        - 262854
+        - 30560
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 15.0
+      roadway_class:
+        existing: 30.0
+        set: 20.0
+    facility:
+      links:
+        model_link_id:
+        - 411147
+        - 67033
+        - 68983
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 15.0
+      roadway_class:
+        existing: 60.0
+        set: 20.0
+    facility:
+      links:
+        model_link_id:
+        - 498311
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 15.0
+    facility:
+      links:
+        model_link_id:
+        - 449629
+        - 478058
+        - 538433
+        - 803467
+        - 487365
+        - 411233
+        - 907199
+        - 254655
+        - 714431
+        - 196651
+        - 792615
+        - 186329
+        - 661807
+        - 947289
+        - 370681
+        - 821383
+        - 179039
+        - 209359
+        - 530563
+        - 736591
+        - 969009
+        - 649386
+        - 319760
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 2.0
+    facility:
+      links:
+        model_link_id:
+        - 32255
+        - 105102
+        - 506918
+        - 222224
+        - 129631
+        - 292790
+        - 424629
+        - 16660
+        - 98726
+        - 262152
+        - 26746
+        - 60848
+        - 161471
+        - 42519
+        - 520517
+        - 101645
+        - 197051
+        - 142103
+        - 501843
+        - 256277
+        - 499029
+        - 149105
+        - 208477
+        - 368672
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 3.0
+      roadway_class:
+        existing: 10.0
+        set: 60.0
+    facility:
+      links:
+        model_link_id:
+        - 162153
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 3.0
+    facility:
+      links:
+        model_link_id:
+        - 530909
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 6.0
+      roadway_class:
+        existing: 10.0
+        set: 20.0
+    facility:
+      links:
+        model_link_id:
+        - 135851
+        - 95804
+        - 858137
+        - 501138
+        - 903734
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 6.0
+      roadway_class:
+        existing: 60.0
+        set: 20.0
+    facility:
+      links:
+        model_link_id:
+        - 479945
+        - 192175
+        - 145633
+        - 989511
+        - 242075
+        - 463791
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 6.0
+    facility:
+      links:
+        model_link_id:
+        - 539395
+        - 778863
+        - 869881
+        - 477985
+        - 758953
+        - 289823
+        - 410189
+        - 666359
+        - 721508
+        - 536512
+        - 278614
+        - 885778
+        - 958838
+        - 171015
+        - 968682
+        - 482678
+        - 458066
+        - 714279
+        - 677274
+        - 1027380
+        - 582705
+        - 357377
+        - 413476
+        - 922461
+        - 196357
+        - 974540
+        - 91893
+        - 914252
+        - 206910
+        - 801063
+        - 456352
+        - 555745
+        - 263650
+        - 31593
+        - 740221
+        - 18144
+        - 1047664
+        - 455573
+        - 1036302
+        - 412527
+        - 995514
+        - 277685
+        - 811565
+        - 115398
+        - 990862
+        - 235490
+        - 1015037
+        - 747833
+        - 184000
+        - 261338
+        - 506810
+        - 137640
+        - 393878
+        - 573602
+        - 385917
+        - 221282
+        - 915847
+        - 635003
+        - 28941
+        - 1003606
+        - 455921
+        - 282326
+        - 300854
+        - 460660
+        - 431180
+        - 147955
+        - 371086
+        - 713014
+        - 449633
+        - 11358
+        - 186023
+        - 39462
+        - 341427
+        - 376331
+        - 244336
+        - 118063
+        - 168021
+        - 721430
+        modes:
+        - any
