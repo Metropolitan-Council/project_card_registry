@@ -1,37 +1,39 @@
 project: cr12
-tags: ''
-dependencies: ''
+tags: []
+dependencies: {}
+notes: ''
 changes:
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 406605
-      - 496022
-      - 82163
-      - 142335
-      - 984115
-      - 529498
-      - 547735
-      - 592726
-      - 998752
-      - 245688
-      - 202075
-      - 821132
-      - 123815
-      - 1021022
-      - 325729
-      - 994452
-      - 296326
-      - 90243
-      - 530749
-      - 94608
-      - 100621
-      - 147577
-      - 67029
-      - 241172
-  properties:
-  - existing: 1.0
-    set: 2.0
-    property: lanes
-valid: false
+- roadway_property_change:
+    property_changes:
+      lanes:
+        existing: 1.0
+        set: 2.0
+    facility:
+      links:
+        model_link_id:
+        - 406605
+        - 496022
+        - 82163
+        - 142335
+        - 984115
+        - 529498
+        - 547735
+        - 592726
+        - 998752
+        - 245688
+        - 202075
+        - 821132
+        - 123815
+        - 1021022
+        - 325729
+        - 994452
+        - 296326
+        - 90243
+        - 530749
+        - 94608
+        - 100621
+        - 147577
+        - 67029
+        - 241172
+        modes:
+        - any

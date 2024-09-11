@@ -1,306 +1,309 @@
 project: mn13dakotaaveNoBuild
-tags: ''
-dependencies: ''
+tags: []
+dependencies: {}
+notes: ''
 changes:
-- category: Roadway Deletion
-  links:
-    model_link_id:
-    - 231843
-    - 949451
-    - 41948
-    - 686012
-    - 1010220
-    - 287254
-    - 331444
-    - 481500
-- category: Add New Roadway
-  links:
-  - A: 139281
-    B: 900038
-    name: ''
-    roadway: service
-    drive_access: 0
-    walk_access: 1
-    bike_access: 1
-    county: 6
-    model_link_id: 1900051
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 103
-    roadway_class: 101
-    area_type: 2
-    bike: 3
-    walk: 3
-    MNPASS_CODE: 0
-    MNPASS_PAY: 0
-    managed: 0
-    lanes: 1
-  - A: 900038
-    B: 139281
-    name: ''
-    roadway: service
-    drive_access: 0
-    walk_access: 1
-    bike_access: 1
-    county: 6
-    model_link_id: 1900052
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 103
-    roadway_class: 101
-    area_type: 2
-    bike: 3
-    walk: 3
-    MNPASS_CODE: 0
-    MNPASS_PAY: 0
-    managed: 0
-    lanes: 1
-  - A: 139282
-    B: 900039
-    name: Dakota Avenue
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 6
-    model_link_id: 1900053
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 7
-    roadway_class: 40
-    area_type: 2
-    bike: 3
-    walk: 3
-    MNPASS_CODE: 0
-    MNPASS_PAY: 0
-    managed: 0
-    lanes: 1
-  - A: 900039
-    B: 139282
-    name: Dakota Avenue
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 6
-    model_link_id: 1900054
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 7
-    roadway_class: 40
-    area_type: 2
-    bike: 3
-    walk: 3
-    MNPASS_CODE: 0
-    MNPASS_PAY: 0
-    managed: 0
-    lanes: 1
-  - A: 900038
-    B: 900039
-    name: Dakota Avenue
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 6
-    model_link_id: 1900055
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 7
-    roadway_class: 40
-    area_type: 2
-    bike: 3
-    walk: 3
-    MNPASS_CODE: 0
-    MNPASS_PAY: 0
-    managed: 0
-    lanes: 1
-  - A: 900039
-    B: 900038
-    name: Dakota Avenue
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 6
-    model_link_id: 1900056
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 7
-    roadway_class: 40
-    area_type: 2
-    bike: 3
-    walk: 3
-    MNPASS_CODE: 0
-    MNPASS_PAY: 0
-    managed: 0
-    lanes: 1
-  - A: 900040
-    B: 276628
-    name: ''
-    roadway: motorway
-    drive_access: 1
-    walk_access: 0
-    bike_access: 0
-    county: 6
-    model_link_id: 1900057
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 15
-    roadway_class: 10
-    area_type: 2
-    bike: 0
-    walk: 0
-    MNPASS_CODE: 0
-    MNPASS_PAY: 0
-    managed: 0
-    lanes: 2
-  - A: 204336
-    B: 900040
-    name: ''
-    roadway: motorway
-    drive_access: 1
-    walk_access: 0
-    bike_access: 0
-    county: 6
-    model_link_id: 1900058
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 15
-    roadway_class: 10
-    area_type: 2
-    bike: 0
-    walk: 0
-    MNPASS_CODE: 0
-    MNPASS_PAY: 0
-    managed: 0
-    lanes: 2
-  - A: 900041
-    B: 138971
-    name: ''
-    roadway: motorway
-    drive_access: 1
-    walk_access: 0
-    bike_access: 0
-    county: 6
-    model_link_id: 1900059
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 15
-    roadway_class: 20
-    area_type: 2
-    bike: 0
-    walk: 0
-    MNPASS_CODE: 0
-    MNPASS_PAY: 0
-    managed: 0
-    lanes: 2
-  - A: 138970
-    B: 900041
-    name: ''
-    roadway: motorway
-    drive_access: 1
-    walk_access: 0
-    bike_access: 0
-    county: 6
-    model_link_id: 1900060
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 15
-    roadway_class: 20
-    area_type: 2
-    bike: 0
-    walk: 0
-    MNPASS_CODE: 0
-    MNPASS_PAY: 0
-    managed: 0
-    lanes: 2
-  - A: 900038
-    B: 900040
-    name: ''
-    roadway: primary
-    drive_access: 1
-    walk_access: 0
-    bike_access: 0
-    county: 6
-    model_link_id: 1900061
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 3
-    roadway_class: 60
-    area_type: 2
-    bike: 0
-    walk: 0
-    MNPASS_CODE: 0
-    MNPASS_PAY: 0
-    managed: 0
-    lanes: 1
-  - A: 900041
-    B: 900039
-    name: ''
-    roadway: primary
-    drive_access: 1
-    walk_access: 0
-    bike_access: 0
-    county: 6
-    model_link_id: 1900062
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 3
-    roadway_class: 60
-    area_type: 2
-    bike: 0
-    walk: 0
-    MNPASS_CODE: 0
-    MNPASS_PAY: 0
-    managed: 0
-    lanes: 1
-  nodes:
-  - drive_access: 1.0
-    walk_access: 1.0
-    bike_access: 1.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 900038
-    osm_node_id: ''
-    X: -93.35950085209346
-    Y: 44.77845863311207
-  - drive_access: 1.0
-    walk_access: 1.0
-    bike_access: 1.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 900039
-    osm_node_id: ''
-    X: -93.35929661748484
-    Y: 44.777786284978504
-  - drive_access: 1.0
-    walk_access: 1.0
-    bike_access: 1.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 900040
-    osm_node_id: ''
-    X: -93.3604420908227
-    Y: 44.77825994967848
-  - drive_access: 1.0
-    walk_access: 1.0
-    bike_access: 1.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 900041
-    osm_node_id: ''
-    X: -93.36045731847184
-    Y: 44.77799551231469
+- roadway_deletion:
+    links:
+      model_link_id:
+      - 231843
+      - 949451
+      - 41948
+      - 686012
+      - 1010220
+      - 287254
+      - 331444
+      - 481500
+      modes:
+      - any
+- roadway_addition:
+    links:
+    - A: 139281
+      B: 900038
+      name: new_link - TODO NAME ME!
+      roadway: service
+      drive_access: 0
+      walk_access: 1
+      bike_access: 1
+      county: 6
+      model_link_id: 1900051
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 103
+      roadway_class: 101
+      area_type: 2
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 1
+    - A: 900038
+      B: 139281
+      name: new_link - TODO NAME ME!
+      roadway: service
+      drive_access: 0
+      walk_access: 1
+      bike_access: 1
+      county: 6
+      model_link_id: 1900052
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 103
+      roadway_class: 101
+      area_type: 2
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 1
+    - A: 139282
+      B: 900039
+      name: Dakota Avenue
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 6
+      model_link_id: 1900053
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 7
+      roadway_class: 40
+      area_type: 2
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 1
+    - A: 900039
+      B: 139282
+      name: Dakota Avenue
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 6
+      model_link_id: 1900054
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 7
+      roadway_class: 40
+      area_type: 2
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 1
+    - A: 900038
+      B: 900039
+      name: Dakota Avenue
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 6
+      model_link_id: 1900055
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 7
+      roadway_class: 40
+      area_type: 2
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 1
+    - A: 900039
+      B: 900038
+      name: Dakota Avenue
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 6
+      model_link_id: 1900056
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 7
+      roadway_class: 40
+      area_type: 2
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 1
+    - A: 900040
+      B: 276628
+      name: new_link - TODO NAME ME!
+      roadway: motorway
+      drive_access: 1
+      walk_access: 0
+      bike_access: 0
+      county: 6
+      model_link_id: 1900057
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 15
+      roadway_class: 10
+      area_type: 2
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 2
+    - A: 204336
+      B: 900040
+      name: new_link - TODO NAME ME!
+      roadway: motorway
+      drive_access: 1
+      walk_access: 0
+      bike_access: 0
+      county: 6
+      model_link_id: 1900058
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 15
+      roadway_class: 10
+      area_type: 2
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 2
+    - A: 900041
+      B: 138971
+      name: new_link - TODO NAME ME!
+      roadway: motorway
+      drive_access: 1
+      walk_access: 0
+      bike_access: 0
+      county: 6
+      model_link_id: 1900059
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 15
+      roadway_class: 20
+      area_type: 2
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 2
+    - A: 138970
+      B: 900041
+      name: new_link - TODO NAME ME!
+      roadway: motorway
+      drive_access: 1
+      walk_access: 0
+      bike_access: 0
+      county: 6
+      model_link_id: 1900060
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 15
+      roadway_class: 20
+      area_type: 2
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 2
+    - A: 900038
+      B: 900040
+      name: new_link - TODO NAME ME!
+      roadway: primary
+      drive_access: 1
+      walk_access: 0
+      bike_access: 0
+      county: 6
+      model_link_id: 1900061
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 3
+      roadway_class: 60
+      area_type: 2
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 1
+    - A: 900041
+      B: 900039
+      name: new_link - TODO NAME ME!
+      roadway: primary
+      drive_access: 1
+      walk_access: 0
+      bike_access: 0
+      county: 6
+      model_link_id: 1900062
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 3
+      roadway_class: 60
+      area_type: 2
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 1
+    nodes:
+    - drive_access: 1.0
+      walk_access: 1.0
+      bike_access: 1.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 900038
+      osm_node_id: ''
+      X: -93.35950085209346
+      Y: 44.77845863311207
+    - drive_access: 1.0
+      walk_access: 1.0
+      bike_access: 1.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 900039
+      osm_node_id: ''
+      X: -93.35929661748484
+      Y: 44.777786284978504
+    - drive_access: 1.0
+      walk_access: 1.0
+      bike_access: 1.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 900040
+      osm_node_id: ''
+      X: -93.3604420908227
+      Y: 44.77825994967848
+    - drive_access: 1.0
+      walk_access: 1.0
+      bike_access: 1.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 900041
+      osm_node_id: ''
+      X: -93.36045731847184
+      Y: 44.77799551231469

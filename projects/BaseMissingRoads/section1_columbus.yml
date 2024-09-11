@@ -1,205 +1,206 @@
 project: section1_columbus
-tags: ''
-dependencies: ''
+tags: []
+dependencies: {}
+notes: ''
 changes:
-- category: Add New Roadway
-  links:
-  - A: 53089
-    B: 510000
-    name: Camp 3 Road Northeast
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '1'
-    model_link_id: 1950000
-    rail_only: '0'
-    bus_only: '0'
-    centroidconnect: 0
-    assign_group: 7.0
-    roadway_class: 40.0
-    area_type: '1'
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 510000
-    B: 53089
-    name: Camp 3 Road Northeast
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '1'
-    model_link_id: 1950001
-    rail_only: '0'
-    bus_only: '0'
-    centroidconnect: 0
-    assign_group: 7.0
-    roadway_class: 40.0
-    area_type: '1'
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 46415
-    B: 510000
-    name: Potomac Street Northeast
-    roadway: secondary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '1'
-    model_link_id: 1950002
-    rail_only: '0'
-    bus_only: '0'
-    centroidconnect: 0
-    assign_group: 6.0
-    roadway_class: 40.0
-    area_type: '1'
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 510000
-    B: 46415
-    name: Potomac Street Northeast
-    roadway: secondary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '1'
-    model_link_id: 1950003
-    rail_only: '0'
-    bus_only: '0'
-    centroidconnect: 0
-    assign_group: 6.0
-    roadway_class: 40.0
-    area_type: '1'
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 510000
-    B: 510001
-    name: Potomac Street Northeast
-    roadway: secondary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '1'
-    model_link_id: 1950004
-    rail_only: '0'
-    bus_only: '0'
-    centroidconnect: 0
-    assign_group: 6.0
-    roadway_class: 40.0
-    area_type: '1'
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 510001
-    B: 510000
-    name: Potomac Street Northeast
-    roadway: secondary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '1'
-    model_link_id: 1950005
-    rail_only: '0'
-    bus_only: '0'
-    centroidconnect: 0
-    assign_group: 6.0
-    roadway_class: 40.0
-    area_type: '1'
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 49179
-    B: 510001
-    name: Lake Drive Northeast
-    roadway: primary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '1'
-    model_link_id: 1950006
-    rail_only: '0'
-    bus_only: '0'
-    centroidconnect: 0
-    assign_group: 6.0
-    roadway_class: 40.0
-    area_type: '1'
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 510001
-    B: 49179
-    name: Lake Drive Northeast
-    roadway: primary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '1'
-    model_link_id: 1950007
-    rail_only: '0'
-    bus_only: '0'
-    centroidconnect: 0
-    assign_group: 6.0
-    roadway_class: 40.0
-    area_type: '1'
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 510001
-    B: 55461
-    name: Lake Drive Northeast
-    roadway: primary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '1'
-    model_link_id: 1950008
-    rail_only: '0'
-    bus_only: '0'
-    centroidconnect: 0
-    assign_group: 6.0
-    roadway_class: 40.0
-    area_type: '1'
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 55461
-    B: 510001
-    name: Lake Drive Northeast
-    roadway: primary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '1'
-    model_link_id: 1950009
-    rail_only: '0'
-    bus_only: '0'
-    centroidconnect: 0
-    assign_group: 6.0
-    roadway_class: 40.0
-    area_type: '1'
-    bike: 3
-    walk: 3
-    lanes: 1
-  nodes:
-  - drive_access: 1.0
-    walk_access: 1.0
-    bike_access: 1.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 510000
-    osm_node_id: ''
-    X: -93.08072150206111
-    Y: 45.254435060615336
-  - drive_access: 1.0
-    walk_access: 1.0
-    bike_access: 1.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 510001
-    osm_node_id: ''
-    X: -93.0789751250534
-    Y: 45.239897850624104
+- roadway_addition:
+    links:
+    - A: 53089
+      B: 510000
+      name: Camp 3 Road Northeast
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '1'
+      model_link_id: 1950000
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 7.0
+      roadway_class: 40.0
+      area_type: '1'
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 510000
+      B: 53089
+      name: Camp 3 Road Northeast
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '1'
+      model_link_id: 1950001
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 7.0
+      roadway_class: 40.0
+      area_type: '1'
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 46415
+      B: 510000
+      name: Potomac Street Northeast
+      roadway: secondary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '1'
+      model_link_id: 1950002
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6.0
+      roadway_class: 40.0
+      area_type: '1'
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 510000
+      B: 46415
+      name: Potomac Street Northeast
+      roadway: secondary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '1'
+      model_link_id: 1950003
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6.0
+      roadway_class: 40.0
+      area_type: '1'
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 510000
+      B: 510001
+      name: Potomac Street Northeast
+      roadway: secondary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '1'
+      model_link_id: 1950004
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6.0
+      roadway_class: 40.0
+      area_type: '1'
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 510001
+      B: 510000
+      name: Potomac Street Northeast
+      roadway: secondary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '1'
+      model_link_id: 1950005
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6.0
+      roadway_class: 40.0
+      area_type: '1'
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 49179
+      B: 510001
+      name: Lake Drive Northeast
+      roadway: primary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '1'
+      model_link_id: 1950006
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6.0
+      roadway_class: 40.0
+      area_type: '1'
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 510001
+      B: 49179
+      name: Lake Drive Northeast
+      roadway: primary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '1'
+      model_link_id: 1950007
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6.0
+      roadway_class: 40.0
+      area_type: '1'
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 510001
+      B: 55461
+      name: Lake Drive Northeast
+      roadway: primary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '1'
+      model_link_id: 1950008
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6.0
+      roadway_class: 40.0
+      area_type: '1'
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 55461
+      B: 510001
+      name: Lake Drive Northeast
+      roadway: primary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '1'
+      model_link_id: 1950009
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6.0
+      roadway_class: 40.0
+      area_type: '1'
+      bike: 3
+      walk: 3
+      lanes: 1
+    nodes:
+    - drive_access: 1.0
+      walk_access: 1.0
+      bike_access: 1.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 510000
+      osm_node_id: ''
+      X: -93.08072150206111
+      Y: 45.254435060615336
+    - drive_access: 1.0
+      walk_access: 1.0
+      bike_access: 1.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 510001
+      osm_node_id: ''
+      X: -93.0789751250534
+      Y: 45.239897850624104

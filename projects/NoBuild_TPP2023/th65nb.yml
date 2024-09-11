@@ -1,522 +1,528 @@
 project: th65nb
-tags: NoBuild 2023
-dependencies: ''
+tags:
+- NoBuild 2023
+dependencies: {}
+notes: ''
 changes:
-- category: Roadway Deletion
-  links:
-    model_link_id:
-    - 76048
-    - 478525
-    - 167858
-    - 41076
-    - 22480
-    - 499250
-    - 340611
-    - 103568
-    - 310421
-    - 454218
-    - 506739
-    - 256274
-    - 160141
-    - 238594
-    - 434432
-    - 173480
-    - 84307
-    - 393626
-    - 502656
-    - 761856
-    - 508479
-    - 190979
-    - 472288
-    - 278323
-- category: Add New Roadway
-  links:
-  - A: 387946
-    B: 896899
-    name: TH-65 Trunk
-    roadway: Trunk
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750151
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 2
-    roadway_class: 20
-    area_type: 2
-    bike: 0
-    walk: 0
-    lanes: 2.0
-  - A: 896899
-    B: 896900
-    name: TH-65
-    roadway: trunk
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750152
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 2
-    roadway_class: 2
-    area_type: 2
-    bike: 0
-    walk: 0
-    lanes: 2.0
-  - A: 896900
-    B: 509484
-    name: TH-65
-    roadway: trunk
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750153
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 2
-    roadway_class: 20
-    area_type: 2
-    bike: 0
-    walk: 0
-    lanes: 2.0
-  - A: 509484
-    B: 509485
-    name: TH-65
-    roadway: trunk
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750154
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 2
-    roadway_class: 20
-    area_type: 2
-    bike: 0
-    walk: 0
-    lanes: 2.0
-  - A: 509485
-    B: 509486
-    name: TH-65
-    roadway: trunk
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750155
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 2
-    roadway_class: 20
-    area_type: 2
-    bike: 0
-    walk: 0
-    lanes: 2.0
-  - A: 509486
-    B: 509487
-    name: TH-65
-    roadway: trunk
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750156
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 2
-    roadway_class: 20
-    area_type: 2
-    bike: 0
-    walk: 0
-    lanes: 2.0
-  - A: 509487
-    B: 509488
-    name: TH-65
-    roadway: trunk
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750157
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 2
-    roadway_class: 20
-    area_type: 2
-    bike: 0
-    walk: 0
-    lanes: 2.0
-  - A: 509488
-    B: 509489
-    name: TH-65
-    roadway: trunk
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 0
-    model_link_id: 1750158
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 2
-    roadway_class: 20
-    area_type: 2
-    bike: 0
-    walk: 0
-    lanes: 2.0
-  - A: 509489
-    B: 53014
-    name: TH-65
-    roadway: trunk
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750159
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 2
-    roadway_class: 20
-    area_type: 2
-    bike: 0
-    walk: 0
-    lanes: 2.0
-  - A: 896899
-    B: 53021
-    name: TH-65 Ramp
-    roadway: ramp
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750160
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 3
-    roadway_class: 60
-    area_type: 2
-    bike: 0
-    walk: 0
-    lanes: 1.0
-  - A: 53020
-    B: 896900
-    name: TH-65 Ramp
-    roadway: ramp
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750162
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 3
-    roadway_class: 60
-    area_type: 2
-    bike: 0
-    walk: 0
-    lanes: 1.0
-  - A: 509485
-    B: 266440
-    name: TH-65
-    roadway: ramp
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750163
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 3
-    roadway_class: 60
-    area_type: 2
-    bike: 0
-    walk: 0
-    lanes: 1.0
-  - A: 40490
-    B: 509491
-    name: 109th Avenue Northeast
-    roadway: secondary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750164
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 5
-    roadway_class: 30
-    area_type: 2
-    bike: 3
-    walk: 3
-    lanes: 2.0
-  - A: 509491
-    B: 40491
-    name: 109th Avenue Northeast
-    roadway: secondary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750165
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 5
-    roadway_class: 30
-    area_type: 2
-    bike: 3
-    walk: 3
-    lanes: 2.0
-  - A: 509486
-    B: 509491
-    name: TH-65 Ramp
-    roadway: ramp
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750166
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 3
-    roadway_class: 60
-    area_type: 2
-    bike: 0
-    walk: 0
-    lanes: 1.0
-  - A: 56656
-    B: 509492
-    name: 109th Avenue Northeast
-    roadway: secondary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750167
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 5
-    roadway_class: 30
-    area_type: 2
-    bike: 3
-    walk: 3
-    lanes: 2.0
-  - A: 509492
-    B: 53016
-    name: 109th Avenue Northeast
-    roadway: secondary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750168
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 5
-    roadway_class: 30
-    area_type: 2
-    bike: 3
-    walk: 3
-    lanes: 2.0
-  - A: 509491
-    B: 509492
-    name: ''
-    roadway: secondary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750169
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 5
-    roadway_class: 30
-    area_type: 2
-    bike: 3
-    walk: 3
-    lanes: 1.0
-  - A: 509492
-    B: 509487
-    name: TH-65 Ramp
-    roadway: ramp
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 0
-    model_link_id: 1750170
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 3
-    roadway_class: 60
-    area_type: 2
-    bike: 0
-    walk: 0
-    lanes: 1.0
-  - A: 509488
-    B: 391818
-    name: TH-65 Ramp
-    roadway: ramp
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750171
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 3
-    roadway_class: 60
-    area_type: 2
-    bike: 0
-    walk: 0
-    lanes: 1.0
-  - A: 391818
-    B: 509489
-    name: TH-65 Ramp
-    roadway: ramp
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750172
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 3
-    roadway_class: 60
-    area_type: 2
-    bike: 0
-    walk: 0
-    lanes: 1.0
-  nodes:
-  - drive_access: 1.0
-    walk_access: 1.0
-    bike_access: 1.0
-    county: '1'
-    rail_only: 0
-    model_node_id: 896899
-    osm_node_id: ''
-    X: -93.23526548228996
-    Y: 45.14704360378357
-  - drive_access: 1.0
-    walk_access: 1.0
-    bike_access: 1.0
-    county: '1'
-    rail_only: 0
-    model_node_id: 896900
-    osm_node_id: ''
-    X: -93.23508271946261
-    Y: 45.15171249386591
-  - drive_access: 1.0
-    walk_access: 1.0
-    bike_access: 1.0
-    county: '1'
-    rail_only: 0
-    model_node_id: 509484
-    osm_node_id: ''
-    X: -93.23500088631376
-    Y: 45.15440153313193
-  - drive_access: 1.0
-    walk_access: 1.0
-    bike_access: 1.0
-    county: '1'
-    rail_only: 0
-    model_node_id: 509485
-    osm_node_id: ''
-    X: -93.23497421207522
-    Y: 45.157359812305714
-  - drive_access: 1.0
-    walk_access: 1.0
-    bike_access: 1.0
-    county: '1'
-    rail_only: 0
-    model_node_id: 509486
-    osm_node_id: ''
-    X: -93.23490320821172
-    Y: 45.16528213036982
-  - drive_access: 1.0
-    walk_access: 1.0
-    bike_access: 1.0
-    county: '1'
-    rail_only: 0
-    model_node_id: 509487
-    osm_node_id: ''
-    X: -93.23467654967232
-    Y: 45.173140647357236
-  - drive_access: 1.0
-    walk_access: 1.0
-    bike_access: 1.0
-    county: '1'
-    rail_only: 0
-    model_node_id: 509488
-    osm_node_id: ''
-    X: -93.2346306035861
-    Y: 45.18087056230063
-  - drive_access: 1.0
-    walk_access: 1.0
-    bike_access: 1.0
-    county: '1'
-    rail_only: 0
-    model_node_id: 509489
-    osm_node_id: ''
-    X: -93.2346284785419
-    Y: 45.18665876661503
-  - drive_access: 1.0
-    walk_access: 1.0
-    bike_access: 1.0
-    county: '1'
-    rail_only: 0
-    model_node_id: 509491
-    osm_node_id: ''
-    X: -93.23447555009461
-    Y: 45.16814552060813
-  - drive_access: 1.0
-    walk_access: 0.0
-    bike_access: 0.0
-    county: '1'
-    rail_only: 0
-    model_node_id: 509492
-    osm_node_id: ''
-    X: -93.23447323298055
-    Y: 45.1682626108722
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 458614
-  properties:
-  - property: walk_access
-    set: 1
-  - property: bike_access
-    set: 1
-  - property: walk
-    set: 1
-  - property: bike
-    set: 1  
-  - property: assign_group
-    set: 7
-  - property: roadway_class
-    set: 40
-  - property: lanes
-    set: 1
+- roadway_deletion:
+    links:
+      model_link_id:
+      - 76048
+      - 478525
+      - 167858
+      - 41076
+      - 22480
+      - 499250
+      - 340611
+      - 103568
+      - 310421
+      - 454218
+      - 506739
+      - 256274
+      - 160141
+      - 238594
+      - 434432
+      - 173480
+      - 84307
+      - 393626
+      - 502656
+      - 761856
+      - 508479
+      - 190979
+      - 472288
+      - 278323
+      modes:
+      - any
+- roadway_addition:
+    links:
+    - A: 387946
+      B: 896899
+      name: TH-65 Trunk
+      roadway: trunk
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750151
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 2
+      roadway_class: 20
+      area_type: 2
+      bike: 0
+      walk: 0
+      lanes: 2.0
+    - A: 896899
+      B: 896900
+      name: TH-65
+      roadway: trunk
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750152
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 2
+      roadway_class: 2
+      area_type: 2
+      bike: 0
+      walk: 0
+      lanes: 2.0
+    - A: 896900
+      B: 509484
+      name: TH-65
+      roadway: trunk
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750153
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 2
+      roadway_class: 20
+      area_type: 2
+      bike: 0
+      walk: 0
+      lanes: 2.0
+    - A: 509484
+      B: 509485
+      name: TH-65
+      roadway: trunk
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750154
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 2
+      roadway_class: 20
+      area_type: 2
+      bike: 0
+      walk: 0
+      lanes: 2.0
+    - A: 509485
+      B: 509486
+      name: TH-65
+      roadway: trunk
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750155
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 2
+      roadway_class: 20
+      area_type: 2
+      bike: 0
+      walk: 0
+      lanes: 2.0
+    - A: 509486
+      B: 509487
+      name: TH-65
+      roadway: trunk
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750156
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 2
+      roadway_class: 20
+      area_type: 2
+      bike: 0
+      walk: 0
+      lanes: 2.0
+    - A: 509487
+      B: 509488
+      name: TH-65
+      roadway: trunk
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750157
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 2
+      roadway_class: 20
+      area_type: 2
+      bike: 0
+      walk: 0
+      lanes: 2.0
+    - A: 509488
+      B: 509489
+      name: TH-65
+      roadway: trunk
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 0
+      model_link_id: 1750158
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 2
+      roadway_class: 20
+      area_type: 2
+      bike: 0
+      walk: 0
+      lanes: 2.0
+    - A: 509489
+      B: 53014
+      name: TH-65
+      roadway: trunk
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750159
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 2
+      roadway_class: 20
+      area_type: 2
+      bike: 0
+      walk: 0
+      lanes: 2.0
+    - A: 896899
+      B: 53021
+      name: TH-65 Ramp
+      roadway: motorway_link
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750160
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 3
+      roadway_class: 60
+      area_type: 2
+      bike: 0
+      walk: 0
+      lanes: 1.0
+    - A: 53020
+      B: 896900
+      name: TH-65 Ramp
+      roadway: motorway_link
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750162
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 3
+      roadway_class: 60
+      area_type: 2
+      bike: 0
+      walk: 0
+      lanes: 1.0
+    - A: 509485
+      B: 266440
+      name: TH-65
+      roadway: motorway_link
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750163
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 3
+      roadway_class: 60
+      area_type: 2
+      bike: 0
+      walk: 0
+      lanes: 1.0
+    - A: 40490
+      B: 509491
+      name: 109th Avenue Northeast
+      roadway: secondary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750164
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 5
+      roadway_class: 30
+      area_type: 2
+      bike: 3
+      walk: 3
+      lanes: 2.0
+    - A: 509491
+      B: 40491
+      name: 109th Avenue Northeast
+      roadway: secondary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750165
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 5
+      roadway_class: 30
+      area_type: 2
+      bike: 3
+      walk: 3
+      lanes: 2.0
+    - A: 509486
+      B: 509491
+      name: TH-65 Ramp
+      roadway: motorway_link
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750166
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 3
+      roadway_class: 60
+      area_type: 2
+      bike: 0
+      walk: 0
+      lanes: 1.0
+    - A: 56656
+      B: 509492
+      name: 109th Avenue Northeast
+      roadway: secondary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750167
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 5
+      roadway_class: 30
+      area_type: 2
+      bike: 3
+      walk: 3
+      lanes: 2.0
+    - A: 509492
+      B: 53016
+      name: 109th Avenue Northeast
+      roadway: secondary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750168
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 5
+      roadway_class: 30
+      area_type: 2
+      bike: 3
+      walk: 3
+      lanes: 2.0
+    - A: 509491
+      B: 509492
+      name: new_link - TODO NAME ME!
+      roadway: secondary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750169
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 5
+      roadway_class: 30
+      area_type: 2
+      bike: 3
+      walk: 3
+      lanes: 1.0
+    - A: 509492
+      B: 509487
+      name: TH-65 Ramp
+      roadway: motorway_link
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 0
+      model_link_id: 1750170
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 3
+      roadway_class: 60
+      area_type: 2
+      bike: 0
+      walk: 0
+      lanes: 1.0
+    - A: 509488
+      B: 391818
+      name: TH-65 Ramp
+      roadway: motorway_link
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750171
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 3
+      roadway_class: 60
+      area_type: 2
+      bike: 0
+      walk: 0
+      lanes: 1.0
+    - A: 391818
+      B: 509489
+      name: TH-65 Ramp
+      roadway: motorway_link
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750172
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 3
+      roadway_class: 60
+      area_type: 2
+      bike: 0
+      walk: 0
+      lanes: 1.0
+    nodes:
+    - drive_access: 1.0
+      walk_access: 1.0
+      bike_access: 1.0
+      county: '1'
+      rail_only: 0
+      model_node_id: 896899
+      osm_node_id: ''
+      X: -93.23526548228996
+      Y: 45.14704360378357
+    - drive_access: 1.0
+      walk_access: 1.0
+      bike_access: 1.0
+      county: '1'
+      rail_only: 0
+      model_node_id: 896900
+      osm_node_id: ''
+      X: -93.23508271946261
+      Y: 45.15171249386591
+    - drive_access: 1.0
+      walk_access: 1.0
+      bike_access: 1.0
+      county: '1'
+      rail_only: 0
+      model_node_id: 509484
+      osm_node_id: ''
+      X: -93.23500088631376
+      Y: 45.15440153313193
+    - drive_access: 1.0
+      walk_access: 1.0
+      bike_access: 1.0
+      county: '1'
+      rail_only: 0
+      model_node_id: 509485
+      osm_node_id: ''
+      X: -93.23497421207522
+      Y: 45.157359812305714
+    - drive_access: 1.0
+      walk_access: 1.0
+      bike_access: 1.0
+      county: '1'
+      rail_only: 0
+      model_node_id: 509486
+      osm_node_id: ''
+      X: -93.23490320821172
+      Y: 45.16528213036982
+    - drive_access: 1.0
+      walk_access: 1.0
+      bike_access: 1.0
+      county: '1'
+      rail_only: 0
+      model_node_id: 509487
+      osm_node_id: ''
+      X: -93.23467654967232
+      Y: 45.173140647357236
+    - drive_access: 1.0
+      walk_access: 1.0
+      bike_access: 1.0
+      county: '1'
+      rail_only: 0
+      model_node_id: 509488
+      osm_node_id: ''
+      X: -93.2346306035861
+      Y: 45.18087056230063
+    - drive_access: 1.0
+      walk_access: 1.0
+      bike_access: 1.0
+      county: '1'
+      rail_only: 0
+      model_node_id: 509489
+      osm_node_id: ''
+      X: -93.2346284785419
+      Y: 45.18665876661503
+    - drive_access: 1.0
+      walk_access: 1.0
+      bike_access: 1.0
+      county: '1'
+      rail_only: 0
+      model_node_id: 509491
+      osm_node_id: ''
+      X: -93.23447555009461
+      Y: 45.16814552060813
+    - drive_access: 1.0
+      walk_access: 0.0
+      bike_access: 0.0
+      county: '1'
+      rail_only: 0
+      model_node_id: 509492
+      osm_node_id: ''
+      X: -93.23447323298055
+      Y: 45.1682626108722
+- roadway_property_change:
+    property_changes:
+      walk_access:
+        set: 1
+      bike_access:
+        set: 1
+      walk:
+        set: 1
+      bike:
+        set: 1
+      assign_group:
+        set: 7
+      roadway_class:
+        set: 40
+      lanes:
+        set: 1
+    facility:
+      links:
+        model_link_id:
+        - 458614
+        modes:
+        - any

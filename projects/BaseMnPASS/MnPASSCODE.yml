@@ -8,13 +8,16 @@ dependencies:
   prerequisites: []
   corequisites: []
   conflicts: []
+notes: ''
 changes:
-- category: Roadway Property Change
-  facility:
-    link: all
-  properties:
-  - property: MNPASS_CODE
-    set: 0
-  - property: MNPASS_PAY
-    set: 0.0
-notes: null
+- roadway_property_change:
+    property_changes:
+      MNPASS_CODE:
+        set: 0
+      MNPASS_PAY:
+        set: 0.0
+    facility:
+      links:
+        all: 'True'
+        modes:
+        - any

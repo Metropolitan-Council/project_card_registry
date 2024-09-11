@@ -2,14 +2,17 @@ project: network cleanup 1 lanes 6
 tags:
 - Network Cleanup Lanes
 - Roadway Property Change
-dependencies: ''
+dependencies: {}
+notes: ''
 changes:
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 254683
-      - 24237
-  properties:
-  - property: lanes
-    set: 6
+- roadway_property_change:
+    property_changes:
+      lanes:
+        set: 6
+    facility:
+      links:
+        model_link_id:
+        - 254683
+        - 24237
+        modes:
+        - any

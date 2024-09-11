@@ -1,33 +1,38 @@
 project: th10
-tags: NoBuild 2023
-dependencies: ''
+tags:
+- NoBuild 2023
+dependencies: {}
+notes: ''
 changes:
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 449740
-  properties:
-  - existing: 2.0
-    set: 3.0
-    property: lanes
-  - set: 3.0
-    property: assign_group
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 425263
-      - 512373
-      - 117959
-      - 396598
-      - 282287
-      - 260919
-      - 146586
-      - 228824
-      - 98986
-  properties:
-  - existing: 2.0
-    set: 3.0
-    property: lanes
-valid: false
+- roadway_property_change:
+    property_changes:
+      lanes:
+        existing: 2.0
+        set: 3.0
+      assign_group:
+        set: 3.0
+    facility:
+      links:
+        model_link_id:
+        - 449740
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      lanes:
+        existing: 2.0
+        set: 3.0
+    facility:
+      links:
+        model_link_id:
+        - 425263
+        - 512373
+        - 117959
+        - 396598
+        - 282287
+        - 260919
+        - 146586
+        - 228824
+        - 98986
+        modes:
+        - any

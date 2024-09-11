@@ -3,51 +3,52 @@ tags:
 - Clean up
 - Duplicate Nodes
 - Roadway Property Change
-dependencies: ''
+dependencies: {}
+notes: ''
 changes:
-- category: Add New Roadway
-  links:
-  - A: 198770
-    B: 6448
-    name: Medicine Lake Road
-    roadway: secondary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750028
-    rail_only: '0'
-    bus_only: '0'
-    centroidconnect: 0
-    assign_group: 5.0
-    roadway_class: 30.0
-    area_type: '3'
-    bike: 3
-    walk: 3
-    lanes: 1
-- category: Add New Roadway
-  links:
-  - A: 410881
-    B: 410882
-    name: Distance Zero fix
-    roadway: service
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '5'
-    model_link_id: 1750029
-    rail_only: '0'
-    bus_only: '0'
-    centroidconnect: 0
-    assign_group: 0.0
-    roadway_class: 0.0
-    area_type: '4'
-    bike: 3
-    walk: 3
-    lanes: 1
-- category: Roadway Deletion
-  links:
-    model_link_id:
+- roadway_addition:
+    links:
+    - A: 198770
+      B: 6448
+      name: Medicine Lake Road
+      roadway: secondary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750028
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 5.0
+      roadway_class: 30.0
+      area_type: '3'
+      bike: 3
+      walk: 3
+      lanes: 1
+- roadway_addition:
+    links:
+    - A: 410881
+      B: 410882
+      name: Distance Zero fix
+      roadway: service
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '5'
+      model_link_id: 1750029
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 0.0
+      roadway_class: 0.0
+      area_type: '4'
+      bike: 3
+      walk: 3
+      lanes: 1
+- roadway_deletion:
+    links:
+      model_link_id:
       - 128048
       - 210988
       - 214462
@@ -59,8 +60,10 @@ changes:
       - 834111
       - 972602
       - 159894
-  nodes:
-    model_node_id:
+      modes:
+      - any
+    nodes:
+      model_node_id:
       - 404269
       - 407474
       - 407475

@@ -1,958 +1,959 @@
 project: marq_second2
-tags: ''
-dependencies: ''
+tags: []
+dependencies: {}
+notes: ''
 changes:
-- category: Add New Roadway
-  links:
-  - A: 9806
-    B: 343069
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750030
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 343069
-    B: 343067
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750031
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 343067
-    B: 11083
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750032
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 11083
-    B: 343065
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750033
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 343065
-    B: 343060
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750034
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 343060
-    B: 196931
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750035
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 196931
-    B: 343062
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750036
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 343062
-    B: 290045
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750037
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 290045
-    B: 343057
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750038
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 343057
-    B: 5381
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750039
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 5381
-    B: 343055
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750040
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 343055
-    B: 343052
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750041
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 343052
-    B: 13343
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750042
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 13343
-    B: 343050
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750043
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 343050
-    B: 343046
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750044
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 343046
-    B: 5133
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750045
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 5133
-    B: 343044
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750046
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 343044
-    B: 343039
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750047
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 343039
-    B: 13274
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750048
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 13274
-    B: 343041
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750049
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 343041
-    B: 343036
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750050
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 343036
-    B: 11061
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750051
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 11061
-    B: 343033
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750052
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 343033
-    B: 253945
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750053
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 253945
-    B: 343028
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750054
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 343028
-    B: 11080
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750055
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 11080
-    B: 343030
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750056
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 343030
-    B: 254061
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750057
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 254061
-    B: 343027
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750058
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 343027
-    B: 20758
-    name: 2nd buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750059
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 15568
-    B: 342995
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750060
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 342995
-    B: 256977
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750061
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 256977
-    B: 342989
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750062
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 342989
-    B: 11983
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750063
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 11983
-    B: 342991
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750064
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 342991
-    B: 253949
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750065
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 253949
-    B: 250728
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750066
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 250728
-    B: 5120
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750067
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 5120
-    B: 250734
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750068
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 250734
-    B: 342985
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750069
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 342985
-    B: 5116
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750070
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 5116
-    B: 342983
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750071
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 342983
-    B: 342978
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750072
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 342978
-    B: 5127
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750073
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 5127
-    B: 342980
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750074
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 342980
-    B: 5126
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750075
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 5126
-    B: 5130
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750076
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 5130
-    B: 5131
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750077
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 5131
-    B: 198171
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750078
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 198171
-    B: 198170
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750079
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 198170
-    B: 9866
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750080
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 9866
-    B: 9814
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750081
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 28083
-    B: 197711
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750141
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 197711
-    B: 337261
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750142
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 337261
-    B: 342997
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750143
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
-  - A: 342997
-    B: 15568
-    name: marq buslane
-    roadway: tertiary
-    drive_access: '1'
-    walk_access: '1'
-    bike_access: '1'
-    county: '4'
-    model_link_id: 1750144
-    rail_only: '0'
-    bus_only: '1'
-    centroidconnect: 0
-    assign_group: 98.0
-    roadway_class: 40.0
-    bike: 1
-    walk: 1
-    lanes: 2.0
+- roadway_addition:
+    links:
+    - A: 9806
+      B: 343069
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750030
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 343069
+      B: 343067
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750031
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 343067
+      B: 11083
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750032
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 11083
+      B: 343065
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750033
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 343065
+      B: 343060
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750034
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 343060
+      B: 196931
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750035
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 196931
+      B: 343062
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750036
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 343062
+      B: 290045
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750037
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 290045
+      B: 343057
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750038
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 343057
+      B: 5381
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750039
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 5381
+      B: 343055
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750040
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 343055
+      B: 343052
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750041
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 343052
+      B: 13343
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750042
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 13343
+      B: 343050
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750043
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 343050
+      B: 343046
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750044
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 343046
+      B: 5133
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750045
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 5133
+      B: 343044
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750046
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 343044
+      B: 343039
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750047
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 343039
+      B: 13274
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750048
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 13274
+      B: 343041
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750049
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 343041
+      B: 343036
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750050
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 343036
+      B: 11061
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750051
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 11061
+      B: 343033
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750052
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 343033
+      B: 253945
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750053
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 253945
+      B: 343028
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750054
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 343028
+      B: 11080
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750055
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 11080
+      B: 343030
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750056
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 343030
+      B: 254061
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750057
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 254061
+      B: 343027
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750058
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 343027
+      B: 20758
+      name: 2nd buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750059
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 15568
+      B: 342995
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750060
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 342995
+      B: 256977
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750061
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 256977
+      B: 342989
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750062
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 342989
+      B: 11983
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750063
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 11983
+      B: 342991
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750064
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 342991
+      B: 253949
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750065
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 253949
+      B: 250728
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750066
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 250728
+      B: 5120
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750067
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 5120
+      B: 250734
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750068
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 250734
+      B: 342985
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750069
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 342985
+      B: 5116
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750070
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 5116
+      B: 342983
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750071
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 342983
+      B: 342978
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750072
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 342978
+      B: 5127
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750073
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 5127
+      B: 342980
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750074
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 342980
+      B: 5126
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750075
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 5126
+      B: 5130
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750076
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 5130
+      B: 5131
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750077
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 5131
+      B: 198171
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750078
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 198171
+      B: 198170
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750079
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 198170
+      B: 9866
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750080
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 9866
+      B: 9814
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750081
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 28083
+      B: 197711
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750141
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 197711
+      B: 337261
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750142
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 337261
+      B: 342997
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750143
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0
+    - A: 342997
+      B: 15568
+      name: marq buslane
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: '4'
+      model_link_id: 1750144
+      rail_only: 0
+      bus_only: 1
+      centroidconnect: 0
+      assign_group: 98.0
+      roadway_class: 40.0
+      bike: 1
+      walk: 1
+      lanes: 2.0

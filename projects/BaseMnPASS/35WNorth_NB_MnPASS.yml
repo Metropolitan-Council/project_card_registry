@@ -7,64 +7,66 @@ tags:
 dependencies:
   prerequisites:
   - add mnpass_code
+notes: ''
 changes:
-- category: Parallel Managed lanes
-  facility:
-    link:
-    - model_link_id:
-      - 167674
-      - 496348
-      - 390663
-      - 306719
-      - 122275
-      - 27918
-      - 461153
-      - 275043
-      - 509445
-      - 90002
-      - 337002
-      - 323708
-      - 171818
-      - 236468
-      - 130311
-      - 111640
-      - 500771
-      - 390281
-      - 107431
-      - 245103
-      - 38426
-      - 56543
-      - 532929
-      - 242625
-      - 398244
-      - 398244
-      - 66007
-      - 273573
-      - 98719
-      - 320725
-      - 218188
-      - 98620
-  properties:
-  - property: lanes
-    change: 0
-    timeofday:
-    - time:
-      - '15:00'
-      - '19:00'
-      change: -1
-  - property: ML_lanes
-    set: 0
-    timeofday:
-    - time:
-      - '15:00'
-      - '19:00'
-      set: 1
-  - property: ML_access
-    set: all
-  - property: ML_egress
-    set: all
-  - property: MNPASS_CODE
-    set: 108
-  - property: ML_MNPASS_CODE
-    set: 8
-notes: null
+- roadway_property_change:
+    property_changes:
+      lanes:
+        change: 0
+        scoped:
+        - change: -1
+          timespan:
+          - '15:00'
+          - '19:00'
+      ML_lanes:
+        set: 0
+        scoped:
+        - set: 1
+          timespan:
+          - '15:00'
+          - '19:00'
+      ML_access:
+        set: all
+      ML_egress:
+        set: all
+      MNPASS_CODE:
+        set: 108
+      ML_MNPASS_CODE:
+        set: 8
+    facility:
+      links:
+        model_link_id:
+        - 167674
+        - 496348
+        - 390663
+        - 306719
+        - 122275
+        - 27918
+        - 461153
+        - 275043
+        - 509445
+        - 90002
+        - 337002
+        - 323708
+        - 171818
+        - 236468
+        - 130311
+        - 111640
+        - 500771
+        - 390281
+        - 107431
+        - 245103
+        - 38426
+        - 56543
+        - 532929
+        - 242625
+        - 398244
+        - 398244
+        - 66007
+        - 273573
+        - 98719
+        - 320725
+        - 218188
+        - 98620
+        modes:
+        - any

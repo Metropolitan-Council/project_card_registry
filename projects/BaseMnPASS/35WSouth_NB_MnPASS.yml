@@ -7,80 +7,82 @@ tags:
 dependencies:
   prerequisites:
   - add mnpass_code
+notes: ''
 changes:
-- category: Parallel Managed lanes
-  facility:
-    link:
-    - model_link_id:
-      - 6622
-      - 551178
-      - 454184
-      - 270860
-      - 456463
-      - 119863
-      - 387986
-      - 156725
-      - 335058
-      - 544332
-      - 50633
-      - 156725
-      - 335058
-      - 544332
-      - 50633
-      - 381396
-      - 10428
-      - 177062
-      - 412727
-      - 399314
-      - 208739
-      - 186318
-      - 409643
-      - 356419
-      - 372832
-      - 380467
-      - 498841
-      - 339574
-      - 533442
-      - 113242
-      - 284348
-      - 95249
-      - 374356
-      - 46826
-      - 112533
-      - 102078
-      - 497092
-      - 534901
-      - 7853
-      - 245957
-      - 186794
-      - 368113
-      - 353694
-      - 495442
-      - 281742
-      - 445387
-      - 25490
-      - 21658
-  properties:
-  - property: lanes
-    change: 0
-    timeofday:
-    - time:
-      - '6:00'
-      - '10:00'
-      change: -1
-  - property: ML_lanes
-    set: 0
-    timeofday:
-    - time:
-      - '6:00'
-      - '10:00'
-      set: 1
-  - property: ML_access
-    set: all
-  - property: ML_egress
-    set: all
-  - property: MNPASS_CODE
-    set: 109
-  - property: ML_MNPASS_CODE
-    set: 9
-notes: null
+- roadway_property_change:
+    property_changes:
+      lanes:
+        change: 0
+        scoped:
+        - change: -1
+          timespan:
+          - '6:00'
+          - '10:00'
+      ML_lanes:
+        set: 0
+        scoped:
+        - set: 1
+          timespan:
+          - '6:00'
+          - '10:00'
+      ML_access:
+        set: all
+      ML_egress:
+        set: all
+      MNPASS_CODE:
+        set: 109
+      ML_MNPASS_CODE:
+        set: 9
+    facility:
+      links:
+        model_link_id:
+        - 6622
+        - 551178
+        - 454184
+        - 270860
+        - 456463
+        - 119863
+        - 387986
+        - 156725
+        - 335058
+        - 544332
+        - 50633
+        - 156725
+        - 335058
+        - 544332
+        - 50633
+        - 381396
+        - 10428
+        - 177062
+        - 412727
+        - 399314
+        - 208739
+        - 186318
+        - 409643
+        - 356419
+        - 372832
+        - 380467
+        - 498841
+        - 339574
+        - 533442
+        - 113242
+        - 284348
+        - 95249
+        - 374356
+        - 46826
+        - 112533
+        - 102078
+        - 497092
+        - 534901
+        - 7853
+        - 245957
+        - 186794
+        - 368113
+        - 353694
+        - 495442
+        - 281742
+        - 445387
+        - 25490
+        - 21658
+        modes:
+        - any

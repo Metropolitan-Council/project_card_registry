@@ -2,44 +2,47 @@ project: network cleanup 2 lanes 3 a
 tags:
 - Network Cleanup Lanes
 - Roadway Property Change
-dependencies: ''
+dependencies: {}
+notes: ''
 changes:
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 12469
-      - 14945
-      - 49926
-      - 84598
-      - 88983
-      - 95900
-      - 103248
-      - 121166
-      - 133183
-      - 181002
-      - 181226
-      - 212699
-      - 263923
-      - 286516
-      - 328965
-      - 334002
-      - 335628
-      - 374500
-      - 380025
-      - 407907
-      - 415364
-      - 417201
-      - 417708
-      - 425984
-      - 426563
-      - 427697
-      - 454801
-      - 459166
-      - 471296
-      - 476154
-      - 516448
-      - 549283
-  properties:
-  - property: lanes
-    set: 3
+- roadway_property_change:
+    property_changes:
+      lanes:
+        set: 3
+    facility:
+      links:
+        model_link_id:
+        - 12469
+        - 14945
+        - 49926
+        - 84598
+        - 88983
+        - 95900
+        - 103248
+        - 121166
+        - 133183
+        - 181002
+        - 181226
+        - 212699
+        - 263923
+        - 286516
+        - 328965
+        - 334002
+        - 335628
+        - 374500
+        - 380025
+        - 407907
+        - 415364
+        - 417201
+        - 417708
+        - 425984
+        - 426563
+        - 427697
+        - 454801
+        - 459166
+        - 471296
+        - 476154
+        - 516448
+        - 549283
+        modes:
+        - any

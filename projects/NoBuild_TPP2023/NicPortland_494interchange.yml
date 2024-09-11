@@ -1,144 +1,147 @@
 project: nicportland_494interchange
-tags: ''
-dependencies: ''
+tags: []
+dependencies: {}
+notes: ''
 changes:
-- category: Roadway Deletion
-  links:
-    model_link_id:
-    - 197656
-    - 490456
-    - 261501
-    - 181212
-    - 422029
-    - 363747
-    - 369128
-    - 12275
-- category: Add New Roadway
-  links:
-  - A: 199398
-    B: 900001
-    name: ''
-    roadway: motorway
-    drive_access: 1
-    walk_access: 0
-    bike_access: 0
-    county: 4
-    model_link_id: 1750228
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 1
-    roadway_class: 10
-    area_type: 4
-    bike: 0
-    walk: 0
-    lanes: 3
-  - A: 900001
-    B: 199399
-    name: ''
-    roadway: motorway
-    drive_access: 1
-    walk_access: 0
-    bike_access: 0
-    county: 4
-    model_link_id: 1750229
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 1
-    roadway_class: 10
-    area_type: 4
-    bike: 0
-    walk: 0
-    lanes: 3
-  - A: 7219
-    B: 900002
-    name: ''
-    roadway: motorway
-    drive_access: 1
-    walk_access: 0
-    bike_access: 0
-    county: 4
-    model_link_id: 1750230
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 1
-    roadway_class: 10
-    area_type: 4
-    bike: 0
-    walk: 0
-    lanes: 3
-  - A: 900002
-    B: 17318
-    name: ''
-    roadway: motorway
-    drive_access: 1
-    walk_access: 0
-    bike_access: 0
-    county: 4
-    model_link_id: 1750231
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 1
-    roadway_class: 10
-    area_type: 4
-    bike: 0
-    walk: 0
-    lanes: 3
-  - A: 900002
-    B: 32864
-    name: ''
-    roadway: motorway_link
-    drive_access: 1
-    walk_access: 0
-    bike_access: 0
-    county: 4
-    model_link_id: 1750232
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 3
-    roadway_class: 60
-    area_type: 4
-    bike: 0
-    walk: 0
-    lanes: 1
-  - A: 18132
-    B: 900001
-    name: ''
-    roadway: motorway_link
-    drive_access: 1
-    walk_access: 0
-    bike_access: 0
-    county: 4
-    model_link_id: 1900002
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 3
-    roadway_class: 60
-    area_type: 4
-    bike: 0
-    walk: 0
-    lanes: 1
-  nodes:
-  - drive_access: 0.0
-    walk_access: 0.0
-    bike_access: 0.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 900001
-    osm_node_id: ''
-    X: -93.26522689501286
-    Y: 44.86192479548679
-  - drive_access: 0.0
-    walk_access: 0.0
-    bike_access: 0.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 900002
-    osm_node_id: ''
-    X: -93.26523237916287
-    Y: 44.86205354223008
+- roadway_deletion:
+    links:
+      model_link_id:
+      - 197656
+      - 490456
+      - 261501
+      - 181212
+      - 422029
+      - 363747
+      - 369128
+      - 12275
+      modes:
+      - any
+- roadway_addition:
+    links:
+    - A: 199398
+      B: 900001
+      name: new_link - TODO NAME ME!
+      roadway: motorway
+      drive_access: 1
+      walk_access: 0
+      bike_access: 0
+      county: 4
+      model_link_id: 1750228
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 1
+      roadway_class: 10
+      area_type: 4
+      bike: 0
+      walk: 0
+      lanes: 3
+    - A: 900001
+      B: 199399
+      name: new_link - TODO NAME ME!
+      roadway: motorway
+      drive_access: 1
+      walk_access: 0
+      bike_access: 0
+      county: 4
+      model_link_id: 1750229
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 1
+      roadway_class: 10
+      area_type: 4
+      bike: 0
+      walk: 0
+      lanes: 3
+    - A: 7219
+      B: 900002
+      name: new_link - TODO NAME ME!
+      roadway: motorway
+      drive_access: 1
+      walk_access: 0
+      bike_access: 0
+      county: 4
+      model_link_id: 1750230
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 1
+      roadway_class: 10
+      area_type: 4
+      bike: 0
+      walk: 0
+      lanes: 3
+    - A: 900002
+      B: 17318
+      name: new_link - TODO NAME ME!
+      roadway: motorway
+      drive_access: 1
+      walk_access: 0
+      bike_access: 0
+      county: 4
+      model_link_id: 1750231
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 1
+      roadway_class: 10
+      area_type: 4
+      bike: 0
+      walk: 0
+      lanes: 3
+    - A: 900002
+      B: 32864
+      name: new_link - TODO NAME ME!
+      roadway: motorway_link
+      drive_access: 1
+      walk_access: 0
+      bike_access: 0
+      county: 4
+      model_link_id: 1750232
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 3
+      roadway_class: 60
+      area_type: 4
+      bike: 0
+      walk: 0
+      lanes: 1
+    - A: 18132
+      B: 900001
+      name: new_link - TODO NAME ME!
+      roadway: motorway_link
+      drive_access: 1
+      walk_access: 0
+      bike_access: 0
+      county: 4
+      model_link_id: 1900002
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 3
+      roadway_class: 60
+      area_type: 4
+      bike: 0
+      walk: 0
+      lanes: 1
+    nodes:
+    - drive_access: 0.0
+      walk_access: 0.0
+      bike_access: 0.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 900001
+      osm_node_id: ''
+      X: -93.26522689501286
+      Y: 44.86192479548679
+    - drive_access: 0.0
+      walk_access: 0.0
+      bike_access: 0.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 900002
+      osm_node_id: ''
+      X: -93.26523237916287
+      Y: 44.86205354223008

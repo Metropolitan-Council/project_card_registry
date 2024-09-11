@@ -1,633 +1,640 @@
 project: anokaminorroads
-tags: ''
-dependencies: ''
+tags: []
+dependencies: {}
+notes: ''
 changes:
-- category: Roadway Deletion
-  links:
-    model_link_id:
-    - 655986
-    - 215772
-- category: Add New Roadway
-  links:
-  - A: 57560
-    B: 896887
-    name: Birch Street
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750082
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 6
-    roadway_class: 40
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896887
-    B: 57560
-    name: Birch Street
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750083
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 6
-    roadway_class: 40
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896887
-    B: 896888
-    name: Birch Street
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750084
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 6
-    roadway_class: 40
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896888
-    B: 896887
-    name: Birch Street
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750085
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 6
-    roadway_class: 40
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896888
-    B: 896889
-    name: Birch Street
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750086
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 6
-    roadway_class: 40
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896889
-    B: 896888
-    name: Birch Street
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750087
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 6
-    roadway_class: 40
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896889
-    B: 896890
-    name: Birch Street
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750088
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 6
-    roadway_class: 40
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896890
-    B: 896889
-    name: Birch Street
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750089
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 6
-    roadway_class: 40
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896890
-    B: 896891
-    name: Birch Street
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750090
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 6
-    roadway_class: 40
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896891
-    B: 896890
-    name: Birch Street
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750091
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 6
-    roadway_class: 40
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896891
-    B: 510008
-    name: Birch Street
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750092
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 6
-    roadway_class: 40
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 510008
-    B: 896891
-    name: Birch Street
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750093
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 6
-    roadway_class: 40
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 37494
-    B: 896892
-    name: Holly Drive North
-    roadway: residential
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750094
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 50
-    roadway_class: 50
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896892
-    B: 37494
-    name: Holly Drive North
-    roadway: residential
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750095
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 50
-    roadway_class: 50
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896892
-    B: 896893
-    name: Holly Drive North
-    roadway: residential
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750096
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 50
-    roadway_class: 50
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896893
-    B: 896892
-    name: Holly Drive North
-    roadway: residential
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750097
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 50
-    roadway_class: 50
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896893
-    B: 896894
-    name: Holly Drive North
-    roadway: residential
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750098
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 50
-    roadway_class: 50
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896894
-    B: 896893
-    name: Holly Drive North
-    roadway: residential
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750099
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 50
-    roadway_class: 50
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896894
-    B: 896887
-    name: Holly Drive North
-    roadway: residential
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750100
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 50
-    roadway_class: 50
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896887
-    B: 896894
-    name: Holly Drive North
-    roadway: residential
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750101
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 50
-    roadway_class: 50
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896890
-    B: 896895
-    name: Holly Drive North
-    roadway: residential
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750102
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 50
-    roadway_class: 50
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896895
-    B: 896890
-    name: Holly Drive North
-    roadway: residential
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750103
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 50
-    roadway_class: 50
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896895
-    B: 896896
-    name: Holly Drive North
-    roadway: residential
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750104
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 50
-    roadway_class: 50
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896896
-    B: 896895
-    name: Holly Drive North
-    roadway: residential
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750105
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 50
-    roadway_class: 50
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896891
-    B: 896896
-    name: Holly Drive North
-    roadway: residential
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750106
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 50
-    roadway_class: 50
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896896
-    B: 896891
-    name: Holly Drive North
-    roadway: residential
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750107
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 50
-    roadway_class: 50
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 48594
-    B: 896896
-    name: Ware Road
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750108
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 7
-    roadway_class: 40
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  - A: 896896
-    B: 48594
-    name: Ware Road
-    roadway: tertiary
-    drive_access: 1
-    walk_access: 1
-    bike_access: 1
-    county: 1
-    model_link_id: 1750109
-    rail_only: 0
-    bus_only: 0
-    centroidconnect: 0
-    assign_group: 7
-    roadway_class: 40
-    area_type: 1
-    bike: 3
-    walk: 3
-    lanes: 1
-  nodes:
-  - drive_access: 0.0
-    walk_access: 0.0
-    bike_access: 0.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 896887
-    osm_node_id: ''
-    X: -93.08157827959243
-    Y: 45.145753571526484
-  - drive_access: 0.0
-    walk_access: 0.0
-    bike_access: 0.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 896888
-    osm_node_id: ''
-    X: -93.09587279635183
-    Y: 45.14589264203809
-  - drive_access: 0.0
-    walk_access: 0.0
-    bike_access: 0.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 896889
-    osm_node_id: ''
-    X: -93.10110492306298
-    Y: 45.142223054205395
-  - drive_access: 0.0
-    walk_access: 0.0
-    bike_access: 0.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 896890
-    osm_node_id: ''
-    X: -93.10979560489477
-    Y: 45.1421729027427
-  - drive_access: 0.0
-    walk_access: 0.0
-    bike_access: 0.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 896891
-    osm_node_id: ''
-    X: -93.1221769498029
-    Y: 45.14216032881906
-  - drive_access: 0.0
-    walk_access: 0.0
-    bike_access: 0.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 896892
-    osm_node_id: ''
-    X: -93.09174572568114
-    Y: 45.13372123052452
-  - drive_access: 0.0
-    walk_access: 0.0
-    bike_access: 0.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 896893
-    osm_node_id: ''
-    X: -93.0869917343188
-    Y: 45.13856959780416
-  - drive_access: 0.0
-    walk_access: 0.0
-    bike_access: 0.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 896894
-    osm_node_id: ''
-    X: -93.08151570907337
-    Y: 45.13857363752253
-  - drive_access: 0.0
-    walk_access: 0.0
-    bike_access: 0.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 896895
-    osm_node_id: ''
-    X: -93.10644194208739
-    Y: 45.13130721787414
-  - drive_access: 0.0
-    walk_access: 0.0
-    bike_access: 0.0
-    county: '0'
-    rail_only: 0
-    model_node_id: 896896
-    osm_node_id: ''
-    X: -93.12227286099699
-    Y: 45.13133349387256
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 1017818
-      - 175124
-  properties:
-  - set: 50.0
-    property: assign_group
-  - existing: 101.0
-    set: 50.0
-    property: roadway_class
-  - existing: false
-    set: '1'
-    property: drive_access
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 671056
-      - 48033
-  properties:
-  - set: 7.0
-    property: assign_group
-  - existing: 101.0
-    set: 40.0
-    property: roadway_class
+- roadway_deletion:
+    links:
+      model_link_id:
+      - 655986
+      - 215772
+      modes:
+      - any
+- roadway_addition:
+    links:
+    - A: 57560
+      B: 896887
+      name: Birch Street
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750082
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6
+      roadway_class: 40
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896887
+      B: 57560
+      name: Birch Street
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750083
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6
+      roadway_class: 40
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896887
+      B: 896888
+      name: Birch Street
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750084
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6
+      roadway_class: 40
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896888
+      B: 896887
+      name: Birch Street
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750085
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6
+      roadway_class: 40
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896888
+      B: 896889
+      name: Birch Street
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750086
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6
+      roadway_class: 40
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896889
+      B: 896888
+      name: Birch Street
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750087
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6
+      roadway_class: 40
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896889
+      B: 896890
+      name: Birch Street
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750088
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6
+      roadway_class: 40
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896890
+      B: 896889
+      name: Birch Street
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750089
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6
+      roadway_class: 40
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896890
+      B: 896891
+      name: Birch Street
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750090
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6
+      roadway_class: 40
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896891
+      B: 896890
+      name: Birch Street
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750091
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6
+      roadway_class: 40
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896891
+      B: 510008
+      name: Birch Street
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750092
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6
+      roadway_class: 40
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 510008
+      B: 896891
+      name: Birch Street
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750093
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6
+      roadway_class: 40
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 37494
+      B: 896892
+      name: Holly Drive North
+      roadway: residential
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750094
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 50
+      roadway_class: 50
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896892
+      B: 37494
+      name: Holly Drive North
+      roadway: residential
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750095
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 50
+      roadway_class: 50
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896892
+      B: 896893
+      name: Holly Drive North
+      roadway: residential
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750096
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 50
+      roadway_class: 50
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896893
+      B: 896892
+      name: Holly Drive North
+      roadway: residential
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750097
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 50
+      roadway_class: 50
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896893
+      B: 896894
+      name: Holly Drive North
+      roadway: residential
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750098
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 50
+      roadway_class: 50
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896894
+      B: 896893
+      name: Holly Drive North
+      roadway: residential
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750099
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 50
+      roadway_class: 50
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896894
+      B: 896887
+      name: Holly Drive North
+      roadway: residential
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750100
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 50
+      roadway_class: 50
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896887
+      B: 896894
+      name: Holly Drive North
+      roadway: residential
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750101
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 50
+      roadway_class: 50
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896890
+      B: 896895
+      name: Holly Drive North
+      roadway: residential
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750102
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 50
+      roadway_class: 50
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896895
+      B: 896890
+      name: Holly Drive North
+      roadway: residential
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750103
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 50
+      roadway_class: 50
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896895
+      B: 896896
+      name: Holly Drive North
+      roadway: residential
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750104
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 50
+      roadway_class: 50
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896896
+      B: 896895
+      name: Holly Drive North
+      roadway: residential
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750105
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 50
+      roadway_class: 50
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896891
+      B: 896896
+      name: Holly Drive North
+      roadway: residential
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750106
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 50
+      roadway_class: 50
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896896
+      B: 896891
+      name: Holly Drive North
+      roadway: residential
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750107
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 50
+      roadway_class: 50
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 48594
+      B: 896896
+      name: Ware Road
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750108
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 7
+      roadway_class: 40
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 896896
+      B: 48594
+      name: Ware Road
+      roadway: tertiary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 1
+      model_link_id: 1750109
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 7
+      roadway_class: 40
+      area_type: 1
+      bike: 3
+      walk: 3
+      lanes: 1
+    nodes:
+    - drive_access: 0.0
+      walk_access: 0.0
+      bike_access: 0.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 896887
+      osm_node_id: ''
+      X: -93.08157827959243
+      Y: 45.145753571526484
+    - drive_access: 0.0
+      walk_access: 0.0
+      bike_access: 0.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 896888
+      osm_node_id: ''
+      X: -93.09587279635183
+      Y: 45.14589264203809
+    - drive_access: 0.0
+      walk_access: 0.0
+      bike_access: 0.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 896889
+      osm_node_id: ''
+      X: -93.10110492306298
+      Y: 45.142223054205395
+    - drive_access: 0.0
+      walk_access: 0.0
+      bike_access: 0.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 896890
+      osm_node_id: ''
+      X: -93.10979560489477
+      Y: 45.1421729027427
+    - drive_access: 0.0
+      walk_access: 0.0
+      bike_access: 0.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 896891
+      osm_node_id: ''
+      X: -93.1221769498029
+      Y: 45.14216032881906
+    - drive_access: 0.0
+      walk_access: 0.0
+      bike_access: 0.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 896892
+      osm_node_id: ''
+      X: -93.09174572568114
+      Y: 45.13372123052452
+    - drive_access: 0.0
+      walk_access: 0.0
+      bike_access: 0.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 896893
+      osm_node_id: ''
+      X: -93.0869917343188
+      Y: 45.13856959780416
+    - drive_access: 0.0
+      walk_access: 0.0
+      bike_access: 0.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 896894
+      osm_node_id: ''
+      X: -93.08151570907337
+      Y: 45.13857363752253
+    - drive_access: 0.0
+      walk_access: 0.0
+      bike_access: 0.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 896895
+      osm_node_id: ''
+      X: -93.10644194208739
+      Y: 45.13130721787414
+    - drive_access: 0.0
+      walk_access: 0.0
+      bike_access: 0.0
+      county: '0'
+      rail_only: 0
+      model_node_id: 896896
+      osm_node_id: ''
+      X: -93.12227286099699
+      Y: 45.13133349387256
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 50.0
+      roadway_class:
+        existing: 101.0
+        set: 50.0
+      drive_access:
+        existing: false
+        set: '1'
+    facility:
+      links:
+        model_link_id:
+        - 1017818
+        - 175124
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 7.0
+      roadway_class:
+        existing: 101.0
+        set: 40.0
+    facility:
+      links:
+        model_link_id:
+        - 671056
+        - 48033
+        modes:
+        - any

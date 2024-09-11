@@ -7,49 +7,51 @@ tags:
 dependencies:
   prerequisites:
   - add mnpass_code
+notes: ''
 changes:
-- category: Parallel Managed lanes
-  facility:
-    link:
-    - model_link_id:
-      - 80193
-      - 172146
-      - 241807
-      - 258097
-      - 314865
-      - 322596
-      - 445208
-      - 489614
-      - 12478
-      - 62008
-      - 72590
-      - 198766
-      - 232954
-      - 264091
-      - 265777
-      - 311933
-      - 359994
-  properties:
-  - property: lanes
-    change: 0
-    timeofday:
-    - time:
-      - '6:00'
-      - '10:00'
-      change: -1
-  - property: ML_lanes
-    set: 0
-    timeofday:
-    - time:
-      - '6:00'
-      - '10:00'
-      set: 1
-  - property: ML_access
-    set: all
-  - property: ML_egress
-    set: all
-  - property: MNPASS_CODE
-    set: 117
-  - property: ML_MNPASS_CODE
-    set: 17
-notes: null
+- roadway_property_change:
+    property_changes:
+      lanes:
+        change: 0
+        scoped:
+        - change: -1
+          timespan:
+          - '6:00'
+          - '10:00'
+      ML_lanes:
+        set: 0
+        scoped:
+        - set: 1
+          timespan:
+          - '6:00'
+          - '10:00'
+      ML_access:
+        set: all
+      ML_egress:
+        set: all
+      MNPASS_CODE:
+        set: 117
+      ML_MNPASS_CODE:
+        set: 17
+    facility:
+      links:
+        model_link_id:
+        - 80193
+        - 172146
+        - 241807
+        - 258097
+        - 314865
+        - 322596
+        - 445208
+        - 489614
+        - 12478
+        - 62008
+        - 72590
+        - 198766
+        - 232954
+        - 264091
+        - 265777
+        - 311933
+        - 359994
+        modes:
+        - any

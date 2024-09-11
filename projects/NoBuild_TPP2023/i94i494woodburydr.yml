@@ -1,17 +1,19 @@
 project: i94i494woodburydr
-tags: ''
-dependencies: ''
+tags: []
+dependencies: {}
+notes: ''
 changes:
-- category: Roadway Property Change
-  facility:
-    link:
-    - model_link_id:
-      - 254096
-      - 422078
-      - 211921
-      - 457023
-  properties:
-  - existing: 3.0
-    set: 4.0
-    property: lanes
-valid: false
+- roadway_property_change:
+    property_changes:
+      lanes:
+        existing: 3.0
+        set: 4.0
+    facility:
+      links:
+        model_link_id:
+        - 254096
+        - 422078
+        - 211921
+        - 457023
+        modes:
+        - any
