@@ -1,0 +1,15 @@
+project: gp35w_editsrw2
+tags: ''
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 335058
+      - 544332
+  properties:
+  - existing: 2.0
+    set: 4.0
+    property: lanes
+valid: false

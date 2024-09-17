@@ -1,0 +1,100 @@
+project: taylorsfalls
+tags: ''
+dependencies: ''
+changes:
+- category: Add New Roadway
+  links:
+  - A: 187715
+    B: 75500
+    name: Moberg Trail
+    roadway: primary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 11
+    model_link_id: 1750000
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 20
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 75500
+    B: 187715
+    name: Moberg Trail
+    roadway: primary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 11
+    model_link_id: 1750000
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 20
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 185183
+    B: 344567
+    name: ''
+    roadway: primary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 17
+    model_link_id: 1750000
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 20
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 344567
+    B: 185183
+    name: ''
+    roadway: primary
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 17
+    model_link_id: 1750000
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 20
+    area_type: 1
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 504506
+  properties:
+  - existing: 1.0
+    set: 2.0
+    property: lanes
+valid: false
