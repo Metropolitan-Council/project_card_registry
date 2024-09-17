@@ -12,7 +12,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 11
-    model_link_id: 1750000
+    model_link_id: 1750369
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -33,7 +33,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 11
-    model_link_id: 1750000
+    model_link_id: 1750370
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -54,7 +54,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 17
-    model_link_id: 1750000
+    model_link_id: 1750371
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -75,7 +75,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 17
-    model_link_id: 1750000
+    model_link_id: 1750372
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -97,4 +97,3 @@ changes:
   - existing: 1.0
     set: 2.0
     property: lanes
-valid: false
