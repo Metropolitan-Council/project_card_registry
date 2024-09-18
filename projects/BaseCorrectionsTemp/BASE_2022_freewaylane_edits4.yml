@@ -7,7 +7,6 @@ changes:
     link:
     - model_link_id:
       - 325431
-      - 478107
   properties:
   - existing: 2.0
     set: 3.0
