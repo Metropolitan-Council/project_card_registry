@@ -7,8 +7,7 @@ tags:
 dependencies:
   prerequisites:
   - add mnpass_code
-  - base2022_freewaylanes5
-  - base2022_35e_nb_lanes4
+  - base2022_freewayedits
 changes:
 - category: Parallel Managed lanes
   facility:
