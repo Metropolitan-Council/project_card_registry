@@ -11,14 +11,17 @@ import os
 import geopandas as gpd
 import pandas as pd
 import numpy as np
+import copy
 
 from met_council_wrangler import MetCouncil_Parameters
 from cube_wrangler import Parameters
 
 from pyproj import CRS
 
-metcouncil_wrangler_dir = os.path.join("C:/met_council_wrangler")
-cube_wrangler_dir = os.path.join("C:/cube_wrangler")
+link_attrs = copy.deepcopy(self.links_df.attrs)
+
+metcouncil_wrangler_dir = os.path.join(r"Z:\Met_Council\Yue_temp\metcouncil\met_council_wrangler")
+cube_wrangler_dir = os.path.join(r"Z:\Met_Council\Yue_temp\metcouncil\cube_wrangler")
 
 metcouncil_parameters = MetCouncil_Parameters(
     metcouncil_wrangler_base_dir=metcouncil_wrangler_dir,
@@ -275,3 +278,5 @@ self.links_df.loc[
     (self.links_df['area_type'] != 5), 
     'lanes'
 ] = 1
+
+self.links_df.attrs = link_attrs
