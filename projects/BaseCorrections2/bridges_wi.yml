@@ -12,7 +12,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 11
-    model_link_id: 1750000
+    model_link_id: 1750373
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -33,7 +33,7 @@ changes:
     walk_access: 1
     bike_access: 1
     county: 11
-    model_link_id: 1750000
+    model_link_id: 1750374
     rail_only: 0
     bus_only: 0
     centroidconnect: 0
@@ -64,4 +64,3 @@ changes:
   - existing: 50.0
     set: 101.0
     property: roadway_class
-valid: false
