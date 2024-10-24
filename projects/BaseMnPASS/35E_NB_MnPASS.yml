@@ -1,0 +1,59 @@
+project: 35e nb managed lane
+tags:
+- managed_lane
+- MnPASS
+- base year
+- Year 2015
+dependencies:
+  prerequisites:
+  - add mnpass_code
+  - base2022_freewayedits
+changes:
+- category: Parallel Managed lanes
+  facility:
+    link:
+    - model_link_id:
+      - 237079
+      - 134290
+      - 545243
+      - 296982
+      - 406734
+      - 300996
+      - 139233
+      - 277171
+      - 172750
+      - 348975
+      - 372500
+      - 524521
+      - 24237
+      - 402884
+      - 535968
+      - 270904
+      - 248243
+      - 474224
+      - 106338
+      - 480056
+  properties:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      change: -1
+  - property: ML_lanes
+    set: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      set: 1
+  - property: ML_access
+    set: all
+  - property: ML_egress
+    set: all
+  - property: MNPASS_CODE
+    set: 104
+  - property: ML_MNPASS_CODE
+    set: 4
+notes: null

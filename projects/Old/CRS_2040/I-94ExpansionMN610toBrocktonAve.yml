@@ -1,0 +1,18 @@
+project: i-94 expansion mn 610 to brockton ave
+tags:
+- 2040 CRS
+- Year 2030
+- Lane Addition
+- Hennepin County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 243661
+      - 538681
+  properties:
+  - property: lanes
+    set: 4

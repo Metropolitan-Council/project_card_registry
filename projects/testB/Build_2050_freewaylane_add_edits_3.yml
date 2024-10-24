@@ -1,0 +1,88 @@
+project: build2050_freewaylaneadds_3
+tags: ''
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 318778
+  properties:
+  - existing: 1.0
+    set: 5.0
+    property: lanes
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 49057
+      - 291766
+      - 89279
+      - 496133
+      - 268964
+      - 353260
+      - 290936
+      - 6659
+      - 385373
+      - 524539
+      - 531091
+      - 373924
+      - 49605
+      - 432573
+      - 216760
+      - 339580
+      - 437483
+  properties:
+  - existing: 2.0
+    set: 5.0
+    property: lanes
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 424003
+      - 461086
+      - 223958
+      - 357788
+      - 285572
+      - 316205
+      - 272961
+      - 312966
+      - 265175
+      - 386273
+      - 427082
+      - 361387
+      - 385831
+      - 232193
+      - 130932
+      - 461882
+      - 51420
+      - 347381
+      - 102609
+      - 300668
+  properties:
+  - existing: 3.0
+    set: 5.0
+    property: lanes
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 9039
+  properties:
+  - existing: 3.0
+    set: 4.0
+    property: lanes
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 1750231
+      - 1750228
+      - 1750230
+      - 1750229
+  properties:
+  - existing: 2.0
+    set: 5.0
+    property: lanes
+valid: false

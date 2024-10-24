@@ -1,0 +1,67 @@
+project: 94 minneapolis-saint paul wb managed lane
+tags:
+- managed_lane
+- MnPASS
+- CRS
+- Year 2040
+dependencies:
+  prerequisites: []
+  corequisites: []
+  conflicts: []
+changes:
+- category: Parallel Managed lanes
+  facility:
+    link:
+    - model_link_id:
+      - 505789
+      - 99254
+      - 325645
+      - 147354
+      - 401209
+      - 461734
+      - 23798
+      - 56486
+      - 209346
+      - 358011
+      - 358011
+      - 468287
+      - 342872
+      - 46774
+      - 189483
+      - 464350
+      - 141448
+      - 468663
+      - 384320
+      - 10691
+  properties:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      change: -1
+    - time:
+      - '15:00'
+      - '19:00'
+      change: -1
+  - property: ML_lanes
+    set: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      set: 1
+    - time:
+      - '15:00'
+      - '19:00'
+      set: 1
+  - property: ML_access
+    set: all
+  - property: ML_egress
+    set: all
+  - property: MNPASS_CODE
+    set: 0
+  - property: ML_MNPASS_CODE
+    set: 14
+notes: null

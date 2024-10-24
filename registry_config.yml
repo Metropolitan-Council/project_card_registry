@@ -1,12 +1,19 @@
 minimum_allowable_node_id: 1
-maximum_allowable_node_id: 400000
+maximum_allowable_node_id: 950000
 minimum_allowable_link_id: 1
-maximum_allowable_link_id: 1500000
+maximum_allowable_link_id: 2000000
 nodes_used_by_geography:
-  - geography_name: All
-    start: 0
-    end: 354385
+  - geography_name: Internal TAZ
+    start: 1
+    end: 3030
+    # external nodes (3031-3061) are added using project cards 
+  - geography_name: Future TAZ and External Reserve
+    start: 3062
+    end: 3100
+  - geography_name: Network nodes
+    start: 3101
+    end: 417325
 links_used_by_geography:
   - geography_name: All
     start: 0
-    end: 1189304
+    end: 1061661

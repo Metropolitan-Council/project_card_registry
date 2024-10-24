@@ -1,0 +1,20 @@
+project: base2022_freewaylanes5
+tags: ''
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 230482
+      - 67748
+      - 51477
+      - 217935
+      - 271029
+      - 549405
+      - 68371
+  properties:
+  - existing: 4.0
+    set: 5.0
+    property: lanes
+valid: false

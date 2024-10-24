@@ -1,0 +1,63 @@
+project: mn5hennepinCR4intchng
+tags: ''
+dependencies: ''
+changes:
+- category: Roadway Deletion
+  links:
+    model_link_id:
+    - 310316
+    - 173260
+    - 44071
+    - 1061
+    - 172715
+    - 77456
+    - 402911
+    - 201395
+    - 102266
+    - 34103
+    - 228109
+    - 86142
+- category: Add New Roadway
+  links:
+  - A: 276005
+    B: 276002
+    name: West 78th Street
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900133
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 276001
+    B: 201668
+    name: West 78th Street
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1900134
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2

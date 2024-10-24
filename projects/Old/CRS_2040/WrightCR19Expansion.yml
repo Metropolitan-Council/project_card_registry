@@ -1,0 +1,26 @@
+project: wright cr 19 expansion
+tags:
+- 2040 CRS
+- Year 2020
+- Lane Addition
+- Wright County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 907665
+      - 578077
+      - 67007
+      - 203140
+      - 653152
+      - 1048291
+      - 517725
+      - 194808
+      - 1029714
+      - 437265
+  properties:
+  - property: lanes
+    set: 2

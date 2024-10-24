@@ -1,0 +1,68 @@
+project: 35w north sb managed lane
+tags:
+- managed_lane
+- MnPASS
+- base year
+- Year 2015
+dependencies:
+  prerequisites:
+  - add mnpass_code
+changes:
+- category: Parallel Managed lanes
+  facility:
+    link:
+    - model_link_id:
+      - 194802
+      - 145168
+      - 543063
+      - 540794
+      - 125448
+      - 529708
+      - 262800
+      - 28393
+      - 4914
+      - 28393
+      - 4914
+      - 239491
+      - 374895
+      - 446188
+      - 112593
+      - 105990
+      - 407781
+      - 443337
+      - 33646
+      - 215768
+      - 97118
+      - 403194
+      - 395304
+      - 503220
+      - 497594
+      - 168075
+      - 20063
+      - 248301
+      - 32642
+      - 530655
+  properties:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      change: -1
+  - property: ML_lanes
+    set: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      set: 1
+  - property: ML_access
+    set: all
+  - property: ML_egress
+    set: all
+  - property: MNPASS_CODE
+    set: 107
+  - property: ML_MNPASS_CODE
+    set: 7
+notes: null

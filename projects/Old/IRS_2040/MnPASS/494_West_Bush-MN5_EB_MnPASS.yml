@@ -1,0 +1,60 @@
+project: 494 west bush-mn 5 eb managed lane
+tags:
+- managed_lane
+- MnPASS
+- IRS
+- Year 2040
+- TIER 2
+dependencies:
+  prerequisites: []
+  corequisites: []
+  conflicts: []
+changes:
+- category: Parallel Managed lanes
+  facility:
+    link:
+    - model_link_id:
+      - 363436
+      - 393939
+      - 357788
+      - 49057
+      - 168231
+      - 268964
+      - 55750
+      - 318778
+      - 223958
+      - 89279
+      - 285572
+      - 391365
+  properties:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      change: -1
+    - time:
+      - '15:00'
+      - '19:00'
+      change: -1
+  - property: ML_lanes
+    change: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      set: 1
+    - time:
+      - '15:00'
+      - '19:00'
+      set: 1
+  - property: ML_access
+    set: all
+  - property: ML_egress
+    set: all
+  - property: MNPASS_CODE
+    set: 0
+  - property: ML_MNPASS_CODE
+    set: 32
+notes: null

@@ -1,0 +1,56 @@
+project: nobuild2025_494laneadds
+tags: ''
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 291766
+      - 89279
+      - 496133
+      - 268964
+      - 353260
+      - 290936
+  properties:
+  - existing: 2.0
+    set: 5.0
+    property: lanes
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 461086
+      - 223958
+      - 357788
+      - 316205
+      - 285572
+      - 272961
+      - 312966
+      - 265175
+      - 386273
+      - 427082
+      - 361387
+  properties:
+  - existing: 3.0
+    set: 5.0
+    property: lanes
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 318778
+  properties:
+  - existing: 2.0
+    set: 3.0
+    property: lanes
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 49057
+  properties:
+  - existing: 3.0
+    set: 4.0
+    property: lanes
+valid: false

@@ -1,0 +1,55 @@
+project: 494 eb segment 1 managed lane
+tags:
+- managed_lane
+- MnPASS
+- base year
+- Year 2025
+dependencies:
+  prerequisites:
+  - add mnpass_code
+changes:
+- category: Parallel Managed lanes
+  facility:
+    link:
+    - model_link_id:
+      - 89279
+      - 223958
+      - 268964
+      - 285572
+      - 290936
+      - 353260
+      - 357788
+      - 361387
+      - 427082
+  properties:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '06:00'
+      - '10:00'
+      change: -1
+    - time:
+      - '15:00'
+      - '19:00'
+      change: -1
+  - property: ML_lanes
+    set: 0
+    timeofday:
+    - time:
+      - '06:00'
+      - '10:00'
+      set: 1
+    - time:
+      - '15:00'
+      - '19:00'
+      set: 1
+  - property: ML_access
+    set: all
+  - property: ML_egress
+    set: all
+  - property: MNPASS_CODE
+    set: 112
+  - property: ML_MNPASS_CODE
+    set: 12
+notes: null

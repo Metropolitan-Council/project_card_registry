@@ -1,0 +1,29 @@
+project: network cleanup 1 asgngrp 50
+tags:
+- Network Cleanup AsgnGrp
+- Roadway Property Change
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 190721
+      - 581506
+      - 698076
+      - 444657
+      - 33652
+      - 561275
+      - 692397
+      - 428648
+      - 691227
+      - 946264
+      - 947882
+      - 909573
+      - 632486
+      - 16471
+      - 16442
+      - 36233
+  properties:
+  - property: assign_group
+    set: 50

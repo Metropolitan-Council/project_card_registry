@@ -1,0 +1,21 @@
+project: washington cr 13 expansion
+tags:
+- 2040 CRS
+- Year 2020
+- Lane Addition
+- Washington County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 425984
+      - 181226
+      - 84598
+      - 380025
+      - 407907
+  properties:
+  - property: lanes
+    set: 3
