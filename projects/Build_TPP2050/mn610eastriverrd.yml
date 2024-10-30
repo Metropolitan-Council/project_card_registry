@@ -3,12 +3,6 @@ tags: []
 dependencies: {}
 notes: ''
 changes:
-- roadway_deletion:
-    links:
-      model_link_id:
-      - 63522
-      modes:
-      - any
 - roadway_addition:
     links:
     - A: 900065
@@ -112,3 +106,55 @@ changes:
         - 335832
         modes:
         - any
+- transit_routing_change:
+    service:
+      trip_properties:
+        route_id:
+        - '850'
+        direction_id: 0
+        shape_id:
+        - '65850008'
+#        '# shape_index': '474'
+      timespans:
+      - - '15:00'
+        - '19:00'
+    routing:
+      existing:
+      - -196727
+      - -42406
+      - -46644
+      set:
+      - -196727
+      - -42406
+      - -900065
+      - -46644
+- transit_routing_change:
+    service:
+      trip_properties:
+        route_id:
+        - '850'
+        direction_id: 0
+        shape_id:
+        - '65850010'
+#        '# shape_index': '475'
+      timespans:
+      - - '10:00'
+        - '15:00'
+      - - '15:00'
+        - '19:00'
+    routing:
+      existing:
+      - -196727
+      - -42406
+      - -46644
+      set:
+      - -196727
+      - -42406
+      - -900065
+      - -46644
+- roadway_deletion:
+    links:
+      model_link_id:
+      - 63522
+      modes:
+      - any

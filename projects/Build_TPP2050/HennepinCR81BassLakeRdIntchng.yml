@@ -3,24 +3,6 @@ tags: []
 dependencies: {}
 notes: ''
 changes:
-- roadway_deletion:
-    links:
-      model_link_id:
-      - 76178
-      - 109273
-      - 521095
-      - 291967
-      - 187233
-      - 521690
-      - 167252
-      - 428168
-      - 5529
-      - 464102
-      - 479531
-      - 248884
-      - 369063
-      modes:
-      - any
 - roadway_addition:
     links:
     - A: 329261
@@ -240,3 +222,51 @@ changes:
       osm_node_id: ''
       X: -93.35747562469368
       Y: 45.05374442264204
+- transit_routing_change:
+    service:
+      trip_properties:
+        route_id:
+        - '721'
+        direction_id: 0
+        shape_id:
+        - '65721006'
+#        '# shape_index': '413'
+      timespans:
+      - - '3:00'
+        - '6:00'
+      - - '6:00'
+        - '10:00'
+      - - '10:00'
+        - '15:00'
+      - - '15:00'
+        - '19:00'
+      - - '19:00'
+        - '3:00'
+    routing:
+      existing:
+      - -214423
+      - 203221
+      - -213884
+      set:
+      - -214423
+      - 203221
+      - -900050
+      - -213884
+- roadway_deletion:
+    links:
+      model_link_id:
+      - 76178
+      - 109273
+      - 521095
+      - 291967
+      - 187233
+      - 521690
+      - 167252
+      - 428168
+      - 5529
+      - 464102
+      - 479531
+      - 248884
+      - 369063
+      modes:
+      - any

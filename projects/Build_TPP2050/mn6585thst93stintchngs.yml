@@ -3,22 +3,6 @@ tags: []
 dependencies: {}
 notes: ''
 changes:
-- roadway_deletion:
-    links:
-      model_link_id:
-      - 382683
-      - 180407
-      - 795921
-      - 383449
-      - 514250
-      - 73696
-      - 164448
-      - 165409
-      - 149961
-      - 211236
-      - 262311
-      modes:
-      - any
 - roadway_addition:
     links:
     - A: 900054
@@ -463,3 +447,125 @@ changes:
       osm_node_id: ''
       X: -93.2355029154502
       Y: 45.13957799403057
+- transit_routing_change:
+    service:
+      trip_properties:
+        route_id:
+        - '25'
+        direction_id: 1
+        shape_id:
+        - '65025020'
+#        '# shape_index': '185'
+      timespans:
+      - - '3:00'
+        - '6:00'
+      - - '6:00'
+        - '10:00'
+    routing:
+      existing:
+      - -52965
+      - -52964
+      - -52414
+      set:
+      - -52965
+      - -52964
+      - -900055
+      - -900056
+      - -52414
+- transit_routing_change:
+    service:
+      trip_properties:
+        route_id:
+        - '25'
+        direction_id: 0
+        shape_id:
+        - '65025016'
+#        '# shape_index': '183'
+      timespans:
+      - - '15:00'
+        - '19:00'
+    routing:
+      existing:
+      - -45212
+      - 45211
+      - -45210
+      - -53023
+      set:
+      - -45212
+      - 45211
+      - -900054
+      - -53023
+- transit_routing_change:
+    service:
+      trip_properties:
+        route_id:
+        - '804'
+        direction_id: 0
+        shape_id:
+        - '65804004'
+#        '# shape_index': '468'
+      timespans:
+      - - '6:00'
+        - '10:00'
+      - - '10:00'
+        - '15:00'
+      - - '15:00'
+        - '19:00'
+    routing:
+      existing:
+      - -52965
+      - -52964
+      - -52414
+      set:
+      - -52965
+      - -52964
+      - -900055
+      - -900056
+      - -52414
+- transit_routing_change:
+    service:
+      trip_properties:
+        route_id:
+        - '804'
+        direction_id: 1
+        shape_id:
+        - '65804005'
+#        '# shape_index': '469'
+      timespans:
+      - - '3:00'
+        - '6:00'
+      - - '6:00'
+        - '10:00'
+      - - '10:00'
+        - '15:00'
+      - - '15:00'
+        - '19:00'
+      - - '19:00'
+        - '3:00'
+    routing:
+      existing:
+      - -45212
+      - 45211
+      - -45210
+      - -53023
+      set:
+      - -45212
+      - 45211
+      - -900054
+      - -53023
+- roadway_deletion:
+    links:
+      model_link_id:
+      - 382683
+      - 180407
+      - 795921
+      - 383449
+      - 514250
+      - 73696
+      - 164448
+      - 165409
+      - 149961
+      - 211236
+      - 262311
+      modes:
+      - any

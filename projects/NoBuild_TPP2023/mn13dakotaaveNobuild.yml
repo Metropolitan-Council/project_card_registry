@@ -3,19 +3,6 @@ tags: []
 dependencies: {}
 notes: ''
 changes:
-- roadway_deletion:
-    links:
-      model_link_id:
-      - 231843
-      - 949451
-      - 41948
-      - 686012
-      - 1010220
-      - 287254
-      - 331444
-      - 481500
-      modes:
-      - any
 - roadway_addition:
     links:
     - A: 139281
@@ -307,3 +294,296 @@ changes:
       osm_node_id: ''
       X: -93.36045731847184
       Y: 44.77799551231469
+- transit_routing_change:
+    service:
+      trip_properties:
+        route_id:
+        - '495'
+        direction_id: 0
+        shape_id:
+        - 13167_shp
+#        '# shape_index': '3'
+      timespans:
+      - - '10:00'
+        - '15:00'
+      - - '19:00'
+        - '3:00'
+    routing:
+      existing:
+      - -204342
+      - -204336
+      - -276628
+      set:
+      - -204342
+      - -204336
+      - -900040
+      - -276628
+- transit_routing_change:
+    service:
+      trip_properties:
+        route_id:
+        - '410'
+        direction_id: 0
+        shape_id:
+        - 13613_shp
+#        '# shape_index': '13'
+      timespans:
+      - - '6:00'
+        - '10:00'
+      - - '10:00'
+        - '15:00'
+      - - '15:00'
+        - '19:00'
+      - - '19:00'
+        - '3:00'
+    routing:
+      existing:
+      - -204342
+      - -204336
+      - -276628
+      set:
+      - -204342
+      - -204336
+      - -900040
+      - -276628
+- transit_routing_change:
+    service:
+      trip_properties:
+        route_id:
+        - '410'
+        direction_id: 0
+        shape_id:
+        - 13677_shp
+#        '# shape_index': '14'
+      timespans:
+      - - '19:00'
+        - '3:00'
+    routing:
+      existing:
+      - -204342
+      - -204336
+      - -276628
+      set:
+      - -204342
+      - -204336
+      - -900040
+      - -276628
+- transit_routing_change:
+    service:
+      trip_properties:
+        route_id:
+        - '410'
+        direction_id: 1
+        shape_id:
+        - 13598_shp
+#        '# shape_index': '12'
+      timespans:
+      - - '6:00'
+        - '10:00'
+      - - '10:00'
+        - '15:00'
+      - - '15:00'
+        - '19:00'
+      - - '19:00'
+        - '3:00'
+    routing:
+      existing:
+      - -204979
+      - -138970
+      - -138971
+      set:
+      - -204979
+      - -138970
+      - -900041
+      - -138971
+- transit_routing_change:
+    service:
+      trip_properties:
+        route_id:
+        - '495'
+        direction_id: 0
+        shape_id:
+        - 13490_shp
+#        '# shape_index': '11'
+      timespans:
+      - - '6:00'
+        - '10:00'
+      - - '15:00'
+        - '19:00'
+      - - '19:00'
+        - '3:00'
+    routing:
+      existing:
+      - -140325
+      - -139282
+      - -138971
+      - -204336
+      - -276628
+      set:
+      - -140325
+      - -139282
+      - -900039
+      - -900038
+      - -900040
+      - -276628
+- transit_routing_change:
+    service:
+      trip_properties:
+        route_id:
+        - '495'
+        direction_id: 0
+        shape_id:
+        - 13176_shp
+#        '# shape_index': '5'
+      timespans:
+      - - '3:00'
+        - '6:00'
+      - - '15:00'
+        - '19:00'
+    routing:
+      existing:
+      - -204342
+      - -204336
+      - -276628
+      set:
+      - -204342
+      - -204336
+      - -900040
+      - -276628
+- transit_routing_change:
+    service:
+      trip_properties:
+        route_id:
+        - '495'
+        direction_id: 0
+        shape_id:
+        - 13464_shp
+#        '# shape_index': '9'
+      timespans:
+      - - '3:00'
+        - '6:00'
+      - - '6:00'
+        - '10:00'
+      - - '10:00'
+        - '15:00'
+    routing:
+      existing:
+      - -204342
+      - -204336
+      - -276628
+      set:
+      - -204342
+      - -204336
+      - -900040
+      - -276628
+- transit_routing_change:
+    service:
+      trip_properties:
+        route_id:
+        - '495'
+        direction_id: 1
+        shape_id:
+        - 13130_shp
+#        '# shape_index': '1'
+      timespans:
+      - - '15:00'
+        - '19:00'
+      - - '19:00'
+        - '3:00'
+    routing:
+      existing:
+      - -204979
+      - -138970
+      - -138971
+      set:
+      - -204979
+      - -138970
+      - -900041
+      - -138971
+- transit_routing_change:
+    service:
+      trip_properties:
+        route_id:
+        - '495'
+        direction_id: 1
+        shape_id:
+        - 13485_shp
+#        '# shape_index': '10'
+      timespans:
+      - - '10:00'
+        - '15:00'
+      - - '19:00'
+        - '3:00'
+    routing:
+      existing:
+      - -204979
+      - -138970
+      - -138971
+      set:
+      - -204979
+      - -138970
+      - -900041
+      - -138971
+- transit_routing_change:
+    service:
+      trip_properties:
+        route_id:
+        - '495'
+        direction_id: 1
+        shape_id:
+        - 13171_shp
+#        '# shape_index': '4'
+      timespans:
+      - - '3:00'
+        - '6:00'
+      - - '6:00'
+        - '10:00'
+      - - '15:00'
+        - '19:00'
+    routing:
+      existing:
+      - -204979
+      - -138970
+      - -138971
+      set:
+      - -204979
+      - -138970
+      - -900041
+      - -138971
+- transit_routing_change:
+    service:
+      trip_properties:
+        route_id:
+        - '495'
+        direction_id: 1
+        shape_id:
+        - 13463_shp
+#        '# shape_index': '8'
+      timespans:
+      - - '6:00'
+        - '10:00'
+      - - '10:00'
+        - '15:00'
+    routing:
+      existing:
+      - -204979
+      - -138970
+      - -138971
+      set:
+      - -204979
+      - -138970
+      - -900041
+      - -138971
+- roadway_deletion:
+    links:
+      model_link_id:
+      - 231843
+      - 949451
+      - 41948
+      - 686012
+      - 1010220
+      - 287254
+      - 331444
+      - 481500
+      modes:
+      - any
