@@ -18,6 +18,6 @@ changes:
         set: 0.0
     facility:
       links:
-        all: 'True'
+        all: True
         modes:
         - any
