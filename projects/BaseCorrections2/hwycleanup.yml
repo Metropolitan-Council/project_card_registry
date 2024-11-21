@@ -1,0 +1,50 @@
+project: hwycleanup
+tags: ''
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 528336
+  properties:
+  - existing: 10.0
+    set: 60.0
+    property: roadway_class
+  - set: 3.0
+    property: assign_group
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 422347
+  properties:
+  - set: 2.0
+    property: assign_group
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 81968
+      - 161938
+      - 183730
+      - 552241
+      - 227788
+      - 448283
+      - 46278
+      - 397777
+  properties:
+  - set: 3.0
+    property: assign_group
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 243204
+      - 243057
+      - 12115
+      - 149696
+  properties:
+  - set: 4.0
+    property: assign_group
+valid: false

@@ -1,0 +1,20 @@
+project: carver cr 10 expansion cr 11 to cr 43
+tags:
+- 2040 CRS
+- Year 2030
+- Lane Addition
+- Carver County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 32594
+      - 833766
+      - 32594
+      - 833766
+  properties:
+  - property: lanes
+    set: 2

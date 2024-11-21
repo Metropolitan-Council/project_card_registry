@@ -1,0 +1,75 @@
+project: AG2Cleanup3
+tags: ''
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 67321
+      - 277833
+      - 448200
+      - 541732
+      - 532793
+      - 130379
+      - 207463
+      - 292753
+      - 99380
+      - 485829
+      - 74089
+      - 56884
+      - 121929
+      - 102365
+      - 479897
+      - 482438
+      - 232468
+      - 74931
+      - 435735
+      - 534173
+      - 300716
+      - 426040
+      - 358451
+      - 424191
+      - 225970
+      - 469929
+      - 43880
+      - 7836
+      - 207517
+  properties:
+  - set: 1.0
+    property: assign_group
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 521405
+      - 27071
+      - 262078
+      - 153125
+      - 370144
+      - 114665
+      - 389610
+      - 189569
+  properties:
+  - set: 2.0
+    property: assign_group
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 442007
+  properties:
+  - set: 3.0
+    property: assign_group
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 92682
+      - 425418
+      - 177414
+      - 525422
+  properties:
+  - set: 4.0
+    property: assign_group
+valid: false

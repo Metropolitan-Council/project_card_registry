@@ -1,0 +1,14 @@
+project: cliffrd_35w_laneexp
+tags: ''
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 387986
+  properties:
+  - existing: 3.0
+    set: 4.0
+    property: lanes
+valid: false

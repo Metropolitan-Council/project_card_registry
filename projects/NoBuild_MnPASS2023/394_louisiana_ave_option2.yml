@@ -1,0 +1,21 @@
+project: 394_louisiana_ave_laneadd
+tags: ''
+dependencies:
+  prerequisites:
+  - 394 eb managed lane
+changes:
+- category: Parallel Managed lanes
+  facility:
+    link:
+    - model_link_id:
+      - 35474
+      - 327432
+  properties:
+  - property: lanes
+    set: 4
+    timeofday:
+    - time:
+      - '06:00'
+      - '10:00'
+      set: 3
+valid: false

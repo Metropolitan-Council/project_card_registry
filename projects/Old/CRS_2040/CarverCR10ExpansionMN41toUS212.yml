@@ -1,0 +1,38 @@
+project: carver cr 10 expansion mn 41 to us 212
+tags:
+- 2040 CRS
+- Year 2030
+- Lane Addition
+- Carver County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 105886
+      - 935603
+      - 750935
+      - 86208
+      - 622791
+      - 942495
+      - 1004163
+      - 154471
+      - 64700
+      - 383862
+      - 636816
+      - 362036
+      - 445664
+      - 713760
+      - 476729
+      - 927867
+      - 5616
+      - 562368
+      - 785507
+      - 193039
+      - 199066
+      - 100932
+  properties:
+  - property: lanes
+    set: 2

@@ -1,0 +1,25 @@
+project: i-94 expansion th 41 to cr 19
+tags:
+- 2040 CRS
+- Year 2030
+- Lane Addition
+- Wright County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 276594
+      - 276594
+      - 224663
+      - 54349
+      - 492746
+      - 388897
+      - 504078
+      - 286196
+      - 541599
+  properties:
+  - property: lanes
+    set: 3

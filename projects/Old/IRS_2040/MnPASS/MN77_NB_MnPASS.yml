@@ -1,0 +1,66 @@
+project: mn 77 nb managed lane
+tags:
+- managed_lane
+- MnPASS
+- IRS
+- Year 2040
+- TIER 3
+dependencies:
+  prerequisites: []
+  corequisites: []
+  conflicts: []
+changes:
+- category: Parallel Managed lanes
+  facility:
+    link:
+    - model_link_id:
+      - 490711
+      - 500092
+      - 314845
+      - 496096
+      - 229658
+      - 205364
+      - 35462
+      - 120896
+      - 365998
+      - 257705
+      - 365998
+      - 257705
+      - 317147
+      - 519015
+      - 203795
+      - 303719
+      - 456114
+      - 131085
+      - 286313
+      - 521438
+      - 506242
+      - 230847
+      - 215778
+      - 116847
+      - 111541
+      - 273757
+  properties:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      change: -1
+  - property: ML_lanes
+    change: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      set: 1
+  - property: ML_access
+    set: all
+  - property: ML_egress
+    set: all
+  - property: MNPASS_CODE
+    set: 0
+  - property: ML_MNPASS_CODE
+    set: 51
+notes: null

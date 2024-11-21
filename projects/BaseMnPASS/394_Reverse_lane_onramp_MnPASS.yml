@@ -1,0 +1,28 @@
+project: 394 reverse lane onramp mnpasspay
+tags:
+- MnPASS
+- base year
+- Year 2015
+dependencies:
+  prerequisites:
+  - add mnpass_code
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 276573 #EB ramp between Park Pl Blvd and Rte100
+      - 464833 #EB ramp from SB Rte100
+      - 432890 #EB ramp from NB Rte100
+  properties:
+  - property: MNPASS_PAY
+    set: 2
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 94698 # WB ramp between I94 and Linden Ave
+      - 88315 # WB connection from Dunwoody Blvd to reversible lane
+  properties:
+  - property: MNPASS_PAY
+    set: 1

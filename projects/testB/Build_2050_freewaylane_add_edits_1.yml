@@ -1,0 +1,122 @@
+project: build2050_freewaylanes_1
+tags: ''
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 234654
+      - 425240
+      - 136649
+      - 250908
+      - 236715
+      - 262800
+      - 20063
+      - 248301
+      - 32642
+      - 168075
+      - 28393
+      - 4914
+      - 194802
+      - 374895
+      - 446188
+  properties:
+  - set: 3.0
+    property: lanes
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 72590
+  properties:
+  - set: 5.0
+    property: lanes
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 211052
+      - 376499
+      - 486533
+  properties:
+  - set: 3.0
+    property: lanes
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 395304
+      - 239491
+      - 403194
+      - 407781
+      - 443337
+      - 33646
+      - 145168
+      - 530655
+      - 543063
+      - 540794
+      - 125448
+      - 215768
+      - 97118
+      - 503220
+      - 497594
+  properties:
+  - set: 4.0
+    property: lanes
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 311933
+      - 62008
+      - 232954
+      - 198766
+      - 12478
+      - 265777
+      - 359994
+      - 489614
+      - 322596
+      - 241807
+      - 172146
+  properties:
+  - set: 5.0
+    property: lanes
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 23092
+      - 319158
+      - 187501
+      - 264091
+      - 445208
+      - 80193
+      - 314865
+  properties:
+  - set: 5.0
+    property: lanes
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 123713
+      - 62077
+      - 520654
+  properties:
+  - set: 5.0
+    property: lanes
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 1900122
+      - 1900119
+      - 1900124
+      - 1900123
+      - 1900113
+      - 1900118
+  properties:
+  - set: 3.0
+    property: lanes
+valid: false

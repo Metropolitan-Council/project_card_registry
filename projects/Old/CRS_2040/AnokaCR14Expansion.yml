@@ -1,0 +1,50 @@
+project: anoka cr 14 expansion
+tags:
+- 2040 CRS
+- Year 2025
+- Lane Addition
+- Anoka County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 456909
+      - 703523
+      - 480971
+      - 1016292
+      - 899319
+      - 927158
+      - 629437
+      - 978156
+      - 706086
+      - 563905
+      - 720768
+      - 1007402
+      - 743498
+      - 799691
+      - 991202
+      - 57731
+      - 78532
+      - 518258
+      - 370360
+      - 269370
+      - 276512
+      - 298558
+      - 376789
+      - 13186
+      - 493273
+      - 544691
+      - 200807
+      - 42111
+      - 183221
+      - 725974
+      - 929810
+      - 296106
+      - 1036464
+      - 1035349
+  properties:
+  - property: lanes
+    set: 2

@@ -1,0 +1,25 @@
+project: i-35w expansion cliff rd to river
+tags:
+- 2040 CRS
+- Year 2030
+- Lane Addition
+- Dakota County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 387986
+      - 156725
+      - 335058
+      - 544332
+      - 50633
+      - 156725
+      - 335058
+      - 544332
+      - 50633
+  properties:
+  - property: lanes
+    set: 4

@@ -1,0 +1,22 @@
+project: i-694 expansion i-694 to 10th st
+tags:
+- 2040 CRS
+- Year 2030
+- Lane Addition
+- Washington County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 274088
+      - 198025
+      - 241744
+      - 70626
+      - 10097
+      - 163879
+  properties:
+  - property: lanes
+    set: 3

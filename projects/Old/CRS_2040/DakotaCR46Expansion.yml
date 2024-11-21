@@ -1,0 +1,48 @@
+project: dakota cr 46 expansion
+tags:
+- 2040 CRS
+- Year 2025
+- Lane Addition
+- Dakota County
+- TPP Hwy Chapter
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 197154
+      - 981766
+      - 379781
+      - 798371
+      - 41060
+      - 142859
+      - 379781
+      - 798371
+      - 982669
+      - 578669
+      - 482963
+      - 478494
+      - 77204
+      - 870610
+      - 417500
+      - 607880
+      - 852219
+      - 487694
+      - 206132
+      - 280440
+      - 402887
+      - 109500
+      - 150194
+      - 101640
+      - 336306
+      - 41060
+      - 555587
+      - 339992
+      - 142540
+      - 146348
+      - 48745
+      - 188162
+  properties:
+  - property: lanes
+    set: 2

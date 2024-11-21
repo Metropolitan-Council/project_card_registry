@@ -1,0 +1,430 @@
+project: lex_lake_circlepines2
+tags: ''
+dependencies: ''
+changes:
+- category: Add New Roadway
+  links:
+  - A: 45497
+    B: 510006
+    name: Lake Drive
+    roadway: primary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 1750000
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 5.0
+    roadway_class: 40.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 510006
+    B: 510005
+    name: Lake Drive
+    roadway: primary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 1750001
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 5.0
+    roadway_class: 40.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 510005
+    B: 510007
+    name: Lake Drive
+    roadway: primary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 1750002
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 5.0
+    roadway_class: 40.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 510007
+    B: 56561
+    name: Lake Drive
+    roadway: primary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 1750003
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 5.0
+    roadway_class: 40.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 310693
+    B: 510004
+    name: Lake Drive
+    roadway: primary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 1750004
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 5.0
+    roadway_class: 40.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 510004
+    B: 56562
+    name: Lake Drive
+    roadway: primary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 1750005
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 5.0
+    roadway_class: 40.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 58007
+    B: 510003
+    name: Lexington Avenue North
+    roadway: secondary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 1750006
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 5.0
+    roadway_class: 30.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+    lanes: 2
+  - A: 510003
+    B: 58002
+    name: Lexington Avenue North
+    roadway: secondary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 1750007
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 5.0
+    roadway_class: 30.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+    lanes: 2
+  - A: 510002
+    B: 510005
+    name: Lexington Avenue North
+    roadway: secondary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 1750008
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 5.0
+    roadway_class: 30.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+    lanes: 2
+  - A: 510006
+    B: 510002
+    name: Lexington Avenue North
+    roadway: secondary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 1750009
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 5.0
+    roadway_class: 30.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+    lanes: 2
+  - A: 510005
+    B: 510004
+    name: Lexington Avenue North
+    roadway: secondary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 1750010
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 5.0
+    roadway_class: 30.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+    lanes: 2
+  - A: 56562
+    B: 510006
+    name: Lexington Avenue North
+    roadway: secondary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 1750011
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 5.0
+    roadway_class: 30.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+    lanes: 2
+  - A: 510004
+    B: 58005
+    name: Lexington Avenue North
+    roadway: secondary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 1750012
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 5.0
+    roadway_class: 30.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+    lanes: 2
+  - A: 58005
+    B: 56562
+    name: Lexington Avenue North
+    roadway: secondary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 1750013
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 5.0
+    roadway_class: 30.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+    lanes: 2
+  - A: 510010
+    B: 46015
+    name: Lexington Avenue North
+    roadway: secondary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 1750014
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 5.0
+    roadway_class: 30.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+    lanes: 2
+  - A: 46014
+    B: 510010
+    name: Lexington Avenue North
+    roadway: secondary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 1750015
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 5.0
+    roadway_class: 30.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+    lanes: 2
+  - A: 58005
+    B: 510010
+    name: Lexington Avenue North
+    roadway: secondary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 1750016
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 5.0
+    roadway_class: 30.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+    lanes: 2
+  - A: 510010
+    B: 58005
+    name: ''
+    roadway: ''
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 1750017
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 5.0
+    roadway_class: 30.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+    lanes: 2
+  - A: 510003
+    B: 510002
+    name: Lexington Avenue North
+    roadway: secondary
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 1750018
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 5.0
+    roadway_class: 30.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+    lanes: 2
+  - A: 510002
+    B: 510003
+    name: Lexington
+    roadway: ''
+    drive_access: '1'
+    walk_access: '1'
+    bike_access: '1'
+    county: '1'
+    model_link_id: 1750019
+    rail_only: '0'
+    bus_only: '0'
+    centroidconnect: 0
+    assign_group: 5.0
+    roadway_class: 30.0
+    area_type: '2'
+    bike: 3
+    walk: 3
+    lanes: 2
+  nodes:
+  - drive_access: 1.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 510007
+    osm_node_id: ''
+    X: -93.15275930031639
+    Y: 45.14618749036166
+  - drive_access: 1.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 510006
+    osm_node_id: ''
+    X: -93.16372195666543
+    Y: 45.14127518430839
+  - drive_access: 1.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 510005
+    osm_node_id: ''
+    X: -93.16352130735656
+    Y: 45.14137323638852
+  - drive_access: 1.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 510004
+    osm_node_id: ''
+    X: -93.16353732891318
+    Y: 45.141486531571026
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 510003
+    osm_node_id: ''
+    X: -93.16360448622201
+    Y: 45.13247479592934
+  - drive_access: 1.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 510002
+    osm_node_id: ''
+    X: -93.16360638438876
+    Y: 45.13811584731288
+  - drive_access: 1.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 510010
+    osm_node_id: ''
+    X: -93.16351943326006
+    Y: 45.14600499573171

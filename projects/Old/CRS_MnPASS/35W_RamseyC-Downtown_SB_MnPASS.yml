@@ -1,0 +1,56 @@
+project: 35w ramsey c-downtown sb managed lane
+tags:
+- managed_lane
+- MnPASS
+- CRS
+- Year 2040
+dependencies:
+  prerequisites: []
+  corequisites: []
+  conflicts: []
+changes:
+- category: Parallel Managed lanes
+  facility:
+    link:
+    - model_link_id:
+      - 80193
+      - 314865
+      - 172146
+      - 322596
+      - 264091
+      - 72590
+      - 265777
+      - 198766
+      - 12478
+      - 359994
+      - 359994
+      - 489614
+      - 445208
+      - 241807
+      - 62008
+      - 311933
+      - 232954
+  properties:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      change: -1
+  - property: ML_lanes
+    set: 0
+    timeofday:
+    - time:
+      - '6:00'
+      - '10:00'
+      set: 1
+  - property: ML_access
+    set: all
+  - property: ML_egress
+    set: all
+  - property: MNPASS_CODE
+    set: 0
+  - property: ML_MNPASS_CODE
+    set: 11
+notes: null

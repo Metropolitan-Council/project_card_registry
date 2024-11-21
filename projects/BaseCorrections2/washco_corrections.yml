@@ -1,0 +1,170 @@
+project: washco_corrections
+tags: ''
+dependencies: ''
+changes:
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 152150
+      - 73591
+  properties:
+  - existing: 1.0
+    set: 2.0
+    property: lanes
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 435937
+      - 562289
+      - 405911
+      - 855600
+      - 123435
+      - 923721
+      - 185295
+      - 564294
+      - 697676
+      - 186582
+      - 828435
+      - 234670
+      - 744052
+      - 317215
+      - 906921
+      - 1033534
+      - 288791
+      - 48979
+      - 782646
+      - 345129
+      - 269298
+      - 560737
+      - 568268
+      - 959364
+      - 401682
+      - 74482
+  properties:
+  - existing: 101.0
+    set: 30.0
+    property: roadway_class
+  - existing: '0'
+    set: '1'
+    property: drive_access
+  - set: 6.0
+    property: assign_group
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 278654
+      - 513457
+  properties:
+  - existing: 101.0
+    set: 40.0
+    property: roadway_class
+  - existing: '0'
+    set: '1'
+    property: drive_access
+  - set: 6.0
+    property: assign_group
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 225290
+      - 441187
+      - 398824
+      - 114572
+  properties:
+  - existing: 101.0
+    set: 40.0
+    property: roadway_class
+  - existing: '0'
+    set: '1'
+    property: drive_access
+  - set: 7.0
+    property: assign_group
+  - existing: 1.0
+    set: 2.0
+    property: lanes
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 746466
+      - 541760
+      - 155057
+      - 601235
+      - 853800
+      - 107407
+      - 39448
+      - 984016
+      - 912622
+      - 256434
+      - 620851
+      - 473815
+      - 285820
+      - 908956
+      - 532803
+      - 814527
+  properties:
+  - existing: 101.0
+    set: 40.0
+    property: roadway_class
+  - existing: '0'
+    set: '1'
+    property: drive_access
+  - set: 7.0
+    property: assign_group
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 581242
+      - 62145
+      - 79383
+      - 560196
+      - 789223
+      - 197270
+      - 358920
+      - 569247
+      - 458017
+      - 684438
+      - 133893
+      - 633628
+      - 247603
+      - 587275
+  properties:
+  - existing: 101.0
+    set: 50.0
+    property: roadway_class
+  - existing: '0'
+    set: '1'
+    property: drive_access
+  - set: 50.0
+    property: assign_group
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 1057480
+      - 1007765
+      - 30219
+  properties:
+  - existing: 40.0
+    set: 30.0
+    property: roadway_class
+  - set: 6.0
+    property: assign_group
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 656096
+      - 237752
+      - 1015088
+      - 971340
+      - 367705
+  properties:
+  - set: 6.0
+    property: assign_group
+valid: false

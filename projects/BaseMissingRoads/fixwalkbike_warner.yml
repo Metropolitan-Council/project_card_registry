@@ -1,0 +1,147 @@
+project: fixwalkbike_warner
+tags: ''
+dependencies: ''
+changes:
+- category: Roadway Deletion
+  links:
+    model_link_id:
+    - 72077
+    - 878117
+- category: Add New Roadway
+  links:
+  - A: 132915
+    B: 131672
+    name: Childs Road
+    roadway: residential
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 5
+    model_link_id: 1500000
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 7
+    roadway_class: 40
+    area_type: 4
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 133058
+    B: 500000
+    name: Sam Morgan Regional Trail
+    roadway: cycleway
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 5
+    model_link_id: 1500001
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 101
+    roadway_class: 101
+    area_type: 4
+    bike: 1
+    walk: 3
+    lanes: 1
+  - A: 226016
+    B: 500000
+    name: Sam Morgan Regional Trail
+    roadway: cycleway
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 5
+    model_link_id: 1500002
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 101
+    roadway_class: 101
+    area_type: 4
+    bike: 1
+    walk: 3
+    lanes: 1
+  - A: 500000
+    B: 133058
+    name: Sam Morgan Regional Trail
+    roadway: cycleway
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 5
+    model_link_id: 1500003
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 101
+    roadway_class: 101
+    area_type: 4
+    bike: 1
+    walk: 3
+    lanes: 1
+  - A: 500000
+    B: 226016
+    name: Sam Morgan Regional Trail
+    roadway: cycleway
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 5
+    model_link_id: 1500004
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 101
+    roadway_class: 101
+    area_type: 4
+    bike: 1
+    walk: 3
+    lanes: 1
+  - A: 131673
+    B: 500000
+    name: Warner Childs
+    roadway: residential
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 5
+    model_link_id: 1500005
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 101
+    roadway_class: 101
+    area_type: 4
+    bike: 3
+    walk: 3
+    lanes: 1
+  - A: 500000
+    B: 131673
+    name: Warner Childs
+    roadway: residential
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 5
+    model_link_id: 1500006
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 101
+    roadway_class: 101
+    area_type: 4
+    bike: 3
+    walk: 3
+    lanes: 1
+  nodes:
+  - drive_access: 0.0
+    walk_access: 1.0
+    bike_access: 1.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 500000
+    osm_node_id: ''
+    X: -93.05383718221724
+    Y: 44.943345308437664

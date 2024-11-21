@@ -1,0 +1,59 @@
+project: mn 36 eb managed lane
+tags:
+- managed_lane
+- MnPASS
+- IRS
+- Year 2040
+- TIER 2
+dependencies:
+  prerequisites: []
+  corequisites: []
+  conflicts: []
+changes:
+- category: Parallel Managed lanes
+  facility:
+    link:
+    - model_link_id:
+      - 312764
+      - 183663
+      - 374414
+      - 442511
+      - 474693
+      - 312764
+      - 360396
+      - 126133
+      - 181500
+      - 520146
+      - 235120
+      - 192248
+      - 42090
+      - 161678
+      - 485810
+      - 516079
+      - 316193
+      - 308804
+      - 144400
+  properties:
+  - property: lanes
+    change: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      change: -1
+  - property: ML_lanes
+    change: 0
+    timeofday:
+    - time:
+      - '15:00'
+      - '19:00'
+      set: 1
+  - property: ML_access
+    set: all
+  - property: ML_egress
+    set: all
+  - property: MNPASS_CODE
+    set: 0
+  - property: ML_MNPASS_CODE
+    set: 36
+notes: null

@@ -1,0 +1,462 @@
+project: mn6585thst93stintchngs
+tags: ''
+dependencies: ''
+changes:
+- category: Roadway Deletion
+  links:
+    model_link_id:
+    - 382683
+    - 180407
+    - 795921
+    - 383449
+    - 514250
+    - 73696
+    - 164448
+    - 165409
+    - 149961
+    - 211236
+    - 262311
+- category: Add New Roadway
+  links:
+  - A: 900054
+    B: 53023
+    name: Central Avenue Northeast
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900156
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 3
+  - A: 52964
+    B: 900055
+    name: Central Avenue Northeast
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900157
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 30
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 3
+  - A: 397722
+    B: 900056
+    name: 85th Avenue Northeast
+    roadway: residential
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1900158
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 2
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900056
+    B: 397722
+    name: 85th Avenue Northeast
+    roadway: residential
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1900159
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 50
+    roadway_class: 50
+    area_type: 2
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 52414
+    B: 900056
+    name: 85th Avenue Northeast
+    roadway: residential
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1900160
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 50
+    roadway_class: 50
+    area_type: 2
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900056
+    B: 52414
+    name: 85th Avenue Northeast
+    roadway: residential
+    drive_access: 1
+    walk_access: 1
+    bike_access: 1
+    county: 1
+    model_link_id: 1900161
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 6
+    roadway_class: 30
+    area_type: 2
+    bike: 3
+    walk: 3
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900057
+    B: 43151
+    name: Central Avenue Northeast
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900162
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 3
+  - A: 46012
+    B: 900058
+    name: Central Avenue Northeast
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900163
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 900058
+    B: 900054
+    name: Central Avenue Northeast
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900164
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 900055
+    B: 900057
+    name: Central Avenue Northeast
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900165
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 2
+  - A: 45211
+    B: 900054
+    name: ''
+    roadway: trunk_link
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900166
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 4
+    roadway_class: 60
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 900055
+    B: 900056
+    name: ''
+    roadway: trunk_link
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900167
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 4
+    roadway_class: 60
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 42267
+    B: 900059
+    name: Central Avenue Northeast
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900168
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 4
+  - A: 900060
+    B: 52966
+    name: Central Avenue Northeast
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900169
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 4
+  - A: 900059
+    B: 900060
+    name: Central Avenue Northeast
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900170
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 4
+  - A: 387948
+    B: 387946
+    name: Central Avenue Northeast
+    roadway: trunk
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900171
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 15
+    roadway_class: 20
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 4
+  - A: 900059
+    B: 394221
+    name: ''
+    roadway: trunk_link
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900172
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 3
+    roadway_class: 20
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  - A: 394221
+    B: 900060
+    name: ''
+    roadway: trunk_link
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 1
+    model_link_id: 1900173
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 3
+    roadway_class: 20
+    area_type: 2
+    bike: 0
+    walk: 0
+    MNPASS_CODE: 0
+    MNPASS_PAY: 0
+    managed: 0
+    lanes: 1
+  nodes:
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900054
+    osm_node_id: ''
+    X: -93.23511675318561
+    Y: 45.125061619492875
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900055
+    osm_node_id: ''
+    X: -93.2355062312958
+    Y: 45.125060817027105
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900056
+    osm_node_id: ''
+    X: -93.23589649754949
+    Y: 45.12480758717549
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900057
+    osm_node_id: ''
+    X: -93.23558096475047
+    Y: 45.12450970059344
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900058
+    osm_node_id: ''
+    X: -93.23519952523397
+    Y: 45.12447976106408
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900059
+    osm_node_id: ''
+    X: -93.23550344137021
+    Y: 45.14042717353794
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 900060
+    osm_node_id: ''
+    X: -93.2355029154502
+    Y: 45.13957799403057

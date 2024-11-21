@@ -1,0 +1,255 @@
+project: 12th_busramps
+tags: ''
+dependencies: ''
+changes:
+- category: Roadway Deletion
+  links:
+    model_link_id:
+    - 53118
+    - 477062
+- category: Add New Roadway
+  links:
+  - A: 197700
+    B: 896903
+    name: bus ramp
+    roadway: ''
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1750193
+    rail_only: 0
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 98
+    roadway_class: 40
+    area_type: 5
+    bike: 0
+    walk: 0
+    lanes: 1
+  - A: 896903
+    B: 216066
+    name: bus ramp
+    roadway: ''
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1750194
+    rail_only: 0
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 98
+    roadway_class: 40
+    area_type: 5
+    bike: 0
+    walk: 0
+    lanes: 1
+  - A: 216066
+    B: 196568
+    name: bus lane
+    roadway: ''
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1750197
+    rail_only: 0
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 98
+    roadway_class: 40
+    area_type: 5
+    bike: 0
+    walk: 0
+    lanes: 1
+  - A: 196568
+    B: 343079
+    name: bus lane
+    roadway: ''
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1750199
+    rail_only: 0
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 98
+    roadway_class: 40
+    area_type: 5
+    bike: 0
+    walk: 0
+    lanes: 1
+  - A: 343079
+    B: 196569
+    name: bus lane
+    roadway: ''
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1750218
+    rail_only: 0
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 98
+    roadway_class: 40
+    area_type: 5
+    bike: 0
+    walk: 0
+    lanes: 1
+  - A: 196569
+    B: 343081
+    name: bus lane
+    roadway: ''
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1750219
+    rail_only: 0
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 98
+    roadway_class: 40
+    area_type: 5
+    bike: 0
+    walk: 0
+    lanes: 1
+  - A: 343081
+    B: 228062
+    name: bus lane
+    roadway: ''
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1750220
+    rail_only: 0
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 98
+    roadway_class: 40
+    area_type: 5
+    bike: 0
+    walk: 0
+    lanes: 1
+  - A: 228062
+    B: 343070
+    name: bus lane
+    roadway: ''
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1750221
+    rail_only: 0
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 98
+    roadway_class: 40
+    area_type: 5
+    bike: 0
+    walk: 0
+    lanes: 1
+  - A: 343070
+    B: 9806
+    name: bus lane
+    roadway: ''
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1750222
+    rail_only: 0
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 98
+    roadway_class: 40
+    area_type: 5
+    bike: 0
+    walk: 0
+    lanes: 1
+  - A: 14227
+    B: 896904
+    name: ''
+    roadway: motorway_link
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1750223
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 1
+    roadway_class: 60
+    area_type: 5
+    bike: 0
+    walk: 0
+    lanes: 2
+  - A: 896904
+    B: 5546
+    name: ''
+    roadway: motorway_link
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1750224
+    rail_only: 0
+    bus_only: 0
+    centroidconnect: 0
+    assign_group: 1
+    roadway_class: 60
+    area_type: 5
+    bike: 0
+    walk: 0
+    lanes: 2
+  - A: 216066
+    B: 896904
+    name: bus ramp
+    roadway: ''
+    drive_access: 1
+    walk_access: 0
+    bike_access: 0
+    county: 4
+    model_link_id: 1750225
+    rail_only: 0
+    bus_only: 1
+    centroidconnect: 0
+    assign_group: 98
+    roadway_class: 40
+    area_type: 5
+    bike: 0
+    walk: 0
+    lanes: 1
+  nodes:
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 896903
+    osm_node_id: ''
+    X: -93.2698034987667
+    Y: 44.969604087019185
+  - drive_access: 0.0
+    walk_access: 0.0
+    bike_access: 0.0
+    county: '0'
+    rail_only: 0
+    model_node_id: 896904
+    osm_node_id: ''
+    X: -93.26983510925822
+    Y: 44.967883544361925
+- category: Roadway Property Change
+  facility:
+    link:
+    - model_link_id:
+      - 127182
+      - 392511
+  properties:
+  - set: 3.0
+    property: assign_group
