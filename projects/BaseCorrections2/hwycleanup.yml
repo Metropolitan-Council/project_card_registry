@@ -1,0 +1,54 @@
+project: hwycleanup
+tags: []
+dependencies: {}
+notes: ''
+changes:
+- roadway_property_change:
+    property_changes:
+      roadway_class:
+        existing: 10.0
+        set: 60.0
+      assign_group:
+        set: 3.0
+    facility:
+      links:
+        model_link_id:
+        - 528336
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 2.0
+    facility:
+      links:
+        model_link_id:
+        - 422347
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 3.0
+    facility:
+      links:
+        model_link_id:
+        - 81968
+        - 161938
+        - 183730
+        - 552241
+        - 227788
+        - 448283
+        - 46278
+        - 397777
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 4.0
+    facility:
+      links:
+        model_link_id:
+        - 243204
+        - 243057
+        - 12115
+        - 149696
+        ignore_missing: true

@@ -7,7 +7,6 @@ tags:
 dependencies:
   prerequisites:
   - add mnpass_code
-  - base2022_freewayedits
 notes: ''
 changes:
 - roadway_property_change:
@@ -37,7 +36,7 @@ changes:
     facility:
       links:
         model_link_id:
-        - 237079
+        - 507322
         - 134290
         - 545243
         - 296982
@@ -51,10 +50,14 @@ changes:
         - 524521
         - 24237
         - 402884
+        - 325431
+        - 10377
         - 535968
         - 270904
+        - 388915
         - 248243
         - 474224
         - 106338
         - 480056
-        ignore_missing: true
+        modes:
+        - any

@@ -1,0 +1,31 @@
+project: base2022_freewayedits
+tags: []
+dependencies: {}
+notes: ''
+changes:
+- roadway_property_change:
+    property_changes:
+      lanes:
+        existing: 2.0
+        set: 3.0
+    facility:
+      links:
+        model_link_id:
+        - 325431
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      lanes:
+        existing: 4.0
+        set: 5.0
+    facility:
+      links:
+        model_link_id:
+        - 230482
+        - 67748
+        - 51477
+        - 217935
+        - 271029
+        - 549405
+        - 68371
+        ignore_missing: true

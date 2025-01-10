@@ -1,0 +1,18 @@
+project: crs_csah30_2to4lanesexp
+tags: []
+dependencies: {}
+notes: ''
+changes:
+- roadway_property_change:
+    property_changes:
+      lanes:
+        existing: 1.0
+        set: 2.0
+    facility:
+      links:
+        model_link_id:
+        - 985059
+        - 91587
+        - 568737
+        - 230329
+        ignore_missing: true

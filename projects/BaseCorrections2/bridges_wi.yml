@@ -1,0 +1,68 @@
+project: bridges_wi
+tags: []
+dependencies: {}
+notes: ''
+changes:
+- roadway_addition:
+    links:
+    - A: 190040
+      B: 385734
+      name: Osceola Road
+      roadway: secondary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 11
+      model_link_id: 1750373
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6
+      roadway_class: 30
+      area_type: 1
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 1
+    - A: 385734
+      B: 190040
+      name: Osceola Road
+      roadway: secondary
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      county: 11
+      model_link_id: 1750374
+      rail_only: 0
+      bus_only: 0
+      centroidconnect: 0
+      assign_group: 6
+      roadway_class: 30
+      area_type: 1
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 1
+- roadway_property_change:
+    property_changes:
+      drive_access:
+        existing: true
+        set: '0'
+      roadway:
+        existing: residential
+        set: cycleway
+      assign_group:
+        set: 101.0
+      roadway_class:
+        existing: 50.0
+        set: 101.0
+    facility:
+      links:
+        model_link_id:
+        - 827668
+        - 71034
+        ignore_missing: true
