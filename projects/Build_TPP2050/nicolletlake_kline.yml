@@ -13,7 +13,7 @@ changes:
       walk_access: 1
       bike_access: 1
       county: 4
-      model_link_id: 1750000
+      model_link_id: 1750383
       rail_only: 0
       bus_only: 0
       centroidconnect: 0
@@ -34,7 +34,7 @@ changes:
       walk_access: 1
       bike_access: 1
       county: 4
-      model_link_id: 1750000
+      model_link_id: 1750384
       rail_only: 0
       bus_only: 0
       centroidconnect: 0
