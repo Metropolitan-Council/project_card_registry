@@ -45,7 +45,7 @@ changes:
       lanes: 1
     - A: 284494
       B: 800000
-      model_link_id: 575646
+      model_link_id: 1750000
       distance: 0.02251
       roadway: cycleway
       name: ''
@@ -64,7 +64,7 @@ changes:
       lanes: 1
     - A: 800000
       B: 284494
-      model_link_id: 33383
+      model_link_id: 1750000
       distance: 0.02251
       roadway: cycleway
       name: ''
