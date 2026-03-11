@@ -7,7 +7,7 @@ changes:
     links:
     - A: 260828
       B: 800000
-      model_link_id: 1750000
+      model_link_id: 1750414
       distance: 0.3283
       roadway: service
       name: bus
@@ -26,7 +26,7 @@ changes:
       lanes: 1
     - A: 800000
       B: 333523
-      model_link_id: 1750000
+      model_link_id: 1750415
       distance: 0.48017
       roadway: service
       name: bus
@@ -45,7 +45,7 @@ changes:
       lanes: 1
     - A: 284494
       B: 800000
-      model_link_id: 1750000
+      model_link_id: 1750416
       distance: 0.02251
       roadway: cycleway
       name: ''
@@ -64,7 +64,7 @@ changes:
       lanes: 1
     - A: 800000
       B: 284494
-      model_link_id: 1750000
+      model_link_id: 1750417
       distance: 0.02251
       roadway: cycleway
       name: ''
@@ -83,7 +83,7 @@ changes:
       lanes: 1
     - A: 333525
       B: 203546
-      model_link_id: 1750000
+      model_link_id: 1750418
       distance: 0.48736
       roadway: service
       name: bus
@@ -102,7 +102,7 @@ changes:
       lanes: 1
     - A: 203546
       B: 203550
-      model_link_id: 1750000
+      model_link_id: 1750419
       distance: 0.32732
       roadway: service
       name: bus

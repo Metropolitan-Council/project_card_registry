@@ -7,7 +7,7 @@ changes:
     links:
     - A: 122295
       B: 203535
-      model_link_id: 1750000
+      model_link_id: 1750392
       distance: 0.241
       roadway: service
       name: bus
@@ -26,7 +26,7 @@ changes:
       lanes: 1
     - A: 203535
       B: 122295
-      model_link_id: 1750000
+      model_link_id: 1750393
       distance: 0.241
       roadway: service
       name: bus
@@ -45,7 +45,7 @@ changes:
       lanes: 1
     - A: 122295
       B: 124348
-      model_link_id: 1750000
+      model_link_id: 1750394
       distance: 0.24856
       roadway: service
       name: bus
@@ -64,7 +64,7 @@ changes:
       lanes: 1
     - A: 124348
       B: 122295
-      model_link_id: 1750000
+      model_link_id: 1750395
       distance: 0.24856
       roadway: service
       name: bus
@@ -83,7 +83,7 @@ changes:
       lanes: 1
     - A: 124348
       B: 124350
-      model_link_id: 1750000
+      model_link_id: 1750396
       distance: 0.24856
       roadway: service
       name: bus
@@ -102,7 +102,7 @@ changes:
       lanes: 1
     - A: 124350
       B: 124348
-      model_link_id: 1750000
+      model_link_id: 1750397
       distance: 0.24856
       roadway: service
       name: bus
@@ -121,7 +121,7 @@ changes:
       lanes: 1
     - A: 124350
       B: 132141
-      model_link_id: 1750000
+      model_link_id: 1750398
       distance: 0.49753
       roadway: service
       name: bus
@@ -140,7 +140,7 @@ changes:
       lanes: 1
     - A: 132141
       B: 124350
-      model_link_id: 1750000
+      model_link_id: 1750399
       distance: 0.49753
       roadway: service
       name: bus
@@ -159,7 +159,7 @@ changes:
       lanes: 1
     - A: 132141
       B: 208388
-      model_link_id: 1750000
+      model_link_id: 1750400
       distance: 0.37425
       roadway: service
       name: bus
@@ -178,7 +178,7 @@ changes:
       lanes: 1
     - A: 208388
       B: 132141
-      model_link_id: 1750000
+      model_link_id: 1750401
       distance: 0.37425
       roadway: service
       name: bus

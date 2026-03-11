@@ -7,7 +7,7 @@ changes:
     links:
     - A: 203538
       B: 800001
-      model_link_id: 1750000
+      model_link_id: 1750402
       distance: 0.0307
       roadway: service
       name: bus
@@ -26,7 +26,7 @@ changes:
       lanes: 1
     - A: 800001
       B: 203538
-      model_link_id: 1750000
+      model_link_id: 1750403
       distance: 0.0307
       roadway: service
       name: bus
@@ -45,7 +45,7 @@ changes:
       lanes: 1
     - A: 800001
       B: 800002
-      model_link_id: 1750000
+      model_link_id: 1750404
       distance: 0.46375
       roadway: service
       name: bus
@@ -64,7 +64,7 @@ changes:
       lanes: 1
     - A: 800002
       B: 800001
-      model_link_id: 1750000
+      model_link_id: 1750405
       distance: 0.46375
       roadway: service
       name: bus
@@ -83,7 +83,7 @@ changes:
       lanes: 1
     - A: 800002
       B: 277149
-      model_link_id: 1750000
+      model_link_id: 1750406
       distance: 0.62114
       roadway: service
       name: bus
@@ -102,7 +102,7 @@ changes:
       lanes: 1
     - A: 277149
       B: 800002
-      model_link_id: 1750000
+      model_link_id: 1750407
       distance: 0.62114
       roadway: service
       name: bus
@@ -121,7 +121,7 @@ changes:
       lanes: 1
     - A: 277149
       B: 203528
-      model_link_id: 1750000
+      model_link_id: 1750408
       distance: 0.20294
       roadway: service
       name: bus
@@ -140,7 +140,7 @@ changes:
       lanes: 1
     - A: 203528
       B: 277149
-      model_link_id: 1750000
+      model_link_id: 1750409
       distance: 0.20294
       roadway: service
       name: bus
@@ -159,7 +159,7 @@ changes:
       lanes: 1
     - A: 203528
       B: 412832
-      model_link_id: 1750000
+      model_link_id: 1750410
       distance: 0.23697
       roadway: service
       name: bus
@@ -178,7 +178,7 @@ changes:
       lanes: 1
     - A: 412832
       B: 203528
-      model_link_id: 1750000
+      model_link_id: 1750411
       distance: 0.23697
       roadway: service
       name: bus
@@ -197,7 +197,7 @@ changes:
       lanes: 1
     - A: 412832
       B: 203536
-      model_link_id: 1750000
+      model_link_id: 1750412
       distance: 0.10613
       roadway: service
       name: bus
@@ -216,7 +216,7 @@ changes:
       lanes: 1
     - A: 203536
       B: 412832
-      model_link_id: 1750000
+      model_link_id: 1750413
       distance: 0.10613
       roadway: service
       name: bus
