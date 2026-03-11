@@ -13,7 +13,7 @@ changes:
 - roadway_addition:
     links:
     - A: 203552
-      B: 950334
+      B: 940000
       model_link_id: 1750000
       distance: 0.1951
       roadway: 'primary'
@@ -31,7 +31,7 @@ changes:
       bike: 3
       walk: 3
       lanes: 1
-    - A: 950334
+    - A: 940000
       B: 403929
       model_link_id: 1750000
       distance: 0.1378
@@ -151,7 +151,7 @@ changes:
       walk_access: 0.0
       bike_access: 0.0
       rail_only: 0
-      model_node_id: 950334
+      model_node_id: 940000
       osm_node_id: ''
       X: -93.0947127620663
       Y: 44.961936297202975
