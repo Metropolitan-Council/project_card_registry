@@ -1,7 +1,7 @@
 project: pennrebuild
 tags: []
 dependencies: {}
-notes: 'bronze line'
+notes: bronze line
 changes:
 - roadway_deletion:
     links:
@@ -14,9 +14,9 @@ changes:
     links:
     - A: 203552
       B: 940000
-      model_link_id: 1750000
+      model_link_id: 1750385
       distance: 0.1951
-      roadway: 'primary'
+      roadway: primary
       name: busway
       roadway_class: 30
       assign_group: 98
@@ -33,9 +33,9 @@ changes:
       lanes: 1
     - A: 940000
       B: 403929
-      model_link_id: 1750000
+      model_link_id: 1750386
       distance: 0.1378
-      roadway: 'primary'
+      roadway: primary
       name: bus
       roadway_class: 30
       assign_group: 98
@@ -52,9 +52,9 @@ changes:
       lanes: 1
     - A: 403929
       B: 403926
-      model_link_id: 1750000
+      model_link_id: 1750387
       distance: 0.1194
-      roadway: 'primary'
+      roadway: primary
       name: bus
       roadway_class: 30
       assign_group: 98
@@ -71,9 +71,9 @@ changes:
       lanes: 1
     - A: 403926
       B: 260828
-      model_link_id: 1750000
+      model_link_id: 1750388
       distance: 0.09672
-      roadway: 'primary'
+      roadway: primary
       name: bus
       roadway_class: 30
       assign_group: 98
@@ -90,9 +90,9 @@ changes:
       lanes: 1
     - A: 203550
       B: 228284
-      model_link_id: 1750000
+      model_link_id: 1750389
       distance: 0.34091
-      roadway: 'primary'
+      roadway: primary
       name: bus
       roadway_class: 30
       assign_group: 98
@@ -109,9 +109,9 @@ changes:
       lanes: 1
     - A: 228284
       B: 121901
-      model_link_id: 1750000
+      model_link_id: 1750390
       distance: 0.16053
-      roadway: 'primary'
+      roadway: primary
       name: bus
       roadway_class: 30
       assign_group: 98
@@ -128,7 +128,7 @@ changes:
       lanes: 1
     - A: 121901
       B: 228284
-      model_link_id: 1750000
+      model_link_id: 1750391
       distance: 0.16053
       roadway: primary
       name: ''
