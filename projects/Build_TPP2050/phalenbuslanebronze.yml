@@ -1,41 +1,15 @@
-project: pennrebuild
+project: phalenbuslanebronze
 tags: []
 dependencies: {}
-notes: bronze line
+notes: ''
 changes:
-- roadway_deletion:
-    links:
-      model_link_id:
-      - 355791
-      modes:
-      - any
-      ignore_missing: true
 - roadway_addition:
     links:
-    - A: 203552
-      B: 940000
-      model_link_id: 1750385
-      distance: 0.1951
-      roadway: primary
-      name: busway
-      roadway_class: 30
-      assign_group: 98
-      area_type: 4
-      county: 5
-      centroidconnect: 0
-      drive_access: true
-      walk_access: true
-      bike_access: true
-      bus_only: true
-      rail_only: true
-      bike: 3
-      walk: 3
-      lanes: 1
-    - A: 940000
-      B: 403929
-      model_link_id: 1750386
-      distance: 0.1378
-      roadway: primary
+    - A: 260828
+      B: 800000
+      model_link_id: 1750000
+      distance: 0.3283
+      roadway: service
       name: bus
       roadway_class: 30
       assign_group: 98
@@ -50,11 +24,11 @@ changes:
       bike: 3
       walk: 3
       lanes: 1
-    - A: 403929
-      B: 403926
-      model_link_id: 1750387
-      distance: 0.1194
-      roadway: primary
+    - A: 800000
+      B: 333523
+      model_link_id: 1750000
+      distance: 0.48017
+      roadway: service
       name: bus
       roadway_class: 30
       assign_group: 98
@@ -69,71 +43,71 @@ changes:
       bike: 3
       walk: 3
       lanes: 1
-    - A: 403926
-      B: 260828
-      model_link_id: 1750388
-      distance: 0.09672
-      roadway: primary
-      name: bus
-      roadway_class: 30
-      assign_group: 98
-      area_type: 4
-      county: 5
-      centroidconnect: 0
-      drive_access: true
-      walk_access: true
-      bike_access: true
-      bus_only: true
-      rail_only: true
-      bike: 3
-      walk: 3
-      lanes: 1
-    - A: 203550
-      B: 228284
-      model_link_id: 1750389
-      distance: 0.34091
-      roadway: primary
-      name: bus
-      roadway_class: 30
-      assign_group: 98
-      area_type: 4
-      county: 5
-      centroidconnect: 0
-      drive_access: true
-      walk_access: true
-      bike_access: true
-      bus_only: true
-      rail_only: true
-      bike: 3
-      walk: 3
-      lanes: 1
-    - A: 228284
-      B: 121901
-      model_link_id: 1750390
-      distance: 0.16053
-      roadway: primary
-      name: bus
-      roadway_class: 30
-      assign_group: 98
-      area_type: 4
-      county: 5
-      centroidconnect: 0
-      drive_access: true
-      walk_access: true
-      bike_access: true
-      bus_only: true
-      rail_only: true
-      bike: 3
-      walk: 3
-      lanes: 1
-    - A: 121901
-      B: 228284
-      model_link_id: 1750391
-      distance: 0.16053
-      roadway: primary
+    - A: 284494
+      B: 800000
+      model_link_id: 575646
+      distance: 0.02251
+      roadway: cycleway
       name: ''
-      roadway_class: 60
-      assign_group: 7
+      roadway_class: 101
+      assign_group: 101
+      area_type: 4
+      county: 5
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: true
+      rail_only: true
+      bike: 1
+      walk: 3
+      lanes: 1
+    - A: 800000
+      B: 284494
+      model_link_id: 33383
+      distance: 0.02251
+      roadway: cycleway
+      name: ''
+      roadway_class: 101
+      assign_group: 101
+      area_type: 4
+      county: 5
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: true
+      rail_only: true
+      bike: 1
+      walk: 3
+      lanes: 1
+    - A: 333525
+      B: 203546
+      model_link_id: 1750000
+      distance: 0.48736
+      roadway: service
+      name: bus
+      roadway_class: 30
+      assign_group: 98
+      area_type: 4
+      county: 5
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: true
+      rail_only: true
+      bike: 3
+      walk: 3
+      lanes: 1
+    - A: 203546
+      B: 203550
+      model_link_id: 1750000
+      distance: 0.32732
+      roadway: service
+      name: bus
+      roadway_class: 30
+      assign_group: 98
       area_type: 4
       county: 5
       centroidconnect: 0
@@ -146,15 +120,15 @@ changes:
       walk: 3
       lanes: 1
     nodes:
-    - county: '5'
+    - county: '0'
       drive_access: 0.0
       walk_access: 0.0
       bike_access: 0.0
       rail_only: 0
-      model_node_id: 940000
+      model_node_id: 800000
       osm_node_id: ''
-      X: -93.0947127620663
-      Y: 44.961936297202975
+      X: -93.08331895641965
+      Y: 44.96471134883904
 - roadway_property_change:
     property_changes:
       lanes:
@@ -163,26 +137,26 @@ changes:
     facility:
       links:
         model_link_id:
-        - 285787
-        - 162423
-        - 274067
-        - 447390
-        - 543301
-        - 17853
-        - 478961
-        - 13985
-        - 166077
-        - 523553
-        - 520399
-        - 465379
-        - 368707
-        - 476091
-        - 78996
-        - 73698
-        - 510954
-        - 31392
-        - 126417
-        - 498443
+        - 289413
+        - 533769
+        - 485336
+        - 416234
+        - 11515
+        - 888811
+        - 10760
+        - 437246
+        - 866178
+        - 207944
+        - 543090
+        - 410783
+        - 874490
+        - 341446
+        - 179881
+        - 811294
+        - 19374
+        - 12536
+        - 435728
+        - 454869
         modes:
         - any
         ignore_missing: true
