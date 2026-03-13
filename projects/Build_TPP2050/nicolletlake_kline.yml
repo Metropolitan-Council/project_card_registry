@@ -27,7 +27,7 @@ changes:
       managed: 0
       lanes: 1
     - A: 33363
-      B: 22321
+      B: 21321
       name: Nicollet Ave
       roadway: tertiary
       drive_access: 1
