@@ -158,7 +158,7 @@ changes:
       walk: 3
       lanes: 1
     - A: 203528
-      B: 412832
+      B: 240286
       model_link_id: 1750410
       distance: 0.23697
       roadway: service
@@ -176,48 +176,10 @@ changes:
       bike: 3
       walk: 3
       lanes: 1
-    - A: 412832
+    - A: 240286
       B: 203528
       model_link_id: 1750411
       distance: 0.23697
-      roadway: service
-      name: bus
-      roadway_class: 30
-      assign_group: 98
-      area_type: 4
-      county: 5
-      centroidconnect: 0
-      drive_access: true
-      walk_access: true
-      bike_access: true
-      bus_only: true
-      rail_only: true
-      bike: 3
-      walk: 3
-      lanes: 1
-    - A: 412832
-      B: 203536
-      model_link_id: 1750412
-      distance: 0.10613
-      roadway: service
-      name: bus
-      roadway_class: 30
-      assign_group: 98
-      area_type: 4
-      county: 5
-      centroidconnect: 0
-      drive_access: true
-      walk_access: true
-      bike_access: true
-      bus_only: true
-      rail_only: true
-      bike: 3
-      walk: 3
-      lanes: 1
-    - A: 203536
-      B: 412832
-      model_link_id: 1750413
-      distance: 0.10613
       roadway: service
       name: bus
       roadway_class: 30
