@@ -7,6 +7,7 @@ tags:
 dependencies:
   prerequisites:
   - add mnpass_code
+  - nobuild2025_494laneadds
 notes: ''
 changes:
 - roadway_property_change:
