@@ -7,7 +7,7 @@ changes:
     property_changes:
       lanes:
         existing: 2.0
-        set: 5.0
+        set: 4.0
     facility:
       links:
         model_link_id:
@@ -22,7 +22,7 @@ changes:
     property_changes:
       lanes:
         existing: 3.0
-        set: 5.0
+        set: 4.0
     facility:
       links:
         model_link_id:

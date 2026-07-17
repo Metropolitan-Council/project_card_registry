@@ -1,9 +1,8 @@
-project: 494 eb segment 1 managed lane
+project: 494 wb segment 1 managed lane
 tags:
 - managed_lane
 - MnPASS
-- base year
-- Year 2025
+- Year 2030
 dependencies:
   prerequisites:
   - add mnpass_code
@@ -39,20 +38,20 @@ changes:
       ML_egress:
         set: all
       MNPASS_CODE:
-        set: 112
+        set: 111
       ML_MNPASS_CODE:
-        set: 12
+        set: 11
     facility:
       links:
         model_link_id:
-        - 89279
-        - 223958
-        - 268964
-        - 285572
-        - 290936
-        - 353260
-        - 357788
-        - 361387
-        - 427082
+        - 265175
+        - 272961
+        - 291766
+        - 312966
+        - 316205
+        - 334123
+        - 386273
+        - 461086
+        - 496133
         modes:
         - any
