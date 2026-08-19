@@ -1,0 +1,58 @@
+project: year2025_494lanes
+tags: []
+dependencies: {}
+notes: '2025'
+changes:
+- roadway_property_change:
+    property_changes:
+      lanes:
+        set: 4.0
+    facility:
+      links:
+        model_link_id:
+        - 6659
+        - 58941
+        - 89279
+        - 210629
+        - 223958
+        - 232193
+        - 265175
+        - 268964
+        - 272961
+        - 285572
+        - 290936
+        - 291766
+        - 312966
+        - 316205
+        - 318778
+        - 334123
+        - 353260
+        - 357788
+        - 361387
+        - 424003
+        - 461086
+        - 496133
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      lanes:
+        set: 3.0
+    facility:
+      links:
+        model_link_id:
+        - 9039
+        - 49057
+        - 385831
+        - 386273
+        - 427082
+        - 318778
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      lanes:
+        set: 5.0
+    facility:
+      links:
+        model_link_id:
+        - 130932
+        ignore_missing: true
