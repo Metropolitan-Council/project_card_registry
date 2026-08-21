@@ -1,0 +1,25 @@
+project: AG 11 2025 
+tags:
+- Network Cleanup AsgnGrp
+- Roadway Property Change
+dependencies: {}
+notes: ''
+changes:
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 11
+    facility:
+      links:
+        model_link_id:
+        - 6664
+        - 27339
+        - 39904
+        - 109994
+        - 196772
+        - 297020
+        - 336716
+        - 383315
+        - 509656
+        modes:
+        - any
