@@ -1,0 +1,46 @@
+project: hennepin bus lanes
+tags:
+- 2025
+- E Line
+dependencies: {}
+notes: ''
+changes:
+- roadway_property_change:
+    property_changes:
+      lanes:
+        set: 1
+    facility:
+      links:
+        model_link_id:
+        - 443183
+        - 1039615
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 98
+    facility:
+      links:
+        model_link_id:
+        - 964480
+        - 365651
+        modes:
+        - any
+- roadway_property_change:
+    property_changes:
+      lanes: 
+        set: 1
+        scoped:
+        - change: 1
+          timespan:
+          - '6:00'
+          - '10:00'
+    facility:
+      links:
+        model_link_id:
+        - 964480
+        - 365651
+        modes:
+        - any
+
