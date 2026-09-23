@@ -6,8 +6,8 @@ changes:
 - roadway_addition:
     links:
     - A: 176454
-      B: 500001
-      model_link_id: 1750436
+      B: 500002
+      model_link_id: 1750468
       distance: 0.5472
       roadway: tertiary
       name: Gold Line bus
@@ -29,9 +29,9 @@ changes:
       trn_priority: 0.0
       ttime_assert: 0
       lanes: 1
-    - A: 500001
+    - A: 500002
       B: 176453
-      model_link_id: 1750437
+      model_link_id: 1750469
       distance: 0.5472
       roadway: tertiary
       name: Gold Line bus
@@ -54,8 +54,8 @@ changes:
       ttime_assert: 0
       lanes: 1
     - A: 329338
-      B: 500001
-      model_link_id: 1750438
+      B: 500002
+      model_link_id: 1750470
       distance: 0.597
       roadway: tertiary
       name: Gold Line bus
@@ -77,9 +77,9 @@ changes:
       trn_priority: 0.0
       ttime_assert: 0
       lanes: 1
-    - A: 500001
+    - A: 500002
       B: 329338
-      model_link_id: 1750439
+      model_link_id: 1750471
       distance: 0.597
       roadway: tertiary
       name: Gold Line bus
@@ -103,7 +103,7 @@ changes:
       lanes: 1
     - A: 158270
       B: 215962
-      model_link_id: 1750440
+      model_link_id: 1750472
       distance: 0.3227
       roadway: tertiary
       name: BielenbergDr
@@ -127,7 +127,7 @@ changes:
       lanes: 1
     - A: 215962
       B: 158270
-      model_link_id: 1750441
+      model_link_id: 1750473
       distance: 0.3227
       roadway: tertiary
       name: BielenbergDr
@@ -151,7 +151,7 @@ changes:
       lanes: 1
     - A: 329338
       B: 414698
-      model_link_id: 1750442
+      model_link_id: 1750474
       distance: 0.2258
       roadway: tertiary
       name: Gold Line bus
@@ -175,7 +175,7 @@ changes:
       lanes: 1
     - A: 414698
       B: 329338
-      model_link_id: 1750443
+      model_link_id: 1750475
       distance: 0.2258
       roadway: tertiary
       name: Gold Line bus
@@ -199,7 +199,7 @@ changes:
       lanes: 1
     - A: 175717
       B: 414698
-      model_link_id: 1750444
+      model_link_id: 1750476
       distance: 0.4801
       roadway: tertiary
       name: Gold Line bus
@@ -223,7 +223,7 @@ changes:
       lanes: 1
     - A: 414698
       B: 175717
-      model_link_id: 1750445
+      model_link_id: 1750477
       distance: 0.4801
       roadway: tertiary
       name: Gold Line bus
@@ -247,7 +247,7 @@ changes:
       lanes: 1
     - A: 175513
       B: 175515
-      model_link_id: 1750446
+      model_link_id: 1750478
       distance: 0.3991
       roadway: tertiary
       name: Gold Line bus
@@ -271,7 +271,7 @@ changes:
       lanes: 1
     - A: 155173
       B: 175515
-      model_link_id: 1750447
+      model_link_id: 1750479
       distance: 0.13262
       roadway: tertiary
       name: Gold Line bus
@@ -295,7 +295,7 @@ changes:
       lanes: 1
     - A: 175515
       B: 367069
-      model_link_id: 1750448
+      model_link_id: 1750480
       distance: 0.3427
       roadway: tertiary
       name: Gold Line bus
@@ -319,7 +319,7 @@ changes:
       lanes: 1
     - A: 175515
       B: 175717
-      model_link_id: 1750449
+      model_link_id: 1750481
       distance: 0.2747
       roadway: tertiary
       name: Gold Line bus
@@ -347,7 +347,7 @@ changes:
       walk_access: 0.0
       bike_access: 0.0
       rail_only: 0
-      model_node_id: 500001
+      model_node_id: 500002
       osm_node_id: ''
       X: -92.954194411568
       Y: 44.94167650526373
