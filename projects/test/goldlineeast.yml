@@ -1,0 +1,408 @@
+project: goldlineeast
+tags: []
+dependencies: {}
+notes: ''
+changes:
+- roadway_addition:
+    links:
+    - A: 176454
+      B: 500001
+      model_link_id: 1750001
+      distance: 0.5472
+      roadway: tertiary
+      name: Gold Line bus
+      roadway_class: 40
+      assign_group: 98
+      area_type: 2
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: false
+      bike_access: false
+      bus_only: true
+      rail_only: false
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0
+      lanes: 1
+    - A: 500001
+      B: 176453
+      model_link_id: 1750002
+      distance: 0.5472
+      roadway: tertiary
+      name: Gold Line bus
+      roadway_class: 40
+      assign_group: 98
+      area_type: 2
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: false
+      bike_access: false
+      bus_only: true
+      rail_only: false
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0
+      lanes: 1
+    - A: 329338
+      B: 500001
+      model_link_id: 1750003
+      distance: 0.597
+      roadway: tertiary
+      name: Gold Line bus
+      roadway_class: 40
+      assign_group: 98
+      area_type: 2
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: false
+      bike_access: false
+      bus_only: true
+      rail_only: false
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0
+      lanes: 1
+    - A: 500001
+      B: 329338
+      model_link_id: 1750004
+      distance: 0.597
+      roadway: tertiary
+      name: Gold Line bus
+      roadway_class: 40
+      assign_group: 98
+      area_type: 2
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: false
+      bike_access: false
+      bus_only: true
+      rail_only: false
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0
+      lanes: 1
+    - A: 158270
+      B: 215962
+      model_link_id: 1750006
+      distance: 0.3227
+      roadway: tertiary
+      name: BielenbergDr
+      roadway_class: 40
+      assign_group: 7
+      area_type: 2
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: false
+      rail_only: false
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0
+      lanes: 1
+    - A: 215962
+      B: 158270
+      model_link_id: 1750007
+      distance: 0.3227
+      roadway: tertiary
+      name: BielenbergDr
+      roadway_class: 40
+      assign_group: 7
+      area_type: 2
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: false
+      rail_only: false
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0
+      lanes: 1
+    - A: 329338
+      B: 414698
+      model_link_id: 1750010
+      distance: 0.2258
+      roadway: tertiary
+      name: Gold Line bus
+      roadway_class: 40
+      assign_group: 98
+      area_type: 2
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: false
+      bike_access: false
+      bus_only: true
+      rail_only: false
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0
+      lanes: 1
+    - A: 414698
+      B: 329338
+      model_link_id: 1750011
+      distance: 0.2258
+      roadway: tertiary
+      name: Gold Line bus
+      roadway_class: 40
+      assign_group: 98
+      area_type: 2
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: false
+      bike_access: false
+      bus_only: true
+      rail_only: false
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0
+      lanes: 1
+    - A: 175717
+      B: 414698
+      model_link_id: 1750012
+      distance: 0.4801
+      roadway: tertiary
+      name: Gold Line bus
+      roadway_class: 40
+      assign_group: 98
+      area_type: 2
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: false
+      bike_access: false
+      bus_only: true
+      rail_only: false
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0
+      lanes: 1
+    - A: 414698
+      B: 175717
+      model_link_id: 1750013
+      distance: 0.4801
+      roadway: tertiary
+      name: Gold Line bus
+      roadway_class: 40
+      assign_group: 98
+      area_type: 2
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: false
+      bike_access: false
+      bus_only: true
+      rail_only: false
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0
+      lanes: 1
+    - A: 175513
+      B: 175515
+      model_link_id: 1750016
+      distance: 0.3991
+      roadway: tertiary
+      name: Gold Line bus
+      roadway_class: 40
+      assign_group: 98
+      area_type: 2
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: false
+      bike_access: false
+      bus_only: true
+      rail_only: false
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0
+      lanes: 1
+    - A: 155173
+      B: 175515
+      model_link_id: 1750014
+      distance: 0.13262
+      roadway: tertiary
+      name: Gold Line bus
+      roadway_class: 40
+      assign_group: 98
+      area_type: 2
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: false
+      bike_access: false
+      bus_only: true
+      rail_only: false
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0
+      lanes: 1
+    - A: 175515
+      B: 367069
+      model_link_id: 1750017
+      distance: 0.3427
+      roadway: tertiary
+      name: Gold Line bus
+      roadway_class: 40
+      assign_group: 98
+      area_type: 2
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: false
+      bike_access: false
+      bus_only: true
+      rail_only: false
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0
+      lanes: 1
+    - A: 175515
+      B: 175717
+      model_link_id: 1750018
+      distance: 0.2747
+      roadway: tertiary
+      name: Gold Line bus
+      roadway_class: 40
+      assign_group: 98
+      area_type: 2
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: false
+      bike_access: false
+      bus_only: true
+      rail_only: false
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0
+      lanes: 1
+    nodes:
+    - county: '0'
+      drive_access: 0.0
+      walk_access: 0.0
+      bike_access: 0.0
+      rail_only: 0
+      model_node_id: 500001
+      osm_node_id: ''
+      X: -92.954194411568
+      Y: 44.94167650526373
+- roadway_property_change:
+    property_changes:
+      name:
+        existing: ''
+        set: BielenbergDr
+    facility:
+      links:
+        model_link_id:
+        - 206939
+        - 1049694
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      name:
+        existing: ''
+        set: Helmo
+    facility:
+      links:
+        model_link_id:
+        - 749337
+        - 118570
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      lanes:
+        existing: 2
+        set: 1
+    facility:
+      links:
+        model_link_id:
+        - 313470
+        - 166684
+        - 369958
+        - 462524
+        - 250324
+        - 433884
+        - 454854
+        - 403930
+        - 455015
+        - 153309
+        - 548258
+        - 171498
+        - 57609
+        - 21434
+        - 121364
+        - 236651
+        - 235240
+        - 386532
+        modes:
+        - any
+        ignore_missing: true
