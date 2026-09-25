@@ -1,0 +1,32 @@
+project: hennbus2
+tags:
+- Year 2025
+dependencies:
+  prerequisites:
+  - hennbus1
+notes: ''
+changes:
+- roadway_property_change:
+    property_changes:
+      lanes:
+        change: -1
+        scoped:
+        - change: 0
+          timespan:
+          - 06:00
+          - '10:00'
+        - change: 0
+          timespan:
+          - '15:00'
+          - '19:00'
+    facility:
+      links:
+        model_link_id:
+        - 1750455
+        - 1750454
+        - 1750453
+        - 1750452
+        - 1750450
+        - 1750451
+        modes:
+        - any
