@@ -1,0 +1,329 @@
+project: hennbus1
+tags: []
+dependencies: {}
+notes: ''
+changes:
+- roadway_addition:
+    links:
+    - A: 25235
+      B: 331615
+      model_link_id: 1750000
+      distance: 0.0857
+      roadway: Henn Bus Lane
+      name: ''
+      roadway_class: 40
+      assign_group: 98
+      area_type: 4
+      county: 4
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: true
+      rail_only: false
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0.0
+      lanes: 1
+    - A: 331615
+      B: 25235
+      model_link_id: 1750000
+      distance: 0.0857
+      roadway: Henn Bus Lane
+      name: ''
+      roadway_class: 40
+      assign_group: 98
+      area_type: 4
+      county: 4
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: true
+      rail_only: false
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0.0
+      lanes: 1
+    - A: 331615
+      B: 20897
+      model_link_id: 1750000
+      distance: 0.49187
+      roadway: Henn Bus Lane
+      name: ''
+      roadway_class: 40
+      assign_group: 98
+      area_type: 4
+      county: 4
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: true
+      rail_only: false
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0.0
+      lanes: 1
+    - A: 20897
+      B: 331615
+      model_link_id: 1750000
+      distance: 0.49187
+      roadway: Henn Bus Lane
+      name: ''
+      roadway_class: 40
+      assign_group: 98
+      area_type: 4
+      county: 4
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: true
+      rail_only: false
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0.0
+      lanes: 1
+    - A: 20897
+      B: 201714
+      model_link_id: 1750000
+      distance: 0.42235
+      roadway: Henn Bus Lane
+      name: ''
+      roadway_class: 40
+      assign_group: 98
+      area_type: 4
+      county: 4
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: true
+      rail_only: false
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0.0
+      lanes: 1
+    - A: 5266
+      B: 20897
+      model_link_id: 1750000
+      distance: 0.41864
+      roadway: Henn Bus Lane
+      name: ''
+      roadway_class: 40
+      assign_group: 98
+      area_type: 4
+      county: 4
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: true
+      rail_only: false
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0.0
+      lanes: 1
+    - A: 26113
+      B: 196558
+      model_link_id: 1750000
+      distance: 0.3401
+      roadway: Henn Bus Lane
+      name: ''
+      roadway_class: 40
+      assign_group: 98
+      area_type: 5
+      county: 4
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: true
+      rail_only: false
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0.0
+      lanes: 1
+    - A: 201476
+      B: 6004
+      model_link_id: 1750000
+      distance: 0.20386
+      roadway: Henn Bus Lane
+      name: ''
+      roadway_class: 40
+      assign_group: 98
+      area_type: 5
+      county: 4
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: true
+      rail_only: false
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0.0
+      lanes: 1
+    - A: 6004
+      B: 23559
+      model_link_id: 1750000
+      distance: 0.12036
+      roadway: Henn Bus Lane
+      name: ''
+      roadway_class: 40
+      assign_group: 98
+      area_type: 5
+      county: 4
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: true
+      rail_only: false
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0.0
+      lanes: 1
+- roadway_property_change:
+    property_changes:
+      roadway_class:
+        existing: 10
+        set: 40
+      assign_group:
+        set: 5
+    facility:
+      links:
+        model_link_id:
+        - 410308
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      lanes:
+        existing: 2
+        set: 1
+      assign_group:
+        set: 6
+    facility:
+      links:
+        model_link_id:
+        - 428740
+        - 443183
+        - 801035
+        - 516626
+        - 868892
+        - 190539
+        - 943990
+        - 397501
+        - 844801
+        - 904895
+        - 509062
+        - 866789
+        - 547918
+        - 800772
+        - 293583
+        - 453528
+        - 964480
+        - 430840
+        - 679045
+        - 251406
+        - 6561
+        - 884743
+        - 64385
+        - 841323
+        - 272054
+        - 845877
+        - 391425
+        - 807771
+        - 559922
+        - 340731
+        - 865470
+        - 311446
+        - 365651
+        - 742700
+        - 972739
+        - 300827
+        - 1039615
+        - 54980
+        - 514614
+        - 748629
+        - 903132
+        - 227677
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      lanes:
+        existing: 2
+        set: 1
+    facility:
+      links:
+        model_link_id:
+        - 980234
+        - 336370
+        - 927337
+        - 186463
+        - 193533
+        - 883659
+        - 568774
+        - 140057
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      lanes:
+        existing: 3
+        set: 2
+      roadway_class:
+        existing: 10
+        set: 40
+      assign_group:
+        set: 5
+    facility:
+      links:
+        model_link_id:
+        - 119003
+        - 225519
+        modes:
+        - any
+        ignore_missing: true

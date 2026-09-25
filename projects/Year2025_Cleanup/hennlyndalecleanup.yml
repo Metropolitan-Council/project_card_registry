@@ -1,0 +1,201 @@
+project: hennlyndalecleanup
+tags: []
+dependencies: {}
+notes: ''
+changes:
+- roadway_property_change:
+    property_changes:
+      distance:
+        existing: 0.018663667300000002
+        set: 0.01926
+    facility:
+      links:
+        model_link_id:
+        - 163965
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      roadway_class:
+        existing: 10
+        set: 40
+      assign_group:
+        set: 5
+    facility:
+      links:
+        model_link_id:
+        - 263936
+        - 542645
+        - 410308
+        - 119003
+        - 225519
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      lanes:
+        existing: 2
+        set: 1
+    facility:
+      links:
+        model_link_id:
+        - 271965
+        - 302288
+        - 492723
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      roadway_class:
+        existing: 60
+        set: 40
+      assign_group:
+        set: 5
+    facility:
+      links:
+        model_link_id:
+        - 464133
+        - 55784
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 5
+      name:
+        existing: ''
+        set: Hennepin
+    facility:
+      links:
+        model_link_id:
+        - 98057
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 5
+      distance:
+        existing: 0.0048481267
+        set: 0.0044104
+    facility:
+      links:
+        model_link_id:
+        - 105536
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 5
+    facility:
+      links:
+        model_link_id:
+        - 156744
+        - 520542
+        - 54803
+        - 94276
+        - 495221
+        - 306181
+        - 2439
+        - 271259
+        - 243120
+        - 238099
+        - 530774
+        - 75214
+        - 267610
+        - 360038
+        - 42976
+        - 231325
+        - 382486
+        - 395839
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 50
+    facility:
+      links:
+        model_link_id:
+        - 729880
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 6
+    facility:
+      links:
+        model_link_id:
+        - 262392
+        - 428740
+        - 719025
+        - 898816
+        - 443183
+        - 801035
+        - 516626
+        - 868892
+        - 190539
+        - 649894
+        - 986252
+        - 282912
+        - 943990
+        - 397501
+        - 844801
+        - 904895
+        - 509062
+        - 866789
+        - 547918
+        - 800772
+        - 293583
+        - 453528
+        - 964480
+        - 430840
+        - 679045
+        - 251406
+        - 6561
+        - 460548
+        - 884743
+        - 64385
+        - 841323
+        - 272054
+        - 845877
+        - 391425
+        - 807771
+        - 559922
+        - 340731
+        - 512708
+        - 865470
+        - 311446
+        - 365651
+        - 742700
+        - 972739
+        - 300827
+        - 1039615
+        - 54980
+        - 514614
+        - 748629
+        - 903132
+        - 227677
+        - 525846
+        - 861194
+        - 286431
+        - 946762
+        - 463461
+        - 877817
+        - 719122
+        - 271186
+        - 877043
+        - 290627
+        modes:
+        - any
+        ignore_missing: true
