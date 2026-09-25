@@ -9,9 +9,9 @@ changes:
       B: 331615
       model_link_id: 1750450
       distance: 0.0857
-      roadway: Henn Bus Lane
-      name: ''
-      roadway_class: 40
+      roadway: primary
+      name: 'Henn Bus Lane'
+      roadway_class: 30
       assign_group: 98
       area_type: 4
       county: 4
@@ -33,9 +33,9 @@ changes:
       B: 25235
       model_link_id: 1750451
       distance: 0.0857
-      roadway: Henn Bus Lane
-      name: ''
-      roadway_class: 40
+      roadway: primary
+      name: 'Henn Bus Lane'
+      roadway_class: 30
       assign_group: 98
       area_type: 4
       county: 4
@@ -57,9 +57,9 @@ changes:
       B: 20897
       model_link_id: 1750452
       distance: 0.49187
-      roadway: Henn Bus Lane
-      name: ''
-      roadway_class: 40
+      roadway: primary
+      name: 'Henn Bus Lane'
+      roadway_class: 30
       assign_group: 98
       area_type: 4
       county: 4
@@ -81,9 +81,9 @@ changes:
       B: 331615
       model_link_id: 1750453
       distance: 0.49187
-      roadway: Henn Bus Lane
-      name: ''
-      roadway_class: 40
+      roadway: primary
+      name: 'Henn Bus Lane'
+      roadway_class: 30
       assign_group: 98
       area_type: 4
       county: 4
@@ -105,9 +105,9 @@ changes:
       B: 201714
       model_link_id: 1750454
       distance: 0.42235
-      roadway: Henn Bus Lane
-      name: ''
-      roadway_class: 40
+      roadway: primary
+      name: 'Henn Bus Lane'
+      roadway_class: 30
       assign_group: 98
       area_type: 4
       county: 4
@@ -129,9 +129,9 @@ changes:
       B: 20897
       model_link_id: 1750455
       distance: 0.41864
-      roadway: Henn Bus Lane
-      name: ''
-      roadway_class: 40
+      roadway: primary
+      name: 'Henn Bus Lane'
+      roadway_class: 30
       assign_group: 98
       area_type: 4
       county: 4
@@ -153,9 +153,9 @@ changes:
       B: 196558
       model_link_id: 1750456
       distance: 0.3401
-      roadway: Henn Bus Lane
-      name: ''
-      roadway_class: 40
+      roadway: primary
+      name: 'Henn Bus Lane'
+      roadway_class: 30
       assign_group: 98
       area_type: 5
       county: 4
@@ -177,9 +177,9 @@ changes:
       B: 6004
       model_link_id: 1750457
       distance: 0.20386
-      roadway: Henn Bus Lane
-      name: ''
-      roadway_class: 40
+      roadway: primary
+      name: 'Henn Bus Lane'
+      roadway_class: 30
       assign_group: 98
       area_type: 5
       county: 4
@@ -201,9 +201,9 @@ changes:
       B: 23559
       model_link_id: 1750458
       distance: 0.12036
-      roadway: Henn Bus Lane
-      name: ''
-      roadway_class: 40
+      roadway: primary
+      name: 'Henn Bus Lane'
+      roadway_class: 30
       assign_group: 98
       area_type: 5
       county: 4
@@ -225,7 +225,7 @@ changes:
     property_changes:
       roadway_class:
         existing: 10
-        set: 40
+        set: 30
       assign_group:
         set: 5
     facility:
@@ -316,7 +316,7 @@ changes:
         set: 2
       roadway_class:
         existing: 10
-        set: 40
+        set: 30
       assign_group:
         set: 5
     facility:
