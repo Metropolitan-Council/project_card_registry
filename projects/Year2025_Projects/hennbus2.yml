@@ -9,9 +9,9 @@ changes:
 - roadway_property_change:
     property_changes:
       lanes:
-        change: -1
+        set: 0
         scoped:
-        - change: 0
+        - change: 1
           timespan:
           - 06:00
           - '10:00'
