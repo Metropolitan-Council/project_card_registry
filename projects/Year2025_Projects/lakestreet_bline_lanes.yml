@@ -1,0 +1,714 @@
+project: lakestreet_bline_lanes
+tags: []
+dependencies: {}
+notes: ''
+changes:
+- roadway_addition:
+    links:
+    - A: 25235
+      B: 331615
+      model_link_id: 1750000
+      distance: 0.0857
+      roadway: Henn Bus Lane
+      name: ''
+      roadway_class: 40
+      assign_group: 98
+      area_type: 4
+      county: 4
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: true
+      rail_only: false
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0.0
+      lanes: 1
+    - A: 331615
+      B: 25235
+      model_link_id: 1750000
+      distance: 0.0857
+      roadway: Henn Bus Lane
+      name: ''
+      roadway_class: 40
+      assign_group: 98
+      area_type: 4
+      county: 4
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: true
+      rail_only: false
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0.0
+      lanes: 1
+    - A: 331615
+      B: 20897
+      model_link_id: 1750000
+      distance: 0.49187
+      roadway: Henn Bus Lane
+      name: ''
+      roadway_class: 40
+      assign_group: 98
+      area_type: 4
+      county: 4
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: true
+      rail_only: false
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0.0
+      lanes: 1
+    - A: 20897
+      B: 331615
+      model_link_id: 1750000
+      distance: 0.49187
+      roadway: Henn Bus Lane
+      name: ''
+      roadway_class: 40
+      assign_group: 98
+      area_type: 4
+      county: 4
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: true
+      rail_only: false
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0.0
+      lanes: 1
+    - A: 20897
+      B: 201714
+      model_link_id: 1750000
+      distance: 0.42235
+      roadway: Henn Bus Lane
+      name: ''
+      roadway_class: 40
+      assign_group: 98
+      area_type: 4
+      county: 4
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: true
+      rail_only: false
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0.0
+      lanes: 1
+    - A: 5266
+      B: 20897
+      model_link_id: 1750000
+      distance: 0.41864
+      roadway: Henn Bus Lane
+      name: ''
+      roadway_class: 40
+      assign_group: 98
+      area_type: 4
+      county: 4
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: true
+      rail_only: false
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0.0
+      lanes: 1
+    - A: 26113
+      B: 196558
+      model_link_id: 1750000
+      distance: 0.3401
+      roadway: Henn Bus Lane
+      name: ''
+      roadway_class: 40
+      assign_group: 98
+      area_type: 5
+      county: 4
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: true
+      rail_only: false
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0.0
+      lanes: 1
+    - A: 201476
+      B: 6004
+      model_link_id: 1750000
+      distance: 0.20386
+      roadway: Henn Bus Lane
+      name: ''
+      roadway_class: 40
+      assign_group: 98
+      area_type: 5
+      county: 4
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: true
+      rail_only: false
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0.0
+      lanes: 1
+    - A: 6004
+      B: 23559
+      model_link_id: 1750000
+      distance: 0.12036
+      roadway: Henn Bus Lane
+      name: ''
+      roadway_class: 40
+      assign_group: 98
+      area_type: 5
+      county: 4
+      centroidconnect: 0
+      drive_access: true
+      walk_access: true
+      bike_access: true
+      bus_only: true
+      rail_only: false
+      bike: 3
+      walk: 3
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      trn_priority: 0.0
+      ttime_assert: 0.0
+      lanes: 1
+- roadway_property_change:
+    property_changes:
+      roadway_class:
+        existing: 10
+        set: 40
+      assign_group:
+        set: 5
+    facility:
+      links:
+        model_link_id:
+        - 410308
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      lanes:
+        existing: 2
+        set: 1
+      assign_group:
+        set: 6
+    facility:
+      links:
+        model_link_id:
+        - 428740
+        - 443183
+        - 801035
+        - 516626
+        - 868892
+        - 190539
+        - 943990
+        - 397501
+        - 844801
+        - 904895
+        - 509062
+        - 866789
+        - 547918
+        - 800772
+        - 293583
+        - 453528
+        - 964480
+        - 430840
+        - 679045
+        - 251406
+        - 6561
+        - 884743
+        - 64385
+        - 841323
+        - 272054
+        - 845877
+        - 391425
+        - 807771
+        - 559922
+        - 340731
+        - 865470
+        - 311446
+        - 365651
+        - 742700
+        - 972739
+        - 300827
+        - 1039615
+        - 54980
+        - 514614
+        - 748629
+        - 903132
+        - 227677
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      lanes:
+        existing: 2
+        set: 1
+    facility:
+      links:
+        model_link_id:
+        - 980234
+        - 336370
+        - 927337
+        - 186463
+        - 193533
+        - 883659
+        - 568774
+        - 140057
+        - 89246
+        - 655614
+        - 802061
+        - 100223
+        - 808671
+        - 324625
+        - 607374
+        - 44107
+        - 365463
+        - 996647
+        - 299415
+        - 784385
+        - 828853
+        - 320479
+        - 528896
+        - 565715
+        - 559598
+        - 216201
+        - 558251
+        - 372128
+        - 705643
+        - 10438
+        - 41415
+        - 742206
+        - 614504
+        - 335790
+        - 487244
+        - 916064
+        - 345318
+        - 671704
+        - 165149
+        - 995468
+        - 21772
+        - 789485
+        - 998044
+        - 454444
+        - 361138
+        - 967440
+        - 603283
+        - 357219
+        - 334995
+        - 929767
+        - 777798
+        - 461129
+        - 607397
+        - 450002
+        - 855308
+        - 261345
+        - 353294
+        - 195604
+        - 710120
+        - 562066
+        - 272222
+        - 815272
+        - 460711
+        - 366232
+        - 9197
+        - 867179
+        - 638506
+        - 131557
+        - 162860
+        - 662006
+        - 296030
+        - 648836
+        - 215486
+        - 877361
+        - 768078
+        - 326239
+        - 720305
+        - 152326
+        - 380129
+        - 722090
+        - 489296
+        - 1045452
+        - 43109
+        - 403534
+        - 80988
+        - 589038
+        - 732798
+        - 104958
+        - 491285
+        - 855067
+        - 369457
+        - 569541
+        - 322029
+        - 696806
+        - 1041636
+        - 364640
+        - 376012
+        - 900351
+        - 933329
+        - 218706
+        - 74710
+        - 1045203
+        - 713513
+        - 104978
+        - 238617
+        - 896383
+        - 255879
+        - 971686
+        - 132427
+        - 997941
+        - 741414
+        - 189454
+        - 416850
+        - 1029677
+        - 4707
+        - 1869
+        - 376010
+        - 10486
+        - 437466
+        - 450930
+        - 824382
+        - 21934
+        - 480016
+        - 219839
+        - 899423
+        - 253578
+        - 767698
+        - 307498
+        - 46562
+        - 528606
+        - 534895
+        - 808766
+        - 342670
+        - 926440
+        - 1039175
+        - 542268
+        - 1016679
+        - 195755
+        - 691261
+        - 443863
+        - 359188
+        - 908238
+        - 329481
+        - 854817
+        - 887910
+        - 212863
+        - 478394
+        - 733754
+        - 659774
+        - 474970
+        - 1030841
+        - 228329
+        - 956284
+        - 315779
+        - 23614
+        - 679929
+        - 930425
+        - 528342
+        - 946910
+        - 296621
+        - 412732
+        - 716858
+        - 432182
+        - 715033
+        - 945506
+        - 963853
+        - 145046
+        - 757276
+        - 913890
+        - 394183
+        - 218865
+        - 850037
+        - 839978
+        - 397500
+        - 974557
+        - 62816
+        - 371633
+        - 999941
+        - 273113
+        - 1015497
+        - 466433
+        - 991129
+        - 371551
+        - 806990
+        - 58441
+        - 277309
+        - 198371
+        - 860891
+        - 447774
+        - 413454
+        - 589602
+        - 801998
+        - 205729
+        - 361352
+        - 1033906
+        - 867592
+        - 275229
+        - 669476
+        - 530360
+        - 613795
+        - 77323
+        - 936598
+        - 958702
+        - 119825
+        - 705792
+        - 379207
+        - 540699
+        - 616760
+        - 329306
+        - 937716
+        - 193667
+        - 952514
+        - 559087
+        - 204049
+        - 360940
+        - 824052
+        - 371511
+        - 929474
+        - 255556
+        - 661886
+        - 277389
+        - 716129
+        - 824488
+        - 214670
+        - 949228
+        - 239813
+        - 141788
+        - 869485
+        - 26034
+        - 729325
+        - 489469
+        - 916378
+        - 440370
+        - 590682
+        - 498397
+        - 679128
+        - 468195
+        - 978733
+        - 973191
+        - 551629
+        - 565954
+        - 461765
+        - 482927
+        - 1027890
+        - 678768
+        - 543636
+        - 269596
+        - 624209
+        - 456673
+        - 878485
+        - 140998
+        - 896486
+        - 635120
+        - 260838
+        - 739594
+        - 251362
+        - 70505
+        - 1021963
+        - 37520
+        - 41220
+        - 151926
+        - 446599
+        - 289903
+        - 853343
+        - 57812
+        - 848148
+        - 244263
+        - 813191
+        - 281753
+        - 174877
+        - 587373
+        - 420195
+        - 1012008
+        - 875997
+        - 444921
+        - 818293
+        - 341360
+        - 1047481
+        - 475015
+        - 341910
+        - 581916
+        - 256445
+        - 1030291
+        - 220800
+        - 428874
+        - 82474
+        - 376541
+        - 917222
+        - 524167
+        - 703239
+        - 717761
+        - 399158
+        - 952528
+        - 261106
+        - 699257
+        - 304007
+        - 818468
+        - 393724
+        - 447877
+        - 615454
+        - 643930
+        - 299233
+        - 464674
+        - 884336
+        - 930784
+        - 176552
+        - 292803
+        - 771902
+        - 857402
+        - 456765
+        - 619536
+        - 169702
+        - 218369
+        - 259264
+        - 406275
+        - 438019
+        - 167387
+        - 437910
+        - 90008
+        - 275998
+        - 242494
+        - 515042
+        - 480223
+        - 347872
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      lanes:
+        existing: 3
+        set: 2
+      roadway_class:
+        existing: 10
+        set: 40
+      assign_group:
+        set: 5
+    facility:
+      links:
+        model_link_id:
+        - 119003
+        - 225519
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      lanes:
+        existing: 3
+        set: 2
+    facility:
+      links:
+        model_link_id:
+        - 312544
+        - 453910
+        - 74673
+        - 26233
+        - 137036
+        - 510369
+        - 50873
+        - 233587
+        - 420319
+        - 94200
+        - 496506
+        - 403532
+        - 497756
+        - 364675
+        - 250246
+        - 206170
+        - 59930
+        - 111295
+        - 151991
+        - 549280
+        - 187069
+        - 150550
+        - 482870
+        - 475660
+        - 251973
+        - 141249
+        - 67446
+        - 405819
+        - 247097
+        - 436509
+        - 336525
+        - 246357
+        - 62592
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      lanes:
+        existing: 3
+        set: 4
+    facility:
+      links:
+        model_link_id:
+        - 516448
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      lanes:
+        existing: 4
+        set: 2
+    facility:
+      links:
+        model_link_id:
+        - 283554
+        - 384013
+        modes:
+        - any
+        ignore_missing: true
