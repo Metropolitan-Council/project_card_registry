@@ -1,0 +1,39 @@
+project: lakestreetGPrush
+tags:
+- Year 2025
+dependencies:
+  prerequisites:
+  - lakestreet_bline_lanes
+notes: ''
+changes:
+- roadway_property_change:
+    property_changes:
+      lanes:
+        set: 1
+        scoped:
+        - change: 1
+          timespan:
+          - 06:00
+          - '10:00'
+        - change: 1
+          timespan:
+          - '15:00'
+          - '19:00'
+    facility:
+      links:
+        model_link_id:
+        - 119
+        - 201337
+        - 116629
+        - 145560
+        - 299043
+        - 346219
+        - 553176
+        - 277720
+        - 4095
+        - 36894
+        - 215676
+        - 174667
+        - 11506
+        modes:
+        - any
