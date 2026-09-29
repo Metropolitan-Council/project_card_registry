@@ -1,4 +1,4 @@
-project: lake street bus lane
+project: lake street ML WB 
 tags:
 - year 2025
 - B Line Bus 
@@ -22,15 +22,8 @@ changes:
         model_link_id:
         - 21934
         - 219839
-        - 261345
-        - 272222
-        - 299415
-        - 366232
-        - 437466
-        - 450930
         - 460711
-        - 562066
+        - 272222
         - 710120
-        - 815272
         modes:
         - any

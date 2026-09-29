@@ -1,4 +1,4 @@
-project: lake street ML 2
+project: lake street ML EB
 tags:
 - year 2025
 - B Line Bus 
@@ -20,10 +20,10 @@ changes:
     facility:
       links:
         model_link_id:
-        - 21934
-        - 219839
-        - 460711
-        - 272222
-        - 710120
+        - 37520
+        - 41220
+        - 151926
+        - 446599
+        - 289903
         modes:
         - any
