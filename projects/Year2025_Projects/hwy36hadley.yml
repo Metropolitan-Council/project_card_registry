@@ -1,0 +1,265 @@
+project: hwy36hadley2
+tags: []
+dependencies: {}
+notes: ''
+changes:
+- roadway_deletion:
+    links:
+      model_link_id:
+      - 456676
+      - 1051967
+      - 441352
+      - 416735
+      - 375668
+      - 52898
+      - 300297
+      - 386022
+      modes:
+      - any
+      ignore_missing: true
+- roadway_addition:
+    links:
+    - A: 158509
+      B: 167921
+      model_link_id: 1750000
+      distance: 0.12923
+      roadway: motorway_link
+      name: ''
+      roadway_class: 60
+      assign_group: 4
+      area_type: 1
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: false
+      bike_access: false
+      bus_only: false
+      rail_only: false
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 1
+    - A: 167921
+      B: 900042
+      model_link_id: 1750000
+      distance: 0.03487
+      roadway: motorway_link
+      name: ''
+      roadway_class: 60
+      assign_group: 4
+      area_type: 1
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: false
+      bike_access: false
+      bus_only: false
+      rail_only: false
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 1
+    - A: 900044
+      B: 209331
+      model_link_id: 1750000
+      distance: 0.30924
+      roadway: motorway
+      name: ''
+      roadway_class: 60
+      assign_group: 15
+      area_type: 2
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: false
+      bike_access: false
+      bus_only: false
+      rail_only: false
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 2
+    - A: 900043
+      B: 173585
+      model_link_id: 1750000
+      distance: 0.04215
+      roadway: motorway_link
+      name: ''
+      roadway_class: 60
+      assign_group: 4
+      area_type: 1
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: false
+      bike_access: false
+      bus_only: false
+      rail_only: false
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 1
+    - A: 173585
+      B: 900044
+      model_link_id: 1750000
+      distance: 0.13296
+      roadway: motorway_link
+      name: ''
+      roadway_class: 60
+      assign_group: 4
+      area_type: 1
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: false
+      bike_access: false
+      bus_only: false
+      rail_only: false
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 1
+    - A: 154278
+      B: 900043
+      model_link_id: 1750000
+      distance: 0.22611
+      roadway: motorway
+      name: ''
+      roadway_class: 60
+      assign_group: 1
+      area_type: 2
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: false
+      bike_access: false
+      bus_only: false
+      rail_only: false
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 2
+    - A: 158509
+      B: 900042
+      model_link_id: 1750000
+      distance: 0.10995
+      roadway: motorway
+      name: ''
+      roadway_class: 20
+      assign_group: 1
+      area_type: 2
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: false
+      bike_access: false
+      bus_only: false
+      rail_only: false
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 2
+    - A: 900042
+      B: 158300
+      model_link_id: 1750000
+      distance: 0.19461
+      roadway: motorway
+      name: ''
+      roadway_class: 20
+      assign_group: 1
+      area_type: 2
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: false
+      bike_access: false
+      bus_only: false
+      rail_only: false
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 2
+    - A: 900043
+      B: 900044
+      model_link_id: 1750000
+      distance: 0.10808
+      roadway: motorway
+      name: ''
+      roadway_class: 60
+      assign_group: 1
+      area_type: 2
+      county: 7
+      centroidconnect: 0
+      drive_access: true
+      walk_access: false
+      bike_access: false
+      bus_only: false
+      rail_only: false
+      bike: 0
+      walk: 0
+      MNPASS_CODE: 0
+      MNPASS_PAY: 0
+      managed: 0
+      lanes: 2
+    nodes:
+    - county: '0'
+      drive_access: 0.0
+      walk_access: 0.0
+      bike_access: 0.0
+      rail_only: 0
+      model_node_id: 900042
+      osm_node_id: ''
+      X: -92.97200901605159
+      Y: 45.02683621492302
+    - county: '0'
+      drive_access: 0.0
+      walk_access: 0.0
+      bike_access: 0.0
+      rail_only: 0
+      model_node_id: 900043
+      osm_node_id: ''
+      X: -92.9721886450776
+      Y: 45.027033230751535
+    - county: '0'
+      drive_access: 0.0
+      walk_access: 0.0
+      bike_access: 0.0
+      rail_only: 0
+      model_node_id: 900044
+      osm_node_id: ''
+      X: -92.97395564771821
+      Y: 45.02609452247729
+- roadway_property_change:
+    property_changes:
+      assign_group:
+        set: 1
+    facility:
+      links:
+        model_link_id:
+        - 545584
+        - 261953
+        - 26428
+        - 1824
+        - 71361
+        - 315041
+        - 224754
+        - 527188
+        modes:
+        - any
+        ignore_missing: true
