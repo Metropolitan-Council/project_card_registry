@@ -21,7 +21,7 @@ changes:
     links:
     - A: 158509
       B: 167921
-      model_link_id: 1750000
+      model_link_id: 1750493
       distance: 0.12923
       roadway: motorway_link
       name: ''
@@ -42,8 +42,8 @@ changes:
       managed: 0
       lanes: 1
     - A: 167921
-      B: 900042
-      model_link_id: 1750000
+      B: 900075
+      model_link_id: 1750494
       distance: 0.03487
       roadway: motorway_link
       name: ''
@@ -63,9 +63,9 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 1
-    - A: 900044
+    - A: 900077
       B: 209331
-      model_link_id: 1750000
+      model_link_id: 1750495
       distance: 0.30924
       roadway: motorway
       name: ''
@@ -85,9 +85,9 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 2
-    - A: 900043
+    - A: 900076
       B: 173585
-      model_link_id: 1750000
+      model_link_id: 1750496
       distance: 0.04215
       roadway: motorway_link
       name: ''
@@ -108,8 +108,8 @@ changes:
       managed: 0
       lanes: 1
     - A: 173585
-      B: 900044
-      model_link_id: 1750000
+      B: 900077
+      model_link_id: 1750497
       distance: 0.13296
       roadway: motorway_link
       name: ''
@@ -130,8 +130,8 @@ changes:
       managed: 0
       lanes: 1
     - A: 154278
-      B: 900043
-      model_link_id: 1750000
+      B: 900076
+      model_link_id: 1750498
       distance: 0.22611
       roadway: motorway
       name: ''
@@ -152,8 +152,8 @@ changes:
       managed: 0
       lanes: 2
     - A: 158509
-      B: 900042
-      model_link_id: 1750000
+      B: 900075
+      model_link_id: 1750499
       distance: 0.10995
       roadway: motorway
       name: ''
@@ -173,9 +173,9 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 2
-    - A: 900042
+    - A: 900075
       B: 158300
-      model_link_id: 1750000
+      model_link_id: 1750500
       distance: 0.19461
       roadway: motorway
       name: ''
@@ -195,9 +195,9 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 2
-    - A: 900043
-      B: 900044
-      model_link_id: 1750000
+    - A: 900076
+      B: 900077
+      model_link_id: 1750501
       distance: 0.10808
       roadway: motorway
       name: ''
@@ -223,7 +223,7 @@ changes:
       walk_access: 0.0
       bike_access: 0.0
       rail_only: 0
-      model_node_id: 900042
+      model_node_id: 900075
       osm_node_id: ''
       X: -92.97200901605159
       Y: 45.02683621492302
@@ -232,7 +232,7 @@ changes:
       walk_access: 0.0
       bike_access: 0.0
       rail_only: 0
-      model_node_id: 900043
+      model_node_id: 900076
       osm_node_id: ''
       X: -92.9721886450776
       Y: 45.027033230751535
@@ -241,7 +241,7 @@ changes:
       walk_access: 0.0
       bike_access: 0.0
       rail_only: 0
-      model_node_id: 900044
+      model_node_id: 900077
       osm_node_id: ''
       X: -92.97395564771821
       Y: 45.02609452247729

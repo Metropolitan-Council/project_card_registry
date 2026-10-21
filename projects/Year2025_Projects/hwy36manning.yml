@@ -1,7 +1,7 @@
 project: hwy36manning
 tags: []
 dependencies: {}
-notes: 'year 2025'
+notes: year 2025
 changes:
 - roadway_deletion:
     links:
@@ -25,9 +25,9 @@ changes:
       ignore_missing: true
 - roadway_addition:
     links:
-    - A: 900045
+    - A: 900066
       B: 177443
-      model_link_id: 1750000
+      model_link_id: 1750468
       distance: 0.1421
       roadway: motorway_link
       name: ''
@@ -48,8 +48,8 @@ changes:
       managed: 0
       lanes: 1
     - A: 177443
-      B: 900046
-      model_link_id: 1750000
+      B: 900067
+      model_link_id: 1750469
       distance: 0.03257
       roadway: motorway_link
       name: ''
@@ -69,9 +69,9 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 1
-    - A: 900050
+    - A: 900071
       B: 174107
-      model_link_id: 1750000
+      model_link_id: 1750470
       distance: 0.04734
       roadway: secondary
       name: Manning Avenue North
@@ -92,8 +92,8 @@ changes:
       managed: 0
       lanes: 2
     - A: 177446
-      B: 900051
-      model_link_id: 1750000
+      B: 900072
+      model_link_id: 1750471
       distance: 0.18727
       roadway: secondary
       name: Manning Avenue North
@@ -113,9 +113,9 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 2
-    - A: 900051
-      B: 900050
-      model_link_id: 1750000
+    - A: 900072
+      B: 900071
+      model_link_id: 1750472
       distance: 0.03155
       roadway: secondary
       name: Manning Avenue North
@@ -136,8 +136,8 @@ changes:
       managed: 0
       lanes: 2
     - A: 287939
-      B: 900052
-      model_link_id: 1750000
+      B: 900073
+      model_link_id: 1750473
       distance: 0.04088
       roadway: secondary
       name: Manning Avenue North
@@ -157,9 +157,9 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 2
-    - A: 900052
+    - A: 900073
       B: 272439
-      model_link_id: 1750000
+      model_link_id: 1750474
       distance: 0.18837
       roadway: secondary
       name: Manning Avenue North
@@ -179,9 +179,9 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 2
-    - A: 900047
-      B: 900052
-      model_link_id: 1750000
+    - A: 900068
+      B: 900073
+      model_link_id: 1750475
       distance: 0.17551
       roadway: motorway_link
       name: ''
@@ -202,8 +202,8 @@ changes:
       managed: 0
       lanes: 1
     - A: 168880
-      B: 900053
-      model_link_id: 1750000
+      B: 900074
+      model_link_id: 1750476
       distance: 0.16417
       roadway: residential
       name: 60th Street North
@@ -223,9 +223,9 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 1
-    - A: 900053
+    - A: 900074
       B: 168880
-      model_link_id: 1750000
+      model_link_id: 1750477
       distance: 0.16417
       roadway: residential
       name: 60th Street North
@@ -245,9 +245,9 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 1
-    - A: 900052
-      B: 900051
-      model_link_id: 1750000
+    - A: 900073
+      B: 900072
+      model_link_id: 1750478
       distance: 0.01257
       roadway: residential
       name: 60th Street North
@@ -267,9 +267,9 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 1
-    - A: 900051
-      B: 900052
-      model_link_id: 1750000
+    - A: 900072
+      B: 900073
+      model_link_id: 1750479
       distance: 0.01257
       roadway: residential
       name: 60th Street North
@@ -289,9 +289,9 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 1
-    - A: 900053
-      B: 900051
-      model_link_id: 1750000
+    - A: 900074
+      B: 900072
+      model_link_id: 1750480
       distance: 0.16439
       roadway: residential
       name: 60th Street North
@@ -311,9 +311,9 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 1
-    - A: 900051
-      B: 900053
-      model_link_id: 1750000
+    - A: 900072
+      B: 900074
+      model_link_id: 1750481
       distance: 0.16439
       roadway: residential
       name: 60th Street North
@@ -333,9 +333,9 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 1
-    - A: 900052
-      B: 900048
-      model_link_id: 1750000
+    - A: 900073
+      B: 900069
+      model_link_id: 1750482
       distance: 0.0976
       roadway: motorway_link
       name: ''
@@ -355,9 +355,9 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 1
-    - A: 900050
-      B: 900049
-      model_link_id: 1750000
+    - A: 900071
+      B: 900070
+      model_link_id: 1750483
       distance: 0.15004
       roadway: motorway_link
       name: ''
@@ -379,7 +379,7 @@ changes:
       lanes: 1
     - A: 266306
       B: 177443
-      model_link_id: 1750000
+      model_link_id: 1750484
       distance: 0.06304
       roadway: residential
       name: 60th Street North
@@ -401,7 +401,7 @@ changes:
       lanes: 1
     - A: 177443
       B: 266306
-      model_link_id: 1750000
+      model_link_id: 1750485
       distance: 0.06304
       roadway: residential
       name: 60th Street North
@@ -421,9 +421,9 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 1
-    - A: 900049
+    - A: 900070
       B: 551231
-      model_link_id: 1750000
+      model_link_id: 1750486
       distance: 0.6674
       roadway: motorway
       name: ''
@@ -444,8 +444,8 @@ changes:
       managed: 0
       lanes: 2
     - A: 169551
-      B: 900045
-      model_link_id: 1750000
+      B: 900066
+      model_link_id: 1750487
       distance: 0.6601
       roadway: trunk
       name: ''
@@ -465,9 +465,9 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 2
-    - A: 900048
-      B: 900049
-      model_link_id: 1750000
+    - A: 900069
+      B: 900070
+      model_link_id: 1750488
       distance: 0.1636
       roadway: motorway
       name: ''
@@ -487,9 +487,9 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 2
-    - A: 900045
-      B: 900046
-      model_link_id: 1750000
+    - A: 900066
+      B: 900067
+      model_link_id: 1750489
       distance: 0.1246
       roadway: trunk
       name: ''
@@ -509,9 +509,9 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 2
-    - A: 900046
+    - A: 900067
       B: 177326
-      model_link_id: 1750000
+      model_link_id: 1750490
       distance: 0.5016
       roadway: trunk
       name: ''
@@ -531,9 +531,9 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 2
-    - A: 900047
-      B: 900048
-      model_link_id: 1750000
+    - A: 900068
+      B: 900069
+      model_link_id: 1750491
       distance: 0.132
       roadway: motorway
       name: ''
@@ -554,8 +554,8 @@ changes:
       managed: 0
       lanes: 2
     - A: 177330
-      B: 900047
-      model_link_id: 1750000
+      B: 900068
+      model_link_id: 1750492
       distance: 0.3586
       roadway: motorway
       name: ''
@@ -581,7 +581,7 @@ changes:
       walk_access: 0.0
       bike_access: 0.0
       rail_only: 0
-      model_node_id: 900045
+      model_node_id: 900066
       osm_node_id: ''
       X: -92.86576958701593
       Y: 45.03561039444617
@@ -590,7 +590,7 @@ changes:
       walk_access: 0.0
       bike_access: 0.0
       rail_only: 0
-      model_node_id: 900046
+      model_node_id: 900067
       osm_node_id: ''
       X: -92.86322471892895
       Y: 45.03565549103466
@@ -599,7 +599,7 @@ changes:
       walk_access: 0.0
       bike_access: 0.0
       rail_only: 0
-      model_node_id: 900047
+      model_node_id: 900068
       osm_node_id: ''
       X: -92.85981418915391
       Y: 45.035879906733385
@@ -608,7 +608,7 @@ changes:
       walk_access: 0.0
       bike_access: 0.0
       rail_only: 0
-      model_node_id: 900048
+      model_node_id: 900069
       osm_node_id: ''
       X: -92.86251169777815
       Y: 45.03585912804071
@@ -617,7 +617,7 @@ changes:
       walk_access: 0.0
       bike_access: 0.0
       rail_only: 0
-      model_node_id: 900049
+      model_node_id: 900070
       osm_node_id: ''
       X: -92.8658537657103
       Y: 45.035887160441526
@@ -626,7 +626,7 @@ changes:
       walk_access: 0.0
       bike_access: 0.0
       rail_only: 0
-      model_node_id: 900050
+      model_node_id: 900071
       osm_node_id: ''
       X: -92.86308621627873
       Y: 45.03682213861223
@@ -635,7 +635,7 @@ changes:
       walk_access: 0.0
       bike_access: 0.0
       rail_only: 0
-      model_node_id: 900051
+      model_node_id: 900072
       osm_node_id: ''
       X: -92.8630851262405
       Y: 45.03727923949281
@@ -644,7 +644,7 @@ changes:
       walk_access: 0.0
       bike_access: 0.0
       rail_only: 0
-      model_node_id: 900052
+      model_node_id: 900073
       osm_node_id: ''
       X: -92.8628307009723
       Y: 45.03725487616415
@@ -653,7 +653,7 @@ changes:
       walk_access: 0.0
       bike_access: 0.0
       rail_only: 0
-      model_node_id: 900053
+      model_node_id: 900074
       osm_node_id: ''
       X: -92.8660236629324
       Y: 45.0361255886955
