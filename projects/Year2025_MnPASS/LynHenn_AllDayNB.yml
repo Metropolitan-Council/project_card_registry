@@ -1,10 +1,10 @@
-project: lake street ML WB 
+project: Lyndale Hennepin NB All Day
 tags:
 - year 2025
-- B Line Bus 
+- E Line Bus 
 dependencies:
   prerequisites:
-  - lakestreet_bline_lanes
+  - hennave_lanes
 notes: ''
 changes:
 - roadway_property_change:
@@ -20,10 +20,12 @@ changes:
     facility:
       links:
         model_link_id:
-        - 21934
-        - 219839
-        - 460711
-        - 272222
-        - 710120
+        - 42976
+        - 119003
+        - 225519
+        - 267610
+        - 360038
+        - 395839
+        - 410308
         modes:
         - any

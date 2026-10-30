@@ -1,0 +1,59 @@
+project: hennepin_ML_SB
+tags:
+- year 2025
+- E Line Bus 
+dependencies:
+  prerequisites:
+  - hennave_lanes
+notes: ''
+changes:
+- roadway_property_change:
+    property_changes:
+      ML_lanes:
+        set: 1
+        timespan:
+        - 06:00
+        - '10:00'
+        set: 1
+        timespan:
+        - '15:00'
+        - '19:00'
+      ML_assign_group:
+        set: 98
+      ML_access:
+        set: all
+      ML_egress:
+        set: all
+    facility:
+      links:
+        model_link_id:
+        - 2439
+        - 6561
+        - 54980
+        - 64385
+        - 94276
+        - 140057
+        - 186463
+        - 190539
+        - 193533
+        - 227677
+        - 272054
+        - 293583
+        - 300827
+        - 306181
+        - 311446
+        - 336370
+        - 365651
+        - 391425
+        - 397501
+        - 428740
+        - 430840
+        - 443183
+        - 453528
+        - 495221
+        - 509062
+        - 514614
+        - 516626
+        - 547918
+        modes:
+        - any

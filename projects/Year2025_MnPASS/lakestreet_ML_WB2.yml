@@ -1,0 +1,72 @@
+project: lake street ML WB 2
+tags:
+- year 2025
+- B Line Bus 
+dependencies:
+  prerequisites:
+  - lakestreet_bline_lanes
+notes: ''
+changes:
+- roadway_property_change:
+    property_changes:
+      ML_lanes:
+        set: 1
+      ML_assign_group:
+        set: 98
+      ML_access:
+        set: all
+      ML_egress:
+        set: all
+    facility:
+      links:
+        model_link_id:
+        - 62816
+        - 77323
+        - 193667
+        - 198371
+        - 255556
+        - 273113
+        - 277389
+        - 329306
+        - 360940
+        - 371633
+        - 379207
+        - 394183
+        - 440370
+        - 456673
+        - 482927
+        - 543636
+        - 559087
+        - 565954
+        - 589602
+        - 616760
+        - 624209
+        - 635120
+        - 669476
+        - 679128
+        - 715033
+        - 729325
+        - 739594
+        - 757276
+        - 801998
+        - 806990
+        - 824488
+        - 839978
+        - 850037
+        - 860891
+        - 867592
+        - 869485
+        - 896486
+        - 916378
+        - 929474
+        - 949228
+        - 958702
+        - 963853
+        - 973191
+        - 978733
+        - 991129
+        - 1015497
+        - 1021963
+        - 1033906
+        modes:
+        - any

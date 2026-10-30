@@ -1,0 +1,30 @@
+project: Lyndale Hennepin NB All Day
+tags:
+- year 2025
+- E Line Bus 
+dependencies:
+  prerequisites:
+  - hennave_lanes
+notes: ''
+changes:
+- roadway_property_change:
+    property_changes:
+      ML_lanes:
+        set: 1
+      ML_assign_group:
+        set: 98
+      ML_access:
+        set: all
+      ML_egress:
+        set: all
+    facility:
+      links:
+        model_link_id:
+        - 9894
+        - 54803
+        - 98057
+        - 156744
+        - 464133
+        - 520542
+        modes:
+        - any
