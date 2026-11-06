@@ -1,5 +1,5 @@
 minimum_allowable_node_id: 1
-maximum_allowable_node_id: 950000
+maximum_allowable_node_id: 1000000
 minimum_allowable_link_id: 1
 maximum_allowable_link_id: 2000000
 nodes_used_by_geography:
@@ -13,7 +13,19 @@ nodes_used_by_geography:
   - geography_name: Network nodes
     start: 3101
     end: 417325
+  - geography_name: Rail nodes reserve
+    start: 949500
+    end: 949999
+  - geography_name: Managed lane nodes reserve
+    start: 950000
+    end: 1000000
 links_used_by_geography:
   - geography_name: All
     start: 0
     end: 1061661
+  - geography_name: Centroid connectors reserve
+    start: 1400000
+    end: 1499999
+  - geography_name: Rail links reserve
+    start: 1999500
+    end: 2000000
