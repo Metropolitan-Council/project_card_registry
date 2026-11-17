@@ -23,9 +23,9 @@ links_used_by_geography:
   - geography_name: All
     start: 0
     end: 1061661
-  - geography_name: Centroid connectors reserve
+  - geography_name: Existing centroid connectors
     start: 1400000
-    end: 1499999
+    end: 1441811
   - geography_name: Rail links reserve
     start: 1999500
     end: 2000000
