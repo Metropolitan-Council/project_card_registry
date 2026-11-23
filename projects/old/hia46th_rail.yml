@@ -6,7 +6,7 @@ changes:
 - roadway_addition:
     links:
     - A: 250389
-      B: 417275
+      B: 949532
       name: rail access
       roadway: road
       drive_access: 1
@@ -26,7 +26,7 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 0
-    - A: 417275
+    - A: 949532
       B: 250389
       name: rail access
       roadway: road
@@ -48,7 +48,7 @@ changes:
       managed: 0
       lanes: 0
     - A: 250389
-      B: 417255
+      B: 949512
       name: rail access
       roadway: road
       drive_access: 1
@@ -68,7 +68,7 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 0
-    - A: 417255
+    - A: 949512
       B: 250389
       name: rail access
       roadway: road
@@ -90,7 +90,7 @@ changes:
       managed: 0
       lanes: 0
     - A: 198240
-      B: 417255
+      B: 949512
       name: rail access
       roadway: road
       drive_access: 1
@@ -110,7 +110,7 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 0
-    - A: 417255
+    - A: 949512
       B: 198240
       name: rail access
       roadway: road
@@ -132,7 +132,7 @@ changes:
       managed: 0
       lanes: 0
     - A: 198240
-      B: 417275
+      B: 949532
       name: rail access
       roadway: road
       drive_access: 1
@@ -152,7 +152,7 @@ changes:
       MNPASS_PAY: 0
       managed: 0
       lanes: 0
-    - A: 417275
+    - A: 949532
       B: 198240
       name: rail access
       roadway: road
